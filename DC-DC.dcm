@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6920
+D Step-Up Vin 1-5,5V; Vout 5/3,3V, ADJ, 1A; Iq 11uA, Isd 0,1uA 
+K L6920
+$ENDCMP
+#
+$CMP LT1935
+D Step-Up Vin 2,3-16V; Vout <38V, ADJ, 1A; Iq 3mA, Isd 1uA 
+K LT1935
+$ENDCMP
+#
+$CMP MAX1674
+D Step-Up Vin 0,9-5,5V; Vout 5/3,3V, ADJ, 1A; Iq 16uA, Isd 0,1uA 
+K MAX1674
+$ENDCMP
+#
+$CMP NCP1402SNxx
+D Step-Up Vin 0,8-6V; Vout 5V, 0,2A; Iq 15uA, Isd 1uA 
+K NCP1402
+$ENDCMP
+#
+$CMP NCP3170
+D Step-Down Vin 4,5-18V; Vout > 0,8V, ADJ; 3A
+K NCP3170
+$ENDCMP
+#
+$CMP ST1S40IDR
+D Step-Down Vin 4-18V; Vout > 0,8V, ADJ; 3A
+K ST1S40
+$ENDCMP
+#
+$CMP ST1S40IPHR
+D Step-Down Vin 4-18V; Vout > 0,8V, ADJ; 3A
+K ST1S40
+$ENDCMP
+#
+$CMP ST1S41IPHR
+D Step-Down Vin 4-18V; Vout > 0,8V, ADJ; 4A
+K ST1S41
+$ENDCMP
+#
+#End Doc Library

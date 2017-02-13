@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANT_GENERAL
+D General antenna symbol
+$ENDCMP
+#
+$CMP ANT_PCB
+K WA
+$ENDCMP
+#
+$CMP ANT_PCB_MONO
+K WA
+$ENDCMP
+#
+$CMP ANT_PCB_MONO_2PIN
+D PCB Antenna with two inputs
+K WA
+$ENDCMP
+#
+$CMP ANT_PCB_NoCntr
+K WA
+$ENDCMP
+#
+$CMP BALUN868JOHANSON
+D Balun for CC1101
+$ENDCMP
+#
+$CMP CC1101
+D 300-915MHz Tranceiver
+$ENDCMP
+#
+$CMP CC2500
+D 2,4GHz tranciever
+K CC2500
+$ENDCMP
+#
+#End Doc Library

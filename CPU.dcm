@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTiny13A
+D ATTiny13A
+K ATTiny13A
+$ENDCMP
+#
+$CMP ATTiny13A_var.2
+D ATTiny13A, выводы по порядку
+K ATTiny13A, выводы по порядку
+$ENDCMP
+#
+$CMP ATTiny44A
+D ATTiny44A
+K ATTiny44A
+$ENDCMP
+#
+$CMP ATTiny44A_+OCR
+D ATTiny44A с обозначением OCR
+K ATTiny44A с обозначением OCR
+$ENDCMP
+#
+$CMP ATmega88-AI
+D ATmega88
+K ATmega88
+$ENDCMP
+#
+$CMP STM32F030C8Tx
+D Cortex-M0, LQFP48 
+K STM32F030R
+$ENDCMP
+#
+$CMP STM32F030F4Px
+D Cortex-M0, TSOP20
+K STM32F030F
+$ENDCMP
+#
+$CMP STM32F030K6Px
+D Cortex-M0, LQFP32
+K STM32F030K
+$ENDCMP
+#
+$CMP STM32F205Rx-64
+D Cortex-M3, LQFP64
+K STM32F205R
+$ENDCMP
+#
+#End Doc Library

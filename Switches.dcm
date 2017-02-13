@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Button
+D Кнопка
+K BTN, SB
+$ENDCMP
+#
+$CMP Gerkon
+D Геркон
+K SF
+$ENDCMP
+#
+$CMP Gerkon_perekl
+D Геркон переключающий
+K SF
+$ENDCMP
+#
+$CMP Switch
+D Switch 2 pin
+K SA
+$ENDCMP
+#
+$CMP Switch_2pin&NC+H
+D Switch 3 pin (pin 1 is NC) + SHLD
+K SA
+$ENDCMP
+#
+$CMP Switch_3pin
+D Switch 3 pin
+K SA
+$ENDCMP
+#
+$CMP Switch_3pin+H
+D Switch 3 pin + SHLD
+K SA
+$ENDCMP
+#
+#End Doc Library

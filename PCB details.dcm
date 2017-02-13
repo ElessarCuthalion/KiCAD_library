@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Fuse
+D Перемычка
+K fuse
+$ENDCMP
+#
+$CMP Fuse_0R
+D Перемычка или компонент
+K fuse
+$ENDCMP
+#
+$CMP Fuse_x2
+D Двойная перемычка 0603
+K fuse
+$ENDCMP
+#
+$CMP HoleMetalled
+D Отверстие с металлизацией
+K HOLE
+$ENDCMP
+#
+$CMP TestPoint
+D Контрольная точка
+K Test Point, TP
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,56 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS-V20NA-R
+D Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
+K AS-V20NA-R
+$ENDCMP
+#
+$CMP AT42QT1011
+D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
+K AT42QT1011
+$ENDCMP
+#
+$CMP HC-SR501
+D Датчик движения, ИК
+K Датчик движения, ИК
+$ENDCMP
+#
+$CMP L3G4200
+D Giroscope 3axis, 250/500/2000 dps
+$ENDCMP
+#
+$CMP L3GD20
+D Giroscope 3axis, 250/500/2000 dps
+$ENDCMP
+#
+$CMP MMA8452Q
+D Accelerometer 3-Axis 2-4-8g; I2C; Vdd 1,95-3,6V; IddLP 6uA
+K MMA8452
+$ENDCMP
+#
+$CMP MRMS201A
+D Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
+K AS-M15TAN-R, MRMS201A
+$ENDCMP
+#
+$CMP SENS
+D Пластина сенсора
+K Пластина сенсора
+$ENDCMP
+#
+$CMP SS441
+D Датчик Холла, выход ОК
+K Датчик Холла, выход ОК
+$ENDCMP
+#
+$CMP TSOP1738
+D ИК приёмник, 950нм, 38кГц
+K ИК приёмник, 950нм, 38кГц
+$ENDCMP
+#
+$CMP TSSP77038
+D Датчик приближения, ИК
+K Датчик приближения, ИК
+$ENDCMP
+#
+#End Doc Library

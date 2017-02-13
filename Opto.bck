@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LVT817S
+D оптотранзистор, выход с ОК
+K LVT817S, PC817
+$ENDCMP
+#
+$CMP PC3H7J
+D оптотранзистор, выход с ОК
+K PC3H7J
+$ENDCMP
+#
+$CMP PhotoDiode
+D LED одинарный
+K HL
+$ENDCMP
+#
+#End Doc Library

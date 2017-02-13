@@ -1,0 +1,152 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Kemmnik
+D Клеммник винтовой
+K XL
+$ENDCMP
+#
+$CMP Provod
+D Проводное соединение
+$ENDCMP
+#
+$CMP RJ45
+D RJ-45 connector
+K RJ45
+$ENDCMP
+#
+$CMP conn-1m
+D Разъём 1x, мама
+K XS
+$ENDCMP
+#
+$CMP conn-1m-p
+D Разъёмное соединение "мама-папа"
+K X
+$ENDCMP
+#
+$CMP conn-1p
+D Разъём 1x, папа
+K XP
+$ENDCMP
+#
+$CMP conn-2m
+D Разъём 2x, мама
+K XS
+$ENDCMP
+#
+$CMP conn-2m-p
+D Разъёмное соединение "мама-папа" x2
+K X
+$ENDCMP
+#
+$CMP conn-2p
+D Разъём 2x, папа
+K XP
+$ENDCMP
+#
+$CMP conn-3m
+D Разъём 3x, мама
+K XS
+$ENDCMP
+#
+$CMP conn-3m-p
+D Разъёмное соединение "мама-папа" x3
+K X
+$ENDCMP
+#
+$CMP conn-3p
+D Разъём 3x, папа
+K XP
+$ENDCMP
+#
+$CMP conn-4p
+D Разъём 4x, папа
+K XP
+$ENDCMP
+#
+$CMP conn-6p
+D Разъём 6x, папа
+K XP
+$ENDCMP
+#
+$CMP for_APA102
+D Штыревой 4x, папа
+K for
+$ENDCMP
+#
+$CMP for_I2C
+D for I2C (Pill Connector)
+K I2C
+$ENDCMP
+#
+$CMP for_PolarOut
+D Штыревой 2x, папа
+K for
+$ENDCMP
+#
+$CMP for_SENS
+D for simple sensors
+K sens
+$ENDCMP
+#
+$CMP for_SPI
+D SPI
+K SPI
+$ENDCMP
+#
+$CMP for_ST_SWD
+D ST programming
+K SWD
+$ENDCMP
+#
+$CMP for_SWD&UART
+D ST programming & UART debug
+K SWD
+$ENDCMP
+#
+$CMP for_SteppingMotor
+D Штыревой 4x, папа
+K for, SteppingMotor
+$ENDCMP
+#
+$CMP for_UART
+D UART (debug)
+K UART
+$ENDCMP
+#
+$CMP for_UART_user
+D UART user
+K UART
+$ENDCMP
+#
+$CMP for_USB
+D Штыревой 4x, папа
+K for
+$ENDCMP
+#
+$CMP for_WS2812
+D Штыревой 3x, папа
+K for
+$ENDCMP
+#
+$CMP mcro/mini-USB
+D mcro / mini-USB с отводом от корпуса
+K USB
+$ENDCMP
+#
+$CMP micro-SD
+D micro-SD, 8 pin
+K micro-SD
+$ENDCMP
+#
+$CMP micro-USB
+D micro-USB с отводом от корпуса
+K USB
+$ENDCMP
+#
+$CMP mini-USB
+D mini-USB с отводом от корпуса
+K USB
+$ENDCMP
+#
+#End Doc Library

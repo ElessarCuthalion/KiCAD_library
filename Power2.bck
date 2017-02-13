@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+K +12V
+$ENDCMP
+#
+$CMP +3.3V
+K +3,3V
+$ENDCMP
+#
+$CMP +3.3Vin
+K +3,3Vin, Vin
+$ENDCMP
+#
+$CMP +5V
+K +5V
+$ENDCMP
+#
+$CMP +BATT
+K VBAT
+$ENDCMP
+#
+$CMP +BATTin
+K VBAT
+$ENDCMP
+#
+$CMP Battety
+D Батарея
+K Battety, BATT
+$ENDCMP
+#
+$CMP Battety_PLS
+D Батарея под разъём
+K Battety, BATT
+$ENDCMP
+#
+$CMP Battety_x2
+D Многоэлементная батарея
+K Battety, BATT
+$ENDCMP
+#
+$CMP Fuse
+D Предохранитель
+K FU
+$ENDCMP
+#
+$CMP GND
+K GND
+$ENDCMP
+#
+$CMP GND_Power
+K PGND, GNDpower
+$ENDCMP
+#
+$CMP USBvcc
+K USBvcc
+$ENDCMP
+#
+$CMP VCC
+K VCC
+$ENDCMP
+#
+$CMP VREF
+K VREF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFPlayer_Mini
+D MP3-модуль
+K DFPlayer Mini
+$ENDCMP
+#
+$CMP TP4056_module
+D Модуль зарядного устройства на TP4056
+K TP4056 module
+$ENDCMP
+#
+#End Doc Library

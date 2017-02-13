@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Buzzer
+D Звуковой излучатель
+K BQ
+$ENDCMP
+#
+$CMP BuzzerPol
+D Звуковой излучатель
+K BQ
+$ENDCMP
+#
+$CMP Speaker
+D Динамик
+K BA
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Relay
+D Реле, 1 замыкающий
+$ENDCMP
+#
+$CMP Vikluchtel
+D Выключатель
+K Выключатель
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT232R
+D USB to RS232 converter
+$ENDCMP
+#
+$CMP SN74LVC1T45
+D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 3uA
+K SN74LVC1T45
+$ENDCMP
+#
+$CMP SN74LVC2T45
+D 2-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 6uA
+K SN74LVC2T45
+$ENDCMP
+#
+$CMP ST3485
+D UATR to RS485 converter: Vcc 3,3V 12MB/S 64 devices
+K ST3485
+$ENDCMP
+#
+#End Doc Library

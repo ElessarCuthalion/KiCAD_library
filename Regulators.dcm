@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AAT3221IGV-xx
+D Iq 1,1uA; Vdo 200mV, Iout 150mA; Vin 1,8-5,5V; 0,635W
+K AAT3221
+$ENDCMP
+#
+$CMP LD1117Sxx
+D Iq 5mA; Vdo 1-1,2V, Iout 800mA; Vin 2,7-15V
+K LD1117
+$ENDCMP
+#
+$CMP LP2985-xx
+D Iq 850uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Малошумящий
+K LP2985
+$ENDCMP
+#
+$CMP NCP583SQxx
+D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1,7-6,5V
+K NCP583
+$ENDCMP
+#
+$CMP NCP583XVxx
+D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1,7-6,5V
+K NCP583
+$ENDCMP
+#
+$CMP TLV1117-xx
+D Iq 5mA; Vdo 1-1,1V, Iout 800mA; Vin 2,7-15V
+K TLV1117
+$ENDCMP
+#
+$CMP TLV733xx
+D Iq 34uA; Vdo 122mV, Iout 300mA; Vin 1,4-5,5V
+K TLV733
+$ENDCMP
+#
+$CMP TPS715xx
+D Iq 3,2uA; Vdo 415mV, Iout 50mA; Vin 3-24V
+K TPS715xx
+$ENDCMP
+#
+#End Doc Library

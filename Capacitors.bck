@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C0402
+K CAP
+$ENDCMP
+#
+$CMP C0603
+K CAP
+$ENDCMP
+#
+$CMP C0805
+K CAP
+$ENDCMP
+#
+$CMP C1206
+K CAP
+$ENDCMP
+#
+$CMP C_0603
+K CAP, C0603
+$ENDCMP
+#
+$CMP Cel_1206
+D Конденсатор электролитический
+K Cap
+$ENDCMP
+#
+#End Doc Library

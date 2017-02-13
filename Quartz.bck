@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Quartz
+D Кварцевый резонатор
+K ZQ
+$ENDCMP
+#
+$CMP Quartz+H
+D Кварцевый резонатор экранираванный
+K ZQ
+$ENDCMP
+#
+#End Doc Library

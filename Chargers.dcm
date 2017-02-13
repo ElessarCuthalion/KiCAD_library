@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP73831
+D Li-ion/Li-pol Charger, 4,2V
+K MCP73831
+$ENDCMP
+#
+$CMP MCP73843-xx
+D Li-ion/Li-pol Charger, 4,2V, внешний ключ
+K MCP73843
+$ENDCMP
+#
+$CMP MP2611
+D Li-ion/Li-pol Charger, 4,2V 2A, Vin 4,5-6V
+K MP2611
+$ENDCMP
+#
+$CMP MP2617_gost
+D Li-ion/Li-pol Charger, 4,2V 3A, Vin 4-14V
+K MP2617
+$ENDCMP
+#
+$CMP TP4056
+D Li-ion/Li-pol Charger
+K TP4056
+$ENDCMP
+#
+$CMP TP5100
+D Li-ion/Li-pol Charger, 4,2/8,4V 2A
+K TP5100
+$ENDCMP
+#
+#End Doc Library

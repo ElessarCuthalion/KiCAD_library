@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Inductor
+D катушка индуктивности
+K ind
+$ENDCMP
+#
+$CMP SDR0604-xxx
+D катушка индуктивности
+K L, SDR0604
+$ENDCMP
+#
+#End Doc Library

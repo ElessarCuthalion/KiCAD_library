@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_0603
+D 0,1W 1A 50V
+K RES, R0603
+$ENDCMP
+#
+$CMP R_0805
+D 0,125W 2A 150V
+K RES, R0805
+$ENDCMP
+#
+$CMP R_1206
+D 0,25W 2A 200V
+K RES, R1206
+$ENDCMP
+#
+$CMP Rez_Perem
+D Резистор перемнный
+K R
+$ENDCMP
+#
+$CMP Rez_Podstr
+D Подстроечный резистор
+K R
+$ENDCMP
+#
+#End Doc Library

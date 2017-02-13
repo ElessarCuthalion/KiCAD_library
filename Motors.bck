@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A3901
+D Dual DC motor driver Vcc 2.5-5.5V Iout 0.4A Isd <0.5uA
+K A3901
+$ENDCMP
+#
+$CMP A3906
+D Dual DC motor driver Vcc 2.5-9V Iout 1A Isd <0.5uA
+K A3906
+$ENDCMP
+#
+$CMP Motor_NC
+D Motor no Contacts
+K Motor
+$ENDCMP
+#
+$CMP Motor_NC+Hole
+D Motor no Contacts
+K Motor
+$ENDCMP
+#
+$CMP Vibro+PAD
+D Vibration motor, SMD+PAD
+K Motor, Vibro
+$ENDCMP
+#
+$CMP Vibro_flat
+D Vibration motor, flat
+K Motor, Vibro
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA6211
+D Amplifier 3,1W Rl 3-8r VDD 2,5-5V Isd 0,01uA
+K TPA6211
+$ENDCMP
+#
+$CMP VS1011
+D MP3 декодер, SPI
+K VS1011
+$ENDCMP
+#
+#End Doc Library

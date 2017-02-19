@@ -39,7 +39,7 @@ D Многоэлементная батарея
 K Battety, BATT
 $ENDCMP
 #
-$CMP Fuse
+$CMP Fuze
 D Предохранитель
 K FU
 $ENDCMP

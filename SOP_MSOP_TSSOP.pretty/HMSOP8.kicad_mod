@@ -1,5 +1,5 @@
-(module MSOP8+PAD (layer F.Cu) (tedit 57D2A320)
-  (fp_text reference MSOP8+PAD (at 1.0795 -2.2225) (layer F.SilkS)
+(module HMSOP8 (layer F.Cu) (tedit 58A9E9DA)
+  (fp_text reference HMSOP8 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value Val** (at 0.0635 2.286) (layer F.SilkS)

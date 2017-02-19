@@ -5,11 +5,6 @@ D Li-ion/Li-pol Charger, 4,2V
 K MCP73831
 $ENDCMP
 #
-$CMP MCP73831_(var_2)
-D Контроллер заряда Li-ion/Li-pol
-K MCP73831
-$ENDCMP
-#
 $CMP MCP73843-xx
 D Li-ion/Li-pol Charger, 4,2V, внешний ключ
 K MCP73843

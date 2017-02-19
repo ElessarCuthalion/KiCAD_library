@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ANT_GENERAL
 D General antenna symbol
+K WA
 $ENDCMP
 #
 $CMP ANT_PCB

@@ -6,7 +6,7 @@ K TPA6211
 $ENDCMP
 #
 $CMP VS1011
-D MP3 декодер, SPI
+D MP3 WAV decoder, SPI, VCC 2.5-3.6V Iq AVdd <30uA  Iq DVdd <30uA Iout 50mA
 K VS1011
 $ENDCMP
 #

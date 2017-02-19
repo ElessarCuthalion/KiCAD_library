@@ -23,7 +23,7 @@ $CMP L3GD20
 D Giroscope 3axis, 250/500/2000 dps
 $ENDCMP
 #
-$CMP MMA8452Q
+$CMP MMA8452
 D Accelerometer 3-Axis 2-4-8g; I2C; Vdd 1,95-3,6V; IddLP 6uA
 K MMA8452
 $ENDCMP
@@ -38,19 +38,24 @@ D Пластина сенсора
 K Пластина сенсора
 $ENDCMP
 #
+$CMP SHT2xx
+D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C
+K SHT2xx, SHT20, SHT21, SHT25
+$ENDCMP
+#
 $CMP SS441
 D Датчик Холла, выход ОК
-K Датчик Холла, выход ОК
+K SS441
 $ENDCMP
 #
 $CMP TSOP1738
 D ИК приёмник, 950нм, 38кГц
-K ИК приёмник, 950нм, 38кГц
+K TSOP1738
 $ENDCMP
 #
 $CMP TSSP77038
 D Датчик приближения, ИК
-K Датчик приближения, ИК
+K TSSP77038
 $ENDCMP
 #
 #End Doc Library

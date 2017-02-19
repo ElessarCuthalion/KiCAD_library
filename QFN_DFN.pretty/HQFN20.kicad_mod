@@ -1,5 +1,5 @@
-(module QFN20+PAD (layer F.Cu) (tedit 5877518C)
-  (fp_text reference QFN20+PAD (at 0 3.556) (layer F.SilkS)
+(module HQFN20 (layer F.Cu) (tedit 58A9E995)
+  (fp_text reference HQFN20 (at 0 3.556) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 -3.556) (layer F.SilkS)

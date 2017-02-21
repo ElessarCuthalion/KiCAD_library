@@ -5,12 +5,12 @@ D USB to RS232 converter
 $ENDCMP
 #
 $CMP SN74LVC1T45
-D 1-bit Transceiver 210Mbps typ, VCC 1,65-5,5V, Icc 3uA
+D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 3uA
 K SN74LVC1T45
 $ENDCMP
 #
 $CMP SN74LVC2T45
-D 2-bit Transceiver 210Mbps typ, VCC 1,65-5,5V, Icc 6uA
+D 2-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 6uA
 K SN74LVC2T45
 $ENDCMP
 #

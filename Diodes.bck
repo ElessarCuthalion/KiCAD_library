@@ -1,13 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BAT54A
-D 2х Шоттки, ОА (Ifmax 200mA; If 100mA -> Vf 0,8V; Vr 30V)
+D 2х Schottky, ОА (Ifmax 200mA; If 100mA -> Vf 0,8V; Vr 30V)
 K BAT54A
 $ENDCMP
 #
 $CMP BAT54C
-D 2х Шоттки, ОК (Ifmax 200mA; If 100mA -> Vf 0,8V; Vr 30V)
+D 2х Schottky, ОК (Ifmax 200mA; If 100mA -> Vf 0,8V; Vr 30V)
 K BAT54C
+$ENDCMP
+#
+$CMP BAT54SW
+D 2х Schottky CA (Ifmax 200mA; If 100mA -> Vf 1V; Vr 30V)
+K BAT54A
 $ENDCMP
 #
 $CMP BAT54WS
@@ -33,6 +38,11 @@ $ENDCMP
 $CMP MBR0520
 D Schottky Ifmax 0,5A; If 0,1A -> Vf 0,37V, If 0,5A -> Vf 0,44V; Vr 20V
 K MBR0520
+$ENDCMP
+#
+$CMP MBRM120L
+D Schottky Ifmax 2A; If 0,1A -> Vf 0,34V, If 1A -> Vf 0,45V; Vr 20V
+K MBRM120
 $ENDCMP
 #
 $CMP NSR0320

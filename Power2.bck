@@ -24,6 +24,11 @@ $CMP +BATTin
 K VBAT
 $ENDCMP
 #
+$CMP BLM15AG102SN1
+D EMI Suppression Filters, Ir 200mA Rdc 1r
+K BLM15, filter
+$ENDCMP
+#
 $CMP Battety
 D Батарея
 K Battety, BATT
@@ -39,7 +44,7 @@ D Многоэлементная батарея
 K Battety, BATT
 $ENDCMP
 #
-$CMP Fuse
+$CMP Fuze
 D Предохранитель
 K FU
 $ENDCMP

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEPROM_I2C
+D Standart serial EEPROM (I2C)
+K EEPROM, mem
+$ENDCMP
+#
+#End Doc Library

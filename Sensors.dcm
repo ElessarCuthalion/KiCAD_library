@@ -39,7 +39,7 @@ K Пластина сенсора
 $ENDCMP
 #
 $CMP SHT2xx
-D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C
+D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
 K SHT2xx, SHT20, SHT21, SHT25
 $ENDCMP
 #

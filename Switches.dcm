@@ -35,4 +35,9 @@ D Switch 3 pin + SHLD
 K SA
 $ENDCMP
 #
+$CMP Switch_3pin_v2
+D Switch 3 pin
+K SA
+$ENDCMP
+#
 #End Doc Library

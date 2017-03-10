@@ -5,6 +5,11 @@ D MP3-модуль
 K DFPlayer Mini
 $ENDCMP
 #
+$CMP IRM-10-12
+D AC/DC, 85~264 ACin, Out 12V DC 0,85A
+K IRM-10-12
+$ENDCMP
+#
 $CMP TP4056_module
 D Модуль зарядного устройства на TP4056
 K TP4056 module

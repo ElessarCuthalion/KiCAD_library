@@ -25,6 +25,11 @@ D Step-Down Vin 4,5-18V; Vout > 0,8V, ADJ; 3A
 K NCP3170
 $ENDCMP
 #
+$CMP ST1S10PHR
+D Step-Down Vin 2,5-18V; Vout > 0,8V, ADJ; 3A
+K ST1S10
+$ENDCMP
+#
 $CMP ST1S40IDR
 D Step-Down Vin 4-18V; Vout > 0,8V, ADJ; 3A
 K ST1S40

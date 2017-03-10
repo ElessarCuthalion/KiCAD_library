@@ -1,17 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Kemmnik
+$CMP Cleamm-2
 D Клеммник винтовой
-K XL
+K XL, Cleamm
 $ENDCMP
 #
-$CMP Provod
-D Проводное соединение
+$CMP Cleamm-3
+D Клеммник винтовой
+K XL, Cleamm
 $ENDCMP
 #
 $CMP RJ45
 D RJ-45 connector
 K RJ45
+$ENDCMP
+#
+$CMP Wire
+D Проводное соединение (перемычка)
+K Wire
 $ENDCMP
 #
 $CMP conn-1m

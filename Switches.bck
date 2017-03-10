@@ -16,7 +16,7 @@ K SF
 $ENDCMP
 #
 $CMP Switch
-D Выключатель
+D Switch 2 pin
 K SA
 $ENDCMP
 #
@@ -26,12 +26,12 @@ K SA
 $ENDCMP
 #
 $CMP Switch_3pin
-D Переключатель
+D Switch 3 pin
 K SA
 $ENDCMP
 #
 $CMP Switch_3pin+H
-D Переключатель c отводом корпуса
+D Switch 3 pin + SHLD
 K SA
 $ENDCMP
 #

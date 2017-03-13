@@ -15,6 +15,9 @@ D:\KiCAD_library\Radio.pretty
 D:\KiCAD_library\Installation.pretty
 D:\KiCAD_library\Modules.pretty
 D:\KiCAD_library\Graphics.pretty
+D:\KiCAD_library\Display.pretty
+D:\KiCAD_library\Relays.pretty
+
 
 Connectors
 Capacitors
@@ -23,13 +26,15 @@ Diodes
 LEDs
 SOT
 Quartz
-LQFP, TQFP
-QFN, DFN
-SOP, MSOP, TSSOP
-PCB details
-Buttons, Switches
+LQFP,_TQFP
+QFN,_DFN
+SOP,_MSOP,_TSSOP
+PCB_details
+Buttons,_Switches
 Inductors
 Radio
 Installation
 Modules
 Graphics
+Display
+Relays

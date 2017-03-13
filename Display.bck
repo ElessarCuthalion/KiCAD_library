@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5461xx
+D LED Display 4bit, digit height 0.56inch/14.2mm, Common Cathode
+K 5461
+$ENDCMP
+#
+#End Doc Library

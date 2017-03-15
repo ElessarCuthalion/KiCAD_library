@@ -25,9 +25,14 @@ D RJ-25 for 6P6C connector
 K RJ25, 6P6C
 $ENDCMP
 #
-$CMP RJ45_8P8C
-D RJ-45 for 8P8C connector
-K RJ45, 8P8C
+$CMP RJ45_to_568B
+D RJ-45 for EIA/TIA-568B standard to 8P8C connector
+K RJ45, 8P8C, 568B
+$ENDCMP
+#
+$CMP RJ45_to_568B_GOST
+D RJ-45 for EIA/TIA-568B standard to 8P8C connector
+K RJ45, 8P8C, 568B
 $ENDCMP
 #
 $CMP Wire

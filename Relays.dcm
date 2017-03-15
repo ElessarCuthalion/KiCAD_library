@@ -5,21 +5,12 @@ D Solid state relay, In 3-15V DC, Out 12-280V AC, 25A
 K PF240D25
 $ENDCMP
 #
-$CMP PF240D25_2
-D Solid state relay
-$ENDCMP
-#
 $CMP Relay
 D Реле, 1 замыкающий
 $ENDCMP
 #
 $CMP Relay_1CO
 D Relay form 1CO contacts
-K K, Relay
-$ENDCMP
-#
-$CMP Relay_1COx2
-D Relay form 1COx2 contacts
 K K, Relay
 $ENDCMP
 #

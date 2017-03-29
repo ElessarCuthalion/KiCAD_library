@@ -1,9 +1,9 @@
-(module PLD-6 (layer F.Cu) (tedit 573235BD)
-  (fp_text reference XL3 (at -2.794 -3.048) (layer F.SilkS)
+(module PLD-6 (layer F.Cu) (tedit 58D6C019)
+  (fp_text reference CONN_3x2 (at -2.794 -3.048) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value CONN_3x2 (at 2.54 -3.048) (layer F.SilkS) hide
-    (effects (font (size 0.635 0.635) (thickness 0.15)))
+  (fp_text value Val** (at 2.54 -3.048) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 3.81 2.54) (end -3.81 2.54) (layer B.SilkS) (width 0.15))
   (fp_line (start -3.81 -2.54) (end 3.81 -2.54) (layer B.SilkS) (width 0.15))

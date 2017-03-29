@@ -15,6 +15,11 @@ D Iq 850uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Малошумящий
 K LP2985
 $ENDCMP
 #
+$CMP MCP1700T-xx02E
+D Iq 5mA; Vdo 1-1,1V, Iout 800mA; Vin 2,7-15V
+K MCP1700
+$ENDCMP
+#
 $CMP NCP583SQxx
 D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1,7-6,5V
 K NCP583

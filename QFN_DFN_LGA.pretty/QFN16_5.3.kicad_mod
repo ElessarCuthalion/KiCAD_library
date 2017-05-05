@@ -1,5 +1,5 @@
-(module QFN16_5x3 (layer F.Cu) (tedit 5874F858)
-  (fp_text reference QFN16_5_3 (at 0 -2.99974) (layer F.SilkS)
+(module QFN16_5.3 (layer F.Cu) (tedit 5901E1F5)
+  (fp_text reference QFN16_5.3 (at 0 -2.99974) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 -4.0005) (layer F.SilkS)

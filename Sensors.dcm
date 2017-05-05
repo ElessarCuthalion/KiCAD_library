@@ -2,12 +2,12 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AS-V20NA-R
 D Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
-K AS-V20NA-R
+K Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
 $ENDCMP
 #
 $CMP AT42QT1011
 D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
-K AT42QT1011
+K Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
 $ENDCMP
 #
 $CMP HC-SR501
@@ -16,21 +16,23 @@ K Датчик движения, ИК
 $ENDCMP
 #
 $CMP L3G4200
-D Giroscope 3axis, 250/500/2000 dps
+D Giroscope 3axis 250/500/2000dps; Vdd 2,4~3,6V Idd 6,1mA, Isd 5uA
+K GIRO, L3G4200
 $ENDCMP
 #
-$CMP L3GD20
-D Giroscope 3axis, 250/500/2000 dps
+$CMP LIS3DH
+D Accelerometer 3axis 2/4/8/16g; Vdd 1,71~3,6V IddLP 6uA, Isd 0,5uA
+K ACC, LIS3DH
 $ENDCMP
 #
 $CMP MMA8452
-D Accelerometer 3-Axis 2-4-8g; I2C; Vdd 1,95-3,6V; IddLP 6uA
-K MMA8452
+D Accelerometer 3axis 2/4/8g; Vdd 1,95~3,6V IddLP 6uA, Ids 1,8uA
+K ACC, MMA8452
 $ENDCMP
 #
 $CMP MRMS201A
 D Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
-K AS-M15TAN-R, MRMS201A
+K Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
 $ENDCMP
 #
 $CMP SENS
@@ -40,22 +42,22 @@ $ENDCMP
 #
 $CMP SHT2xx
 D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
-K SHT2xx, SHT20, SHT21, SHT25
+K Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
 $ENDCMP
 #
 $CMP SS441
 D Датчик Холла, выход ОК
-K SS441
+K Датчик Холла, выход ОК
 $ENDCMP
 #
 $CMP TSOP1738
 D ИК приёмник, 950нм, 38кГц
-K TSOP1738
+K ИК приёмник, 950нм, 38кГц
 $ENDCMP
 #
 $CMP TSSP77038
 D Датчик приближения, ИК
-K TSSP77038
+K Датчик приближения, ИК
 $ENDCMP
 #
 #End Doc Library

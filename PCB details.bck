@@ -22,7 +22,7 @@ $ENDCMP
 #
 $CMP TestPoint
 D Контрольная точка
-K Test Point
+K Test Point, TP
 $ENDCMP
 #
 #End Doc Library

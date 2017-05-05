@@ -6,7 +6,7 @@ D:\KiCAD_library\LEDs.pretty
 D:\KiCAD_library\SOT.pretty
 D:\KiCAD_library\Quartz.pretty
 D:\KiCAD_library\LQFP_TQFP.pretty
-D:\KiCAD_library\QFN_DFN.pretty
+D:\KiCAD_library\QFN_DFN_LGA.pretty
 D:\KiCAD_library\SOP_MSOP_TSSOP.pretty
 D:\KiCAD_library\PCB_details.pretty
 D:\KiCAD_library\Buttons_Switches.pretty
@@ -27,7 +27,7 @@ LEDs
 SOT
 Quartz
 LQFP,_TQFP
-QFN,_DFN
+QFN,_DFN,_LGA
 SOP,_MSOP,_TSSOP
 PCB_details
 Buttons,_Switches

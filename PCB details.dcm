@@ -2,27 +2,32 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP Fuse
 D Перемычка
-K fuse
+K Перемычка
 $ENDCMP
 #
 $CMP Fuse_0R
 D Перемычка или компонент
-K fuse
+K Перемычка или компонент
 $ENDCMP
 #
 $CMP Fuse_x2
 D Двойная перемычка 0603
-K fuse
+K Двойная перемычка 0603
 $ENDCMP
 #
 $CMP HoleMetalled
 D Отверстие с металлизацией
-K HOLE
+K Отверстие с металлизацией
+$ENDCMP
+#
+$CMP RefPoint
+D Метка для SMT-монтажа
+K RefPoint
 $ENDCMP
 #
 $CMP TestPoint
 D Контрольная точка
-K Test Point, TP
+K TestPoint
 $ENDCMP
 #
 #End Doc Library

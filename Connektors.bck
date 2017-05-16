@@ -107,7 +107,7 @@ $ENDCMP
 #
 $CMP for_PolarOut
 D Штыревой 2x, папа
-K for
+K for, PolarOut
 $ENDCMP
 #
 $CMP for_SENS

@@ -170,19 +170,19 @@ F0 "XS" 0 750 60 H V C CNN
 F1 "RJ45_to_568B_GOST" 0 650 60 H V C CNN
 F2 "" 2050 -850 60 H I C CNN
 F3 "" 2150 -850 60 H V C CNN
+F4 "W-Orange" -100 300 60 H V C CNN "Pin1"
+F5 "Orange" -100 100 60 H V C CNN "Pin2"
+F6 "W-Green" -100 -100 60 H V C CNN "Pin3"
+F7 "Blue" -100 -300 60 H V C CNN "Pin4"
+F8 "W-Blue" -100 -500 60 H V C CNN "Pin5"
+F9 "Green" -100 -700 60 H V C CNN "Pin6"
+F10 "W-Brown" -100 -900 60 H V C CNN "Pin7"
+F11 "Brown" -100 -1100 60 H V C CNN "Pin8"
 $FPLIST
  TJ-8P8C*
 $ENDFPLIST
 DRAW
-T 0 -100 -300 60 0 0 0 Blue  Normal 0 C C
-T 0 -100 -1100 60 0 0 0 Brown  Normal 0 C C
-T 0 -100 -700 60 0 0 0 Green  Normal 0 C C
 T 900 -50 -1300 60 0 0 0 H  Normal 0 C C
-T 0 -100 100 60 0 0 0 Orange  Normal 0 C C
-T 0 -100 -500 60 0 0 0 W-Blue  Normal 0 C C
-T 0 -100 -900 60 0 0 0 W-Brown  Normal 0 C C
-T 0 -100 -100 60 0 0 0 W-Green  Normal 0 C C
-T 0 -100 300 60 0 0 0 W-Orange  Normal 0 C C
 T 0 -100 500 60 0 0 0 Цепь  Normal 0 C C
 S -350 400 400 -1200 0 1 0 N
 P 2 0 1 0  -350 -1000  400 -1000 N

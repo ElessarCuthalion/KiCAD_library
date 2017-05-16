@@ -16,6 +16,10 @@ $CMP C_1206
 K CAP, C1206
 $ENDCMP
 #
+$CMP C_1210
+K CAP, C1210
+$ENDCMP
+#
 $CMP Cel_1206
 D Конденсатор электролитический
 K Cap

@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A6800
+D Dual N-Channel: 30V 3,4A 60mR
+K A6800
+$ENDCMP
+#
+$CMP A6800_A+B
+D Dual N-Channel: 30V 3,4A 60mR
+K A6800
+$ENDCMP
+#
 $CMP DMP2035UTS
 D P+P-Channel -20V -3,9A 45mR
 K DMP2035UTS
@@ -56,11 +66,6 @@ K Si3588
 $ENDCMP
 #
 $CMP Si3588DV_var3
-D N+P-Channel: 20V 3A 80mR; -20V - 2,2A 145mR
-K Si3588
-$ENDCMP
-#
-$CMP Si3588DV_var4
 D N+P-Channel: 20V 3A 80mR; -20V - 2,2A 145mR
 K Si3588
 $ENDCMP

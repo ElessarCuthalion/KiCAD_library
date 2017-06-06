@@ -5,6 +5,11 @@ D MP3-модуль
 K DFPlayer Mini
 $ENDCMP
 #
+$CMP IRM-03-5
+D AC/DC, 85~305 ACin, Out 5V DC 0,6A
+K AC/DC, IRM-03-5
+$ENDCMP
+#
 $CMP IRM-05-5
 D AC/DC, 85~264 ACin, Out 5V DC 1A
 K AC/DC, IRM-05-5

@@ -72,6 +72,7 @@ $FPLIST
  Finder_41.61s
  Finder_41.31s
  TE_RT314xxx
+ Omron_G2RLs
 $ENDFPLIST
 DRAW
 S 118 236 -118 -236 1 1 0 N

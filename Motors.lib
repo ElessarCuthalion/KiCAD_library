@@ -69,7 +69,8 @@ DEF Motor_NC M 0 0 N Y 1 F N
 F0 "M" 0 350 60 H V C CNN
 F1 "Motor_NC" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "" 0 350 60 H V C CNN
+F4 "Size" 0 -275 60 H V C CNN "Size"
 $FPLIST
  Motor_NC*
 $ENDFPLIST
@@ -85,7 +86,8 @@ DEF Motor_NC+Hole M 0 0 N Y 1 F N
 F0 "M" 0 350 60 H V C CNN
 F1 "Motor_NC+Hole" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "" 0 350 60 H V C CNN
+F4 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Motor_NC*
 $ENDFPLIST
@@ -102,7 +104,8 @@ DEF Vibro+PAD M 0 0 N Y 1 F N
 F0 "M" 0 550 60 H V C CNN
 F1 "Vibro+PAD" 0 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "" 0 550 60 H V C CNN
+F4 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Vibro*
 $ENDFPLIST
@@ -139,6 +142,7 @@ F0 "M" 0 550 60 H V C CNN
 F1 "Vibro_flat" 0 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Vibro_Flat*
 $ENDFPLIST

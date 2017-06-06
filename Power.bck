@@ -34,6 +34,11 @@ D Батарея
 K Battety, BATT
 $ENDCMP
 #
+$CMP Battety_NC
+D Батарея под разъём
+K Battety, BATT
+$ENDCMP
+#
 $CMP Battety_PLS
 D Батарея под разъём
 K Battety, BATT

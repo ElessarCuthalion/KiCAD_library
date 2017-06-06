@@ -14,9 +14,4 @@ D Relay form 1CO contacts
 K K, Relay
 $ENDCMP
 #
-$CMP Relay_1COx2
-D Relay form 1COx2 contacts
-K K, Relay
-$ENDCMP
-#
 #End Doc Library

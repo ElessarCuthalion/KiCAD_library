@@ -1,6 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Amadon
+D Amadon logo
+K Amadon
+$ENDCMP
+#
 $CMP Eldalim
+D Eldalim logo
 K Eldalim
 $ENDCMP
 #

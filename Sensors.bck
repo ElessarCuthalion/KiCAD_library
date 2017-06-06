@@ -16,13 +16,18 @@ K Датчик движения, ИК
 $ENDCMP
 #
 $CMP L3G4200
-D Giroscope 3axis 250/500/2000dps; Vdd 2,4~3,6V Idd 6,1mA, Isd 5uA
+D Giroscope 3axis 250/500/2000dps; Vdd 2,4~3,6V Idd 6,1mA, Isd 5uA; Addr 0xD0(SA0=0)/0xD2(SA0=1)
 K GIRO, L3G4200
 $ENDCMP
 #
 $CMP LIS3DH
-D Accelerometer 3axis 2/4/8/16g; Vdd 1,71~3,6V IddLP 6uA, Isd 0,5uA
+D Accelerometer 3axis 2/4/8/16g; Vdd 1,71~3,6V IddLP 6uA, Isd 0,5uA; Addr 0x38(SA1=0)/0x3C(SA1=1)
 K ACC, LIS3DH
+$ENDCMP
+#
+$CMP LIS3MDL
+D Magnetometer 3axis +/-4/8/12/16gauss; Vdd 1,9~3,6V Idd 240uA, Isd 1uA; Addr 0x38(SA1=0)/0x3C(SA1=1)
+K MAGN, LIS3MDL
 $ENDCMP
 #
 $CMP MMA8452
@@ -41,7 +46,7 @@ K Пластина сенсора
 $ENDCMP
 #
 $CMP SHT2xx
-D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
+D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x40
 K Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
 $ENDCMP
 #

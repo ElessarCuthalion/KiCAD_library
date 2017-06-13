@@ -1,0 +1,112 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Fuse
+#
+DEF Fuse fus 0 40 N N 1 F N
+F0 "fus" 150 150 60 H V L CNN
+F1 "Fuse" 150 50 60 H V L CNN
+F2 "FuseSolder" 0 -150 60 H I C CNN
+F3 "" -65 0 60 H V C CNN
+DRAW
+A -15 0 100 901 -901 0 1 0 f -15 100 -15 -100
+A 15 0 100 -899 899 0 1 0 f 15 -100 15 100
+P 2 0 1 0  -115 0  -150 0 N
+P 2 0 1 0  -15 -100  -15 100 N
+P 2 0 1 0  15 -100  15 100 N
+P 2 0 1 0  150 0  115 0 N
+X ~ 1 -300 0 157 R 60 60 1 1 P
+X ~ 2 300 0 157 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse_0R
+#
+DEF Fuse_0R fus 0 40 N N 1 F N
+F0 "fus" 0 250 60 H V C CNN
+F1 "Fuse_0R" 0 150 60 H V C CNN
+F2 "" 0 -150 60 H I C CNN
+F3 "" -65 0 60 H V C CNN
+F4 "0805" -150 -50 60 H V R CNN "Size"
+$FPLIST
+ FuseSolder_0805
+ FuseSolder_0603
+$ENDFPLIST
+DRAW
+S -15 -100 -115 100 0 1 0 f
+S 15 -100 115 100 0 1 0 f
+P 2 0 1 0  -115 0  -150 0 N
+P 2 0 1 0  150 0  115 0 N
+X ~ 1 -300 0 157 R 60 60 1 1 P
+X ~ 2 300 0 157 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse_x2
+#
+DEF Fuse_x2 fus 0 40 Y N 1 F N
+F0 "fus" 0 300 60 H V C CNN
+F1 "Fuse_x2" 0 200 60 H V C CNN
+F2 "FuseSolder_x2_0603" 0 -150 60 H I C CNN
+F3 "" -165 0 60 H V C CNN
+DRAW
+A -115 0 100 901 -901 0 1 0 f -115 100 -115 -100
+A 115 0 100 -899 899 0 1 0 f 115 -100 115 100
+S 85 100 -85 -100 0 1 0 f
+P 2 0 1 0  -215 0  -250 0 N
+P 2 0 1 0  -115 -100  -115 100 N
+P 2 0 1 0  115 -100  115 100 N
+P 2 0 1 0  250 0  215 0 N
+X ~ 1 0 -300 197 U 60 60 1 1 P
+X ~ 2 -400 0 157 R 60 60 1 1 P
+X ~ 3 400 0 157 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HoleMetalled
+#
+DEF HoleMetalled Hole 0 40 Y Y 1 F N
+F0 "Hole" -450 50 60 H V C CNN
+F1 "HoleMetalled" -450 -50 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 150 0 1 0 f
+X ~ H 350 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RefPoint
+#
+DEF RefPoint RP 0 40 Y Y 1 F N
+F0 "RP" 350 50 60 H V C CNN
+F1 "RefPoint" 350 -50 60 H V C CNN
+F2 "RefPoint_1mm" 250 -50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RefPoint*
+$ENDFPLIST
+DRAW
+C 0 0 100 0 1 0 N
+P 3 0 1 0  -50 0  50 0  50 0 N
+P 3 0 1 0  0 50  0 -50  0 -50 N
+ENDDRAW
+ENDDEF
+#
+# TestPoint
+#
+DEF TestPoint TP 0 40 N N 1 F N
+F0 "TP" 0 450 60 H V C CNN
+F1 "TestPoint" 0 350 60 H V C CNN
+F2 "TestPoint_1mm" 0 250 60 H I C CNN
+F3 "" 0 -200 60 H V C CNN
+$FPLIST
+ TestPoint*
+$ENDFPLIST
+DRAW
+C 0 240 40 0 1 0 f
+X ~ 1 0 0 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

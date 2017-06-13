@@ -35,7 +35,7 @@ K Battety, BATT
 $ENDCMP
 #
 $CMP Battety_NC
-D Батарея под разъём
+D Battety no contacts
 K Battety, BATT
 $ENDCMP
 #

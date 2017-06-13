@@ -1,18 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Button
-D Кнопка
+D Button
 K BTN, SB
 $ENDCMP
 #
-$CMP Gerkon
-D Геркон
+$CMP ReedSwitch
+D Reed Switch (геркон)
 K SF
 $ENDCMP
 #
-$CMP Gerkon_perekl
-D Геркон переключающий
-K SF
+$CMP ReedSwitch_3pin
+D Reed Switch CO (геркон переключающий)
+K SF, ReedSwitch
 $ENDCMP
 #
 $CMP Switch

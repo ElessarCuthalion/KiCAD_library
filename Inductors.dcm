@@ -1,13 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Inductor
-D катушка индуктивности
-K ind
+D Inductor
+K IND, L
 $ENDCMP
 #
 $CMP SDR0604-xxx
-D катушка индуктивности
-K L, SDR0604
+D Power inductor
+K SDR0604, IND, L
 $ENDCMP
 #
 #End Doc Library

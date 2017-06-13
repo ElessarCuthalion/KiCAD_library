@@ -1,18 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP LED_0603
-D LED одинарный
-K HL
+D Single LED
+K HL, LED
 $ENDCMP
 #
 $CMP LED_0805
-D LED одинарный
-K HL
+D Single LED
+K HL, LED
 $ENDCMP
 #
 $CMP LED_1206
-D LED одинарный
-K HL
+D Single LED
+K HL, LED
 $ENDCMP
 #
 $CMP LED_1616
@@ -32,21 +32,12 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED 5050
+K RGB
 $ENDCMP
 #
-$CMP LED_SMD
-D LED одинарный
-K HL
-$ENDCMP
-#
-$CMP LED_SMD-pr
-D LED одинарный
-K HL
-$ENDCMP
-#
-$CMP WS2821B
+$CMP WS2812B
 D RGB LED, 1-wire
-K WS2821B
+K WS2812B
 $ENDCMP
 #
 #End Doc Library

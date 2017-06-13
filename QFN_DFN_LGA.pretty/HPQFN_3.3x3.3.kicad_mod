@@ -1,4 +1,4 @@
-(module PQFN_3.3x3.3+PAD (layer F.Cu) (tedit 5917EE04)
+(module HPQFN_3.3x3.3 (layer F.Cu) (tedit 5917EE04)
   (fp_text reference PQFN_3.3x3.3+PAD (at 0 -2.286) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

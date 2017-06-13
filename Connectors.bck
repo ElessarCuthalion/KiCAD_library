@@ -1,0 +1,166 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Cleamm-2
+D Terminal Block x2 (клеммник винтовой)
+K XL, Cleamm2x
+$ENDCMP
+#
+$CMP Cleamm-3
+D Terminal Block x3 (клеммник винтовой)
+K XL, Cleamm3x
+$ENDCMP
+#
+$CMP Conn-1f
+D Single row connectors x1, female
+K Conn1x, XS1x
+$ENDCMP
+#
+$CMP Conn-1m
+D Single row connectors x1, male
+K Conn1x, XP1x
+$ENDCMP
+#
+$CMP Conn-2f
+D Single row connectors x2, female
+K Conn2x, XS2x
+$ENDCMP
+#
+$CMP Conn-2m
+D Single row connectors x2, male
+K Conn2x, XP2x
+$ENDCMP
+#
+$CMP Conn-3f
+D Single row connectors x3, female
+K Conn3x, XS3x
+$ENDCMP
+#
+$CMP Conn-3m
+D Single row connectors x3, male
+K Conn3x, XP3x
+$ENDCMP
+#
+$CMP Conn-4m
+D Single row connectors x4, male
+K Conn4x, XP4x
+$ENDCMP
+#
+$CMP Conn-5m
+D Single row connectors x5, male
+K Conn5x, XP5x
+$ENDCMP
+#
+$CMP Conn-6m
+D Single row connectors x6, male
+K Conn6x, XP6x
+$ENDCMP
+#
+$CMP RJ14_6P6C
+D RJ-14 for 6P6C connector
+K RJ14, 6P6C
+$ENDCMP
+#
+$CMP RJ25_6P6C
+D RJ-25 for 6P6C connector
+K RJ25, 6P6C
+$ENDCMP
+#
+$CMP RJ25_6P6C_v2
+D RJ-25 for 6P6C connector
+K RJ25, 6P6C
+$ENDCMP
+#
+$CMP RJ45_to_568B
+D RJ-45 for EIA/TIA-568B standard to 8P8C connector
+K RJ45, 8P8C, 568B
+$ENDCMP
+#
+$CMP RJ45_to_568B_GOST
+D RJ-45 for EIA/TIA-568B standard to 8P8C connector
+K RJ45, 8P8C, 568B
+$ENDCMP
+#
+$CMP SD-micro
+D Micro-SD, 8 pin
+K SD, micro-SD
+$ENDCMP
+#
+$CMP USB-mcro/mini
+D Совмещённые mcro / mini-USB с отводом от корпуса
+$ENDCMP
+#
+$CMP USB-micro
+D Micro-USB
+K USB, micro-USB
+$ENDCMP
+#
+$CMP USB-mini
+D Mini-USB
+K USB, mini-USB
+$ENDCMP
+#
+$CMP Wire
+K Wire
+$ENDCMP
+#
+$CMP for_APA102
+D for APA102 connector
+K for
+$ENDCMP
+#
+$CMP for_I2C
+D for I2C (Pill Connector)
+K I2C
+$ENDCMP
+#
+$CMP for_PolarOut
+D Polar Output connector
+K for
+$ENDCMP
+#
+$CMP for_SENS
+D for simple sensors
+K for
+$ENDCMP
+#
+$CMP for_SPI
+D SPI connector
+K SPI
+$ENDCMP
+#
+$CMP for_ST_SWD
+D ST programming
+K SWD
+$ENDCMP
+#
+$CMP for_SWD&UART
+D ST programming & UART debug
+K SWD
+$ENDCMP
+#
+$CMP for_SteppingMotor
+D for Stepping Motor connection
+K for
+$ENDCMP
+#
+$CMP for_UART
+D UART (debug)
+K UART
+$ENDCMP
+#
+$CMP for_UART_user
+D UART connector
+K UART
+$ENDCMP
+#
+$CMP for_USB
+D for USB connection (single row connectors x4)
+K for, USB
+$ENDCMP
+#
+$CMP for_WS2812
+D WS2812B connector
+K for
+$ENDCMP
+#
+#End Doc Library

@@ -16,7 +16,7 @@ K LP2985
 $ENDCMP
 #
 $CMP MCP1700T-xx02E
-D Iq 5mA; Vdo 1-1,1V, Iout 800mA; Vin 2,7-15V
+D Iq 1,6uA; Vdo 178mV, Iout 250mA; Vin 2,3-6V
 K MCP1700
 $ENDCMP
 #

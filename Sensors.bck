@@ -21,7 +21,7 @@ K GIRO, L3G4200
 $ENDCMP
 #
 $CMP LIS3DH
-D Accelerometer 3axis 2/4/8/16g; Vdd 1,71~3,6V IddLP 6uA, Isd 0,5uA; Addr 0x38(SA1=0)/0x3C(SA1=1)
+D Accelerometer 3axis 2/4/8/16g; Vdd 1,71~3,6V IddLP 6uA, Isd 0,5uA; Addr 0x30(SA0=0)/0x32(SA0=1)
 K ACC, LIS3DH
 $ENDCMP
 #

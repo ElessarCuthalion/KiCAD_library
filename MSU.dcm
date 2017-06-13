@@ -2,22 +2,12 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ATTiny13A
 D ATTiny13A
-K ATTiny13A
-$ENDCMP
-#
-$CMP ATTiny13A_var.2
-D ATTiny13A, выводы по порядку
-K ATTiny13A, выводы по порядку
+K ATTiny13
 $ENDCMP
 #
 $CMP ATTiny44A
 D ATTiny44A
-K ATTiny44A
-$ENDCMP
-#
-$CMP ATTiny44A_+OCR
-D ATTiny44A с обозначением OCR
-K ATTiny44A с обозначением OCR
+K ATTiny44
 $ENDCMP
 #
 $CMP ATmega88-AI
@@ -26,28 +16,28 @@ K ATmega88
 $ENDCMP
 #
 $CMP STM32F030C8Tx
-D Cortex-M0, LQFP48 
-K Cortex-M0, LQFP48 
+D Cortex-M0, LQFP48
+K MSU, F030
 $ENDCMP
 #
 $CMP STM32F030F4Px
 D Cortex-M0, TSOP20
-K Cortex-M0, TSOP20
+K MSU, F030
 $ENDCMP
 #
 $CMP STM32F030K6Tx
 D Cortex-M0, LQFP32
-K Cortex-M0, LQFP32
+K MSU, F030
 $ENDCMP
 #
 $CMP STM32F205Rx
 D Cortex-M3, LQFP64
-K Cortex-M3, LQFP64
+K MSU, F205
 $ENDCMP
 #
 $CMP STM32L151CxTx
 D Cortex-M3, LQFP48, 32k RAM
-K STM32L151
+K MSU, L151
 $ENDCMP
 #
 #End Doc Library

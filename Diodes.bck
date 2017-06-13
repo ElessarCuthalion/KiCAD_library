@@ -11,7 +11,7 @@ K BAT54C
 $ENDCMP
 #
 $CMP BAT54SW
-D 2х Schottky CA (Ifmax 200mA; If 100mA -> Vf 1V; Vr 30V)
+D 2х Schottky, CA (Ifmax 200mA; If 100mA -> Vf 1V; Vr 30V)
 K BAT54A
 $ENDCMP
 #

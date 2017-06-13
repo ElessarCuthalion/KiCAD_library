@@ -2,17 +2,17 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AS-V20NA-R
 D Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
-K Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
+K AS-V20NA-R
 $ENDCMP
 #
 $CMP AT42QT1011
 D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
-K Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
+K AT42QT1011
 $ENDCMP
 #
 $CMP HC-SR501
 D Датчик движения, ИК
-K Датчик движения, ИК
+K HC-SR501
 $ENDCMP
 #
 $CMP L3G4200
@@ -37,32 +37,32 @@ $ENDCMP
 #
 $CMP MRMS201A
 D Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
-K Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
+K MRMS201A
 $ENDCMP
 #
 $CMP SENS
 D Пластина сенсора
-K Пластина сенсора
+K Sens
 $ENDCMP
 #
 $CMP SHT2xx
 D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x40
-K Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x80
+K SHT2xx, HUMID
 $ENDCMP
 #
 $CMP SS441
 D Датчик Холла, выход ОК
-K Датчик Холла, выход ОК
+K SS441
 $ENDCMP
 #
 $CMP TSOP1738
 D ИК приёмник, 950нм, 38кГц
-K ИК приёмник, 950нм, 38кГц
+K TSOP1738
 $ENDCMP
 #
 $CMP TSSP77038
 D Датчик приближения, ИК
-K Датчик приближения, ИК
+K TSSP77038
 $ENDCMP
 #
 #End Doc Library

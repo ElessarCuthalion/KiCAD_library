@@ -10,9 +10,4 @@ D Кварцевый резонатор
 K Quartz, ZQ
 $ENDCMP
 #
-$CMP Quartz+H
-D Кварцевый резонатор экранираванный
-K Quartz, ZQ
-$ENDCMP
-#
 #End Doc Library

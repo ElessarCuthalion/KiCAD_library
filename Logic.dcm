@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MC74HC02
+D 4 2И-НЕ
+K MC74HC02
+$ENDCMP
+#
 #End Doc Library

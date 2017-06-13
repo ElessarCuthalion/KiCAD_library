@@ -1,18 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD8531
-D ОУ, 1 канал
+D Single-Supply Amplifier, 1 channel; VCC 2,7~6V, Iout +/-250mA, Is 1,25mA
 K AD8531
-$ENDCMP
-#
-$CMP AD8531_(2)
-D ОУ, 1 канал
-K AD8531
-$ENDCMP
-#
-$CMP SN74LVC1T45
-D ИМС согласования логических уровней
-K SN74LVC1T45
 $ENDCMP
 #
 #End Doc Library

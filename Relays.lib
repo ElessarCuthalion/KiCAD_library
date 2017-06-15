@@ -40,11 +40,11 @@ X DC- 4 -550 -150 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Relay
+# Relay_1A
 #
-DEF Relay K 0 40 N N 2 F N
+DEF Relay_1A K 0 40 N N 2 F N
 F0 "K" 300 250 60 H V C CNN
-F1 "Relay" 300 150 60 H V C CNN
+F1 "Relay_1A" 300 150 60 H V C CNN
 F2 "" -394 -2 60 H V C CNN
 F3 "" -394 -2 60 H V C CNN
 DRAW
@@ -61,18 +61,19 @@ X 4 4 350 0 200 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Relay_1CO
+# Relay_1C
 #
-DEF Relay_1CO K 0 40 N N 2 F N
+DEF Relay_1C K 0 40 N N 2 F N
 F0 "K" 0 450 60 H V C CNN
-F1 "Relay_1CO" 0 350 60 H V C CNN
+F1 "Relay_1C" 0 350 60 H V C CNN
 F2 "" -400 50 60 H V C CNN
 F3 "" -400 50 60 H V C CNN
 $FPLIST
  Finder_41.61s
  Finder_41.31s
  TE_RT314xxx
- Omron_G2RLs
+ Omron_G2RL-1Es
+ Omron_G2RL-1s
 $ENDFPLIST
 DRAW
 S 118 236 -118 -236 1 1 0 N

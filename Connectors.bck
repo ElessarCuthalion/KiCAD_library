@@ -11,12 +11,12 @@ K XL, Cleamm3x
 $ENDCMP
 #
 $CMP Conn-1f
-D Single row connectors x1, female
+D Single connector x1, female
 K Conn1x, XS1x
 $ENDCMP
 #
 $CMP Conn-1m
-D Single row connectors x1, male
+D Single connector x1, male
 K Conn1x, XP1x
 $ENDCMP
 #

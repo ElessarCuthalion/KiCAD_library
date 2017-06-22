@@ -22,7 +22,7 @@ $ENDCMP
 #
 $CMP Cel_1206
 D Конденсатор электролитический
-K Cap
+K Elcap, Cel1206
 $ENDCMP
 #
 #End Doc Library

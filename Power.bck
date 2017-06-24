@@ -30,7 +30,7 @@ K BLM15, filter
 $ENDCMP
 #
 $CMP Battety
-D Батарея
+D Battety
 K Battety, BATT
 $ENDCMP
 #
@@ -58,6 +58,10 @@ $CMP GND
 K GND
 $ENDCMP
 #
+$CMP GNDA
+K AGND
+$ENDCMP
+#
 $CMP GND_Power
 K PGND, GNDpower
 $ENDCMP
@@ -68,6 +72,10 @@ $ENDCMP
 #
 $CMP VCC
 K VCC
+$ENDCMP
+#
+$CMP VIN
+K VIN
 $ENDCMP
 #
 $CMP VREF

@@ -1,0 +1,8 @@
+(module BoardName_2mm (layer F.Cu) (tedit 594FD0A1)
+  (fp_text reference BoardName (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
+  (fp_text value «VAL**» (at 0 0) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.3)))
+  )
+)

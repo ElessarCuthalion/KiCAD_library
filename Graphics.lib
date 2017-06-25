@@ -44,6 +44,37 @@ P 610 0 0 1  379 -105  378 -102  377 -99  375 -97  372 -96  371 -96  370 -96  36
 ENDDRAW
 ENDDEF
 #
+# BoardName
+#
+DEF BoardName Name 0 40 Y Y 1 F N
+F0 "Name" 0 100 60 H I C CNN
+F1 "BoardName" -450 0 118 H V L CNN
+F2 "BoardName_2mm" 0 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ BoardName*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+# Comment
+#
+DEF ~Comment Label 0 40 Y Y 1 F N
+F0 "Label" 0 0 60 H V C CNN
+F1 "Comment" 0 0 60 H I C CNN
+F2 "Label_9x7" 0 -100 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Label*
+$ENDFPLIST
+DRAW
+A -125 0 75 901 -901 0 1 0 f -125 75 -125 -75
+A 125 0 75 -899 899 0 1 0 f 125 -75 125 75
+P 15 0 1 0  125 75  -125 75  -160 65  -185 45  -200 0  -190 -35  -160 -65  -125 -75  125 -75  160 -65  190 -35  200 0  185 45  160 65  125 75 f
+ENDDRAW
+ENDDEF
+#
 # Eldalim
 #
 DEF ~Eldalim Logo 0 40 Y Y 1 F N

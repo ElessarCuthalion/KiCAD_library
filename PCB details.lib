@@ -106,7 +106,7 @@ ENDDEF
 #
 DEF TestPoint TP 0 40 N N 1 F N
 F0 "TP" 400 0 60 H V C CNN
-F1 "TestPoint" 250 -100 60 H V C CNN
+F1 "TestPoint" 450 -100 60 H V R CNN
 F2 "TestPoint_1mm" 250 -100 60 H I C CNN
 F3 "" 0 -200 60 H V C CNN
 $FPLIST

@@ -1,4 +1,4 @@
-(module Through-Hole-3mm (layer F.Cu) (tedit 5539F861)
+(module LED_Through-Hole-3mm (layer F.Cu) (tedit 59612514)
   (descr "LED 3mm - Lead pitch 100mil (2,54mm)")
   (tags "LED led 3mm 3MM 100mil 2,54mm")
   (attr virtual)
@@ -14,8 +14,8 @@
   (fp_line (start 1.50114 -1.00076) (end 1.00076 -1.50114) (layer F.SilkS) (width 0.254))
   (fp_line (start 1.00076 -1.50114) (end -1.00076 -1.50114) (layer F.SilkS) (width 0.254))
   (fp_line (start -1.00076 -1.50114) (end -1.50114 -1.00076) (layer F.SilkS) (width 0.254))
-  (pad A thru_hole rect (at -1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (pad C thru_hole circle (at 1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+  (pad A thru_hole rect (at -1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad C thru_hole circle (at 1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask))
   (model 3d\Indicatros&Leds\led_3mm_clear.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

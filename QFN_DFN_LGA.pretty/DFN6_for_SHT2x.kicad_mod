@@ -1,4 +1,4 @@
-(module DFN6_for_SHT2x (layer F.Cu) (tedit 5942BF30)
+(module DFN6_for_SHT2x (layer F.Cu) (tedit 596126D1)
   (fp_text reference DFN6 (at 0 -2.2 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

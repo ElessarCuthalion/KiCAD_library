@@ -1,6 +1,6 @@
-(module BTN_6x6 (layer F.Cu) (tedit 571F1BCC)
+(module BTN_6x6 (layer F.Cu) (tedit 59610A67)
   (fp_text reference BTN_6x6 (at 0 0) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
+    (effects (font (size 0.8 0.6) (thickness 0.15)))
   )
   (fp_text value Val** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 0.8) (thickness 0.15)))

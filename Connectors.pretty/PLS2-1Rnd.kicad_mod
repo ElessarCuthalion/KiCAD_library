@@ -1,4 +1,4 @@
-(module PLS2-1Rnd (layer F.Cu) (tedit 59400E9F)
+(module PLS2-1Rnd (layer F.Cu) (tedit 59611AC6)
   (descr "Single-line connector 2-pin")
   (fp_text reference PLS2-1Rnd (at 0 -1.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -22,5 +22,5 @@
   (fp_line (start 1 0.6) (end 0.6 1) (layer F.SilkS) (width 0.15))
   (fp_line (start 1 -0.6) (end 0.6 -1) (layer F.SilkS) (width 0.15))
   (fp_line (start 1 0.6) (end 1 -0.6) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
 )

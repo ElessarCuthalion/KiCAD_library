@@ -1,4 +1,4 @@
-(module LED_Through-Hole-5mm-HOR (layer F.Cu) (tedit 569A53EA)
+(module LED_Through-Hole-5mm-HOR (layer F.Cu) (tedit 59612542)
   (descr "LED 5mm through hole horizontal")
   (attr virtual)
   (fp_text reference TH-5mm (at 0 2.286) (layer F.SilkS) hide
@@ -18,8 +18,8 @@
   (fp_line (start 2.5 -2) (end 2.5 -7.3) (layer F.SilkS) (width 0.15))
   (fp_arc (start 0 -7.3) (end -2.5 -7.3) (angle 90) (layer F.SilkS) (width 0.15))
   (fp_arc (start 0 -7.3) (end 0 -9.8) (angle 90) (layer F.SilkS) (width 0.15))
-  (pad A thru_hole rect (at -1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (pad C thru_hole circle (at 1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+  (pad A thru_hole rect (at -1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad C thru_hole circle (at 1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask))
   (model 3d\Indicatros&Leds\led_3mm_clear.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

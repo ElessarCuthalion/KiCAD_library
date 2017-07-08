@@ -1,4 +1,4 @@
-(module PBS-1 (layer F.Cu) (tedit 594D0BD8)
+(module PBS-1 (layer F.Cu) (tedit 596118F8)
   (descr "Connector 1-pin")
   (fp_text reference PBS-1 (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -14,5 +14,5 @@
   (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
 )

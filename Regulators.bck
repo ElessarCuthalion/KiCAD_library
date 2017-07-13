@@ -11,7 +11,7 @@ K LD1117
 $ENDCMP
 #
 $CMP LP2985-xx
-D Iq 850uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Малошумящий
+D Iq 850uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise
 K LP2985
 $ENDCMP
 #

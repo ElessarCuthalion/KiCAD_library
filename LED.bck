@@ -46,7 +46,7 @@ K RGB
 $ENDCMP
 #
 $CMP SK6812mini
-D RGB LED, 1-wire (3535 case)
+D RGB LED, 1-wire (3535 Package)
 K SK6812mini
 $ENDCMP
 #

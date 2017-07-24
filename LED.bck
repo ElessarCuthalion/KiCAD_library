@@ -40,6 +40,11 @@ D Bi-Color R+G (1206)
 K Bi-Color
 $ENDCMP
 #
+$CMP LED_Bi-Color_DIP
+D Bi-Color R+G (DIP)
+K Bi-Color, LED_DIP
+$ENDCMP
+#
 $CMP LED_RGB
 D RGB LED 5050
 K RGB

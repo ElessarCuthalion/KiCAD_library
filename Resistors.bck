@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP RES_POTENTIOMETER
+D Potentiometer / Variable resistor / Rheostat
+K RES, Poten
+$ENDCMP
+#
+$CMP RES_TRIM
+D Resistor trimmer
+K RES, TRIM
+$ENDCMP
+#
 $CMP R_0603
 D 0,1W 1A 50V
 K RES, R0603
@@ -15,14 +25,9 @@ D 0,25W 2A 200V
 K RES, R1206
 $ENDCMP
 #
-$CMP Rez_Perem
-D Резистор перемнный
-K R
-$ENDCMP
-#
-$CMP Rez_Podstr
-D Подстроечный резистор
-K R
+$CMP R_DIP_0.25W
+D 0,25W 250V (MF/C2-23 & CF/C1-4 series)
+K RES, RDIP
 $ENDCMP
 #
 #End Doc Library

@@ -1,4 +1,4 @@
-(module LED_DIP_Bi-Color_Hor (layer F.Cu) (tedit 59761C6D)
+(module LED_DIP_Bi-Color_Hor_mirr (layer F.Cu) (tedit 59761C6D)
   (descr "LED 5mm through hole horizontal")
   (attr virtual)
   (fp_text reference LED_DIP_Bi-Color_Hor (at 0 -9.5) (layer F.SilkS)

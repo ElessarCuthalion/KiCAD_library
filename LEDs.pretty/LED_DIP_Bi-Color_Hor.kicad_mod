@@ -1,4 +1,4 @@
-(module LED_DIP_Bi-Color_Hor (layer F.Cu) (tedit 59761C94)
+(module LED_DIP_Bi-Color_Hor (layer F.Cu) (tedit 5978ADD9)
   (descr "LED 5mm through hole horizontal")
   (attr virtual)
   (fp_text reference LED_DIP_Bi-Color_Hor (at 0 -9.5) (layer F.SilkS)
@@ -17,9 +17,9 @@
   (fp_line (start -2.5 -6) (end -2.5 -13) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.5 -13) (end 2.5 -13) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.5 -13) (end 2.5 -6) (layer F.SilkS) (width 0.15))
-  (pad GA thru_hole circle (at -0.42 0.5 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad CC thru_hole rect (at 0 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad RA thru_hole circle (at -2.54 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad GA thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad CC thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad RA thru_hole circle (at -2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (model 3d\Indicatros&Leds\led_3mm_clear.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -71,6 +71,10 @@ $CMP GND_Power
 K PGND, GNDpower
 $ENDCMP
 #
+$CMP SENSvcc
+K SENSvcc
+$ENDCMP
+#
 $CMP USBvcc
 K USBvcc
 $ENDCMP

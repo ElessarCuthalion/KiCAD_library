@@ -15,4 +15,9 @@ D Relay form 1C contacts
 K K, Relay
 $ENDCMP
 #
+$CMP Relay_2C
+D Relay form 2C contacts
+K K, Relay
+$ENDCMP
+#
 #End Doc Library

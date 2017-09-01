@@ -65,4 +65,9 @@ D Датчик приближения, ИК
 K TSSP77038
 $ENDCMP
 #
+$CMP ThermalProtector
+D Thermal Protector, NC (термоконтакт размыкающий)
+K SK, ThermalProtector
+$ENDCMP
+#
 #End Doc Library

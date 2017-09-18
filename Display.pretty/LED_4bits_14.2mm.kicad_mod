@@ -1,5 +1,4 @@
 (module LED_4bits_14.2mm (layer F.Cu) (tedit 59612370)
-  (attr smd)
   (fp_text reference Disp_4bits_14.2mm (at -15 -7.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )

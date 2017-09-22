@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CS42L52
+D Codec with headphone amp and D class amp
+K CS42L52
+$ENDCMP
+#
 $CMP TPA6211
 D Amplifier 3,1W Rl 3-8r VDD 2,5-5V Isd 0,01uA
 K TPA6211

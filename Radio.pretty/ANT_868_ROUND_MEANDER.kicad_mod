@@ -1,6 +1,6 @@
-(module ANT_868_ROUND_MEANDER (layer F.Cu) (tedit 569ACA2B)
+(module ANT_868_ROUND_MEANDER (layer F.Cu) (tedit 59C4F7BA)
   (descr "Meander antenna for circular PCB R=29.5")
-  (fp_text reference REF** (at -7.4 1) (layer F.SilkS) hide
+  (fp_text reference Val** (at -7.4 1) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value ANT_868_ROUND_MEANDER (at -8.2 2.6) (layer F.Fab) hide

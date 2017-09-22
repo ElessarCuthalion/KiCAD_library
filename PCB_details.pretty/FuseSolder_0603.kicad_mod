@@ -1,5 +1,4 @@
 (module FuseSolder_0603 (layer F.Cu) (tedit 57BABD09)
-  (attr smd)
   (fp_text reference SolderFuse (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

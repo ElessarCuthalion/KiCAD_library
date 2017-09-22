@@ -1,5 +1,5 @@
-(module Motor_NC+Hole_GM15BY_Gear (layer F.Cu) (tedit 59612464)
-  (fp_text reference VAL** (at 0 -1.016) (layer F.SilkS)
+(module Motor_NC+Hole_GM15BY_Gear (layer F.Cu) (tedit 59C38CDE)
+  (fp_text reference Val** (at 0 -1.016) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value GearMotor_GM15BY_no_Contacts (at 0 1.016) (layer F.SilkS)

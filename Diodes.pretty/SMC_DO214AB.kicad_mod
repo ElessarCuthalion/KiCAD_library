@@ -1,5 +1,6 @@
-(module SMC_DO214AB (layer F.Cu) (tedit 59730B72)
-  (fp_text reference VAL** (at -2 -3.8) (layer F.SilkS)
+(module SMC_DO214AB (layer F.Cu) (tedit 59C38943)
+  (attr smd)
+  (fp_text reference Val** (at -2 -3.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value SMC (at 2 -3.8) (layer F.SilkS)

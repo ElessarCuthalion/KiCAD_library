@@ -1,6 +1,6 @@
-(module ANT_868_MEANDER_FALLOUT (layer F.Cu) (tedit 52715269)
+(module ANT_868_MEANDER_FALLOUT (layer F.Cu) (tedit 59C4F785)
   (descr "Meander 868 for 16x36x1.5mm")
-  (fp_text reference ANT1 (at 0.87 1.73 90) (layer F.SilkS) hide
+  (fp_text reference Val** (at 0.87 1.73 90) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value ANT_PCB_MONO (at 1.98 3.18 90) (layer F.SilkS) hide

@@ -1,10 +1,9 @@
-(module LED_Through-Hole-3mm-Angle (layer F.Cu) (tedit 59612525)
+(module LED_Through-Hole-3mm-Angle (layer F.Cu) (tedit 59C3901F)
   (descr "LED 3mm through hole right angle")
-  (attr virtual)
-  (fp_text reference TH-3mm (at 0 2.286) (layer F.SilkS) hide
+  (fp_text reference TH-3mm (at 0 2.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value Val* (at 0.254 1.524) (layer F.SilkS) hide
+  (fp_text value Val** (at 0.25 1.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 1.524 -5.842) (end 1.524 -2.794) (layer F.SilkS) (width 0.15))

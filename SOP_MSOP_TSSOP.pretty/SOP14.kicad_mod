@@ -1,4 +1,5 @@
 (module SOP14 (layer F.Cu) (tedit 58C5243D)
+  (attr smd)
   (fp_text reference SOP14 (at -0.508 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

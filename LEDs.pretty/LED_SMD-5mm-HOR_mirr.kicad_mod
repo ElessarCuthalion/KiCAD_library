@@ -1,6 +1,5 @@
 (module LED_SMD-5mm-HOR_mirr (layer F.Cu) (tedit 59612504)
   (descr "LED 5mm SMD horizontal mirrored")
-  (attr virtual)
   (fp_text reference TH-5mm (at 0 2.286) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

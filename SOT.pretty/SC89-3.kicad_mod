@@ -1,13 +1,13 @@
 #template SOT23
 
-(module SC89-3 (layer F.Cu) (tedit 57109F09)
+(module SC89-3 (layer F.Cu) (tedit 59C51302)
   (descr "SC89 3pin, Case 463C-03")
   (tags SOT)
   (attr smd)
-  (fp_text reference REF** (at 0 -1.6) (layer F.SilkS)
+  (fp_text reference SC89-3 (at 0 -1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 1.4) (layer F.SilkS)
+  (fp_text value Val** (at 0 1.4) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start -0.425 -0.8) (end 0.425 -0.8) (layer F.SilkS) (width 0.15))

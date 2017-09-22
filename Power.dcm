@@ -75,6 +75,11 @@ $CMP SENSvcc
 K SENSvcc
 $ENDCMP
 #
+$CMP USBLC6-2SC6
+D ESD protection, 2-line
+K USBLC6, ESD_protect
+$ENDCMP
+#
 $CMP USBvcc
 K USBvcc
 $ENDCMP

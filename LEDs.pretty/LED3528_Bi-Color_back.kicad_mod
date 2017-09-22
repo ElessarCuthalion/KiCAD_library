@@ -1,5 +1,4 @@
 (module LED3528_Bi-Color_back (layer F.Cu) (tedit 59612FFA)
-  (attr smd)
   (fp_text reference LED3528_back (at 0 -3.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

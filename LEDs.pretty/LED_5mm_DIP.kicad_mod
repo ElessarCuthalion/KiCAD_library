@@ -1,5 +1,4 @@
 (module LED_5mm_DIP (layer F.Cu) (tedit 596124F2)
-  (attr smd)
   (fp_text reference LED_5mm_DIP (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

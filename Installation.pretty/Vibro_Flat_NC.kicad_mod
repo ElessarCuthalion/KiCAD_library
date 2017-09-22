@@ -1,5 +1,5 @@
-(module Motor_no_Contacts (layer F.Cu) (tedit 57CEB42D)
-  (fp_text reference VAL** (at 0 0.5) (layer F.SilkS)
+(module Vibro_Flat_NC (layer F.Cu) (tedit 59C38D14)
+  (fp_text reference Val** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value Motor_no_Contacts (at -0.2 -1.8) (layer F.SilkS)

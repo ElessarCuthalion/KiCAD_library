@@ -10,4 +10,8 @@ D LED Display 4bit, Common Cathode
 K Display, Disp4x
 $ENDCMP
 #
+$CMP NOKIA1100
+D Nokia 1100 LCD: grafic, 96x65, with backlight
+$ENDCMP
+#
 #End Doc Library

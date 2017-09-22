@@ -1,6 +1,6 @@
-(module ANT_868_ARMLETG (layer F.Cu) (tedit 5711FB71)
+(module ANT_868_MEANDER_ARMLETG (layer F.Cu) (tedit 59C4F753)
   (descr "PCB 75.7x37.5, AntPcb 14.8mm")
-  (fp_text reference REF** (at 2.15 -2.1) (layer F.SilkS) hide
+  (fp_text reference Val** (at 2.15 -2.1) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value ANT_868_ARMLETG (at 2.9 -0.95) (layer F.SilkS) hide

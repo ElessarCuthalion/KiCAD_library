@@ -1,5 +1,5 @@
-(module ANT_868_45x18mm (layer F.Cu) (tedit 575FFDE8)
-  (fp_text reference ANT1 (at 13.5 -2.7) (layer F.SilkS) hide
+(module ANT_868_MEANDER_45x18mm (layer F.Cu) (tedit 59C4F73B)
+  (fp_text reference Val** (at 13.5 -2.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value ANT_PCB_MONO (at 13.5 -1) (layer F.SilkS) hide

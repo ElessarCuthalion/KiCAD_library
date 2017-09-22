@@ -1,6 +1,5 @@
 (module LED_DIP_Bi-Color_Hor (layer F.Cu) (tedit 5978ADD9)
   (descr "LED 5mm through hole horizontal")
-  (attr virtual)
   (fp_text reference LED_DIP_Bi-Color_Hor (at 0 -9.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

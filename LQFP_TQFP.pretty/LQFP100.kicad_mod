@@ -1,6 +1,7 @@
 (module LQFP100 (layer F.Cu) (tedit 59C39174)
   (descr "Quad Flat Package w/ Pins")
   (tags "QFP TQFP LQFP")
+  (attr smd)
   (fp_text reference LQFP100 (at 0 -1) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

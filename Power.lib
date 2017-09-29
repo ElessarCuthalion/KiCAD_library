@@ -92,6 +92,7 @@ F0 "FV" 300 400 60 H V C CNN
 F1 "Arrester" 300 300 60 H V C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -450 50 60 H V C CNN
+F4 "size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
  Arrester*
 $ENDFPLIST

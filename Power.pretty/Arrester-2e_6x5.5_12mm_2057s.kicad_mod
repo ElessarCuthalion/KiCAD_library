@@ -1,4 +1,4 @@
-(module Arrester_6x5.5_2057s_12mm (layer F.Cu) (tedit 59CE3A02)
+(module Arrester-2e_6x5.5_12mm_2057s (layer F.Cu) (tedit 59CF5247)
   (fp_text reference "Arrester Bourns 2057s" (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -10,5 +10,5 @@
   (fp_line (start -3 2.25) (end 3 2.25) (layer F.SilkS) (width 0.15))
   (fp_line (start 3 2.25) (end 3 -2.25) (layer F.SilkS) (width 0.15))
   (pad 2 thru_hole circle (at 6 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at -6 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -6 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
 )

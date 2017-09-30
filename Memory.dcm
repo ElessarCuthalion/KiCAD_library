@@ -11,6 +11,7 @@ K EEPROM, mem
 $ENDCMP
 #
 $CMP EEPROM_I2C_GOST
+D Standart serial EEPROM (I2C)
 K EEPROM, mem
 $ENDCMP
 #

@@ -1,4 +1,4 @@
-(module DO-41_10mm (layer F.Cu) (tedit 59C3897E)
+(module DO-41_10mm (layer F.Cu) (tedit 59CFA403)
   (fp_text reference DO-41 (at 1.6 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -18,7 +18,7 @@
   (fp_line (start 0.6 0.6) (end -0.6 0) (layer F.SilkS) (width 0.15))
   (fp_line (start 0.6 0.6) (end 0.6 -0.6) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.6 -1.35) (end 2.6 1.35) (layer F.SilkS) (width 0.15))
-  (pad C thru_hole circle (at -5 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad C thru_hole rect (at -5 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad A thru_hole circle (at 5 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (model 3d\dSMA_DO214AC.wrl
     (at (xyz 0 0 0))

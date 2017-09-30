@@ -30,6 +30,11 @@ D Schottky Ifmax 3A; If 10mA -> Vf 0,12V; Vr 10V
 K BAT60A
 $ENDCMP
 #
+$CMP BridgeRectifier
+D Bridge Rectifier
+K VD, Bridge, Rectifier
+$ENDCMP
+#
 $CMP DFLS130
 D Schottky Ifmax 1A; If 1A -> Vf 0,36V; Vr 30V)
 K DFLS130
@@ -54,9 +59,14 @@ D Schottky Ifmax 1A; If 10mA -> Vf 0,27V, If 0,9A -> Vf 0,45V; Vr 20V
 K NSR0320
 $ENDCMP
 #
+$CMP Suppressors
+D Transient Voltage Suppressors Bi-directional (ливинный диод двунаправленный)
+K VD, Suppressors
+$ENDCMP
+#
 $CMP ZenerDiode
-D Zener Diode (стабилитрон)
-K VD, ZenerDiode
+D Zener Diode or Transient Voltage Suppressors (стабилитрон или ливинный диод)
+K VD, ZenerDiode, Suppressors
 $ENDCMP
 #
 #End Doc Library

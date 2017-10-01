@@ -24,21 +24,6 @@ $CMP +BATTin
 K VBAT
 $ENDCMP
 #
-$CMP Arrester
-D Surge Arrester (разрядник газонаполненный)
-K FV, Arrester
-$ENDCMP
-#
-$CMP Arrester_3e
-D Surge Arrester 3-electrode
-K FV, Arrester
-$ENDCMP
-#
-$CMP BLM15AG102SN1
-D EMI Suppression Filters, Ir 200mA Rdc 1r
-K BLM15, filter
-$ENDCMP
-#
 $CMP Battety
 D Battety
 K Battety, BATT
@@ -80,11 +65,6 @@ $CMP SENSvcc
 K SENSvcc
 $ENDCMP
 #
-$CMP USBLC6-2SC6
-D ESD protection, 2-line
-K USBLC6, ESD_protect
-$ENDCMP
-#
 $CMP USBvcc
 K USBvcc
 $ENDCMP
@@ -99,11 +79,6 @@ $ENDCMP
 #
 $CMP VREF
 K VREF
-$ENDCMP
-#
-$CMP Varistor&ThermoFuse
-D Thermo Fuse & Varistor (EPCOS ETFV25 series)
-K RU, Varistor
 $ENDCMP
 #
 #End Doc Library

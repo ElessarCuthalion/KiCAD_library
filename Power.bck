@@ -30,7 +30,7 @@ K FV, Arrester
 $ENDCMP
 #
 $CMP Arrester_3e
-D Surge Arrester 3-electrode (разрядник газонаполненный)
+D Surge Arrester 3-electrode
 K FV, Arrester
 $ENDCMP
 #

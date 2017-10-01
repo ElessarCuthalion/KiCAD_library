@@ -94,7 +94,7 @@ F2 "" 0 -225 60 H I C CNN
 F3 "" -450 50 60 H V C CNN
 F4 "size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
- Arrester*
+ Arrester-2e*
 $ENDFPLIST
 DRAW
 C 0 0 236 0 0 0 N
@@ -124,7 +124,7 @@ F2 "" 0 -225 60 H I C CNN
 F3 "" -450 50 60 H V C CNN
 F4 "size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
- Arrester*
+ Arrester-3e*
 $ENDFPLIST
 DRAW
 C 0 0 236 0 0 0 N
@@ -359,7 +359,6 @@ P 2 0 1 0  0 -90  0 -200 N
 P 2 0 1 0  0 200  0 90 N
 P 2 0 1 0  30 -30  15 -30 N
 P 2 0 1 0  30 -30  30 30 N
-P 2 0 1 0  30 30  45 30 N
 P 2 0 1 0  110 -120  110 -60 N
 P 2 0 1 0  110 60  110 120 N
 P 2 0 1 0  140 -90  -140 -90 N

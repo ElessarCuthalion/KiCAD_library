@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 1N4007
-D Diode If 1A -> Vf 1,1V; Vr 1000V
+D Rectifier Diode If 1A -> Vf 1,1V; Vr 1000V
 K 1N4007
 $ENDCMP
 #
@@ -41,6 +41,7 @@ K DFLS130
 $ENDCMP
 #
 $CMP Diode
+D Rectifier Diode
 K VD, Diode
 $ENDCMP
 #

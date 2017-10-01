@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Arrester
+D Surge Arrester (разрядник газонаполненный)
+K FV, Arrester
+$ENDCMP
+#
+$CMP Arrester_3e
+D Surge Arrester 3-electrode
+K FV, Arrester
+$ENDCMP
+#
+$CMP BLM15AG102SN1
+D EMI Suppression Filters, Ir 200mA Rdc 1r
+K BLM15, filter
+$ENDCMP
+#
+$CMP Suppressor_Bi
+D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
+K Suppressor
+$ENDCMP
+#
+$CMP Suppressor_Uni
+D Transient Voltage Suppression Diodes, Uni-directional (ливинный диод, однонаправленный)
+K Suppressor
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D ESD protection, 2-line
+K USBLC6, ESD_protect
+$ENDCMP
+#
+$CMP Varistor
+D Varistor
+K RU, Varistor
+$ENDCMP
+#
+$CMP Varistor&ThermoFuse
+D Thermo Fuse & Varistor (EPCOS ETFV25 series)
+K RU, Varistor
+$ENDCMP
+#
+#End Doc Library

@@ -166,18 +166,21 @@ ENDDEF
 # Varistor
 #
 DEF Varistor RU 0 40 N N 1 F N
-F0 "RU" 0 250 60 H V C CNN
-F1 "Varistor" 0 150 60 H V C CNN
-F2 "" 0 -150 60 H I C CNN
+F0 "RU" 0 350 60 H V C CNN
+F1 "Varistor" 0 250 60 H V C CNN
+F2 "" 0 -175 60 H I C CNN
 F3 "" -400 0 60 H V C CNN
-F4 "Size_mm" 0 -150 60 H V C CNN "Size"
+F4 "Size_mm" 250 -150 60 H V C CNN "Size"
 $FPLIST
  Var*
 $ENDFPLIST
 DRAW
-S -194 78 194 -78 0 1 0 N
-P 2 0 1 0  -194 0  -210 0 N
-P 2 0 1 0  194 0  206 0 N
+T 0 0 -175 98 0 0 0 U  Italic 0 C C
+P 2 0 0 0  -212 -159  -369 -159 N
+P 2 0 0 0  200 150  -212 -159 N
+S -196 78 196 -78 0 1 0 N
+P 2 0 1 0  -196 0  -210 0 N
+P 2 0 1 0  196 0  206 0 N
 X ~ 1 -400 0 200 R 50 50 1 1 P
 X ~ 2 400 0 200 L 50 50 1 1 P
 T 900 -250 150 60 0 0 2 1206  Normal 0 C C

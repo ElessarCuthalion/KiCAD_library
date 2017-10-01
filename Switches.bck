@@ -11,7 +11,7 @@ K SF
 $ENDCMP
 #
 $CMP ReedSwitch_3pin
-D Reed Switch NO&NC (геркон переключающий)
+D Reed Switch CO (геркон переключающий)
 K SF, ReedSwitch
 $ENDCMP
 #

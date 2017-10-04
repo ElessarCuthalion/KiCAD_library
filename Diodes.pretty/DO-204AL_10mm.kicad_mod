@@ -1,5 +1,5 @@
-(module DO-204AL_10mm (layer F.Cu) (tedit 59D242FE)
-  (fp_text reference "DO-204AL, DO-41" (at 1.6 0 90) (layer F.SilkS)
+(module DO-204AL_10mm (layer F.Cu) (tedit 59D344DC)
+  (fp_text reference "DO-204AL, DO-41" (at 1.8 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value Val** (at 0 2.5) (layer F.SilkS)

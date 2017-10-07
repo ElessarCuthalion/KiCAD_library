@@ -24,4 +24,9 @@ D Constant Current Regulator 30mA 460mW; Vac 45V; Vdo 1,8V
 K NSI45030
 $ENDCMP
 #
+$CMP TLC5940PWP
+D LED display driver, 8bits; SPI; Io 40mA, 5V; Isd 150uA
+K MAX7219
+$ENDCMP
+#
 #End Doc Library

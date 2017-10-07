@@ -172,7 +172,7 @@ F2 "" 0 -175 60 H I C CNN
 F3 "" -450 -150 60 H V C CNN
 F4 "Size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
- Var*
+ Varistor*
 $ENDFPLIST
 DRAW
 S -196 78 196 -78 0 1 0 N

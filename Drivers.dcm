@@ -24,4 +24,9 @@ D Constant Current Regulator 30mA 460mW; Vac 45V; Vdo 1,8V
 K NSI45030
 $ENDCMP
 #
+$CMP TLC5940PWP
+D 16ch LED driver; Grayscale PWM contro, 12bit; SPI; Io 0~120mA, Vcc 3~5V
+K TLC5940
+$ENDCMP
+#
 #End Doc Library

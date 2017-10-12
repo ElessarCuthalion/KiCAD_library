@@ -1,9 +1,10 @@
-(module Eldalim_17x15_back (layer F.Cu) (tedit 57BD6AF5)
-  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+(module LOGO (layer B.Cu)
+  (at 0 0)
+ (fp_text reference "G***" (at 0 0) (layer B.SilkS) hide
+  (effects (font (thickness 0.3)))
   )
-  (fp_text value LOGO (at -0.75 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+  (fp_text value "LOGO" (at 0.75 0) (layer B.SilkS) hide
+  (effects (font (thickness 0.3)))
   )
   (fp_poly (pts (xy 5.241876 6.805161) (xy 5.1935 6.991288) (xy 5.086382 7.147504) (xy 4.919483 7.274763)
     (xy 4.691764 7.37402) (xy 4.588933 7.40463) (xy 4.466617 7.425524) (xy 4.29381 7.439415)

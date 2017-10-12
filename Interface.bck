@@ -4,6 +4,11 @@ $CMP FT232R
 D USB to RS232 converter
 $ENDCMP
 #
+$CMP M74VHC1GT125
+D Single Hi-Lo/Lo-Hi tri-state buffer
+K M74VHC1GT125
+$ENDCMP
+#
 $CMP SN74LVC1T45
 D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 3uA
 K SN74LVC1T45

@@ -57,7 +57,7 @@ F0 "XS" -100 150 60 H V C CNN
 F1 "Conn-1f" 0 50 60 H V R CNN
 F2 "PBS-1Rnd" -100 -50 60 H I C CNN
 F3 "" -25 150 60 H V C CNN
-F4 "h_2.54mm" 0 -50 60 H I R CNN "Step"
+F4 "h 2.54mm" 0 -50 60 H I R CNN "Step"
 $FPLIST
  PBS-1*
  PBS2-1*
@@ -94,7 +94,7 @@ F0 "XS" -150 350 60 H V C CNN
 F1 "Conn-2f" 200 0 60 V V C CNN
 F2 "PBS-2" -150 -250 60 H I C CNN
 F3 "" 0 -200 60 H V C CNN
-F4 "h_2.54mm" -50 -250 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  PBS-2*
  PBS2-2*
@@ -118,7 +118,7 @@ F0 "XP" -150 350 60 H V C CNN
 F1 "Conn-2m" 200 0 60 V V C CNN
 F2 "PLS-2" -150 -250 60 H I C CNN
 F3 "" 100 200 60 H V C CNN
-F4 "h_2.54mm" -50 -250 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  MPW-2*
  PWL2*
@@ -146,7 +146,7 @@ F0 "XS" -150 350 60 H V C CNN
 F1 "Conn-3f" 200 0 60 V V C CNN
 F2 "PBS-3" -150 -250 60 H I C CNN
 F3 "" 0 -200 60 H V C CNN
-F4 "h_2.54mm" -50 -250 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  PBS-3*
  PBS2-3*
@@ -173,7 +173,7 @@ F0 "XP" -150 350 60 H V C CNN
 F1 "Conn-3m" 200 0 60 V V C CNN
 F2 "PLS-3" -150 -250 60 H I C CNN
 F3 "" 100 0 60 H V C CNN
-F4 "h_2.54mm" -50 -250 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  PLS-3*
  PLS2-3*
@@ -206,7 +206,7 @@ F0 "XS" -150 450 60 H V C CNN
 F1 "Conn-4f" 200 0 60 V V C CNN
 F2 "PBS-4" -150 -350 60 H I C CNN
 F3 "" 0 -300 60 H V C CNN
-F4 "h_2.54mm" -50 -350 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -350 60 H I R TNN "Step"
 $FPLIST
  PBS-4*
  PBS2-4*
@@ -238,7 +238,7 @@ F0 "XP" -150 450 60 H V C CNN
 F1 "Conn-4m" 200 0 60 V V C CNN
 F2 "PLS-4" -150 -350 60 H I C CNN
 F3 "" 100 100 60 H V C CNN
-F4 "h_2.54mm" -50 -350 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -350 60 H I R TNN "Step"
 $FPLIST
  PLS-4*
  PLS2-4*
@@ -276,7 +276,7 @@ F0 "XP" -150 550 60 H V C CNN
 F1 "Conn-5m" 200 0 60 V V C CNN
 F2 "PLS-5" -150 -450 60 H I C CNN
 F3 "" 100 200 60 H V C CNN
-F4 "h_2.54mm" -50 -450 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -450 60 H I R TNN "Step"
 $FPLIST
  PLS-5*
  PLS2-5*
@@ -320,7 +320,7 @@ F0 "XP" -150 650 60 H V C CNN
 F1 "Conn-6m" 200 0 60 V V C CNN
 F2 "PLS-6" -150 -550 60 H I C CNN
 F3 "" 100 300 60 H V C CNN
-F4 "h_2.54mm" -50 -550 60 H I R TNN "Step"
+F4 "h 2.54mm" -50 -550 60 H I R TNN "Step"
 $FPLIST
  PLS-6*
  PLS2-6*

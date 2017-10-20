@@ -8,6 +8,16 @@ $CMP C_0603
 K CAP, C0603
 $ENDCMP
 #
+$CMP C_0612x4
+D Capacitor Array 4x
+K CAPx4, C0612
+$ENDCMP
+#
+$CMP C_0612x4_ABCD
+D Capacitor Array 4x
+K CAPx4, C0612
+$ENDCMP
+#
 $CMP C_0805
 K CAP, C0805
 $ENDCMP

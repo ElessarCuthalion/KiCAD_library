@@ -1,4 +1,4 @@
-(module Motor_NC+Hole_MDSW020B41 (layer F.Cu) (tedit 59C38CEA)
+(module Motor_NC+Hole_MDSW020B41 (layer F.Cu) (tedit 59EB96CC)
   (fp_text reference Val** (at 0 -1.016) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -23,5 +23,6 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 3.5 0) (layer F.SilkS) (width 0.15))
-  (pad H thru_hole circle (at -7.2 0) (size 2.8 2.8) (drill 1.8) (layers *.Cu *.Mask))
+  (pad H thru_hole circle (at -7.2 0) (size 2.8 2.8) (drill 1.8) (layers *.Cu *.Mask)
+    (zone_connect 2))
 )

@@ -1,4 +1,4 @@
-(module for_SENS_PLS2-3 (layer F.Cu) (tedit 59611E67)
+(module for_SENS_PLS2-3 (layer F.Cu) (tedit 59EB89CE)
   (descr "Single-line connector 2-pin")
   (fp_text reference SENS (at 0 1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -62,5 +62,6 @@
   )
   (pad 3 thru_hole circle (at 4 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (zone_connect 1))
 )

@@ -1,4 +1,4 @@
-(module for_PolarOut_PLL1.27-2 (layer F.Cu) (tedit 59611DD7)
+(module for_PolarOut_PLL1.27-2 (layer F.Cu) (tedit 59EB895A)
   (fp_text reference PolarOut (at 0 -1.905) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -42,5 +42,6 @@
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (pad 1 thru_hole rect (at 0 0) (size 1 1.5) (drill 0.6) (layers *.Cu *.Mask))
-  (pad 2 thru_hole oval (at 1.27 0) (size 1 1.5) (drill 0.6) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 1.27 0) (size 1 1.5) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 1))
 )

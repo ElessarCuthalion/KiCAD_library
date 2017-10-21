@@ -1,4 +1,4 @@
-(module WF-4R (layer F.Cu) (tedit 59611DAA)
+(module WF-4R (layer F.Cu) (tedit 59EB8B2D)
   (fp_text reference WF-4R (at 0.508 -1.778) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -77,7 +77,7 @@
   (fp_line (start 8.89 13.5) (end -1.27 13.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 8.89 5.3) (end -1.27 5.3) (layer F.SilkS) (width 0.15))
   (fp_line (start 8.89 5.3) (end -1.27 5.3) (layer B.SilkS) (width 0.15))
-  (fp_text user 1 (at -2.032 0) (layer F.SilkS)
+  (fp_text user 1 (at -2.032 0) (layer F.SilkS) hide
     (effects (font (size 1.5 1) (thickness 0.15)))
   )
   (fp_line (start -1.27 -1.05) (end 8.89 -1.05) (layer B.SilkS) (width 0.15))

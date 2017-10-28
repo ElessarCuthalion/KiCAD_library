@@ -65,6 +65,11 @@ D Double row connectors, 2x7, male
 K IDC
 $ENDCMP
 #
+$CMP IDC-6
+D Double row connectors, 2x3, male
+K IDC
+$ENDCMP
+#
 $CMP RJ14_6P6C
 D RJ-14 for 6P6C connector
 K RJ14, 6P6C

@@ -2,7 +2,7 @@
   (fp_text reference Buzzer_HC09xxA (at 0 -1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 2) (layer F.SilkS)
+  (fp_text value VAL** (at 0 2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 6.25094 0) (end 6.25094 -2.49936) (layer F.SilkS) (width 0.15))

@@ -1,9 +1,9 @@
 (module Battety_AAA_X1 (layer F.Cu) (tedit 59C38C22)
-  (descr "AAx1 battery holder, hole-mounted")
+  (descr "AAAx1 battery holder, hole-mounted")
   (fp_text reference BATTERY_AAA_X1 (at 0 -4.75) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 4) (layer F.SilkS)
+  (fp_text value VAL** (at 0 4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_text user - (at -23.3 -3.9) (layer F.SilkS)

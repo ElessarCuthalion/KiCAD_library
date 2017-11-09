@@ -1,6 +1,6 @@
 (module ANT_868_ROUND_F2 (layer F.Cu) (tedit 59C4F7AF)
   (descr "Inverted F antenna for circular PCB R=29.5")
-  (fp_text reference Val** (at 8 14.5) (layer F.SilkS) hide
+  (fp_text reference VAL** (at 8 14.5) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value ANT_868_ROUND_F2 (at 8 15.5) (layer F.SilkS) hide

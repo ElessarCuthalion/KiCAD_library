@@ -1,5 +1,5 @@
 (module ANT_868_MEANDER_4HOR_45mm (layer F.Cu) (tedit 59C4F747)
-  (fp_text reference Val** (at 0 -2.5) (layer F.SilkS) hide
+  (fp_text reference VAL** (at 0 -2.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value ANT_868_MEANDER_4HOR_45mm (at 0 -1) (layer F.SilkS) hide

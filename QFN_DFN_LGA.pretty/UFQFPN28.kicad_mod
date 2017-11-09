@@ -1,6 +1,6 @@
 (module UFQFPN28 (layer F.Cu) (tedit 59DB4B05)
   (attr smd)
-  (fp_text reference Val** (at 0 0) (layer F.SilkS)
+  (fp_text reference VAL** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value UFQFPN28 (at 0 3.2) (layer F.SilkS)

@@ -1,7 +1,7 @@
 (module DIP_SMD_X4 (layer F.Cu) (tedit 59C386B6)
   (descr "DIP switch 2.54x4 SMD ")
   (attr smd)
-  (fp_text reference Val** (at 0 1) (layer F.SilkS)
+  (fp_text reference VAL** (at 0 1) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value DIP_SMD_X4 (at -0.1 -0.6) (layer F.SilkS)

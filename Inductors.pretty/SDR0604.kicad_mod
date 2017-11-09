@@ -3,7 +3,7 @@
   (fp_text reference SR0604 (at 0 -2.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 1.5 90) (layer F.SilkS)
+  (fp_text value VAL** (at 0 1.5 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 3.2 -3.1) (end 3.2 3.1) (layer F.SilkS) (width 0.15))

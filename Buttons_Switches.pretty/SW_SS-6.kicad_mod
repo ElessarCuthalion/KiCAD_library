@@ -1,6 +1,6 @@
 (module SW_SS-6 (layer F.Cu) (tedit 59610B71)
   (descr "2-position switch;11.4x5.8")
-  (fp_text reference Val** (at 0.1 2.3) (layer F.SilkS)
+  (fp_text reference VAL** (at 0.1 2.3) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value SW_SS-6 (at -0.127 -2.413) (layer F.SilkS)

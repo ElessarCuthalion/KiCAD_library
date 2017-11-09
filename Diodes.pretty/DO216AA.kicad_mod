@@ -3,7 +3,7 @@
   (fp_text reference DO216AA (at 0 -2.032) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 2.032) (layer F.SilkS)
+  (fp_text value VAL** (at 0 2.032) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start -2.65 -1.5) (end -2.65 1.5) (layer F.SilkS) (width 0.15))
@@ -19,9 +19,4 @@
   (fp_line (start 2.3 -1.5) (end 2.3 1.5) (layer F.SilkS) (width 0.15))
   (pad C smd rect (at -0.7 0) (size 2.67 2.54) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 1.65 0) (size 0.763 1.27) (layers F.Cu F.Paste F.Mask))
-  (model smd/chip_cms.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.17 0.16 0.16))
-    (rotate (xyz 0 0 0))
-  )
 )

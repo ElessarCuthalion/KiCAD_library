@@ -1,6 +1,6 @@
 (module SD-micro_FIX05A (layer F.Cu) (tedit 59EB892C)
   (attr smd)
-  (fp_text reference Val** (at -0.08 -2.6) (layer F.SilkS)
+  (fp_text reference VAL** (at -0.08 -2.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value micro-SD (at 0 -4) (layer F.SilkS)

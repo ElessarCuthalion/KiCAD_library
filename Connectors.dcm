@@ -62,12 +62,17 @@ $ENDCMP
 #
 $CMP IDC-14
 D Double row connectors, 2x7, male
-K IDC
+K IDC, PLD
 $ENDCMP
 #
 $CMP IDC-6
 D Double row connectors, 2x3, male
-K IDC
+K IDC, PLD
+$ENDCMP
+#
+$CMP PBD-6
+D Double row connectors, 2x3, female
+K PBD
 $ENDCMP
 #
 $CMP RJ14_6P6C

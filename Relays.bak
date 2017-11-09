@@ -100,11 +100,8 @@ F1 "Relay_2C" 0 350 60 H V C CNN
 F2 "" -400 75 60 H V C CNN
 F3 "" -400 75 60 H V C CNN
 $FPLIST
- Finder_41.61s
- Finder_41.31s
- TE_RT314xxx
- Omron_G2RL-1Es
- Omron_G2RL-1s
+ TE_RT42xxxx
+ Finder_41.52s
 $ENDFPLIST
 DRAW
 S 118 236 -118 -236 1 1 0 N

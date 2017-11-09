@@ -74,6 +74,7 @@ $FPLIST
  TE_RT314xxx
  Omron_G2RL-1Es
  Omron_G2RL-1s
+ Omron_G6RN-1s
 $ENDFPLIST
 DRAW
 S 118 236 -118 -236 1 1 0 N

@@ -1,4 +1,4 @@
-(module USB-micro_B (layer F.Cu) (tedit 59EB883C)
+(module USB-micro_B (layer F.Cu) (tedit 5A075F41)
   (attr smd)
   (fp_text reference "USB-micro B" (at 1.524 -0.254 90) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))

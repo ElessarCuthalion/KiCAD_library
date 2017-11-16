@@ -183,4 +183,9 @@ D WS2812B connector
 K for
 $ENDCMP
 #
+$CMP for_WS2813
+D WS2813 connector
+K for
+$ENDCMP
+#
 #End Doc Library

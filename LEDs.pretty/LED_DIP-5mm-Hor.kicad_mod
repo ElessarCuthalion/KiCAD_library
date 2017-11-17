@@ -1,6 +1,6 @@
-(module LED_Through-Hole-5mm-HOR (layer F.Cu) (tedit 5A04CF5D)
+(module LED_DIP-5mm-Hor (layer F.Cu) (tedit 5A0F5D68)
   (descr "LED 5mm through hole horizontal")
-  (fp_text reference TH-5mm (at 0 1.6) (layer F.SilkS)
+  (fp_text reference LED-5mm (at 0 1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 2.6) (layer F.SilkS)

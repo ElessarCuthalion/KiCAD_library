@@ -11,8 +11,13 @@ K FV, Arrester
 $ENDCMP
 #
 $CMP BLM15AG102SN1
-D EMI Suppression Filters, Ir 200mA Rdc 1r
+D EMI Suppression Filters 0402, Ir 200mA Rdc 1r
 K BLM15, filter
+$ENDCMP
+#
+$CMP BLM18AG102SN1
+D EMI Suppression Filters 0603, Ir 100mA Rdc 0.7r
+K BLM18, filter
 $ENDCMP
 #
 $CMP Suppressor_Bi

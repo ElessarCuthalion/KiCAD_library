@@ -31,7 +31,7 @@ K MAGN, LIS3MDL
 $ENDCMP
 #
 $CMP LSM6DS3
-D Accelerometer+Giroscope 3axis
+D Accelerometer+Giroscope 3axis; Vdd 1,71~3,6V IddLP 0,42mA, Isd 6uA
 K ACC, GIRO
 $ENDCMP
 #

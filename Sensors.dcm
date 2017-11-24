@@ -30,6 +30,11 @@ D Magnetometer 3axis +/-4/8/12/16gauss; Vdd 1,9~3,6V Idd 240uA, Isd 1uA; Addr 0x
 K MAGN, LIS3MDL
 $ENDCMP
 #
+$CMP LSM6DS3
+D Accelerometer+Giroscope 3axis; Vdd 1,71~3,6V IddLP 0,42mA, Isd 6uA
+K ACC, GIRO
+$ENDCMP
+#
 $CMP MMA8452
 D Accelerometer 3axis 2/4/8g; Vdd 1,95~3,6V IddLP 6uA, Ids 1,8uA
 K ACC, MMA8452

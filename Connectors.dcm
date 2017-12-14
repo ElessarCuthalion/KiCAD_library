@@ -140,7 +140,7 @@ $ENDCMP
 #
 $CMP for_SENS
 D for simple sensors
-K for
+K for, user
 $ENDCMP
 #
 $CMP for_SPI

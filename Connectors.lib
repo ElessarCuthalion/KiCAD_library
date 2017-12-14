@@ -79,6 +79,7 @@ F4 "h 2.54mm" 0 -50 60 H I R CNN "Step"
 $FPLIST
  PLS-1*
  PLS2-1*
+ FlatConn-1*
 $ENDFPLIST
 DRAW
 P 2 0 0 0  100 0  0 0 N
@@ -124,6 +125,7 @@ $FPLIST
  PWL2*
  PLS-2*
  PLS2-2*
+ FlatConn-2*
 $ENDFPLIST
 DRAW
 P 2 0 0 0  -150 200  -150 -200 N
@@ -178,6 +180,7 @@ $FPLIST
  PLS-3*
  PLS2-3*
  PLL1.27-3*
+ FlatConn-3*
 $ENDFPLIST
 DRAW
 P 2 0 0 0  -150 0  -150 -200 N
@@ -242,6 +245,7 @@ F4 "h 2.54mm" -50 -350 60 H I R TNN "Step"
 $FPLIST
  PLS-4*
  PLS2-4*
+ FlatConn-4*
 $ENDFPLIST
 DRAW
 P 2 0 0 0  -150 -100  -150 -300 N
@@ -947,7 +951,7 @@ F0 "XS" 0 900 60 H V C CNN
 F1 "for_SWD&UART" 0 800 60 H V C CNN
 F2 "for_SWD&UART_PBS-6" 50 -650 60 H I C CNN
 F3 "" 0 -250 60 H V C CNN
-F4 "h 2.54mm" 0 -650 60 H I C CNN "Type"
+F4 "h_2.54mm" 0 -650 60 H I C TNN "Type"
 $FPLIST
  for_SWD&UART*
 $ENDFPLIST

@@ -7,7 +7,7 @@ $ENDCMP
 #
 $CMP TPA6211
 D Amplifier 3,1W Rl 3-8r VDD 2,5-5V Isd 0,01uA
-K TPA6211
+K TPA6211, Amplifier
 $ENDCMP
 #
 $CMP VS1011

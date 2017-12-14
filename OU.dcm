@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD8531
-D Single-Supply Amplifier, 1 channel; Vcc 2,7~6V, Iout +/-250mA, Is 1,25mA
-K AD8531
+D Single-Supply Amplifier, 1 channel; Vcc 2.7~6V, Is 1.25mA, Iout +/-250mA
+K AD8531, OU
+$ENDCMP
+#
+$CMP LPV521
+D Operational Amplifier, 1 channel; Vcc 1.6~5.5V, Is 0.6uA, Iout 3mA
+K LPV521, OU
+$ENDCMP
+#
+$CMP TLV3691
+D Comparator, 1 channel; Vcc 0.9~6.5V, Is 0.15uA
+K TLV3691, COMP
 $ENDCMP
 #
 #End Doc Library

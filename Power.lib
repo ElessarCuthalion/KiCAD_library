@@ -92,6 +92,7 @@ F0 "GB" 200 50 60 H V L CNN
 F1 "Battety" 200 -50 60 H V L CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
+F4 "1.5V" 200 -150 60 H I L CNN "Voltage"
 $FPLIST
  Battety*
 $ENDFPLIST
@@ -149,10 +150,11 @@ ENDDEF
 # Battety_x2
 #
 DEF Battety_x2 GB 0 40 N N 1 F N
-F0 "GB" 225 275 60 H V L CNN
-F1 "Battety_x2" 225 175 60 H V L CNN
+F0 "GB" 200 300 60 H V L CNN
+F1 "Battety_x2" 200 200 60 H V L CNN
 F2 "" 0 450 60 H V C CNN
 F3 "" 0 450 60 H V C CNN
+F4 "3V" 200 100 60 H I L CNN "Voltage"
 $FPLIST
  Battety*
 $ENDFPLIST

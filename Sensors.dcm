@@ -10,9 +10,19 @@ D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
 K AT42QT1011
 $ENDCMP
 #
+$CMP Fresnel_Lens_NC
+D Fresnel_Lens
+K PIR, Fresnel, Lens
+$ENDCMP
+#
 $CMP HC-SR501
 D Датчик движения, ИК
 K HC-SR501
+$ENDCMP
+#
+$CMP IRS-B210ST01-R1
+D Dual Type Pyroelectric Infrared Sensor, Vcc 2~15V
+K B210ST01, PIR
 $ENDCMP
 #
 $CMP L3G4200

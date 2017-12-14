@@ -5,6 +5,11 @@ D Rectifier Diode If 1A -> Vf 1,1V; Vr 1000V
 K 1N4007
 $ENDCMP
 #
+$CMP 1N4148WS
+D Schottky Ifmax 300mA; If 100mA -> Vf 1V; Vr 75V
+K 1N4148WS
+$ENDCMP
+#
 $CMP BAT54A
 D 2х Schottky, ОА (Ifmax 200mA; If 100mA -> Vf 0,8V; Vr 30V)
 K BAT54A

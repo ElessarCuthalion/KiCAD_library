@@ -20,4 +20,9 @@ D Eldalim logo
 K Eldalim
 $ENDCMP
 #
+$CMP ElfartiS
+D ElfartiS logo
+K ElfartiS
+$ENDCMP
+#
 #End Doc Library

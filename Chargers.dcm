@@ -15,11 +15,6 @@ D Li-ion/Li-pol Charger, 4,2V 2A, Vin 4,5-6V
 K MP2611
 $ENDCMP
 #
-$CMP MP2617_gost
-D Li-ion/Li-pol Charger, 4,2V 3A, Vin 4-14V
-K MP2617
-$ENDCMP
-#
 $CMP TP4056
 D Li-ion/Li-pol Charger
 K TP4056

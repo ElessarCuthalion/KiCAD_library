@@ -8,6 +8,7 @@ F0 "XL" -150 450 60 H V C CNN
 F1 "Cleamm-2" -150 350 60 H V C CNN
 F2 "" -200 -300 60 H I C CNN
 F3 "" 0 -200 60 H V C CNN
+F4 "~" -450 450 60 H I C CNN "SolderPoints"
 F4 "2" -450 350 60 H I C CNN "SolderPoints_DIP"
 F5 "type" -150 -300 60 H V C CNN "Type"
 $FPLIST

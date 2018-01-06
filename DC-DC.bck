@@ -45,4 +45,9 @@ D Step-Down Vin 4-18V; Vout > 0,8V, ADJ; 4A
 K ST1S41
 $ENDCMP
 #
+$CMP TPS61221
+D Step-Up Vin 0,7-5.5V; Adg, 0,4A; Iq 5.5uA, Isd 0.5uA 
+K TPS61221
+$ENDCMP
+#
 #End Doc Library

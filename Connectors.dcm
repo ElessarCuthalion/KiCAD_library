@@ -60,14 +60,19 @@ D Single row connectors x6, male
 K Conn6x, XP6x
 $ENDCMP
 #
+$CMP IDC-10
+D Double row connectors, 2x5, male
+K IDC, PLD, FDC
+$ENDCMP
+#
 $CMP IDC-14
 D Double row connectors, 2x7, male
-K IDC, PLD
+K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP IDC-6
 D Double row connectors, 2x3, male
-K IDC, PLD
+K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP PBD-6

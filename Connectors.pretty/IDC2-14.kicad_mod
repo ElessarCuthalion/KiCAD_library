@@ -1,5 +1,5 @@
-(module IDC2-14 (layer F.Cu) (tedit 5A02E228)
-  (fp_text reference "IDC2-14MS (DS1014-14S)" (at -6.25 -3.5) (layer F.SilkS)
+(module IDC2-14 (layer F.Cu) (tedit 5A5A86DB)
+  (fp_text reference "IDC2-14MS (DS1014-14S / BH2-14)" (at -6.25 -3.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
   (fp_text value VAL** (at 6 -3.5) (layer F.SilkS)

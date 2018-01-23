@@ -10,6 +10,11 @@ D Terminal Block x3 (клеммник винтовой)
 K XL, Cleamm3x
 $ENDCMP
 #
+$CMP Cleamm-6
+D Terminal Block x6 (клеммник винтовой)
+K XL, Cleamm6x
+$ENDCMP
+#
 $CMP Conn-1f
 D Single connector x1, female
 K Conn1x, XS1x

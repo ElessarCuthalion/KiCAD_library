@@ -10,6 +10,11 @@ D Terminal Block x3 (клеммник винтовой)
 K XL, Cleamm3x
 $ENDCMP
 #
+$CMP Cleamm-6
+D Terminal Block x3 (клеммник винтовой)
+K XL, Cleamm3x
+$ENDCMP
+#
 $CMP Conn-1f
 D Single connector x1, female
 K Conn1x, XS1x
@@ -61,18 +66,18 @@ K Conn6x, XP6x
 $ENDCMP
 #
 $CMP IDC-10
-D Double row connectors, 2x7, male
-K IDC, PLD
+D Double row connectors, 2x5, male
+K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP IDC-14
 D Double row connectors, 2x7, male
-K IDC, PLD
+K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP IDC-6
 D Double row connectors, 2x3, male
-K IDC, PLD
+K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP PBD-6

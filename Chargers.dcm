@@ -16,8 +16,8 @@ K MP2611
 $ENDCMP
 #
 $CMP MP2637
-D Li-ion/Li-pol Charger, 4,2V 2A, Vin 4,5-6V
-K MP2611
+D Li-ion/Li-pol Charger, 4,2V 2.5A, Vin 4,5-6V, Boost Mode
+K MP2637
 $ENDCMP
 #
 $CMP TP4056

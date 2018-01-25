@@ -30,4 +30,9 @@ D Vibration motor, flat
 K Motor, Vibro
 $ENDCMP
 #
+$CMP Vibro_flat_NC
+D Vibration motor, flat, no Contacts
+K Motor, Vibro
+$ENDCMP
+#
 #End Doc Library

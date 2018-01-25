@@ -8,6 +8,8 @@ F0 "DA" 0 550 60 H V C CNN
 F1 "A3901" 0 450 60 H V C CNN
 F2 "DFN10" 200 -450 60 H I C CNN
 F3 "" 300 -500 60 H V C CNN
+F4 "11" -250 550 60 H I C CNN "SolderPoints"
+F5 "0" -250 450 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  DFN10
 $ENDFPLIST
@@ -34,6 +36,8 @@ F0 "DA" 0 900 60 H V C CNN
 F1 "A3906" 0 800 60 H V C CNN
 F2 "HQFN20" 350 -900 60 H I C CNN
 F3 "" 300 -150 60 H V C CNN
+F4 "21" -300 900 60 H I C CNN "SolderPoints"
+F5 "0" -300 800 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  HQFN20
 $ENDFPLIST
@@ -70,7 +74,9 @@ F0 "M" 0 350 60 H V C CNN
 F1 "Motor_NC" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 350 60 H V C CNN
-F4 "Size" 0 -275 60 H V C CNN "Size"
+F4 "0" -250 350 60 H I C CNN "SolderPoints"
+F5 "0" -250 250 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 0 -275 60 H V C CNN "Size"
 $FPLIST
  Motor_NC*
 $ENDFPLIST
@@ -87,7 +93,9 @@ F0 "M" 0 350 60 H V C CNN
 F1 "Motor_NC+Hole" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 350 60 H V C CNN
-F4 "Size" 200 -200 60 H V L CNN "Size"
+F4 "0" -400 350 60 H I C CNN "SolderPoints"
+F5 "1" -400 250 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Motor_NC*
 $ENDFPLIST
@@ -105,7 +113,9 @@ F0 "M" 0 550 60 H V C CNN
 F1 "Vibro+PAD" 0 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 550 60 H V C CNN
-F4 "Size" 200 -200 60 H V L CNN "Size"
+F4 "3" -300 550 60 H I C CNN "SolderPoints"
+F5 "0" -300 450 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Vibro*
 $ENDFPLIST
@@ -142,7 +152,9 @@ F0 "M" 0 550 60 H V C CNN
 F1 "Vibro_flat" 0 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "Size" 200 -200 60 H V L CNN "Size"
+F4 "0" -300 550 60 H I C CNN "SolderPoints"
+F5 "2" -300 450 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
  Vibro_Flat*
  for_PolarOut*
@@ -177,7 +189,9 @@ DEF Vibro_flat_NC M 0 0 N Y 1 F N
 F0 "M" 0 550 60 H V C CNN
 F1 "Vibro_flat_NC" 0 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "" 0 550 60 H V C CNN
+F4 "0" -350 550 60 H I C CNN "SolderPoints"
+F5 "0" -350 450 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  Vibro_Flat_NC*
 $ENDFPLIST

@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP FT232R
 D USB to RS232 converter
+K FT232
 $ENDCMP
 #
 $CMP M74VHC1GT125

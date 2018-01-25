@@ -92,7 +92,9 @@ F0 "GB" 200 50 60 H V L CNN
 F1 "Battety" 200 -50 60 H V L CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
-F4 "1.5V" 200 -150 60 H I L CNN "Voltage"
+F4 "2" -100 150 60 H I C CNN "SolderPoints"
+F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
+F6 "1.5V" 200 -150 60 H I L CNN "Voltage"
 $FPLIST
  Battety*
 $ENDFPLIST
@@ -113,6 +115,8 @@ F0 "GB" 200 50 60 H V L CNN
 F1 "Battety_NC" 200 -50 60 H V L CNN
 F2 "" 200 -150 60 H I L CNN
 F3 "" 0 200 60 H V C CNN
+F4 "2" -100 150 60 H I C CNN "SolderPoints"
+F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  Battety_NC*
 $ENDFPLIST
@@ -133,7 +137,9 @@ F0 "GB" 200 50 60 H V L CNN
 F1 "Battety_PLS" 200 -50 60 H V L CNN
 F2 "for_PolarOut_PLS-2" 200 -150 60 H I L CNN
 F3 "" 0 200 60 H V C CNN
-F4 "h 2.54mm" 200 -150 60 H V L CNN "Connector"
+F4 "0" -100 150 60 H I C CNN "SolderPoints"
+F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
+F6 "h 2.54mm" 200 -150 60 H V L CNN "Connector"
 $FPLIST
  for_PolarOut*
 $ENDFPLIST
@@ -154,7 +160,9 @@ F0 "GB" 200 300 60 H V L CNN
 F1 "Battety_x2" 200 200 60 H V L CNN
 F2 "" 0 450 60 H V C CNN
 F3 "" 0 450 60 H V C CNN
-F4 "3V" 200 100 60 H I L CNN "Voltage"
+F4 "2" -100 150 60 H I C CNN "SolderPoints"
+F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
+F6 "3V" 200 100 60 H I L CNN "Voltage"
 $FPLIST
  Battety*
 $ENDFPLIST
@@ -180,6 +188,8 @@ F0 "FU" 0 250 60 H V C CNN
 F1 "Fuze" 0 150 60 H V C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -400 0 60 H V C CNN
+F4 "2" -200 250 60 H I C CNN "SolderPoints"
+F5 "2" -200 150 60 H I C CNN "SolderPoints_DIP"
 DRAW
 S 196 78 -196 -78 0 1 0 N
 P 2 0 1 0  200 0  -200 0 N

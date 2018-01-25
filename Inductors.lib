@@ -8,7 +8,9 @@ F0 "L" 0 300 60 H V C CNN
 F1 "Inductor" 0 200 60 H V C CNN
 F2 "" 0 -75 60 H V C CNN
 F3 "" -400 25 60 H V C CNN
-F4 "Size" 0 -100 60 H V C CNN "Size"
+F4 "2" -300 300 60 H I C CNN "SolderPoints"
+F5 "0" -300 200 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 0 -100 60 H V C CNN "Size"
 $FPLIST
  IND*
 $ENDFPLIST
@@ -29,7 +31,9 @@ F0 "L" 0 300 60 H V C CNN
 F1 "SDR0604-xxx" 0 200 60 H V C CNN
 F2 "SDR0604" 0 -75 60 H I C CNN
 F3 "" -400 25 60 H V C CNN
-F4 "Size" 0 -100 60 H V C CNN "Size"
+F4 "2" -400 300 60 H I C CNN "SolderPoints"
+F5 "0" -400 200 60 H I C CNN "SolderPoints_DIP"
+F6 "Size" 0 -100 60 H V C CNN "Size"
 $FPLIST
  SDR0604
 $ENDFPLIST

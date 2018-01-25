@@ -25,8 +25,8 @@ K NSI45030
 $ENDCMP
 #
 $CMP TLC5940PWP
-D LED display driver, 8bits; SPI; Io 40mA, 5V; Isd 150uA
-K MAX7219
+D 16ch LED driver; Grayscale PWM contro, 12bit; SPI; Io 0~120mA, Vcc 3~5V
+K TLC5940
 $ENDCMP
 #
 #End Doc Library

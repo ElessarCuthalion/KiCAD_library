@@ -14,7 +14,4 @@ $CMP NOKIA1100
 D Nokia 1100 LCD: grafic, 96x65, with backlight
 $ENDCMP
 #
-$CMP CONN_NOKIA_LCD
-$ENDCMP
-#
 #End Doc Library

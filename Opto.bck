@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP LVT817S
-D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vceo 35V Veco 6V
+D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 35V Vec 6V
 K LVT817S, PC817
 $ENDCMP
 #
 $CMP PC3H7J
-D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vceo 70V Veco 6V
+D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 70V Vec 6V
 K PC3H7J
 $ENDCMP
 #

@@ -8,7 +8,9 @@ F0 "FV" 300 400 60 H V C CNN
 F1 "Arrester" 300 300 60 H V C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -450 50 60 H V C CNN
-F4 "size_mm" 0 -300 60 H V C CNN "Size"
+F4 "2" 50 400 60 H I C CNN "SolderPoints"
+F5 "2" 50 300 60 H I C CNN "SolderPoints_DIP"
+F6 "size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
  Arrester-2e*
 $ENDFPLIST
@@ -38,7 +40,9 @@ F0 "FV" 300 400 60 H V C CNN
 F1 "Arrester_3e" 300 300 60 H V C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -450 50 60 H V C CNN
-F4 "size_mm" 0 -300 60 H V C CNN "Size"
+F4 "3" -50 400 60 H I C CNN "SolderPoints"
+F5 "3" -50 300 60 H I C CNN "SolderPoints_DIP"
+F6 "size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
  Arrester-3e*
 $ENDFPLIST
@@ -64,7 +68,9 @@ F0 "L" 0 250 60 H V C CNN
 F1 "BLM15AG102SN1" 0 150 60 H V C CNN
 F2 "IND0402" 0 -150 60 H I C CNN
 F3 "" 0 250 60 H V C CNN
-F4 "(BLM15AG102SN1D)" 0 -150 60 H I C CNN "Type"
+F4 "2" -400 250 60 H I C CNN "SolderPoints"
+F5 "0" -400 150 60 H I C CNN "SolderPoints_DIP"
+F6 "(BLM15AG102SN1D)" 0 -150 60 H I C CNN "Type"
 $FPLIST
  IND0603
  IND0402
@@ -88,7 +94,9 @@ F0 "L" 0 250 60 H V C CNN
 F1 "BLM18AG102SN1" 0 150 60 H V C CNN
 F2 "IND0603" 0 -150 60 H I C CNN
 F3 "" 0 250 60 H V C CNN
-F4 "(BLM18AG102SN1D)" 0 -150 60 H I C CNN "Type"
+F4 "2" -400 250 60 H I C CNN "SolderPoints"
+F5 "0" -400 150 60 H I C CNN "SolderPoints_DIP"
+F6 "(BLM18AG102SN1D)" 0 -150 60 H I C CNN "Type"
 $FPLIST
  IND0603
 $ENDFPLIST
@@ -111,6 +119,8 @@ F0 "VD" 0 300 60 H V C CNN
 F1 "Suppressor_Bi" 0 200 60 H V C CNN
 F2 "" -78 -150 60 H I C CNN
 F3 "" -350 0 60 H V C CNN
+F4 "2" -350 300 60 H I C CNN "SolderPoints"
+F5 "2" -350 200 60 H I C CNN "SolderPoints_DIP"
 DRAW
 P 2 0 1 0  -178 0  22 0 N
 P 2 0 1 0  -60 -98  0 -98 N
@@ -131,6 +141,8 @@ F0 "VD" 0 300 60 H V C CNN
 F1 "Suppressor_Uni" 0 200 60 H V C CNN
 F2 "" 0 -150 60 H I C CNN
 F3 "" -300 0 60 H V C CNN
+F4 "2" -400 300 60 H I C CNN "SolderPoints"
+F5 "2" -400 200 60 H I C CNN "SolderPoints_DIP"
 DRAW
 P 2 0 1 0  -100 0  100 0 N
 P 2 0 1 0  18 -98  78 -98 N
@@ -148,6 +160,8 @@ F0 "DA" 0 450 60 H V C CNN
 F1 "USBLC6-2SC6" 0 350 60 H V C CNN
 F2 "SOT23-6" 0 -350 60 H I C CNN
 F3 "" 700 -50 60 H V C CNN
+F4 "5" -400 450 60 H I C CNN "SolderPoints"
+F5 "0" -400 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  SOT23-6
 $ENDFPLIST
@@ -195,7 +209,9 @@ F0 "RU" 0 300 60 H V C CNN
 F1 "Varistor" 0 200 60 H V C CNN
 F2 "" 0 -175 60 H I C CNN
 F3 "" -450 -150 60 H V C CNN
-F4 "Size_mm" 0 -300 60 H V C CNN "Size"
+F4 "2" -250 300 60 H I C CNN "SolderPoints"
+F5 "2" -250 200 60 H I C CNN "SolderPoints_DIP"
+F6 "Size_mm" 0 -300 60 H V C CNN "Size"
 $FPLIST
  Varistor*
 $ENDFPLIST
@@ -226,6 +242,8 @@ F0 "RU" 400 450 60 H V C CNN
 F1 "Varistor&ThermoFuse" 400 350 60 H V C CNN
 F2 "Epcos_ETFV25s" -250 0 60 V I C CNN
 F3 "" 50 -150 60 H V C CNN
+F4 "0" -150 450 60 H I C CNN "SolderPoints"
+F5 "3" -150 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  Epcos_ETFV25s
 $ENDFPLIST

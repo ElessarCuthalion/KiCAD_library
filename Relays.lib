@@ -8,6 +8,8 @@ F0 "K" 0 400 60 H V C CNN
 F1 "PF240D25" 0 300 60 H V C CNN
 F2 "Crydom_PFs" 0 -300 60 H I C CNN
 F3 "" 255 0 60 H V C CNN
+F4 "0" -300 400 60 H I C CNN "SolderPoints"
+F5 "4" -300 300 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  Crydom_PFs
 $ENDFPLIST
@@ -47,6 +49,8 @@ F0 "K" 300 250 60 H V C CNN
 F1 "Relay_1A" 300 150 60 H V C CNN
 F2 "" -394 -2 60 H V C CNN
 F3 "" -394 -2 60 H V C CNN
+F4 "0" -200 250 60 H I C CNN "SolderPoints"
+F5 "4" -200 150 60 H I C CNN "SolderPoints_DIP"
 DRAW
 S -118 -236 118 236 1 1 0 N
 P 2 1 1 0  -150 0  -118 0 N
@@ -68,6 +72,8 @@ F0 "K" 0 450 60 H V C CNN
 F1 "Relay_1C" 0 350 60 H V C CNN
 F2 "" -400 50 60 H V C CNN
 F3 "" -400 50 60 H V C CNN
+F4 "0" -350 450 60 H I C CNN "SolderPoints"
+F5 "5 or 8" -350 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  Finder_41.61s
  Finder_41.31s
@@ -100,6 +106,8 @@ F0 "K" 0 450 60 H V C CNN
 F1 "Relay_2C" 0 350 60 H V C CNN
 F2 "" -400 75 60 H V C CNN
 F3 "" -400 75 60 H V C CNN
+F4 "0" -250 450 60 H I C CNN "SolderPoints"
+F5 "8" -250 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  TE_RT42xxxx
  Finder_41.52s

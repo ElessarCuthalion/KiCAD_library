@@ -7,12 +7,12 @@ $ENDCMP
 #
 $CMP ReedSwitch
 D Reed Switch (геркон)
-K SF
+K SF, ReedSwitch, Gerkon
 $ENDCMP
 #
 $CMP ReedSwitch_3pin
 D Reed Switch CO (геркон переключающий)
-K SF, ReedSwitch
+K SF, ReedSwitch, Gerkon
 $ENDCMP
 #
 $CMP Switch

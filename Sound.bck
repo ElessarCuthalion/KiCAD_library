@@ -5,6 +5,11 @@ D Звуковой излучатель
 K BQ
 $ENDCMP
 #
+$CMP BuzzerPol
+D Звуковой излучатель
+K BQ
+$ENDCMP
+#
 $CMP Speaker
 D Динамик
 K BA

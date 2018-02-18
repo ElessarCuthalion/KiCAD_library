@@ -8,6 +8,7 @@ F0 "" 100 -50 60 H I C CNN
 F1 "+12V" 450 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "A" 350 -100 60 H I L CNN "Current"
 DRAW
 P 2 0 1 0  0 0  300 0 N
 P 3 0 1 0  200 50  300 0  200 -50 N
@@ -22,6 +23,7 @@ F0 "" 100 -50 60 H I C CNN
 F1 "+3.3V" 450 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "mA" 350 -100 60 H I L CNN "Current"
 DRAW
 P 2 0 1 0  0 0  300 0 N
 P 3 0 1 0  200 50  300 0  200 -50 N
@@ -36,6 +38,7 @@ F0 "" 100 -50 60 H I C CNN
 F1 "+3.3Vin" 500 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "mA" 350 -100 60 H I L CNN "Current"
 DRAW
 P 2 0 1 0  0 0  300 0 N
 P 3 0 1 0  200 50  300 0  200 -50 N
@@ -50,6 +53,7 @@ F0 "" 100 -50 60 H I C CNN
 F1 "+5V" 400 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "A" 350 -100 60 H I L CNN "Current"
 DRAW
 P 2 0 1 0  0 0  300 0 N
 P 3 0 1 0  200 50  300 0  200 -50 N

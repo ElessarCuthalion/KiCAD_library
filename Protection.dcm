@@ -20,6 +20,16 @@ D EMI Suppression Filters 0603, Ir 100mA Rdc 0.7r
 K BLM18, filter
 $ENDCMP
 #
+$CMP CD143A-SR3.3
+D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W
+K CD143A-SR3.3, ESD_protect
+$ENDCMP
+#
+$CMP CD143A-SR3.3_v2
+D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W
+K CD143A-SR3.3, ESD_protect
+$ENDCMP
+#
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
 K Suppressor
@@ -31,7 +41,7 @@ K Suppressor
 $ENDCMP
 #
 $CMP USBLC6-2SC6
-D ESD protection, 2-line
+D ESD protection, 2-line, Vrwm 5V
 K USBLC6, ESD_protect
 $ENDCMP
 #

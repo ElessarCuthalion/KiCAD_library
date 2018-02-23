@@ -34,9 +34,12 @@ $CMP C_DIP
 K CAP_DIP
 $ENDCMP
 #
-$CMP Cel_1206
-D Конденсатор электролитический
-K Elcap, Cel1206
+$CMP Cpol_DIP
+K CAP_EL_DIP, Elcap, Cel
+$ENDCMP
+#
+$CMP Cpol_SMD
+K CAP_EL_DIP, Elcap, Cel
 $ENDCMP
 #
 #End Doc Library

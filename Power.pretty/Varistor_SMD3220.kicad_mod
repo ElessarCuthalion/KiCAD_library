@@ -1,4 +1,5 @@
 (module Varistor_SMD3220 (layer F.Cu) (tedit 5A01841F)
+  (attr smd)
   (fp_text reference "Varistor Littelfuse 3220" (at 0 -0.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

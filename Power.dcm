@@ -61,6 +61,11 @@ $CMP GND_Power
 K PGND, GNDpower
 $ENDCMP
 #
+$CMP Jumper
+D Jumper
+K Jump, J
+$ENDCMP
+#
 $CMP SENSvcc
 K SENSvcc
 $ENDCMP

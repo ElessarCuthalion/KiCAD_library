@@ -100,6 +100,15 @@
     (uvia_drill 0.3)
   )
 
+  (net_class "wide wide" ""
+    (clearance 0.2)
+    (trace_width 1)
+    (via_dia 0.9)
+    (via_drill 0.4)
+    (uvia_dia 0.7)
+    (uvia_drill 0.3)
+  )
+
   (gr_line (start 102 65.5) (end 102 64) (angle 90) (layer F.SilkS) (width 0.15))
   (gr_line (start 100 65.5) (end 102 65.5) (angle 90) (layer F.SilkS) (width 0.15))
   (gr_line (start 148.5 50) (end 148.5 136.5) (angle 90) (layer B.SilkS) (width 0.15))

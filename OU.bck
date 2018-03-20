@@ -10,6 +10,11 @@ D Operational Amplifier, 1 channel; Vcc 1.6~5.5V, Is 0.6uA, Iout 3mA
 K LPV521, OU
 $ENDCMP
 #
+$CMP LPV802
+D Operational Amplifier, 1 channel; Vcc 1.6~5.5V, Is 0.6uA, Iout 3mA
+K LPV521, OU
+$ENDCMP
+#
 $CMP TLV3691
 D Comparator, 1 channel; Vcc 0.9~6.5V, Is 0.15uA
 K TLV3691, COMP

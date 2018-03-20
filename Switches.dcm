@@ -40,4 +40,14 @@ D Switch 3 pin
 K SA
 $ENDCMP
 #
+$CMP ThermalProtector
+D Thermal Protector, NC (термоконтакт размыкающий)
+K SK, ThermalProtector
+$ENDCMP
+#
+$CMP TiltSensor
+D ON/OFF Tilt Sensor
+K SQ, TiltSensor
+$ENDCMP
+#
 #End Doc Library

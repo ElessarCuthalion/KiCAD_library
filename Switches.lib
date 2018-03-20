@@ -197,4 +197,50 @@ X 3 3 400 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ThermalProtector
+#
+DEF ThermalProtector SK 0 40 N N 1 F N
+F0 "SK" 0 450 60 H V C CNN
+F1 "ThermalProtector" 0 350 60 H V C CNN
+F2 "" -400 0 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "0" -400 450 60 H I C CNN "SolderPoints"
+F5 "2" -400 350 60 H I C CNN "SolderPoints_DIP"
+$FPLIST
+ ThermoProtect*
+$ENDFPLIST
+DRAW
+C 0 0 236 0 0 0 N
+T 0 0 -100 79 0 0 0 t°  Normal 0 C C
+P 2 0 1 0  -143 0  -225 0 N
+P 2 0 1 0  -143 0  133 158 N
+P 2 0 1 0  93 0  93 158 N
+P 2 0 1 0  93 0  175 0 N
+P 2 0 1 0  200 0  150 0 N
+X 1 1 -400 0 200 R 50 50 1 1 P
+X 2 2 400 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TiltSensor
+#
+DEF TiltSensor SQ 0 40 N N 1 F N
+F0 "SQ" 0 450 60 H V C CNN
+F1 "TiltSensor" 0 350 60 H V C CNN
+F2 "" -400 0 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "0" -300 450 60 H I C CNN "SolderPoints"
+F5 "2" -300 350 60 H I C CNN "SolderPoints_DIP"
+DRAW
+C 0 0 236 0 0 0 N
+A -15 25 79 -1084 -1616 0 1 0 N -40 -50 -90 0
+A 15 25 79 -184 -716 0 1 0 N 90 0 40 -50
+C 0 50 50 0 1 0 F
+P 2 0 1 0  -200 0  -90 0 N
+P 2 0 1 0  90 0  200 0 N
+X 1 1 -400 0 200 R 50 50 1 1 P
+X 2 2 400 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

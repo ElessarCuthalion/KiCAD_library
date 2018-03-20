@@ -40,4 +40,9 @@ D Switch 3 pin
 K SA
 $ENDCMP
 #
+$CMP ThermalProtector
+D Thermal Protector, NC (термоконтакт размыкающий)
+K SK, ThermalProtector
+$ENDCMP
+#
 #End Doc Library

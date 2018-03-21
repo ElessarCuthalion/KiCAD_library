@@ -231,6 +231,10 @@ F2 "" -400 0 60 H V C CNN
 F3 "" -400 0 60 H V C CNN
 F4 "0" -300 450 60 H I C CNN "SolderPoints"
 F5 "2" -300 350 60 H I C CNN "SolderPoints_DIP"
+$FPLIST
+ MercurySwitch*
+ TiltSensor*
+$ENDFPLIST
 DRAW
 C 0 0 236 0 0 0 N
 A -15 25 79 -1084 -1616 0 1 0 N -40 -50 -90 0

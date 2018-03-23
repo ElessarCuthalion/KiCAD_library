@@ -10,6 +10,7 @@ F2 "Crystal_3225" 0 -275 60 H I C CNN
 F3 "" -325 0 60 H V C CNN
 F4 "4" -350 300 60 H I C CNN "SolderPoints"
 F5 "0" -350 200 60 H I C CNN "SolderPoints_DIP"
+F6 "type" 50 -225 60 H I L CNN "Type"
 $FPLIST
  Crystal_3225
 $ENDFPLIST
@@ -36,6 +37,7 @@ F2 "" -275 0 60 H V C CNN
 F3 "" -275 0 60 H V C CNN
 F4 "2" -200 300 60 H I C CNN "SolderPoints"
 F5 "2" -200 200 60 H I C CNN "SolderPoints_DIP"
+F6 "type" 0 -175 60 H I C CNN "Type"
 $FPLIST
  Crystal*
 $ENDFPLIST

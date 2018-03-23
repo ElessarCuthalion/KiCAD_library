@@ -21,13 +21,18 @@ K BLM18, filter
 $ENDCMP
 #
 $CMP CD143A-SR3.3
-D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W
+D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W, Cj 4.5pF
 K CD143A-SR3.3, ESD_protect
 $ENDCMP
 #
 $CMP CD143A-SR3.3_v2
-D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W
+D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W, Cj 4.5pF
 K CD143A-SR3.3, ESD_protect
+$ENDCMP
+#
+$CMP RClamp0502BA
+D ESD Protection to Safeguard I²C Bus, Vrwm 5V, Ppk 125W, Cj 1.2pF
+K RClamp0502B, RClamp0502BA
 $ENDCMP
 #
 $CMP Suppressor_Bi
@@ -41,7 +46,7 @@ K Suppressor
 $ENDCMP
 #
 $CMP USBLC6-2SC6
-D ESD protection, 2-line, Vrwm 5V
+D ESD protection for USB, Vrwm 5V, Cj 3.5pF
 K USBLC6, ESD_protect
 $ENDCMP
 #

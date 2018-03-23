@@ -30,6 +30,11 @@ D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W
 K CD143A-SR3.3, ESD_protect
 $ENDCMP
 #
+$CMP RClamp05xx
+D ESD Protection to Safeguard I²C Bus, Vrwm 5V
+K RClamp05xx
+$ENDCMP
+#
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
 K Suppressor

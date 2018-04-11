@@ -11,13 +11,18 @@ K LD1117
 $ENDCMP
 #
 $CMP LP2985-xx
-D Iq 850uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise
+D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise
 K LP2985
 $ENDCMP
 #
 $CMP MCP1700T-xx02E
 D Iq 1,6uA; Vdo 178mV, Iout 250mA; Vin 2,3-6V
 K MCP1700
+$ENDCMP
+#
+$CMP NCP511SQxx
+D Iq 40uA; Vdo 100mV, Iout 150mA; Vin 1,6-6V
+K NCP511
 $ENDCMP
 #
 $CMP NCP583SQxx
@@ -43,6 +48,11 @@ $ENDCMP
 $CMP TPS715xx
 D Iq 3,2uA; Vdo 415mV, Iout 50mA; Vin 3-24V
 K TPS715xx
+$ENDCMP
+#
+$CMP TPS782xx
+D Iq 1,3uA; Vdo 130mV, Iout 150mA; Vin 2,2-5,5V; 206C/W
+K TPS78223DDC
 $ENDCMP
 #
 #End Doc Library

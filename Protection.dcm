@@ -35,6 +35,11 @@ D ESD Protection to Safeguard I²C Bus, Vrwm 5V, Ppk 125W, Cj 1.2pF
 K RClamp0502B, RClamp0502BA
 $ENDCMP
 #
+$CMP SP4045-04A
+D ESD protection, 4-line, Vrwm 3.3V, Ppk 600W, Cj 1.5pF
+K SP4045-04A, ESD_protect
+$ENDCMP
+#
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
 K Suppressor

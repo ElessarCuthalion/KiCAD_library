@@ -1,6 +1,64 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# AudioJack_Mono
+#
+DEF AudioJack_Mono XS 0 20 Y N 1 F N
+F0 "XS" 0 400 60 H V C CNN
+F1 "AudioJack_Mono" 0 300 60 H V C CNN
+F2 "" 0 -300 60 H I C CNN
+F3 "" -1000 -450 60 H V C CNN
+F4 "0" -400 400 60 H I C CNN "SolderPoints"
+F5 "2" -400 300 60 H I C CNN "SolderPoints_DIP"
+F6 "type" 50 0 60 V I C TNN "Type"
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+C -450 100 20 0 1 0 F
+S -118 -78 0 -196 0 1 0 F
+S -118 195 0 77 0 1 0 F
+P 2 0 1 0  -300 100  -450 100 N
+P 2 0 1 0  -118 -80  -118 80 N
+P 2 0 1 0  0 -80  0 80 N
+P 3 0 1 0  -220 100  -260 30  -300 100 N
+X Out 1 -600 100 200 R 50 50 1 1 P
+X COM 2 0 -350 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AudioJack_Stereo
+#
+DEF AudioJack_Stereo XS 0 20 Y N 1 F N
+F0 "XS" 0 400 60 H V C CNN
+F1 "AudioJack_Stereo" 0 300 60 H V C CNN
+F2 "" 0 -300 60 H I C CNN
+F3 "" -1000 -450 60 H V C CNN
+F4 "0" -400 400 60 H I C CNN "SolderPoints"
+F5 "3" -400 300 60 H I C CNN "SolderPoints_DIP"
+F6 "type" 50 0 60 V I C TNN "Type"
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+T 0 -370 -60 60 0 0 0 L  Normal 0 C C
+T 0 -370 140 60 0 0 0 R  Normal 0 C C
+C -450 -100 20 0 1 0 F
+C -450 100 20 0 1 0 F
+S -118 -78 0 -196 0 1 0 F
+S -118 195 0 77 0 1 0 F
+P 2 0 1 0  -300 -100  -450 -100 N
+P 2 0 1 0  -260 100  -450 100 N
+P 2 0 1 0  -118 -80  -118 80 N
+P 2 0 1 0  0 -80  0 80 N
+P 3 0 1 0  -220 -100  -260 -30  -300 -100 N
+P 3 0 1 0  -180 100  -220 30  -260 100 N
+X R 1 -600 100 200 R 50 50 1 1 P
+X L 2 -600 -100 200 R 50 50 1 1 P
+X COM 3 0 -350 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Cleamm-2
 #
 DEF Cleamm-2 XL 0 40 Y N 1 F N

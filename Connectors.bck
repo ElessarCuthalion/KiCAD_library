@@ -75,6 +75,11 @@ D Single row connectors x6, male
 K Conn6x, XP6x
 $ENDCMP
 #
+$CMP HR911105A
+D RJ-45 for EIA/TIA-568B standard with Transformer and LED
+K HR911105A, 568B
+$ENDCMP
+#
 $CMP IDC-10
 D Double row connectors, 2x5, male
 K IDC, PLD, FDC
@@ -120,7 +125,7 @@ D Micro-SD, 8 pin
 K SD, micro-SD
 $ENDCMP
 #
-$CMP USB-mcro/mini
+$CMP USB-mcro_mini
 D Совмещённые mcro / mini-USB с отводом от корпуса
 $ENDCMP
 #

@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP FT232R
 D USB to RS232 converter
+K FT232
 $ENDCMP
 #
 $CMP M74VHC1GT125
@@ -22,6 +23,11 @@ $ENDCMP
 $CMP ST3485
 D UATR to RS485 converter: Vcc 3,3V 12MB/S 64 devices
 K ST3485
+$ENDCMP
+#
+$CMP W5500
+D Ethernet TCP/IP controller, SPI, Vdd 2.97-3.63V Idd 132mA Isd 13mA
+K Ethernet
 $ENDCMP
 #
 #End Doc Library

@@ -15,11 +15,6 @@ D Amplifier Class D 2x20W Rl 8r VDD 8-28V Isd PVdd 8uA Isd Vs 3uA
 K MAX98400A, Amplifier
 $ENDCMP
 #
-$CMP MAX98400A_long
-D Amplifier Class D 2x20W Rl 8r VDD 8-28V Isd PVdd 8uA Isd Vs 3uA
-K MAX98400A, Amplifier
-$ENDCMP
-#
 $CMP TPA6211
 D Amplifier Class AB 3,1W Rl 3-8r VDD 2,5-5V Isd 0,01uA
 K TPA6211, Amplifier

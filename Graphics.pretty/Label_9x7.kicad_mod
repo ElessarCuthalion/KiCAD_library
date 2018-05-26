@@ -1,4 +1,5 @@
-(module Comment_9x7 (layer F.Cu) (tedit 594FD6F5)
+(module Label_9x7 (layer F.Cu) (tedit 5B09A545)
+  (attr virtual)
   (fp_text reference Comment (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

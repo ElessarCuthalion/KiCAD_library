@@ -65,6 +65,11 @@ D Single row connectors x4, male
 K Conn4x, XP4x
 $ENDCMP
 #
+$CMP Conn-5f
+D Single row connectors x4, female
+K Conn4x, XS4x
+$ENDCMP
+#
 $CMP Conn-5m
 D Single row connectors x5, male
 K Conn5x, XP5x

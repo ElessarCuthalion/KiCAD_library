@@ -6,13 +6,23 @@ K AAT3221
 $ENDCMP
 #
 $CMP LD1117Sxx
-D Iq 5mA; Vdo 1-1,2V, Iout 800mA; Vin 2,7-15V
+D Iq 5mA; Vdo 1-1,2V, Iout 800mA; Vin 2,7-15V; SVRmin 60dB
 K LD1117
 $ENDCMP
 #
+$CMP LD29080S33R
+D Iq 2-14mA; Vdo 0.1-0.4V, Iout 800mA; Vin 4-13V, Vout 3.3V; SVRmin 52dB
+K LD29080S33R
+$ENDCMP
+#
 $CMP LP2985-xx
-D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise
+D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise, SVRmin 45dB
 K LP2985
+$ENDCMP
+#
+$CMP LP3985MxxR
+D Iq 170uA; Vdo 100mV, Iout 150mA; Vin 2,5-6V; 255C/W; Low-noise, SVRmin 50dB
+K LP3985
 $ENDCMP
 #
 $CMP MCP1700T-xx02E

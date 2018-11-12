@@ -41,7 +41,7 @@ K Bi-Color
 $ENDCMP
 #
 $CMP LED_Bi-Color_DIP
-D Bi-Color R+G (DIP)
+D Bi-Color R+G (DIP), Common catode
 K Bi-Color, LED_DIP
 $ENDCMP
 #
@@ -52,6 +52,11 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED 5050
+K RGB
+$ENDCMP
+#
+$CMP LED_RGB_OA
+D RGB LED, Common anode
 K RGB
 $ENDCMP
 #
@@ -66,7 +71,7 @@ K WS2812B, SK6812
 $ENDCMP
 #
 $CMP WS2813
-D RGB LED, 1-wire (WS2813)
+D RGB LED, 1-wire
 K WS2813
 $ENDCMP
 #

@@ -29,4 +29,9 @@ D 16ch LED driver; Grayscale PWM contro, 12bit; SPI; Io 0~120mA, Vcc 3~5V
 K TLC5940
 $ENDCMP
 #
+$CMP WS2818
+D RGB LED driver, 2kHz PWM control, 1-wire
+K WS2818
+$ENDCMP
+#
 #End Doc Library

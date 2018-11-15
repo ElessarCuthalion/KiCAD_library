@@ -1,4 +1,4 @@
-(module LED3030 (layer F.Cu) (tedit 596C61B5)
+(module LED3030_3V (layer F.Cu) (tedit 596C61B5)
   (attr smd)
   (fp_text reference LED3030 (at 0 -2.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

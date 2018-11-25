@@ -6,18 +6,23 @@ K MCP73831
 $ENDCMP
 #
 $CMP MCP73843-xx
-D Li-ion/Li-pol Charger, 4,2V, внешний ключ
+D Li-ion/Li-pol Charger, 4.2V, внешний ключ
 K MCP73843
 $ENDCMP
 #
 $CMP MP2611
-D Li-ion/Li-pol Charger, 4,2V 2A, Vin 4,5-6V
+D Li-ion/Li-pol Charger, 4.2V 2A, Vin 4.5-6V
 K MP2611
 $ENDCMP
 #
 $CMP MP2637
-D Li-ion/Li-pol Charger, 4,2V 2.5A, Vin 4,5-6V, Boost Mode
+D Li-ion/Li-pol Charger, 4.2V 2.5A, Vin 4.5-6V, Boost Mode
 K MP2637
+$ENDCMP
+#
+$CMP STC4054
+D Li-ion/Li-pol Charger, 4.2V 0.8A, Vin 4.25-6.5V
+K STC4054
 $ENDCMP
 #
 $CMP TP4056
@@ -26,7 +31,7 @@ K TP4056
 $ENDCMP
 #
 $CMP TP5100
-D Li-ion/Li-pol Charger, 4,2/8,4V 2A
+D Li-ion/Li-pol Charger, 4.2/8.4V 2A
 K TP5100
 $ENDCMP
 #

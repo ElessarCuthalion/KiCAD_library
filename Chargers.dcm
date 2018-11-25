@@ -20,6 +20,11 @@ D Li-ion/Li-pol Charger, 4.2V 2.5A, Vin 4.5-6V, Boost Mode
 K MP2637
 $ENDCMP
 #
+$CMP STC4054
+D Li-ion/Li-pol Charger, 4.2V 0.8A, Vin 4.25-6.5V
+K STC4054
+$ENDCMP
+#
 $CMP TP4056
 D Li-ion/Li-pol Charger
 K TP4056

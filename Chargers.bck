@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP MCP73831
-D Li-ion/Li-pol Charger, 4,2V
+D Li-ion/Li-pol Charger, 4.2V 0.5A, Vin 3.75-6V
 K MCP73831
 $ENDCMP
 #

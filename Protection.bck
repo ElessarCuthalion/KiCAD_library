@@ -30,8 +30,13 @@ D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W, Cj 4.5pF
 K CD143A-SR3.3, ESD_protect
 $ENDCMP
 #
+$CMP CM1213A−02SR
+D ESD protection to USB, Vrwm 5.5V, Cj 0.85pF
+K CM1213A, ESD_protect
+$ENDCMP
+#
 $CMP NZF220TT1
-D ESD protection, 1-line, Vrwm 6-8V, Ppk 14W, Cj 7-10pF
+D ESD protection to GPIO, 1-line, Vrwm 6-8V, Ppk 14W, Cj 7-10pF
 K NZF220TT1, ESD_protect
 $ENDCMP
 #
@@ -61,7 +66,7 @@ K Suppressor
 $ENDCMP
 #
 $CMP USBLC6-2SC6
-D ESD protection for USB, Vrwm 5V, Cj 3.5pF
+D ESD protection to USB, Vrwm 5V, Cj 3.5pF
 K USBLC6, ESD_protect
 $ENDCMP
 #

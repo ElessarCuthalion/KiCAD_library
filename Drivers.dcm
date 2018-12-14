@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A8517
+D 10ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
+K A8517
+$ENDCMP
+#
 $CMP CAT4139
 D LED driver Boost; PWM; Io 750mA, 22V; Isd 1uA
 K CAT4139
@@ -25,7 +30,7 @@ K NSI45030
 $ENDCMP
 #
 $CMP TLC5940PWP
-D 16ch LED driver; Grayscale PWM contro, 12bit; SPI; Io 0~120mA, Vcc 3~5V
+D 16ch LED driver; Grayscale PWM control, 12bit; SPI; Io 0~120mA, Vcc 3~5V
 K TLC5940
 $ENDCMP
 #

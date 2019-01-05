@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP A8517
-D 10ch LED driver; Step-Down; I2C; Io 0~60mA, Vcc 4.5~36V
+D 10ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
 K A8517
 $ENDCMP
 #

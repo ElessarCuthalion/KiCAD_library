@@ -25,13 +25,24 @@ D Dual P-Channel: -30V -2,3A; 185mR (Vgs -4.5V)
 K A6801
 $ENDCMP
 #
+$CMP AO3407A
+D P-Channel -30V -4,3A 54mR (Vgs -4,5V)
+K AO3407A
+$ENDCMP
+#
 $CMP DMP2035UTS
 D Dual P-Channel -20V -3,9A 45mR
 K DMP2035UTS
 $ENDCMP
 #
+$CMP IRF5810
+D Dual P-Channel: -20V -2,9A; 60mR (Vgs -4.5V)
+K IRF5810
+$ENDCMP
+#
 $CMP IRF5810_AB
 D Dual P-Channel: -20V -2,9A; 60mR (Vgs -4.5V)
+K IRF5810
 $ENDCMP
 #
 $CMP IRF640

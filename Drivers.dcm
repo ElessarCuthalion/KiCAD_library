@@ -5,6 +5,11 @@ D 10ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
 K A8517
 $ENDCMP
 #
+$CMP A8522
+D 8ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
+K A8522
+$ENDCMP
+#
 $CMP CAT4139
 D LED driver Boost; PWM; Io 750mA, 22V; Isd 1uA
 K CAT4139

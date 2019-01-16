@@ -66,6 +66,10 @@ D Jumper for connection of Analog and Power ground, etc.
 K Jump, J
 $ENDCMP
 #
+$CMP PGND1
+K GND, Local GND
+$ENDCMP
+#
 $CMP SENSvcc
 K SENSvcc
 $ENDCMP

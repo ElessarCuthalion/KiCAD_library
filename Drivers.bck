@@ -6,8 +6,8 @@ K A8517
 $ENDCMP
 #
 $CMP A8522
-D 10ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
-K A8517
+D 8ch LED driver; Step-Up; I2C; Io 0~60mA, Vcc 4.5~36V
+K A8522
 $ENDCMP
 #
 $CMP CAT4139
@@ -37,6 +37,10 @@ $ENDCMP
 $CMP TLC5940PWP
 D 16ch LED driver; Grayscale PWM control, 12bit; SPI; Io 0~120mA, Vcc 3~5V
 K TLC5940
+$ENDCMP
+#
+$CMP ULN2003V12
+D 7-Channel Relay and Inductive Load Sink Driver with ESD Protection
 $ENDCMP
 #
 $CMP WS2818

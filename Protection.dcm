@@ -11,13 +11,13 @@ K FV, Arrester
 $ENDCMP
 #
 $CMP BLM15AG102SN1
-D EMI Suppression Filters 0402, Ir 200mA Rdc 1r
-K BLM15, filter
+D EMI Suppression Filters 0402, Ir 200mA Rdc 1r, 1k at 100MHz
+K BLM15, EMI_filter
 $ENDCMP
 #
 $CMP BLM18AG102SN1
-D EMI Suppression Filters 0603, Ir 100mA Rdc 0.7r
-K BLM18, filter
+D EMI Suppression Filters 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
+K BLM18, EMI_filter
 $ENDCMP
 #
 $CMP CD143A-SR3.3
@@ -33,6 +33,21 @@ $ENDCMP
 $CMP CM1213A−02SR
 D ESD protection to USB, Vrwm 5.5V, Cj 0.85pF
 K CM1213A, ESD_protect
+$ENDCMP
+#
+$CMP DLW21SN121
+D EMI Suppression Filters 2-line (to RS-485), Ir 370mA Rdc 0.35r, 120r at 100MHz
+K EMI_filter
+$ENDCMP
+#
+$CMP DLW21SN900
+D EMI Suppression Filters 2-line (to USB), Ir 330mA Rdc 0.35r, 90r at 100MHz
+K EMI_filter
+$ENDCMP
+#
+$CMP EMIF06-1005MX12Y
+D 6-line EMI filter and ESD protection to GPIO
+K EMI_filter, ESD_protect
 $ENDCMP
 #
 $CMP NZF220TT1

@@ -60,4 +60,9 @@ D Cortex-M4, LQFP100
 K L476
 $ENDCMP
 #
+$CMP STM32L476ZxTx
+D Cortex-M4, LQFP144
+K L476
+$ENDCMP
+#
 #End Doc Library

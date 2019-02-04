@@ -1,6 +1,6 @@
-(module SOT553 (layer F.Cu) (tedit 5BFA917A)
+(module SOT665 (layer F.Cu) (tedit 5C5848DD)
   (attr smd)
-  (fp_text reference SOT553/SOT665 (at 0 -1.4) (layer F.SilkS)
+  (fp_text reference SOT665/SOT553 (at 0 -1.4) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.4) (layer F.SilkS)

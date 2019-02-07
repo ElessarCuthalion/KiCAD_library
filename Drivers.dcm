@@ -20,6 +20,10 @@ D LED driver Boost; PWM; Io 750mA, 38V; Vfb 0,09V
 K CAT4240
 $ENDCMP
 #
+$CMP LED2000PUR
+D LED switching regulator BUCK; PWM; Io 3A, 3~18V
+$ENDCMP
+#
 $CMP MAX7219EWG
 D LED display driver, 8bits; SPI; Io 40mA, 5V; Isd 150uA
 K MAX7219

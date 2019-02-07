@@ -66,8 +66,8 @@ K Conn4x, XP4x
 $ENDCMP
 #
 $CMP Conn-5f
-D Single row connectors x4, female
-K Conn4x, XS4x
+D Single row connectors x5, female
+K Conn5x, XS5x
 $ENDCMP
 #
 $CMP Conn-5m

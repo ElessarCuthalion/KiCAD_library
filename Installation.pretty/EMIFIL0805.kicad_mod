@@ -1,6 +1,6 @@
-(module NFL21SP (layer F.Cu) (tedit 5C583D6A)
+(module NFL21SP (layer F.Cu) (tedit 5C5C606B)
   (attr smd)
-  (fp_text reference NFL21SP (at 0 -1.6 180) (layer F.SilkS)
+  (fp_text reference EMIFIL0805 (at 0 -1.6 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.6) (layer F.SilkS)

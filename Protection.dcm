@@ -11,13 +11,13 @@ K FV, Arrester
 $ENDCMP
 #
 $CMP BLM15AG102SN1
-D EMI Suppression Filter 0402, Ir 200mA Rdc 1r, 1k at 100MHz
-K BLM15, EMI_filter
+D EMI L-filter 0402, Ir 200mA Rdc 1r, 1k at 100MHz
+K BLM15, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
 $CMP BLM18AG102SN1
-D EMI Suppression Filter 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
-K BLM18, EMI_filter
+D EMI L-filter 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
+K BLM18, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
 $CMP CD143A-SR3.3
@@ -46,18 +46,33 @@ K EMI_filter
 $ENDCMP
 #
 $CMP EMIF06-1005MX12Y
-D 6-line EMI filter and ESD protection to GPIO
+D EMI RC-filter and ESD protection to GPIO, 6-line
 K EMI_filter, ESD_protect
+$ENDCMP
+#
+$CMP FeedCapacitor
+D EMI Suppression C-filter (Capacitor Feed Through)
+K EMI_filter, C-filter, FeedCapacitor 
+$ENDCMP
+#
+$CMP FerriteBeads
+D EMI Suppression L-filter (Ferrite Beads)
+K EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
 $CMP IP4256CZ5-W
-D 1-line EMI filter and ESD protection to GPIO
-K EMI_filter, ESD_protect
+D EMI RC-filter and ESD protection to GPIO, 1-line 
+K EMI_filter, RC-filter, ESD_protect
 $ENDCMP
 #
 $CMP NFL21SP107X1C3
-D 1-line EMI filter, Ir 200mA Vr 16V Rdc 1r, 1k at 100MHz
-K EMI_filter, NFL21SP
+D EMI LC-filter 0805, 1-line, Ir 200mA Vr 16V Rdc 1r, 1k at 100MHz
+K EMI_filter, LC-filter, NFL21SP
+$ENDCMP
+#
+$CMP NFM21PC105B1C3
+D EMI C-filter 0805, 1-line, Ir 4A Vr 16V Rdc 20mr
+K EMI_filter, C-filter, NFM21PC
 $ENDCMP
 #
 $CMP NZF220TT1
@@ -78,6 +93,11 @@ $ENDCMP
 $CMP RClamp0502BA
 D ESD Protection to Safeguard I²C Bus, Vrwm 5V, Ppk 125W, Cj 1.2pF
 K RClamp0502B, RClamp0502BA
+$ENDCMP
+#
+$CMP SMF12A
+D ESD protection, 1-line, Vrwm 12V, Ppk 200W, Ipp 10.1A
+K ESD_protect
 $ENDCMP
 #
 $CMP SP4045-04A

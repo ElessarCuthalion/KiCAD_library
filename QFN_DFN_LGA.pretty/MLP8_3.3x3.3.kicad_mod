@@ -1,6 +1,6 @@
 (module PQFN_3.3x3.3 (layer F.Cu) (tedit 5942BF86)
   (attr smd)
-  (fp_text reference PQFN_3.3x3.3 (at 0 -2.2) (layer F.SilkS)
+  (fp_text reference MLP8_3.3x3.3/PQFN_3.3x3.3 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 2.2) (layer F.SilkS)

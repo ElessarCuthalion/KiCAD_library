@@ -372,6 +372,7 @@ F3 "" 1625 -700 60 H V C CNN
 F4 "3" -450 250 60 H I C CNN "SolderPoints"
 F5 "0" -450 150 60 H I C CNN "SolderPoints_DIP"
 F6 "type" 50 -150 50 H I L CNN "Type"
+F7 "size" 50 -150 50 H V L CNN "Size"
 $FPLIST
  EMIFIL*
 $ENDFPLIST
@@ -396,6 +397,7 @@ F3 "" 0 250 60 H V C CNN
 F4 "2" -400 250 60 H I C CNN "SolderPoints"
 F5 "2" -400 150 60 H I C CNN "SolderPoints_DIP"
 F6 "type" 0 -150 60 H I C CNN "Type"
+F7 "size" 0 -150 50 H V C CNN "Size"
 $FPLIST
  IND0603
  IND0402

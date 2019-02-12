@@ -52,7 +52,7 @@ $ENDCMP
 #
 $CMP FeedCapacitor
 D EMI Suppression C-filter (Capacitor Feed Through)
-K EMI_filter, C-filter, FeedCapacitor 
+K EMI_filter, C-filter, FeedCapacitor
 $ENDCMP
 #
 $CMP FerriteBeads
@@ -61,7 +61,7 @@ K EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
 $CMP IP4256CZ5-W
-D EMI RC-filter and ESD protection to GPIO, 1-line 
+D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect
 $ENDCMP
 #

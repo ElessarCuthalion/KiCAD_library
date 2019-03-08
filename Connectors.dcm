@@ -148,6 +148,11 @@ $CMP Wire
 K Wire
 $ENDCMP
 #
+$CMP for_ACin
+D Polar Output connector
+K for
+$ENDCMP
+#
 $CMP for_APA102
 D for APA102 connector
 K for
@@ -156,11 +161,6 @@ $ENDCMP
 $CMP for_I2C
 D for I2C (Pill Connector)
 K I2C
-$ENDCMP
-#
-$CMP for_PolarOut
-D Polar Output connector
-K for
 $ENDCMP
 #
 $CMP for_SENS

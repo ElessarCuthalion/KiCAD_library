@@ -60,6 +60,11 @@ D EMI Suppression L-filter (Ferrite Beads)
 K EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
+$CMP Fuze
+D Предохранитель плавкий
+K FU
+$ENDCMP
+#
 $CMP IP4256CZ5-W
 D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect

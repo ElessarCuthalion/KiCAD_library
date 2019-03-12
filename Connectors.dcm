@@ -163,6 +163,11 @@ D for I2C (Pill Connector)
 K I2C
 $ENDCMP
 #
+$CMP for_PolarOut
+D Polar Output connector
+K for
+$ENDCMP
+#
 $CMP for_SENS
 D for simple sensors
 K for, user

@@ -48,11 +48,6 @@ D Многоэлементная батарея
 K Battety, BATT
 $ENDCMP
 #
-$CMP Fuze
-D Предохранитель плавкий
-K FU
-$ENDCMP
-#
 $CMP GND
 K GND
 $ENDCMP
@@ -71,6 +66,10 @@ K Jump, J
 $ENDCMP
 #
 $CMP PGND1
+K GND, Local GND
+$ENDCMP
+#
+$CMP PGND2
 K GND, Local GND
 $ENDCMP
 #

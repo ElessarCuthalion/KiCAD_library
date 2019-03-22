@@ -10,6 +10,11 @@ D Single Hi-Lo/Lo-Hi tri-state buffer
 K M74VHC1GT125
 $ENDCMP
 #
+$CMP MAX3488E
+D UATR to RS422 converter: Vcc 3,3V 250kB/S 64 devices, 15kV ESD-Protected
+K MAX3488E
+$ENDCMP
+#
 $CMP SN74LVC1T45
 D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 3uA
 K SN74LVC1T45
@@ -21,7 +26,7 @@ K SN74LVC2T45
 $ENDCMP
 #
 $CMP ST3485
-D UATR to RS485 converter: Vcc 3,3V 12MB/S 64 devices
+D UATR to RS485 converter: Vcc 3,3V 12MB/S 64 devices, 15kV ESD-Protected
 K ST3485
 $ENDCMP
 #

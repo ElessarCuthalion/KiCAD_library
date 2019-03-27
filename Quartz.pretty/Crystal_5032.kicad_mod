@@ -1,9 +1,9 @@
-(module Crystal_5032 (layer F.Cu) (tedit 568B2757)
+(module Crystal_5032 (layer F.Cu) (tedit 5C9B6E6D)
   (attr smd)
-  (fp_text reference "Crystal 5032" (at 0 -3.429) (layer F.SilkS) hide
-    (effects (font (size 0.635 0.635) (thickness 0.14986)))
+  (fp_text reference "Crystal 5032" (at 0 2.2) (layer F.SilkS) hide
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 -2.54) (layer F.SilkS)
+  (fp_text value VAL** (at 0 -2.4) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 2.5 -1.6) (end 2.5 1.6) (layer F.SilkS) (width 0.14986))

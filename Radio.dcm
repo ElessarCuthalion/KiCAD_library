@@ -38,4 +38,9 @@ D 2,4GHz tranciever
 K CC2500
 $ENDCMP
 #
+$CMP MFRC52202
+D NFC controller
+K MFRC522
+$ENDCMP
+#
 #End Doc Library

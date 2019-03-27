@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Crystal_2012
+D Quartz 2012
+K Quartz, ZQ
+$ENDCMP
+#
 $CMP Crystal_3225
 D Quartz 3225
 K Quartz, ZQ

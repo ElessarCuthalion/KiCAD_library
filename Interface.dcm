@@ -10,9 +10,24 @@ D Single Hi-Lo/Lo-Hi tri-state buffer
 K M74VHC1GT125
 $ENDCMP
 #
+$CMP MAX3483E
+D UATR to RS485 converter: Vcc 3.3V 256kB/S (slew-rate limited) 64 devices, 15kV ESD-Protected
+K RS485, 3485
+$ENDCMP
+#
 $CMP MAX3488E
-D UATR to RS422 converter: Vcc 3,3V 250kB/S 64 devices, 15kV ESD-Protected
-K MAX3488E
+D UATR to RS422 converter: Vcc 3,3V 256kB/S (slew-rate limited) 64 devices, 15kV ESD-Protected
+K RS422, 422
+$ENDCMP
+#
+$CMP MAX483E
+D UATR to RS485 converter: Vcc 5V 256kB/S (slew-rate limited) 64 devices, 15kV ESD-Protected
+K RS485, 485
+$ENDCMP
+#
+$CMP MAX487E
+D UATR to RS485 converter: Vcc 5V 256kB/S (slew-rate limited) 122 devices, 15kV ESD-Protected
+K RS485, 485
 $ENDCMP
 #
 $CMP SN74LVC1T45
@@ -25,9 +40,14 @@ D 2-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 6uA
 K SN74LVC2T45
 $ENDCMP
 #
-$CMP ST3485
+$CMP ST3485E
 D UATR to RS485 converter: Vcc 3,3V 12MB/S 64 devices, 15kV ESD-Protected
-K ST3485
+K RS485, 3485
+$ENDCMP
+#
+$CMP ST485E
+D UATR to RS485 converter: Vcc 5V 12MB/S 256 devices, 15kV ESD-Protected
+K RS485, 485
 $ENDCMP
 #
 $CMP W5500

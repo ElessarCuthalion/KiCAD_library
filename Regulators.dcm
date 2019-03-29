@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AAT3221IGV-xx
-D Iq 1,1uA; Vdo 200mV, Iout 150mA; Vin 1,8-5,5V; 0,635W
+D Iq 1.1uA; Vdo 200mV, Iout 150mA; Vin 1.8-5.5V; 0.635W
 K AAT3221
 $ENDCMP
 #
 $CMP LD1117Sxx
-D Iq 5mA; Vdo 1-1,2V, Iout 800mA; Vin 2,7-15V; SVRmin 60dB
+D Iq 5mA; Vdo 1-1.2V, Iout 800mA; Vin 2.7-15V; SVRmin 60dB
 K LD1117
 $ENDCMP
 #
@@ -16,32 +16,32 @@ K LD29080S33R
 $ENDCMP
 #
 $CMP LP2985-xx
-D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2,2-16V; 206C/W; Low-noise, SVRmin 45dB
+D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2.2-16V; 206C/W; Low-noise, SVRmin 45dB
 K LP2985
 $ENDCMP
 #
 $CMP LP3985MxxR
-D Iq 170uA; Vdo 100mV, Iout 150mA; Vin 2,5-6V; 255C/W; Low-noise, SVRmin 50dB
+D Iq 170uA; Vdo 100mV, Iout 150mA; Vin 2.5-6V; 255C/W; Low-noise, SVRmin 50dB
 K LP3985
 $ENDCMP
 #
 $CMP MCP1700T-xx02E
-D Iq 1,6uA; Vdo 178mV, Iout 250mA; Vin 2,3-6V
+D Iq 1.6uA; Vdo 178mV, Iout 250mA; Vin 2.3-6V
 K MCP1700
 $ENDCMP
 #
 $CMP NCP511SQxx
-D Iq 40uA; Vdo 100mV, Iout 150mA; Vin 1,6-6V
+D Iq 40uA; Vdo 100mV, Iout 150mA; Vin 1.6-6V
 K NCP511
 $ENDCMP
 #
 $CMP NCP583SQxx
-D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1,7-6,5V
+D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1.7-6,5V
 K NCP583
 $ENDCMP
 #
 $CMP NCP583XVxx
-D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1,7-6,5V
+D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1.7-6.5V
 K NCP583
 $ENDCMP
 #
@@ -51,17 +51,17 @@ K TLV1117
 $ENDCMP
 #
 $CMP TLV733xx
-D Iq 34uA; Vdo 122mV, Iout 300mA; Vin 1,4-5,5V
+D Iq 34uA; Vdo 122mV, Iout 300mA; Vin 1.4-5.5V
 K TLV733
 $ENDCMP
 #
 $CMP TPS715xx
-D Iq 3,2uA; Vdo 415mV, Iout 50mA; Vin 3-24V
+D Iq 3.2uA; Vdo 415mV, Iout 50mA; Vin 3-24V
 K TPS715xx
 $ENDCMP
 #
 $CMP TPS782xx
-D Iq 1,3uA; Vdo 130mV, Iout 150mA; Vin 2,2-5,5V; 206C/W
+D Iq 1.3uA; Vdo 130mV, Iout 150mA; Vin 2.2-5.5V; 206C/W
 K TPS78223DDC
 $ENDCMP
 #

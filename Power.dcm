@@ -75,6 +75,11 @@ D Local GND 2
 K LGND, Local GND
 $ENDCMP
 #
+$CMP LGND3
+D Local GND 3
+K LGND, Local GND
+$ENDCMP
+#
 $CMP PGND1
 D Local power GND 1
 K PGND, Local GND

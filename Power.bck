@@ -115,6 +115,11 @@ D Local power GND 8
 K PGND, Local GND
 $ENDCMP
 #
+$CMP PGND9
+D Local power GND 9
+K PGND, Local GND
+$ENDCMP
+#
 $CMP SENSvcc
 K SENSvcc
 $ENDCMP

@@ -35,14 +35,19 @@ D ESD protection to USB, Vrwm 5.5V, Cj 0.85pF
 K CM1213A, ESD_protect
 $ENDCMP
 #
+$CMP CommonChoke
+D EMI Common Mode Choke Filter
+K EMI_filter, Choke, CommonChoke
+$ENDCMP
+#
 $CMP DLW21SN121
-D EMI Suppression Filters 2-line (to RS-485), Ir 370mA Rdc 0.35r, 120r at 100MHz
-K EMI_filter
+D EMI Common Mode Choke Filter (to RS-485), Ir 370mA Rdc 0.35r, 120r at 100MHz
+K EMI_filter, Choke, CommonChoke
 $ENDCMP
 #
 $CMP DLW21SN900
-D EMI Suppression Filters 2-line (to USB), Ir 330mA Rdc 0.35r, 90r at 100MHz
-K EMI_filter
+D EMI Common Mode Choke Filter (to USB), Ir 330mA Rdc 0.35r, 90r at 100MHz
+K EMI_filter, Choke, CommonChoke
 $ENDCMP
 #
 $CMP EMIF06-1005MX12Y
@@ -58,6 +63,11 @@ $ENDCMP
 $CMP FerriteBeads
 D EMI Suppression L-filter (Ferrite Beads)
 K EMI_filter, L-filter, FerriteBeads
+$ENDCMP
+#
+$CMP Fuze
+D Предохранитель плавкий
+K FU
 $ENDCMP
 #
 $CMP IP4256CZ5-W

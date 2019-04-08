@@ -80,14 +80,4 @@ D Датчик приближения, ИК
 K TSSP77038
 $ENDCMP
 #
-$CMP ThermalProtector
-D Thermal Protector, NC (термоконтакт размыкающий)
-K SK, ThermalProtector
-$ENDCMP
-#
-$CMP TiltSensor
-D ON/OFF Tilt Sensor
-K SQ, TiltSensor
-$ENDCMP
-#
 #End Doc Library

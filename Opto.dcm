@@ -2,17 +2,22 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP LVT817S
 D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 35V Vec 6V
-K LVT817S, PC817
+K LVT817S, PC817, opto
 $ENDCMP
 #
-$CMP PC3H7J
-D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 70V Vec 6V
-K PC3H7J
+$CMP PC3H7
+D Photocoupler; In: Vf 1.2V @ If 20mA, If 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 6V
+K opto
 $ENDCMP
 #
 $CMP PhotoDiode
 D Photo Diode
 K PhotoDiode, HL
+$ENDCMP
+#
+$CMP TLP291-4
+D Photocoupler; In: Vf 1.2V @ If 10mA, If 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
+K opto
 $ENDCMP
 #
 #End Doc Library

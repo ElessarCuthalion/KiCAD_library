@@ -50,6 +50,11 @@ D EMI Common Mode Choke Filter (to USB), Ir 330mA Rdc 0.35r, 90r at 100MHz
 K EMI_filter, Choke, CommonChoke
 $ENDCMP
 #
+$CMP EMIF04-1005M8
+D EMI RC-filter and ESD protection to GPIO, 4-line
+K EMI_filter, ESD_protect
+$ENDCMP
+#
 $CMP EMIF06-1005MX12Y
 D EMI RC-filter and ESD protection to GPIO, 6-line
 K EMI_filter, ESD_protect

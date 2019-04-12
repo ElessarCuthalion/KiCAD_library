@@ -1,13 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVT126PW
+D Quad noninverting tri-state buffer:  Vcc 2.7-3.6V, Iout 32mA
+K buffer
+$ENDCMP
+#
 $CMP FT232R
 D USB to RS232 converter
 K FT232
 $ENDCMP
 #
 $CMP M74VHC1GT125
-D Single Hi-Lo/Lo-Hi tri-state buffer
-K M74VHC1GT125
+D Single noninverting tri-state buffer: Vcc 3-5.5V Iq 1.35mA, Iout 25mA MAX
+K buffer
 $ENDCMP
 #
 $CMP MAX3483E
@@ -17,7 +22,7 @@ $ENDCMP
 #
 $CMP MAX3488E
 D UATR to RS422 converter: Vcc 3,3V 256kB/S (slew-rate limited) 64 devices, 15kV ESD-Protected
-K RS422
+K RS422, 422
 $ENDCMP
 #
 $CMP MAX483E
@@ -31,12 +36,12 @@ K RS485, 485
 $ENDCMP
 #
 $CMP SN74LVC1T45
-D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 3uA
+D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1.65-5.5V, Icc 3uA
 K SN74LVC1T45
 $ENDCMP
 #
 $CMP SN74LVC2T45
-D 2-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1,65-5,5V, Icc 6uA
+D 2-bit Transceiver 210Mbps typ, Vcc 1.65-5.5V Icc 6uA, Iout 32mA @ Vcc 4.5-5.5V
 K SN74LVC2T45
 $ENDCMP
 #

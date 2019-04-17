@@ -1081,17 +1081,17 @@ X Housing H 0 -900 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB-mcro_mini
+# USB-mcro&mini
 #
-DEF USB-mcro_mini XS 0 100 N Y 1 F N
+DEF USB-mcro&mini XS 0 100 N Y 1 F N
 F0 "XS" 0 750 60 H V C CNN
-F1 "USB-mcro_mini" 0 650 60 H V C CNN
-F2 "USB-mcro+mini" 0 -650 60 H I C CNN
+F1 "USB-mcro&mini" 0 650 60 H V C CNN
+F2 "USB-mcro&mini" 0 -650 60 H I C CNN
 F3 "" 350 -650 60 H V C CNN
 F4 "11/9" -400 750 60 H I C CNN "SolderPoints"
 F5 "0" -400 650 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
- USB-mcro+mini
+ USB-mcro&mini
 $ENDFPLIST
 DRAW
 T 0 -100 -100 60 0 0 0 DATA+ Normal 0 C C

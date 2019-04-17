@@ -1,6 +1,6 @@
-(module SOL24 (layer F.Cu) (tedit 5CAB452C)
+(module SOP24L (layer F.Cu) (tedit 5CAB452C)
   (attr smd)
-  (fp_text reference SOL24 (at -0.635 0 90) (layer F.SilkS)
+  (fp_text reference SOP24L (at -0.635 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0.635 0 90) (layer F.SilkS)

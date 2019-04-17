@@ -1,6 +1,6 @@
-(module SO8 (layer F.Cu) (tedit 5CAB33B4)
+(module SOP8 (layer F.Cu) (tedit 5CAB33B4)
   (attr smd)
-  (fp_text reference SO8 (at -0.4 0 90) (layer F.SilkS)
+  (fp_text reference SOP8 (at -0.4 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0.8 0 90) (layer F.SilkS)
@@ -19,7 +19,7 @@
   (pad 6 smd oval (at 2.9 0.635) (size 1.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at 2.9 -0.635) (size 1.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at 2.9 -1.905) (size 1.6 0.6) (layers F.Cu F.Paste F.Mask))
-  (model smd/cms_so8.wrl
+  (model smd/cms_SOP8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.5 0.32 0.5))
     (rotate (xyz 0 0 0))

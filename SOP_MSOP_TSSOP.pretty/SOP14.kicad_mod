@@ -1,6 +1,6 @@
-(module SO14 (layer F.Cu) (tedit 5CAB5442)
+(module SOP14 (layer F.Cu) (tedit 5CAB5442)
   (attr smd)
-  (fp_text reference SO14 (at -0.508 0 90) (layer F.SilkS)
+  (fp_text reference SOP14 (at -0.508 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0.762 0 90) (layer F.SilkS)

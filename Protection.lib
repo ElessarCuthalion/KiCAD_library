@@ -294,6 +294,9 @@ F3 "" 0 300 60 H V C CNN
 F4 "0" -400 300 60 H I C CNN "SolderPoints"
 F5 "0" -400 200 60 H I C CNN "SolderPoints_DIP"
 F6 "type" 0 -200 60 H I C CNN "Type"
+$FPLIST
+ Choke*
+$ENDFPLIST
 DRAW
 A -100 -100 50 1 1799 0 1 0 N -50 -100 -150 -100
 A -100 100 50 -1799 -1 0 1 0 N -150 100 -50 100

@@ -10,14 +10,19 @@ D Surge Arrester 3-electrode
 K FV, Arrester
 $ENDCMP
 #
-$CMP BLM15AG102SN1
+$CMP BLM15AG102
 D EMI L-filter 0402, Ir 200mA Rdc 1r, 1k at 100MHz
 K BLM15, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
-$CMP BLM18AG102SN1
+$CMP BLM18AG102
 D EMI L-filter 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
 K BLM18, EMI_filter, L-filter, FerriteBeads
+$ENDCMP
+#
+$CMP BLM31KN471
+D EMI L-filter 1206, Ir 4A Rdc 20mR, 470R at 100MHz
+K BLM31, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
 $CMP CD143A-SR3.3

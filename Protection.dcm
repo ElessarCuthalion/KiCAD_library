@@ -25,6 +25,11 @@ D EMI L-filter 1206, Ir 4A Rdc 20mR, 470R at 100MHz
 K BLM31, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
+$CMP BNXseries
+D EMI LC-filter for DC power line, BNX Series
+K EMI_filter, LC-filter
+$ENDCMP
+#
 $CMP CD143A-SR3.3
 D ESD protection, 2-line, Vrwm 3.3V, Ppk 200W, Cj 4.5pF
 K CD143A-SR3.3, ESD_protect

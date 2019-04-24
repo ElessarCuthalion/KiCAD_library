@@ -4,6 +4,10 @@ $CMP +12V
 K +12V
 $ENDCMP
 #
+$CMP +12Vin
+K +12V
+$ENDCMP
+#
 $CMP +2.5V
 K +2,5V
 $ENDCMP

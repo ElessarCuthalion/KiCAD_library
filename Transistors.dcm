@@ -1,47 +1,42 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP A6800
-D Dual N-Channel: 30V 3.4A 60mR
-K A6800
-$ENDCMP
-#
-$CMP A6800_AB
-D Dual N-Channel: 30V 3.4A 60mR
-K A6800
-$ENDCMP
-#
-$CMP A6800_v2
-D Dual N-Channel: 30V 3.4A 60mR
-K A6800
-$ENDCMP
-#
-$CMP A6801
-D Dual P-Channel: -30V -2.3A; 185mR (Vgs -4.5V)
-K A6801
-$ENDCMP
-#
-$CMP A6801_AB
-D Dual P-Channel: -30V -2.3A; 185mR (Vgs -4.5V)
-K A6801
-$ENDCMP
-#
 $CMP AO3407A
 D P-Channel -30V -4.3A 54mR (Vgs -4,5V)
 K AO3407A
 $ENDCMP
 #
+$CMP AO6800
+D Dual N-Channel: 30V 3.4A 60mR
+K Dual N, N+N
+$ENDCMP
+#
+$CMP AO6800_AB
+D Dual N-Channel: 30V 3.4A 60mR
+K Dual N, N+N
+$ENDCMP
+#
+$CMP AO6801
+D Dual P-Channel: -30V -2.3A; 185mR @ Vgs -4.5V
+K Dual P, P+P
+$ENDCMP
+#
+$CMP AO6801_AB
+D Dual P-Channel: -30V -2.3A; 185mR @ Vgs -4.5V
+K Dual P, P+P
+$ENDCMP
+#
 $CMP DMP2035UTS
 D Dual P-Channel -20V -3.9A 45mR
-K DMP2035UTS
+K Dual P, P+P
 $ENDCMP
 #
 $CMP IRF5810
-D Dual P-Channel: -20V -2.9A; 60mR (Vgs -4.5V)
+D Dual P-Channel: -20V -2.9A; 60mR @ Vgs -4.5V
 K IRF5810
 $ENDCMP
 #
 $CMP IRF5810_AB
-D Dual P-Channel: -20V -2.9A; 60mR (Vgs -4.5V)
+D Dual P-Channel: -20V -2.9A; 60mR @ Vgs -4.5V
 K IRF5810
 $ENDCMP
 #
@@ -61,7 +56,7 @@ K HEXFET
 $ENDCMP
 #
 $CMP IRFL9014
-D P-Channel -60V -1.8A 500mR (Vgs -10V)
+D P-Channel -60V -1.8A 500mR @ Vgs -10V
 K IRFL9014
 $ENDCMP
 #
@@ -71,12 +66,12 @@ K IRLL2703
 $ENDCMP
 #
 $CMP IRLML2502
-D N-Channel 20V 4.2A 35mR (Vgs 4.5V)
+D N-Channel 20V 4.2A 35mR @ Vgs 4.5V
 K IRLML2502
 $ENDCMP
 #
 $CMP IRLML6402
-D P-Channel -20V -3.7A 50mR (Vgs -4.5V)
+D P-Channel -20V -3.7A 50mR @ Vgs -4.5V
 K IRLML6402
 $ENDCMP
 #
@@ -85,24 +80,34 @@ D n-p-n, Vce 40V Vcb 60V Veb 6V Ic 0.6A
 K MMBT4401
 $ENDCMP
 #
+$CMP NTJD5121N
+D Dual N-Channel: 60V 0.295A, 1.2R @ Vgs 4.5V; Vgs_m 20V; ESD Protected Gate
+K Dual N, N+N
+$ENDCMP
+#
+$CMP NVJD4152P
+D Dual P-Channel: -20V 0.88A, 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate
+K Dual P, P+P
+$ENDCMP
+#
 $CMP Si3588DV
 D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
-K Si3588
+K N+P
 $ENDCMP
 #
 $CMP Si3588DV_AB
 D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
-K Si3588DV
+K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var2
 D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
-K Si3588
+K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var3
 D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
-K Si3588
+K N+P
 $ENDCMP
 #
 #End Doc Library

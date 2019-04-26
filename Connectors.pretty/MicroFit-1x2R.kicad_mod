@@ -1,5 +1,5 @@
-(module MicroFit-2R (layer F.Cu) (tedit 5CC17B6A)
-  (fp_text reference MicroFit-2R (at -2 -1.75) (layer F.SilkS)
+(module MicroFit-1x2R (layer F.Cu) (tedit 5CC17B6A)
+  (fp_text reference MicroFit-1x2R (at -2 -1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 3.5 -1.75) (layer F.SilkS)

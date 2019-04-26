@@ -1,4 +1,4 @@
-(module for_PolarOut_MicroFit-2R (layer F.Cu) (tedit 5CC16E29)
+(module for_PolarOut_MicroFit-1x2R (layer F.Cu) (tedit 5CC16E29)
   (fp_text reference PolarOut (at -2 -1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

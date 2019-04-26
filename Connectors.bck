@@ -107,7 +107,7 @@ $ENDCMP
 #
 $CMP HR911105A
 D RJ-45 for EIA/TIA-568B standard with Transformer and LED
-K HR911105A, 568B
+K RJ-45, 8P8C, 568B
 $ENDCMP
 #
 $CMP IDC-10
@@ -143,6 +143,11 @@ $ENDCMP
 $CMP RJ25_6P6C_v2
 D RJ-25 for 6P6C connector
 K RJ25, 6P6C
+$ENDCMP
+#
+$CMP RJ45_B-1x4
+D 4x RJ-45 for EIA/TIA-568B standard to 8P8C connector with LED
+K RJ45, 8P8C, 568B
 $ENDCMP
 #
 $CMP RJ45_to_568B

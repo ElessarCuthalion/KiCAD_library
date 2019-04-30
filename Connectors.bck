@@ -80,6 +80,11 @@ D Single row connectors x6, male
 K Conn6x, XP6x
 $ENDCMP
 #
+$CMP Conn-8f
+D Single row connectors x8, female
+K Conn8x, XS8x
+$ENDCMP
+#
 $CMP Conn_2x12
 D Double row connectors, 2x12, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
@@ -145,7 +150,7 @@ D RJ-25 for 6P6C connector
 K RJ25, 6P6C
 $ENDCMP
 #
-$CMP RJ45_B-1x4
+$CMP RJ45_B-1x4_ABCD
 D 4x RJ-45 for EIA/TIA-568B standard to 8P8C connector with LED
 K RJ45, 8P8C, 568B
 $ENDCMP

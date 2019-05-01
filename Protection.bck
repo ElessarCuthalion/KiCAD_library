@@ -61,7 +61,7 @@ K EMI_filter, Choke, CommonChoke
 $ENDCMP
 #
 $CMP EMIF04-1005M8
-D EMI RC-filter and ESD protection to GPIO, 4-line
+D EMI RC-filter and ESD protection to GPIO, 4-line, Vrw 8V
 K EMI_filter, ESD_protect
 $ENDCMP
 #

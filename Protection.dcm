@@ -105,14 +105,19 @@ D ESD protection to GPIO, 1-line, Vrwm 6-8V, Ppk 14W, Cj 7-10pF
 K NZF220TT1, ESD_protect
 $ENDCMP
 #
+$CMP P6KE15CA
+D TVS diode, Vrwm 12.8V, Ppk 600W, Ipp 28.8A
+K Suppressor, Bi, TVS
+$ENDCMP
+#
 $CMP PESD3V3S2UT
 D ESD protection, 2-line, Vrwm 3.3V, Ppk 330W, Cd 207pF
 K ESD_protect
 $ENDCMP
 #
 $CMP PESD3V3U1UB
-D ESD protection, 1-line, Vrwm 3.3V, Vesd 9kV, Cd 2.6pF
-K ESD_protect
+D TVS diode, 1-line, Vrwm 3.3V, Vesd 9kV, Cd 2.6pF
+K ESD_protect, Uni, TVS
 $ENDCMP
 #
 $CMP RClamp0502BA
@@ -121,8 +126,8 @@ K RClamp0502B, RClamp0502BA
 $ENDCMP
 #
 $CMP SMF12A
-D ESD protection, 1-line, Vrwm 12V, Ppk 200W, Ipp 10.1A
-K ESD_protect
+D TVS diode, Vrwm 12V, Ppk 200W, Ipp 10.1A
+K ESD_protect, Uni, TVS
 $ENDCMP
 #
 $CMP SP4045-04A
@@ -132,12 +137,12 @@ $ENDCMP
 #
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
-K Suppressor
+K Suppressor, Bi
 $ENDCMP
 #
 $CMP Suppressor_Uni
 D Transient Voltage Suppression Diodes, Uni-directional (ливинный диод, однонаправленный)
-K Suppressor
+K Suppressor, Uni
 $ENDCMP
 #
 $CMP USBLC6-2SC6

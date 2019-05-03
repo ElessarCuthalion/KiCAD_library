@@ -80,14 +80,14 @@ D n-p-n, Vce 40V Vcb 60V Veb 6V Ic 0.6A
 K MMBT4401
 $ENDCMP
 #
+$CMP NTJD4152P
+D Dual P-Channel: -20V 0.88A, 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate
+K Dual P, P+P
+$ENDCMP
+#
 $CMP NTJD5121N
 D Dual N-Channel: 60V 0.295A, 1.2R @ Vgs 4.5V; Vgs_m 20V; ESD Protected Gate
 K Dual N, N+N
-$ENDCMP
-#
-$CMP NVJD4152P
-D Dual P-Channel: -20V 0.88A, 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate
-K Dual P, P+P
 $ENDCMP
 #
 $CMP Si3588DV

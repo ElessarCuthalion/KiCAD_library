@@ -66,7 +66,7 @@ K EMI_filter, ESD_protect
 $ENDCMP
 #
 $CMP EMIF06-1005MX12Y
-D EMI RC-filter and ESD protection to GPIO, 6-line
+D EMI RC-filter and ESD protection to GPIO, 6-line, Vrw 8V
 K EMI_filter, ESD_protect
 $ENDCMP
 #
@@ -112,7 +112,7 @@ $ENDCMP
 #
 $CMP PESD3V3U1UB
 D ESD protection, 1-line, Vrwm 3.3V, Vesd 9kV, Cd 2.6pF
-K ESD_protect
+K ESD_protect, Uni
 $ENDCMP
 #
 $CMP RClamp0502BA
@@ -122,7 +122,7 @@ $ENDCMP
 #
 $CMP SMF12A
 D ESD protection, 1-line, Vrwm 12V, Ppk 200W, Ipp 10.1A
-K ESD_protect
+K ESD_protect, Uni
 $ENDCMP
 #
 $CMP SP4045-04A
@@ -132,12 +132,12 @@ $ENDCMP
 #
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
-K Suppressor
+K Suppressor, Bi
 $ENDCMP
 #
 $CMP Suppressor_Uni
 D Transient Voltage Suppression Diodes, Uni-directional (ливинный диод, однонаправленный)
-K Suppressor
+K Suppressor, Uni
 $ENDCMP
 #
 $CMP USBLC6-2SC6

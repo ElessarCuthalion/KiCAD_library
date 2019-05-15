@@ -1,12 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AudioJack_Mono
-D Audio-Jack Mono
+D Audio-Jack Mono 2pin
 K Jack
 $ENDCMP
 #
 $CMP AudioJack_Stereo
-D Audio-Jack Stereo
+D Audio-Jack Stereo 3pin
+K Jack
+$ENDCMP
+#
+$CMP AudioJack_Stereo_5pin
+D Audio-Jack Stereo 5pin
 K Jack
 $ENDCMP
 #
@@ -110,11 +115,6 @@ D Double row connectors, 2x7, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP HR911105A
-D RJ-45 for EIA/TIA-568B standard with Transformer and LED
-K RJ-45, 8P8C, 568B
-$ENDCMP
-#
 $CMP IDC-10
 D Double row connectors, 2x5, male
 K IDC, PLD, FDC
@@ -153,6 +153,11 @@ $ENDCMP
 $CMP RJ45_B-1x4_ABCD
 D 4x RJ-45 for EIA/TIA-568B standard to 8P8C connector with LED
 K RJ45, 8P8C, 568B
+$ENDCMP
+#
+$CMP RJ45_HR911105A
+D RJ-45 for EIA/TIA-568B standard with Transformer and LED
+K RJ-45, 8P8C, 568B
 $ENDCMP
 #
 $CMP RJ45_to_568B

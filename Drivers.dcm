@@ -43,8 +43,12 @@ D 16ch LED driver; Grayscale PWM control, 12bit; SPI; Io 0~120mA, Vcc 3~5V
 K TLC5940
 $ENDCMP
 #
+$CMP ULN2003F12
+D 4-Channel Relay and Inductive Load Sink Driver with ESD Protection; Iout 0.1A at Vin 3.3V
+$ENDCMP
+#
 $CMP ULN2003V12T16
-D 7-Channel Relay and Inductive Load Sink Driver with ESD Protection
+D 7-Channel Relay and Inductive Load Sink Driver with ESD Protection; Iout 0.1A at Vin 3.3V
 $ENDCMP
 #
 $CMP WS2818

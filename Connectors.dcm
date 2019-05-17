@@ -170,8 +170,13 @@ D 2x RJ-45 for EIA/TIA-568B standard to 8P8C connector
 K RJ45, 8P8C, 568B
 $ENDCMP
 #
-$CMP SD-micro
+$CMP SD-micro_8pin
 D Micro-SD, 8 pin
+K SD, micro-SD
+$ENDCMP
+#
+$CMP SD-micro_9pin
+D Micro-SD, 9 pin
 K SD, micro-SD
 $ENDCMP
 #

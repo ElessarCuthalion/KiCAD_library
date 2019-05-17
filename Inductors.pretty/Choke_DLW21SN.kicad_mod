@@ -1,4 +1,4 @@
-(module DLW21SN (layer F.Cu) (tedit 5CB8A9E9)
+(module Choke_DLW21SN (layer F.Cu) (tedit 5CB8A9E9)
   (fp_text reference DLW21SN (at 0 -1.4 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

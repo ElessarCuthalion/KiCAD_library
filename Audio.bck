@@ -27,6 +27,7 @@ $ENDCMP
 #
 $CMP WM8960
 D Codec with HP amp i class D amp
+K WM8960
 $ENDCMP
 #
 #End Doc Library

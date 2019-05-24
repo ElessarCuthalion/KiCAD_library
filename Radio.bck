@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ANT_868_PCB_MONO
+D ANT PCB mono for 868 MHz
+K WA, ANT
+$ENDCMP
+#
 $CMP ANT_GENERAL
 D General antenna symbol
 K WA
@@ -7,11 +12,6 @@ $ENDCMP
 #
 $CMP ANT_PCB
 K WA
-$ENDCMP
-#
-$CMP ANT_PCB_MONO
-D ANT PCB mono
-K WA, ANT
 $ENDCMP
 #
 $CMP ANT_PCB_MONO_2PIN
@@ -36,6 +36,11 @@ $ENDCMP
 $CMP CC2500
 D 2,4GHz tranciever
 K CC2500
+$ENDCMP
+#
+$CMP MFRC52202
+D NFC controller
+K MFRC522
 $ENDCMP
 #
 #End Doc Library

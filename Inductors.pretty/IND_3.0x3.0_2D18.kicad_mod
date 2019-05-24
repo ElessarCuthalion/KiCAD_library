@@ -1,6 +1,6 @@
-(module IND_3x3_SDR0302 (layer F.Cu) (tedit 5A51687B)
+(module IND_3.0x3.0_SDR0302 (layer F.Cu) (tedit 5CE810C5)
   (attr smd)
-  (fp_text reference "SDR0302, 2D18" (at 0 -2.4) (layer F.SilkS)
+  (fp_text reference "2D18, SDR0302, SMNR30xx" (at 0 -2.4) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 0 90) (layer F.SilkS)

@@ -89,11 +89,6 @@ D Local power GND 1
 K PGND, Local GND
 $ENDCMP
 #
-$CMP PGND10
-D Local power GND 10
-K PGND, Local GND
-$ENDCMP
-#
 $CMP PGND2
 D Local power GND 2
 K PGND, Local GND

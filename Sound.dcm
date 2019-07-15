@@ -10,8 +10,13 @@ D Звуковой излучатель
 K BQ
 $ENDCMP
 #
+$CMP Electret_Microphone
+D Electret Condenser Microphone (микрофон конденсаторный/электретный)
+K BM, mic
+$ENDCMP
+#
 $CMP Speaker
-D Динамик
+D Speaker (динамик)
 K BA
 $ENDCMP
 #

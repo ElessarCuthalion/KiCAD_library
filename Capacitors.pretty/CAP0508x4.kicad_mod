@@ -1,6 +1,6 @@
-(module CAP0508x4 (layer F.Cu) (tedit 59DB70EE)
+(module CAP0508x4 (layer F.Cu) (tedit 5D2F1ED4)
   (attr smd)
-  (fp_text reference "C0508 (x4)" (at 0 -1.8 180) (layer F.SilkS)
+  (fp_text reference "C0508 (x4)" (at 0 0 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.8 180) (layer F.SilkS)

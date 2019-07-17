@@ -1,6 +1,6 @@
-(module RES0402 (layer F.Cu) (tedit 596127DF)
+(module RES0402 (layer F.Cu) (tedit 5D2F1F6B)
   (attr smd)
-  (fp_text reference R0402 (at 0 -1.2) (layer F.SilkS)
+  (fp_text reference R0402 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.2) (layer F.SilkS)

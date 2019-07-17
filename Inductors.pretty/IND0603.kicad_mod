@@ -1,6 +1,6 @@
-(module IND0603 (layer F.Cu) (tedit 59612888)
+(module IND0603 (layer F.Cu) (tedit 5D2F1F22)
   (attr smd)
-  (fp_text reference IND0603 (at 0 -1.4) (layer F.SilkS)
+  (fp_text reference IND0603 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.4) (layer F.SilkS)

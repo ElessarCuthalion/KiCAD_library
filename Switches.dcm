@@ -5,6 +5,11 @@ D Button
 K BTN, SB
 $ENDCMP
 #
+$CMP DIP_Switch_x8
+D DIP Switch x8
+K SA, DIP
+$ENDCMP
+#
 $CMP ReedSwitch
 D Reed Switch (геркон)
 K SF, ReedSwitch, Gerkon

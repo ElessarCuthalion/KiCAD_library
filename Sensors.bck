@@ -10,6 +10,16 @@ D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
 K AT42QT1011
 $ENDCMP
 #
+$CMP Encoder
+D Incremental Type Encoder
+K BR
+$ENDCMP
+#
+$CMP Encoder+Button
+D Incremental Type Encoder with push-on Button + SHLD
+K BR
+$ENDCMP
+#
 $CMP Fresnel_Lens_NC
 D Fresnel_Lens
 K PIR, Fresnel, Lens

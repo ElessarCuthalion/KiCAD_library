@@ -1,4 +1,4 @@
-(module MW_IRM-05s,-10s (layer F.Cu) (tedit 59EB98B4)
+(module MW_IRM-05s,-10s (layer F.Cu) (tedit 5D88A3F9)
   (fp_text reference MW_IRM-05s,-10s (at 0 -8.89) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
@@ -25,5 +25,6 @@
   (pad 2 thru_hole circle (at -19.25 9.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 19.25 9.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (pad 4 thru_hole circle (at 19.25 1.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 19.25 1.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask)
+    (zone_connect 1))
 )

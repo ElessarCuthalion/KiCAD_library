@@ -1,4 +1,4 @@
-(module Battety_AAA_X1 (layer F.Cu) (tedit 59C38C22)
+(module Battety_AAA_x1 (layer F.Cu) (tedit 5D889FB0)
   (descr "AAAx1 battery holder, hole-mounted")
   (fp_text reference BATTERY_AAA_X1 (at 0 -4.75) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -16,6 +16,8 @@
   (fp_line (start -25 -6.5) (end 25 -6.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 25 -6.5) (end 25 6.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 25 6.5) (end -25 6.5) (layer F.SilkS) (width 0.15))
-  (pad A thru_hole rect (at 23.5 0) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
-  (pad C thru_hole circle (at -23.5 0) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
+  (pad A thru_hole rect (at 23.5 0) (size 2 2) (drill 0.9) (layers *.Cu *.Mask)
+    (zone_connect 1))
+  (pad C thru_hole circle (at -23.5 0) (size 2 2) (drill 0.9) (layers *.Cu *.Mask)
+    (zone_connect 1))
 )

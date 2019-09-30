@@ -1,4 +1,4 @@
-﻿(module PBS-3 (layer F.Cu) (tedit 5A0EAEAA)
+(module PBS-3 (layer F.Cu) (tedit 5D91F27A)
   (fp_text reference PВS-3 (at -2.4 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

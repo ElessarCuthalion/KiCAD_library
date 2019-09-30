@@ -44,16 +44,20 @@ K TLC5940
 $ENDCMP
 #
 $CMP ULN2003F12
-D 4-Channel Relay and Inductive Load Sink Driver with ESD Protection
+D 4-Channel Relay and Inductive Load Sink Driver with ESD Protection; Iout 0.1A at Vin 3.3V
 $ENDCMP
 #
 $CMP ULN2003V12T16
-D 7-Channel Relay and Inductive Load Sink Driver with ESD Protection
+D 7-Channel Relay and Inductive Load Sink Driver with ESD Protection; Iout 0.1A at Vin 3.3V
 $ENDCMP
 #
 $CMP WS2818
 D RGB LED driver, 2kHz PWM control, 1-wire
 K WS2818
+$ENDCMP
+#
+$CMP ZXSC310
+D LED driver Step-Up with external transistor; PWM; Vin 0.8~8V; Isd 5uA
 $ENDCMP
 #
 #End Doc Library

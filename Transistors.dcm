@@ -30,6 +30,14 @@ D Dual P-Channel -20V -3.9A 45mR
 K Dual P, P+P
 $ENDCMP
 #
+$CMP FMMT617
+D n-p-n, Vce 15V Vcb 15V Veb 5V Ic 3A
+$ENDCMP
+#
+$CMP FMMT618
+D n-p-n, Vce 20V Vcb 20V Veb 5V Ic 2.5A
+$ENDCMP
+#
 $CMP IRF5810
 D Dual P-Channel: -20V -2.9A; 60mR @ Vgs -4.5V
 K IRF5810

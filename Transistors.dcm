@@ -38,6 +38,10 @@ $CMP FMMT618
 D n-p-n, Vce 20V Vcb 20V Veb 5V Ic 2.5A
 $ENDCMP
 #
+$CMP FMMT619
+D n-p-n, Vce 50V Vcb 50V Veb 5V Ic 2A
+$ENDCMP
+#
 $CMP IRF5810
 D Dual P-Channel: -20V -2.9A; 60mR @ Vgs -4.5V
 K IRF5810

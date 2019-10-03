@@ -1,28 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Amadon
-D Amadon logo
-K Amadon
-$ENDCMP
-#
-$CMP BoardName
-D Board Name text on PCB silks
-K Name, BoardName, BN
-$ENDCMP
-#
-$CMP Comment
-D Label on PCB
-K Label, Comment
-$ENDCMP
-#
-$CMP Eldalim
-D Eldalim logo
-K Eldalim
-$ENDCMP
-#
-$CMP ElfartiS
-D ElfartiS logo
-K ElfartiS
-$ENDCMP
-#
 #End Doc Library

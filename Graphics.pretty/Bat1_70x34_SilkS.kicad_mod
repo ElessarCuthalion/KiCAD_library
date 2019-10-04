@@ -1,8 +1,8 @@
-(module Bat1_70x34_SilkS (layer F.Cu) (tedit 5D95DCEA)
-  (fp_text reference G*** (at 0 -1.5) (layer F.SilkS) hide
+(module Bat1_70x34_SilkS (layer F.Cu) (tedit 5D97362C)
+  (fp_text reference "Bat1 SilkS" (at 0 -1.5) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (fp_text value "Bat1 SilkS" (at 0 1.25) (layer F.SilkS) hide
+  (fp_text value "Bat1 70x34 SilkS" (at 0 1.25) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy -18.377349 -14.754837) (xy -17.810427 -13.699394) (xy -17.261139 -12.752149) (xy -16.723424 -11.904996)

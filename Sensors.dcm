@@ -90,4 +90,14 @@ D Датчик приближения, ИК
 K TSSP77038
 $ENDCMP
 #
+$CMP TiltSensor
+D ON/OFF Tilt Sensor
+K SQ, TiltSensor, MercurySwitch
+$ENDCMP
+#
+$CMP VibrationSensor
+D Vibration Sensor
+K Vibration Sensor
+$ENDCMP
+#
 #End Doc Library

@@ -1,4 +1,4 @@
-(module FlatConn-2 (layer F.Cu) (tedit 5A0EABDA)
+(module FlatConn-2 (layer F.Cu) (tedit 5D99B4D7)
   (fp_text reference FlatConn-2 (at 0 -4.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

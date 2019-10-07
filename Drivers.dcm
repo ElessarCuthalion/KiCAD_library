@@ -56,6 +56,10 @@ D RGB LED driver, 2kHz PWM control, 1-wire
 K WS2818
 $ENDCMP
 #
+$CMP ZXLD381
+D LED driver Step-Up; Vin 0.8~2.2V; Vout < 20V Iout < 70mA
+$ENDCMP
+#
 $CMP ZXSC310
 D LED driver Step-Up with external transistor; PWM; Vin 0.8~8V; Isd 5uA
 $ENDCMP

@@ -1,4 +1,4 @@
-(module QuestartiS_5x6 (layer F.Cu) (tedit 5D95ED94)
+(module QuestartiS_5x6 (layer F.Cu) (tedit 5DC17CC3)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
@@ -78,4 +78,7 @@
     (xy -1.694485 -2.432913) (xy -1.384739 -2.647368) (xy -1.072632 -2.805609) (xy -0.751287 -2.90964)
     (xy -0.413827 -2.961464) (xy -0.053376 -2.963082) (xy 0.086118 -2.95147)) (layer F.SilkS) (width 0.01))
   (fp_circle (center -0.2 -0.3) (end -0.1 -0.3) (layer F.SilkS) (width 0.15))
+  (fp_text user estartiS (at 5.3 1 unlocked) (layer F.SilkS)
+    (effects (font (size 1.5 1) (thickness 0.2) italic))
+  )
 )

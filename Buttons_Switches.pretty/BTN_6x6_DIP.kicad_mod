@@ -1,4 +1,4 @@
-(module BTN_6x6_DIP (layer F.Cu) (tedit 5D83A1E9)
+(module BTN_6x6_DIP (layer F.Cu) (tedit 5DD544B4)
   (fp_text reference BTN_6x6_DIP (at 0 0) (layer F.SilkS)
     (effects (font (size 0.8 0.6) (thickness 0.15)))
   )
@@ -18,7 +18,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at -3.25 2.25) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model D:/Electronix/KiCadLibs/Wings/btn_smd.wrl
+  (model "${KISYS3DMOD}/Buttons_Switches/Button 6x6x5 DIP.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

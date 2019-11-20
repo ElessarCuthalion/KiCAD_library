@@ -1,4 +1,4 @@
-(module IDC-14 (layer F.Cu) (tedit 5A02E23D)
+(module IDC-14 (layer F.Cu) (tedit 5DD58402)
   (fp_text reference "IDC-14MS (DS1013-14S)" (at -9 -5.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
@@ -45,4 +45,9 @@
     (zone_connect 1))
   (pad 14 thru_hole circle (at 7.62 -1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Connectors/IDC-14MS (DS1013-14S).stp"
+    (offset (xyz -7.62 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

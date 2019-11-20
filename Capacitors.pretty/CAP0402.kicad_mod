@@ -1,4 +1,4 @@
-(module CAP0402 (layer F.Cu) (tedit 5D2F1EEB)
+(module CAP0402 (layer F.Cu) (tedit 5DD56B98)
   (attr smd)
   (fp_text reference C0402 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -13,7 +13,7 @@
   (fp_line (start -1.1 -0.6) (end 0 -0.6) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -0.5 0) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.5 0) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
-  (model 3d\c_0402.wrl
+  (model ${KISYS3DMOD}/Capacitors/CAP0402.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

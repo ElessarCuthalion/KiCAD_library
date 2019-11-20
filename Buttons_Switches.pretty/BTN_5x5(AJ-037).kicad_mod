@@ -1,4 +1,4 @@
-(module "BTN_5x5(AJ-037)" (layer F.Cu) (tedit 5D83A1B0)
+(module "BTN_5x5(AJ-037)" (layer F.Cu) (tedit 5DD544FD)
   (attr smd)
   (fp_text reference AJ-037/TS52xxA (at 0 0) (layer F.SilkS)
     (effects (font (size 0.8 0.6) (thickness 0.15)))
@@ -23,4 +23,14 @@
     (zone_connect 1))
   (pad 2 smd rect (at -3 1.85) (size 1 0.8) (layers F.Cu F.Paste F.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Buttons_Switches/Button 5x5x1.8 AJ-037(TS52xxA).STEP"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KISYS3DMOD}/Buttons_Switches/Button 5x5x5 AJ-037(TS52xxA).STEP"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

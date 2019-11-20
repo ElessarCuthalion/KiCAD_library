@@ -1,4 +1,4 @@
-(module IDC-6 (layer F.Cu) (tedit 5A02E35B)
+(module IDC-6 (layer F.Cu) (tedit 5DD5836A)
   (fp_text reference "IDC-06MS (DS1013-06S)" (at 0 -5.6) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
@@ -29,4 +29,9 @@
     (zone_connect 1))
   (pad 6 thru_hole circle (at 2.54 -1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Connectors/IDC-6MS (DS1013-6S).stp"
+    (offset (xyz -2.54 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

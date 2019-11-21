@@ -1,4 +1,4 @@
-(module TJ-6P6C_DS1133 (layer F.Cu) (tedit 5D889B2D)
+(module TJ-6P6C_DS1133 (layer F.Cu) (tedit 5DD6BDC4)
   (fp_text reference DS1133 (at -2 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

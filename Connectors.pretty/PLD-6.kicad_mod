@@ -1,4 +1,4 @@
-(module PLD-6 (layer F.Cu) (tedit 5A0EAFED)
+(module PLD-6 (layer F.Cu) (tedit 5DD67B09)
   (fp_text reference "PLD-6 (3x2)" (at -2.5 -3.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -71,4 +71,9 @@
     (zone_connect 1))
   (pad 6 thru_hole circle (at 2.54 -1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/PLD-6.STEP
+    (offset (xyz -2.54 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

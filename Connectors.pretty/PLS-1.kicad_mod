@@ -1,4 +1,4 @@
-(module PLS-1 (layer F.Cu) (tedit 59611A13)
+(module PLS-1 (layer F.Cu) (tedit 5DD67A3C)
   (fp_text reference PLS-1 (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -23,4 +23,9 @@
   (fp_line (start -1.27 -0.635) (end -1.27 0.635) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/PLS-1.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

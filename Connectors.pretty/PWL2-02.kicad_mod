@@ -1,4 +1,4 @@
-(module PWL2-02 (layer F.Cu) (tedit 5A0EB4E6)
+(module PWL2-02 (layer F.Cu) (tedit 5DD6B166)
   (fp_text reference VAL** (at 0 3.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

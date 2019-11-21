@@ -1,4 +1,4 @@
-(module PLS-4 (layer F.Cu) (tedit 5A0EB17D)
+(module PLS-4 (layer F.Cu) (tedit 5DD678EC)
   (fp_text reference PLS-4 (at -3.8 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -70,4 +70,9 @@
     (zone_connect 1))
   (pad 4 thru_hole circle (at 3.81 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/PLS-4.STEP
+    (offset (xyz -3.81 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

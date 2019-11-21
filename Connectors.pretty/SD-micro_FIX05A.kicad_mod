@@ -1,4 +1,4 @@
-(module SD-micro_FIX05A (layer F.Cu) (tedit 5CDEBB6E)
+(module SD-micro_FIX05A (layer F.Cu) (tedit 5DD6BCCA)
   (attr smd)
   (fp_text reference VAL** (at -0.08 -2.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -40,4 +40,9 @@
     (zone_connect 2))
   (pad H smd rect (at -6.7 4.8 270) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
     (zone_connect 2))
+  (model "${KISYS3DMOD}/Connectors/SD-micro FIX05A.stp"
+    (offset (xyz 0 0.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

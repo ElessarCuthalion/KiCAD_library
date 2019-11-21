@@ -1,4 +1,4 @@
-(module USB-micro_B-5FS (layer F.Cu) (tedit 5DD66686)
+(module USB-micro_B-5FS (layer F.Cu) (tedit 5DD667D9)
   (zone_connect 1)
   (attr smd)
   (fp_text reference "USB-micro B-5FS" (at 0 1.75 180) (layer F.SilkS) hide

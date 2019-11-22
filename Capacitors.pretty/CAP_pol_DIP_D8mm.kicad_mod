@@ -1,4 +1,4 @@
-(module CAP_pol_DIP_D8mm (layer F.Cu) (tedit 5D8891B2)
+(module CAP_pol_DIP_D8mm (layer F.Cu) (tedit 5DD8146B)
   (fp_text reference "CAP DIP 8mm" (at 0 -4.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -18,4 +18,9 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 1.75 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Capacitors/CAP_pol_DIP_D8x11,5mm.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

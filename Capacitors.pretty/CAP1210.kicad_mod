@@ -1,4 +1,4 @@
-(module CAP1210 (layer F.Cu) (tedit 5DD56BF4)
+(module CAP1210 (layer F.Cu) (tedit 5DD7FAC5)
   (attr smd)
   (fp_text reference C1210 (at -0.4 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -13,6 +13,11 @@
   (pad 1 smd rect (at -1.65 0) (size 1.1 2.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.65 0) (size 1.1 2.7) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Capacitors/CAP1210.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ${KISYS3DMOD}/Capacitors/CAP1210_big.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

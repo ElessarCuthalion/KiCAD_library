@@ -1,6 +1,6 @@
 #template SOT23
 
-(module SC89 (layer F.Cu) (tedit 5A319E65)
+(module SOT490 (layer F.Cu) (tedit 5DD7A8F8)
   (descr "SC89 3pin, Case 463C-03")
   (tags SOT)
   (attr smd)

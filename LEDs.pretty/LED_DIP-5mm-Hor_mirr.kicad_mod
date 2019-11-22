@@ -1,4 +1,4 @@
-(module LED_DIP-5mm-Hor_mirr (layer F.Cu) (tedit 5A114E8F)
+(module LED_DIP-5mm-Hor_mirr (layer F.Cu) (tedit 5DD7C313)
   (descr "LED 5mm through hole horizontal mirrored")
   (fp_text reference LED-5mm (at 0 1.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -21,4 +21,9 @@
     (zone_connect 1))
   (pad C thru_hole circle (at -1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/LEDs/LED DIP 5mm Green Hor_mirr.STEP"
+    (offset (xyz 0 1.5 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

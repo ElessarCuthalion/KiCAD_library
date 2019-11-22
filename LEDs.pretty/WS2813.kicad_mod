@@ -1,4 +1,4 @@
-(module WS2813 (layer F.Cu) (tedit 5BED2E47)
+(module WS2813 (layer F.Cu) (tedit 5DD7C872)
   (attr smd)
   (fp_text reference WS2813 (at 0 -0.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -26,4 +26,9 @@
   (pad 4 smd oval (at -2.5 -1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd oval (at -2.5 1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd oval (at 2.5 -1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/LEDs/APA102C.STEP
+    (offset (xyz 0 0 0.15))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

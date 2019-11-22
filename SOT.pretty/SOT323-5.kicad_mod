@@ -1,6 +1,6 @@
-(module SOT323-5 (layer F.Cu) (tedit 5A324C96)
+(module SOT323-5 (layer F.Cu) (tedit 5DD7AA76)
   (attr smd)
-  (fp_text reference SOT323-5/SC70-3 (at 0 -2.2) (layer F.SilkS)
+  (fp_text reference SOT323-5 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 2.2) (layer F.SilkS)

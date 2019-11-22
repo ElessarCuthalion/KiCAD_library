@@ -1,4 +1,4 @@
-(module LQFP100 (layer F.Cu) (tedit 5C595C1E)
+(module LQFP100 (layer F.Cu) (tedit 5DD7B007)
   (descr "Quad Flat Package w/ Pins")
   (tags "QFP TQFP LQFP")
   (attr smd)
@@ -116,9 +116,9 @@
   (pad 98 smd oval (at -5 -7.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 99 smd oval (at -5.5 -7.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 100 smd oval (at -6 -7.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
-  (model LQFP100.wrl
+  (model ${KISYS3DMOD}/LQFP_TQFP/LQFP100.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )

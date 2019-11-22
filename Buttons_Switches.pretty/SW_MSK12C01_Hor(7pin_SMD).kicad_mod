@@ -1,5 +1,5 @@
-(module "SW_MSK12C01_Hor(7pin_SMD)" (layer F.Cu) (tedit 5CB733BF)
-  (descr "2-position switch;11.4x5.8")
+(module "SW_MSK12C01_Hor(7pin_SMD)" (layer F.Cu) (tedit 5DD7A270)
+  (descr "2-position switch, horizontal saide")
   (attr smd)
   (fp_text reference VAL** (at 0 0.762) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

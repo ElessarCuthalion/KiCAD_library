@@ -11,8 +11,7 @@ K 1N4148WS
 $ENDCMP
 #
 $CMP 1N4148WT
-D Schottky Ifmax 300mA; If 100mA -> Vf 1V; Vr 75V
-K 1N4148WS
+D Schottky Ifmax 250mA; If 150mA -> Vf 1.25V; Vr 80V
 $ENDCMP
 #
 $CMP BAT54A

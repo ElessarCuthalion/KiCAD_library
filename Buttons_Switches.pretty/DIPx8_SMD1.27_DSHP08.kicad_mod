@@ -1,5 +1,5 @@
-(module DIPx8_SMD1.27_DSHP08 (layer F.Cu) (tedit 5D7F9934)
-  (descr "DIP switch 2.54x8 SMD ")
+(module DIPx8_SMD1.27_DSHP08 (layer F.Cu) (tedit 5DD7A1C9)
+  (descr "DIP switch 1.27x8 SMD ")
   (fp_text reference VAL** (at 0 0.635) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

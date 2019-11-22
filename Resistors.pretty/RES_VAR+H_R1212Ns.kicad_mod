@@ -1,4 +1,4 @@
-(module RES_VAR+H_R1212Ns (layer F.Cu) (tedit 5D88A63B)
+(module RES_VAR+H_R1212Ns (layer F.Cu) (tedit 5DD79C2C)
   (fp_text reference R1212Ns (at 0 4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

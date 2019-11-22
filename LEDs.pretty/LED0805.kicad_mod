@@ -1,4 +1,4 @@
-(module LED0805 (layer F.Cu) (tedit 59612F46)
+(module LED0805 (layer F.Cu) (tedit 5DD7B32D)
   (attr smd)
   (fp_text reference LED0805 (at 0 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -17,4 +17,9 @@
   (fp_line (start -1.9 1) (end -1.9 -1) (layer F.SilkS) (width 0.15))
   (pad A smd rect (at -1.05 0) (size 1.1 1.4) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 1.05 0) (size 1.1 1.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/LEDs/LED0805.STEP
+    (offset (xyz -0.5 -0.55 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

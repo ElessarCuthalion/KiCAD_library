@@ -1,4 +1,4 @@
-(module LED0603 (layer F.Cu) (tedit 5D2F1F47)
+(module LED0603 (layer F.Cu) (tedit 5DD7B301)
   (attr smd)
   (fp_text reference LED0603 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -21,9 +21,9 @@
   (fp_line (start -1.5 0.8) (end -1.5 -0.8) (layer F.SilkS) (width 0.15))
   (pad A smd rect (at -0.75 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 0.75 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
-  (model smd/chip_cms.wrl
+  (model ${KISYS3DMOD}/LEDs/LED0603.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.1 0.1 0.1))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )

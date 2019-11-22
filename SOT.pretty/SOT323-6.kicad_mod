@@ -1,4 +1,5 @@
-(module SOT323-6 (layer F.Cu) (tedit 5CC1B449)
+(module SOT323-6 (layer F.Cu) (tedit 5DD7AABE)
+  (descr SOT-363/SC88/SC70-6)
   (attr smd)
   (fp_text reference SOT323-6/SOT-363/SC88/SC70-6 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -20,9 +21,4 @@
   (pad 3 smd oval (at 0.65 1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at 0.65 -1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd oval (at -0.65 -1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
-  (model 3d\sot23-5.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

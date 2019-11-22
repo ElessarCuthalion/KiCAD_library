@@ -1,5 +1,4 @@
-(module DFN12_3x1.35 (layer F.Cu) (tedit 5CBF7148)
-  (descr "0.65 pitch 3x3")
+(module DFN12_3x1.35 (layer F.Cu) (tedit 5DD7A726)
   (attr smd)
   (fp_text reference DFN12_3x1.35 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

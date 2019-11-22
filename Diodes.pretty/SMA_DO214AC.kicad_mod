@@ -1,4 +1,5 @@
-(module SMA_DO214AC (layer F.Cu) (tedit 59C38967)
+(module SMA_DO214AC (layer F.Cu) (tedit 5DD7AD0A)
+  (descr DO214AC)
   (attr smd)
   (fp_text reference SMA (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -18,9 +19,9 @@
   (fp_line (start 2.5 -1.5) (end 2.5 -1) (layer F.SilkS) (width 0.15))
   (pad C smd rect (at -1.9 0) (size 2 1.8) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 1.9 0) (size 2 1.8) (layers F.Cu F.Paste F.Mask))
-  (model 3d\dSMA_DO214AC.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Diodes/SMA_DO214AC.stp
+    (offset (xyz -2.6 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )

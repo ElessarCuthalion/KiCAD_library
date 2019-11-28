@@ -20,6 +20,11 @@ D EMI L-filter 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
 K BLM18, EMI_filter, L-filter, FerriteBeads
 $ENDCMP
 #
+$CMP BLM21AG102
+D EMI L-filter 0805, Ir 200mA Rdc 0.45r, 1k at 100MHz
+K BLM18, EMI_filter, L-filter, FerriteBeads
+$ENDCMP
+#
 $CMP BLM31KN471
 D EMI L-filter 1206, Ir 4A Rdc 20mR, 470R at 100MHz
 K BLM31, EMI_filter, L-filter, FerriteBeads
@@ -75,7 +80,7 @@ D EMI Suppression C-filter (Capacitor Feed Through)
 K EMI_filter, C-filter, FeedCapacitor
 $ENDCMP
 #
-$CMP FerriteBeads
+$CMP FerriteBead
 D EMI Suppression L-filter (Ferrite Beads)
 K EMI_filter, L-filter, FerriteBeads
 $ENDCMP

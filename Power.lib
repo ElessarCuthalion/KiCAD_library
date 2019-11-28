@@ -76,11 +76,41 @@ X +3.3Vin ~ 0 0 200 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# +3.3Vout
+#
+DEF +3.3Vout ~ 0 0 N Y 1 F P
+F0 "" 100 -50 60 H I C CNN
+F1 "+3.3Vout" 550 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "mA" 350 -100 60 H I L CNN "Current"
+DRAW
+P 2 0 1 0 0 0 300 0 N
+P 3 0 1 0 200 50 300 0 200 -50 N
+X +3.3Vout ~ 0 0 200 R 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # +5V
 #
 DEF +5V ~ 0 0 N Y 1 F P
 F0 "" 100 -50 60 H I C CNN
 F1 "+5V" 400 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "A" 350 -100 60 H I L CNN "Current"
+DRAW
+P 2 0 1 0 0 0 300 0 N
+P 3 0 1 0 200 50 300 0 200 -50 N
+X +5Vout ~ 0 0 200 R 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5Vout
+#
+DEF +5Vout ~ 0 0 N Y 1 F P
+F0 "" 100 -50 60 H I C CNN
+F1 "+5Vout" 500 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "A" 350 -100 60 H I L CNN "Current"
@@ -217,7 +247,7 @@ ENDDEF
 #
 # GND
 #
-DEF ~GND ~ 0 0 N N 1 F P
+DEF GND ~ 0 0 N N 1 F P
 F0 "" -50 -50 60 V I C CNN
 F1 "GND" 50 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
@@ -231,7 +261,7 @@ ENDDEF
 #
 # GNDA
 #
-DEF ~GNDA ~ 0 0 N N 1 F P
+DEF GNDA ~ 0 0 N N 1 F P
 F0 "" -50 -50 60 V I C CNN
 F1 "GNDA" 50 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
@@ -247,7 +277,7 @@ ENDDEF
 #
 # GND_Power
 #
-DEF ~GND_Power ~ 0 0 N N 1 F P
+DEF GND_Power ~ 0 0 N N 1 F P
 F0 "" -50 -50 60 V I C CNN
 F1 "GND_Power" 50 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
@@ -261,7 +291,7 @@ ENDDEF
 #
 # Jumper
 #
-DEF ~Jumper J 0 40 N N 1 F N
+DEF Jumper J 0 40 N N 1 F N
 F0 "J" 0 50 60 H V C CNN
 F1 "Jumper" 0 -50 60 H I C CNN
 F2 "" 0 -225 60 H I C CNN

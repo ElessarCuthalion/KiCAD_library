@@ -24,6 +24,10 @@ $CMP +5V
 K +5V
 $ENDCMP
 #
+$CMP +5Vout
+K +5V
+$ENDCMP
+#
 $CMP +BATT
 K VBAT
 $ENDCMP
@@ -139,6 +143,10 @@ $ENDCMP
 #
 $CMP VCC
 K VCC
+$ENDCMP
+#
+$CMP VCCin
+K VCCin
 $ENDCMP
 #
 $CMP VIN

@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Fresnel_Lens_NC
+D Fresnel_Lens
+K PIR, Fresnel, Lens
+$ENDCMP
+#
+$CMP ITR9608
+D Photocoupler; In: If 50mA Vr 5V; Out: Ic 20mA Vce 30V Vec 5V
+K ITR9608, opto
+$ENDCMP
+#
 $CMP LVT817S
 D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 35V Vec 6V
 K LVT817S, PC817, opto

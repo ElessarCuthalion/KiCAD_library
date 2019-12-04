@@ -17,6 +17,7 @@ D:\KiCAD_library\Modules.pretty
 D:\KiCAD_library\Graphics.pretty
 D:\KiCAD_library\Display.pretty
 D:\KiCAD_library\Relays.pretty
+D:\KiCAD_library\Opto.pretty
 
 
 Connectors
@@ -38,3 +39,4 @@ Modules
 Graphics
 Display
 Relays
+Opto

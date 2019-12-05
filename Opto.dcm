@@ -6,7 +6,7 @@ K PIR, Fresnel, Lens
 $ENDCMP
 #
 $CMP ITR9608
-D Photocoupler; In: If 50mA Vr 5V; Out: Ic 20mA Vce 30V Vec 5V
+D Opto Interrupter; In: If 50mA Vr 5V; Out: Ic 20mA Vce 30V Vec 5V
 K ITR9608, opto
 $ENDCMP
 #
@@ -28,6 +28,11 @@ $ENDCMP
 $CMP TLP291-4
 D Photocoupler; In: Vf 1.2V @ If 10mA, If 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
 K opto
+$ENDCMP
+#
+$CMP ZGY20403
+D Opto Interrupter; In: If 50mA Vr 5V; Out: Ic 20mA Vce 30V Vec 5V
+K ZGY20403, opto
 $ENDCMP
 #
 #End Doc Library

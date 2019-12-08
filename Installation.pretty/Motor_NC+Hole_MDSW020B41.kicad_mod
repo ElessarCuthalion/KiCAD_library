@@ -1,4 +1,4 @@
-(module Motor_NC+Hole_MDSW020B41 (layer F.Cu) (tedit 5DADDFF5)
+(module Motor_NC+Hole_MDSW020B41 (layer F.Cu) (tedit 5DED14A2)
   (fp_text reference VAL** (at 0 0.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -25,4 +25,9 @@
   (fp_line (start -3.48 -3.58) (end -4.97 0.5) (layer F.SilkS) (width 0.15))
   (pad H thru_hole circle (at -7.2 0) (size 2.8 2.8) (drill 1.8) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Installation/StepMotor_MDSW020B41.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

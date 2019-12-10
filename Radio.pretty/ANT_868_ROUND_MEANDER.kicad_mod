@@ -1,4 +1,4 @@
-(module ANT_868_ROUND_MEANDER (layer F.Cu) (tedit 5DD5461C)
+(module ANT_868_ROUND_MEANDER (layer F.Cu) (tedit 5DEFB766)
   (descr "Meander antenna for circular PCB R=29.5")
   (fp_text reference VAL** (at -7.4 1) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -10,8 +10,8 @@
   (fp_line (start 26 0) (end -26 0) (layer Dwgs.User) (width 0.15))
   (fp_arc (start 0 -13) (end 0 16.5) (angle 65) (layer Dwgs.User) (width 0.15))
   (fp_arc (start 0 -13) (end 0 16.5) (angle -65) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -0.5 -13.5) (end 0 -13) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.5 -13.5) (end 0 -13) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.5 -13.5) (end 0 -13) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 0.5 -13.5) (end 0 -13) (layer Dwgs.User) (width 0.15))
   (pad 1 smd rect (at 0.88 5.28 180) (size 17.04 0.8) (layers F.Cu))
   (pad 1 smd rect (at -7.24 6.775 180) (size 0.8 3.79) (layers F.Cu))
   (pad 1 smd rect (at 15.92 9.525 180) (size 0.8 3.31) (layers F.Cu))

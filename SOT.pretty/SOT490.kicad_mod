@@ -1,6 +1,6 @@
 #template SOT23
 
-(module SOT490 (layer F.Cu) (tedit 5DD7A8F8)
+(module SOT490 (layer F.Cu) (tedit 5DF25F34)
   (descr "SC89 3pin, Case 463C-03")
   (tags SOT)
   (attr smd)
@@ -17,9 +17,4 @@
   (pad 1 smd rect (at -0.7 -0.5) (size 0.53 0.53) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.7 0.5) (size 0.53 0.53) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.7 0) (size 0.53 0.53) (layers F.Cu F.Paste F.Mask))
-  (model SC89-3.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 0))
-  )
 )

@@ -1,4 +1,4 @@
-(module SOT323-5 (layer F.Cu) (tedit 5DEBF0DA)
+(module SOT323-5 (layer F.Cu) (tedit 5DF25E22)
   (descr SOT353/SC88A/SC70-5)
   (attr smd)
   (fp_text reference SOT323-5/SOT353/SC88A/SC70-5 (at 0 -2.2) (layer F.SilkS)
@@ -17,9 +17,9 @@
   (pad 3 smd oval (at 0.65 1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at 0.65 -1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd oval (at -0.65 -1.1) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
-  (model 3d\sot23-5.wrl
+  (model ${KISYS3DMOD}/SOT/SOT353_SC70-5.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )

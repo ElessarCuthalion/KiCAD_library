@@ -1,4 +1,4 @@
-(module SOT416 (layer F.Cu) (tedit 5DD7A6CE)
+(module SOT416 (layer F.Cu) (tedit 5DF25F2E)
   (descr SC75)
   (attr smd)
   (fp_text reference SOT416/SC75 (at 0 -1.8) (layer F.SilkS)
@@ -14,9 +14,4 @@
   (pad 1 smd rect (at -0.5 0.65) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -0.65) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.5 0.65) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
-  (model 3d\sot23-5.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

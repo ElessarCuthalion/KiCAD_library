@@ -1,4 +1,4 @@
-(module SOT143 (layer F.Cu) (tedit 5DD7A971)
+(module SOT143 (layer F.Cu) (tedit 5DF2622B)
   (descr TO-253)
   (attr smd)
   (fp_text reference SOT143/TO-253 (at 0.1 0) (layer F.SilkS)
@@ -17,9 +17,9 @@
   (pad 2 smd oval (at 0.96 1.15) (size 0.55 1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd oval (at 0.96 -1.15) (size 0.55 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at -0.96 -1.15) (size 0.55 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOT/SOT143.step
+  (model ${KISYS3DMOD}/SOT/SOT143_TO253.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )

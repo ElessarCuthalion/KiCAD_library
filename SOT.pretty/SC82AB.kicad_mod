@@ -1,4 +1,4 @@
-(module SC82AB (layer F.Cu) (tedit 5C6C36A4)
+(module SC82AB (layer F.Cu) (tedit 5DF25D32)
   (attr smd)
   (fp_text reference SC82AB (at 0 -1.8415) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -18,4 +18,9 @@
   (pad 2 smd oval (at -0.95 0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd oval (at 0.95 0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at 0.95 -0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOT/SC82AB.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

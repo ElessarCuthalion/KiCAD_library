@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AO3407A
 D P-Channel -30V -4.3A 54mR (Vgs -4,5V)
-K AO3407A
+K P-Channel
 $ENDCMP
 #
 $CMP AO6800
@@ -30,8 +30,22 @@ D Dual P-Channel -20V -3.9A 45mR
 K Dual P, P+P
 $ENDCMP
 #
+$CMP FDV303N
+D N-Channel 25V 0.68A, 0.44R @ Vgs2.7V; Vgs_m 8V; ESD Protected Gate
+K N-Channel
+$ENDCMP
+#
 $CMP FMMT617
 D n-p-n, Vce 15V Vcb 15V Veb 5V Ic 3A
+K n-p-n
+$ENDCMP
+#
+$CMP FMMT618
+D n-p-n, Vce 20V Vcb 20V Veb 5V Ic 2.5A
+$ENDCMP
+#
+$CMP FMMT619
+D n-p-n, Vce 50V Vcb 50V Veb 5V Ic 2A
 $ENDCMP
 #
 $CMP IRF5810
@@ -46,42 +60,42 @@ $ENDCMP
 #
 $CMP IRF640
 D N-Channel 200V 16A 180mR
-K IRF640
+K N-Channel
 $ENDCMP
 #
 $CMP IRFHM4231TRPbF
 D N-Channel 25V 22A, 4.6mR @ Vgs 4.5V; Vgs 20V Ciss 1270pF
-K HEXFET
+K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP IRFHM8329PbF
 D N-Channel 30V 16A, 8.8mR @ Vgs 4.5V; Vgs 20V Ciss 1710pF
-K HEXFET
+K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP IRFL9014
 D P-Channel -60V -1.8A 500mR @ Vgs -10V
-K IRFL9014
+K P-Channel
 $ENDCMP
 #
 $CMP IRLL2703
 D N-Channel 30V 3.9A 45mR
-K IRLL2703
+K N-Channel
 $ENDCMP
 #
 $CMP IRLML2502
 D N-Channel 20V 4.2A 35mR @ Vgs 4.5V
-K IRLML2502
+K N-Channel
 $ENDCMP
 #
 $CMP IRLML6402
 D P-Channel -20V -3.7A 50mR @ Vgs -4.5V
-K IRLML6402
+K P-Channel
 $ENDCMP
 #
 $CMP MMBT4401
 D n-p-n, Vce 40V Vcb 60V Veb 6V Ic 0.6A
-K MMBT4401
+K n-p-n
 $ENDCMP
 #
 $CMP NTJD4152P

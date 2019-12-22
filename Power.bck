@@ -20,6 +20,10 @@ $CMP +3.3Vin
 K +3,3Vin, Vin
 $ENDCMP
 #
+$CMP +3.3Vout
+K +3,3V
+$ENDCMP
+#
 $CMP +5V
 K +5V
 $ENDCMP

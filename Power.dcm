@@ -28,6 +28,10 @@ $CMP +5V
 K +5V
 $ENDCMP
 #
+$CMP +5Vin
+K +5V
+$ENDCMP
+#
 $CMP +5Vout
 K +5V
 $ENDCMP

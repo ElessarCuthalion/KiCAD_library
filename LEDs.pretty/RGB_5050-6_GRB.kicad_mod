@@ -1,4 +1,4 @@
-(module LED5050-6_GRB (layer F.Cu) (tedit 5DD7C5CB)
+(module RGB_5050-6_GRB (layer F.Cu) (tedit 5DD7C5CB)
   (attr smd)
   (fp_text reference 5050 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

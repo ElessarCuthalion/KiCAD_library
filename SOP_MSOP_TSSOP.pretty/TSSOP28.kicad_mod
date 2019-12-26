@@ -1,4 +1,4 @@
-(module TSSOP28 (layer F.Cu) (tedit 5CBF16C2)
+(module TSSOP28 (layer F.Cu) (tedit 5E04ED1E)
   (attr smd)
   (fp_text reference TSSOP28 (at -0.75 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -42,4 +42,9 @@
   (pad 26 smd oval (at 2.875 -2.925) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd oval (at 2.875 -3.575) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 28 smd oval (at 2.875 -4.225) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/TSSOP28.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

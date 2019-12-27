@@ -1,4 +1,4 @@
-(module MSOP8 (layer F.Cu) (tedit 57DE776F)
+(module MSOP8 (layer F.Cu) (tedit 5E05DA40)
   (attr smd)
   (fp_text reference MSOP8 (at 0 -0.762) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -25,4 +25,9 @@
   (pad 6 smd oval (at 2.1 0.325) (size 1.6 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at 2.1 -0.325) (size 1.6 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at 2.1 -0.975) (size 1.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/MSOP8_3x3mm_P0.65mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

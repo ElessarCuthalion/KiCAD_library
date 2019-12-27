@@ -1,4 +1,4 @@
-(module SOP8P_208mil (layer F.Cu) (tedit 5CAB54F2)
+(module SOP8P_208mil (layer F.Cu) (tedit 5E05D992)
   (descr "SOJ 8 pin 208mil")
   (tags "CMS SOJ")
   (attr smd)
@@ -27,4 +27,9 @@
   (pad 6 smd oval (at 0.635 -3.683) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at -0.635 -3.683) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at -1.905 -3.683) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/SOP8P_208mil.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

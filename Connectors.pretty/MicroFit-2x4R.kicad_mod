@@ -1,4 +1,4 @@
-(module MicroFit-2x4R (layer F.Cu) (tedit 5CC2EBEF)
+(module MicroFit-2x4R (layer F.Cu) (tedit 5E05ECA8)
   (fp_text reference MicroFit-2x4R (at -4.5 -3.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -32,4 +32,9 @@
     (zone_connect 1))
   (pad 8 thru_hole circle (at 4.5 1.5) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/MicroFit-2x4R-43045-0800.STEP
+    (offset (xyz 0 -5.5 3.9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

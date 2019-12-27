@@ -1,4 +1,4 @@
-(module SOP24L (layer F.Cu) (tedit 5CAB452C)
+(module SOP24L (layer F.Cu) (tedit 5E05DB49)
   (attr smd)
   (fp_text reference SOP24L (at -0.635 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -35,4 +35,9 @@
   (pad 22 smd oval (at 4.91 -4.445) (size 1.83 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 23 smd oval (at 4.91 -5.715) (size 1.83 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd oval (at 4.91 -6.985) (size 1.83 0.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/SOP24L_7.5x15.4mm_P1.27mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

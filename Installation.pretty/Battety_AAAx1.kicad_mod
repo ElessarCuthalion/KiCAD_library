@@ -1,10 +1,10 @@
-(module Battety_AAA_x1 (layer F.Cu) (tedit 5D889FB0)
+(module Battety_AAAx1 (layer F.Cu) (tedit 5E0E30B6)
   (descr "AAAx1 battery holder, hole-mounted")
-  (fp_text reference BATTERY_AAA_X1 (at 0 -4.75) (layer F.SilkS) hide
+  (fp_text reference AAAx1 (at 0 -1.5 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 4) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (fp_text value VAL** (at 0 1.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text user - (at -23.3 -3.9) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))

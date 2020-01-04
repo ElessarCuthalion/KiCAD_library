@@ -20,11 +20,6 @@ D Incremental Type Encoder with push-on Button + SHLD
 K BR
 $ENDCMP
 #
-$CMP Fresnel_Lens_NC
-D Fresnel_Lens
-K PIR, Fresnel, Lens
-$ENDCMP
-#
 $CMP HC-SR501
 D Датчик движения, ИК
 K HC-SR501

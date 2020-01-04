@@ -1,4 +1,4 @@
-(module HQFN32 (layer F.Cu) (tedit 5C9B78C6)
+(module HQFN32 (layer F.Cu) (tedit 5E10D7B5)
   (attr smd)
   (fp_text reference HQFN32 (at 0 4.2 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -66,9 +66,9 @@
   (pad 30 smd oval (at -0.75 -2.5 90) (size 1 0.3) (layers F.Cu F.Mask))
   (pad 29 smd oval (at -0.25 -2.5 90) (size 1 0.3) (layers F.Cu F.Mask))
   (pad 28 smd oval (at 0.25 -2.5 90) (size 1 0.3) (layers F.Cu F.Mask))
-  (model ${KICAD_SYMBOL_DIR}/3d/QFN_DFN/QFN-40-1EP_6x6mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/HQFN32_5x5mm_Pitch0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )

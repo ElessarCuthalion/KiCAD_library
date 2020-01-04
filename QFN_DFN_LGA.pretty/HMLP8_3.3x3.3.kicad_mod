@@ -1,4 +1,4 @@
-(module HMLP8_3.3x3.3 (layer F.Cu) (tedit 5CF15655)
+(module HMLP8_3.3x3.3 (layer F.Cu) (tedit 5E10BF18)
   (attr smd)
   (fp_text reference MLP8_3.3x3.3+PAD (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

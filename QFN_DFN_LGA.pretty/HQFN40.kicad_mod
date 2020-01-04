@@ -1,4 +1,4 @@
-(module HQFN40 (layer F.Cu) (tedit 5DC8506A)
+(module HQFN40 (layer F.Cu) (tedit 5E10D959)
   (attr smd)
   (fp_text reference HQFN40 (at 0 4.6 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -74,9 +74,9 @@
   (pad PAD thru_hole rect (at -0.5 -1.5) (size 1 1) (drill 0.4) (layers *.Cu *.Mask F.Paste))
   (pad PAD thru_hole rect (at 1.5 -1.5) (size 1 1) (drill 0.4) (layers *.Cu *.Mask F.Paste))
   (pad PAD thru_hole rect (at 0.5 -1.5) (size 1 1) (drill 0.4) (layers *.Cu *.Mask F.Paste))
-  (model ${KICAD_SYMBOL_DIR}/3d/QFN_DFN/QFN-40-1EP_6x6mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/HQFN40_6x6mm_P0.5mm_EP4.6x4.6mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )

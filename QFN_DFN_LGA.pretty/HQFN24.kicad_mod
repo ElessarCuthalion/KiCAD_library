@@ -1,4 +1,4 @@
-(module HQFN24 (layer F.Cu) (tedit 5C9B716B)
+(module HQFN24 (layer F.Cu) (tedit 5E10D759)
   (fp_text reference HQFN24 (at 0 3.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -50,9 +50,9 @@
   (pad 22 smd oval (at -0.25 -2 90) (size 1 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 23 smd oval (at -0.75 -2 90) (size 1 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd oval (at -1.25 -2 90) (size 1 0.3) (layers F.Cu F.Paste F.Mask))
-  (model D:/Libs/Kicad/packages3d/QFN24.wrl
-    (offset (xyz 0 0 -0.1269999980926514))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/HQFN24_4x4mm_P0.5mm_EP2.6x2.6mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

@@ -1,6 +1,6 @@
-(module QFN16_3x3_5.3 (layer F.Cu) (tedit 5E10E19D)
+(module LGA16_3x3_5.3 (layer F.Cu) (tedit 5E10E181)
   (attr smd)
-  (fp_text reference QFN16_3x3_5.3 (at 0 0) (layer F.SilkS)
+  (fp_text reference LGA16_3x3_5.3 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 -3) (layer F.SilkS)
@@ -34,7 +34,7 @@
   (pad 14 smd oval (at 0.5 -1.5 270) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd oval (at 0 -1.5 270) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd oval (at -0.5 -1.5 270) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/QFN16_3x3mm_Pitch0.5mm.step
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/LGA16_3x3mm_P0.5mm_LayoutBorder3x5y.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module HQFN16 (layer F.Cu) (tedit 5A6A4400)
+(module HQFN16 (layer F.Cu) (tedit 5E10D194)
   (attr smd)
   (fp_text reference HQFN16 (at 0 3.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -43,4 +43,9 @@
     (zone_connect 2))
   (pad PAD thru_hole rect (at -0.5 0.5) (size 1 1) (drill 0.4) (layers *.Cu *.Mask F.Paste)
     (zone_connect 2))
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/HQFN16_4x4_p0_65.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

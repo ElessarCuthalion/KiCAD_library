@@ -135,6 +135,11 @@ D Double row connectors, 2x3, male
 K IDC, PLD, FDC
 $ENDCMP
 #
+$CMP IDC-8
+D Double row connectors, 2x4, male
+K IDC, PLD, FDC, Mini-Fit, Micro-Fit
+$ENDCMP
+#
 $CMP PBD-6
 D Double row connectors, 2x3, female
 K PBD
@@ -172,6 +177,11 @@ $ENDCMP
 #
 $CMP RJ45_to_568B-1x2_AB
 D 2x RJ-45 for EIA/TIA-568B standard to 8P8C connector
+K RJ45, 8P8C, 568B
+$ENDCMP
+#
+$CMP RJ45_to_Sensors
+D RJ-45 for EIA/TIA-568B standard to 8P8C connector
 K RJ45, 8P8C, 568B
 $ENDCMP
 #

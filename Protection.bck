@@ -82,7 +82,7 @@ $ENDCMP
 #
 $CMP FerriteBead
 D EMI Suppression L-filter (Ferrite Beads)
-K EMI_filter, L-filter, FerriteBeads
+K EMI_filter, L-filter, FerriteBead
 $ENDCMP
 #
 $CMP Fuze

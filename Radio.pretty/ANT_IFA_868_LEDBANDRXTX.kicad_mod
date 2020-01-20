@@ -1,4 +1,4 @@
-(module ANT_INVF_LEDBANDRXTX (layer F.Cu) (tedit 5730A43F)
+(module ANT_IFA_868_LEDBANDRXTX (layer F.Cu) (tedit 5E257187)
   (descr "InvF PCB:60x24")
   (fp_text reference REF** (at 2 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

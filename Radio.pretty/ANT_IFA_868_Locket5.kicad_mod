@@ -1,4 +1,4 @@
-(module Locket5 (layer F.Cu) (tedit 5BAD9B05)
+(module ANT_IFA_868_Locket5 (layer F.Cu) (tedit 5E2575A2)
   (fp_text reference Ref** (at 5.7 0.1) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )

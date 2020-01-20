@@ -1,16 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ANT_868_PCB_MONO
+$CMP ANT_868_PCB_InvertedF
+D ANT PCB InvertedF for 868 MHz
+K WA, ANT, InvertedF
+$ENDCMP
+#
+$CMP ANT_868_PCB_Mono
 D ANT PCB mono for 868 MHz
 K WA, ANT
 $ENDCMP
 #
-$CMP ANT_GENERAL
-D General antenna symbol
-K WA
-$ENDCMP
-#
-$CMP ANT_PCB
+$CMP ANT_PCB_Cntr
 K WA
 $ENDCMP
 #
@@ -23,7 +23,7 @@ $CMP ANT_PCB_NoCntr
 K WA
 $ENDCMP
 #
-$CMP Balun868JOHANSON
+$CMP Balun868_Johanson
 D Balun for CC1101
 K Balun
 $ENDCMP

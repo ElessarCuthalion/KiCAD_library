@@ -1,4 +1,4 @@
-(module ANT_868_IFA_SIMPLEJOY (layer F.Cu) (tedit 59DDE2E4)
+(module ANT_IFA_868_SIMPLEJOY (layer F.Cu) (tedit 5E2571DD)
   (fp_text reference REF** (at 9.57 -2.58) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

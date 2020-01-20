@@ -1,4 +1,4 @@
-(module ANT_ROITAR_868_45x18mm (layer F.Cu) (tedit 576243A4)
+(module ANT_IFA_868_ROITAR_45x18mm (layer F.Cu) (tedit 5E2571C8)
   (fp_text reference ANT1 (at 12.6 -2.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,0 +1,33 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+*.dll
+*.sbr
+*.bak
+#Ignore files by KiCad
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+#Ignore files by HFSS
+*.aedtresults/
+#Ignore files by TopoR
+*.lock
+fp-info-cache
+#Ignore files by SolidWorks
+~$*

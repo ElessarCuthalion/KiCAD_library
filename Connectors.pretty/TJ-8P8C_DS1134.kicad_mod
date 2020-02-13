@@ -1,5 +1,6 @@
-(module TJ-8P8C_DS1134 (layer F.Cu) (tedit 5CE3F4B7)
-  (fp_text reference DS1134 (at -2 0 90) (layer F.SilkS)
+(module TJ-8P8C_DS1134 (layer F.Cu) (tedit 5E451CD2)
+  (descr DS1134-S80AP)
+  (fp_text reference DS1134-S80AP (at -2 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
   (fp_text value VAL** (at 0 0 90) (layer F.SilkS)

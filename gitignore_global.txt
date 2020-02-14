@@ -32,4 +32,4 @@ fp-info-cache
 #Ignore files by SolidWorks
 ~$*
 #Ignore files by Eclipse
-*/.settings/language.settings.xml
+language.settings.xml

@@ -1,4 +1,4 @@
-(module LED0603 (layer F.Cu) (tedit 5DD7B301)
+(module LED0603 (layer F.Cu) (tedit 5E4CF605)
   (attr smd)
   (fp_text reference LED0603 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

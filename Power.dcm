@@ -44,6 +44,14 @@ $CMP +BATTin
 K VBAT
 $ENDCMP
 #
+$CMP +VCC
+K VCC
+$ENDCMP
+#
+$CMP -VCC
+K VCC
+$ENDCMP
+#
 $CMP Battety
 D Battety
 K Battety, BATT

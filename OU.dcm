@@ -15,6 +15,11 @@ D Operational Amplifier, 2 channel; Vcc 1.6~5.5V, Iq 0.32uA, Isc 4.7mA
 K LPV802, OU
 $ENDCMP
 #
+$CMP OPA551
+D Operational Amplifier, 1 channel; Dual Power Vcc +/-4~30V, Iout 200mA
+K OU
+$ENDCMP
+#
 $CMP TLV3691
 D Comparator, 1 channel; Vcc 0.9~6.5V, Is 0.15uA
 K TLV3691, COMP

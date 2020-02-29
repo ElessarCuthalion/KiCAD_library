@@ -35,6 +35,16 @@ D 0,25W 250V (MF/C2-23 & CF/C1-4 series)
 K RES, RDIP
 $ENDCMP
 #
+$CMP R_DIP_2W
+D 2W 500V (MF/C2-23 & CF/C1-4 series)
+K RES, RDIP
+$ENDCMP
+#
+$CMP R_DIP_5W
+D 5W 350V (SQ series)
+K RES, RDIP
+$ENDCMP
+#
 $CMP R_TRIM
 D Resistor trimmer
 K RES, TRIM

@@ -3,7 +3,7 @@ D:\KiCAD_library\Capacitors.pretty
 D:\KiCAD_library\Resistors.pretty
 D:\KiCAD_library\Diodes.pretty
 D:\KiCAD_library\LEDs.pretty
-D:\KiCAD_library\SOT.pretty
+D:\KiCAD_library\SOT_TO.pretty
 D:\KiCAD_library\Quartz.pretty
 D:\KiCAD_library\LQFP_TQFP.pretty
 D:\KiCAD_library\QFN_DFN_LGA.pretty
@@ -25,7 +25,7 @@ Capacitors
 Resistors
 Diodes
 LEDs
-SOT
+SOT,_TO
 Quartz
 LQFP,_TQFP
 QFN,_DFN,_LGA

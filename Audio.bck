@@ -6,7 +6,7 @@ K CS42L52
 $ENDCMP
 #
 $CMP LM3886
-D Amplifier class AB 68W at (4r 28Vcc); Dual Power Vcc 20~84V
+D Amplifier class AB 68W at (4r 28Vcc); Dual Power Vcc +/-20~84V
 K Amplifier
 $ENDCMP
 #

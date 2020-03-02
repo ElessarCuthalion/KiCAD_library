@@ -20,7 +20,7 @@
   (pad 4 smd oval (at 0.725 0.5) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd oval (at 0.725 0) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd oval (at 0.725 -0.5) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOT/SOT563.step
+  (model ${KISYS3DMOD}/SOT_TO/SOT563.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

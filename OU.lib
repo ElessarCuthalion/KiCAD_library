@@ -100,7 +100,7 @@ F3 "" 0 -350 60 H V C CNN
 F4 "0" -250 450 60 H I C CNN "SolderPoints"
 F5 "8" -250 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
- DIP8
+ DIP8*
  SOP8
 $ENDFPLIST
 DRAW

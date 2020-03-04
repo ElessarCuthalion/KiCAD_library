@@ -1,5 +1,5 @@
-(module CAP_pol_DIP_D16mm (layer F.Cu) (tedit 5E5D28E6)
-  (fp_text reference "CAP DIP 16mm" (at 0 -2) (layer F.SilkS)
+(module CAP_pol_DIP_D16mm (layer F.Cu) (tedit 5E5E69BC)
+  (fp_text reference "CAP DIP 16mm" (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value VAL** (at 0 2) (layer F.SilkS)

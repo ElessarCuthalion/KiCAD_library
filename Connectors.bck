@@ -26,8 +26,8 @@ K XL, Cleamm3x
 $ENDCMP
 #
 $CMP Cleamm-4
-D Terminal Block x3 (клеммник винтовой)
-K XL, Cleamm3x
+D Terminal Block x4 (клеммник винтовой)
+K XL, Cleamm4x
 $ENDCMP
 #
 $CMP Cleamm-6

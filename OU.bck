@@ -16,7 +16,7 @@ K LPV802, OU
 $ENDCMP
 #
 $CMP OPA551
-D Operational Amplifier, 1 channel; Vcc 1.6~5.5V, Is 0.4uA, Iout 3mA
+D Operational Amplifier, 1 channel; Dual Power Vcc +/-4~30V, Iout 200mA
 K OU
 $ENDCMP
 #

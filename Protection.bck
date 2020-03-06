@@ -12,22 +12,22 @@ $ENDCMP
 #
 $CMP BLM15AG102
 D EMI L-filter 0402, Ir 200mA Rdc 1r, 1k at 100MHz
-K BLM15, EMI_filter, L-filter, FerriteBeads
+K BLM15, EMI_filter, L-filter, FerriteBeads, EMI0402
 $ENDCMP
 #
 $CMP BLM18AG102
 D EMI L-filter 0603, Ir 100mA Rdc 0.7r, 1k at 100MHz
-K BLM18, EMI_filter, L-filter, FerriteBeads
+K BLM18, EMI_filter, L-filter, FerriteBeads, EMI0603
 $ENDCMP
 #
 $CMP BLM21AG102
 D EMI L-filter 0805, Ir 200mA Rdc 0.45r, 1k at 100MHz
-K BLM18, EMI_filter, L-filter, FerriteBeads
+K BLM18, EMI_filter, L-filter, FerriteBeads, EMI0805
 $ENDCMP
 #
 $CMP BLM31KN471
 D EMI L-filter 1206, Ir 4A Rdc 20mR, 470R at 100MHz
-K BLM31, EMI_filter, L-filter, FerriteBeads
+K BLM31, EMI_filter, L-filter, FerriteBeads, EMI1206
 $ENDCMP
 #
 $CMP BNXseries
@@ -93,6 +93,11 @@ $ENDCMP
 $CMP IP4256CZ5-W
 D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect
+$ENDCMP
+#
+$CMP MAX809S
+D Microprocessor Reset Circuit (Supervisor); Vcc 1~5.5V, Ic 24uA; Tres 240uS, Io_max 20mA
+K Supervisor
 $ENDCMP
 #
 $CMP NFL21SP107X1C3

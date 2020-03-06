@@ -95,6 +95,11 @@ D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect
 $ENDCMP
 #
+$CMP MAX809S
+D Microprocessor Reset Circuit (Supervisor); Vcc 1~5.5V, Ic 24uA; Tres 240uS, Io_max 20mA
+K Supervisor
+$ENDCMP
+#
 $CMP NFL21SP107X1C3
 D EMI LC-filter 0805, 1-line, Ir 200mA Vr 16V Rdc 1r, 1k at 100MHz
 K EMI_filter, LC-filter, NFL21SP

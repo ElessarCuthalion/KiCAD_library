@@ -1,5 +1,5 @@
-(module RES_DIP_0.25W_10mm (layer F.Cu) (tedit 5E5E5FF8)
-  (descr "C2-23 (MF/CF/C1-4 series)")
+(module RES_DIP_0.25W_10mm (layer F.Cu) (tedit 5E6357C5)
+  (descr "MF-25 (CF/С2-23, С1-4 series)")
   (fp_text reference "Res DIP 0.25W" (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

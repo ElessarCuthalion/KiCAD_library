@@ -31,12 +31,12 @@ K RES, R1206
 $ENDCMP
 #
 $CMP R_DIP_0.25W
-D 0,25W 250V (MF/C2-23 & CF/C1-4 series)
+D 0,25W 250V, MF-25 (С2-23, С1-4, CF series)
 K RES, RDIP
 $ENDCMP
 #
 $CMP R_DIP_2W
-D 2W 500V (MF/C2-23 & CF/C1-4 series)
+D 2W 500V, MF-200 (С2-23, С1-4, CF series)
 K RES, RDIP
 $ENDCMP
 #

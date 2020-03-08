@@ -1700,18 +1700,38 @@ X ~ SHLD 0 -800 197 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Wire
+# Wire-1
 #
-DEF Wire ~ 0 40 N N 1 F N
-F0 "" 0 100 60 H I C CNN
-F1 "Wire" 0 -100 60 H I C CNN
-F2 "" -50 0 118 H V C CNN
-F3 "" -50 0 118 H V C CNN
+DEF Wire-1 XA 0 40 N N 1 F N
+F0 "XA" -150 200 60 H V C CNN
+F1 "Wire-1" -150 100 60 H V C CNN
+F2 "" -200 -300 60 H I C CNN
+F3 "" 0 -200 60 H V C CNN
+F4 "0" -350 300 60 H I C CNN "SolderPoints"
+F5 "1" -350 200 60 H I C CNN "SolderPoints_DIP"
+F6 "gauge" -150 -50 60 H V C CNN "Gauge"
+$FPLIST
+ Wire-1*
+$ENDFPLIST
 DRAW
-A -62 0 63 -1799 -1 0 1 0 N -125 0 0 0
-A 62 0 63 1 1799 0 1 0 N 125 0 0 0
-P 2 0 1 0 -125 0 -150 0 N
-P 2 0 1 0 125 0 150 0 N
+C 40 0 40 0 1 0 F
+P 2 0 1 0 0 0 -150 0 N
+X ~ 1 -350 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Wire_two_conn
+#
+DEF Wire_two_conn X 0 40 N N 1 F N
+F0 "X" 0 100 60 H I C CNN
+F1 "Wire_two_conn" 0 -100 60 H I C CNN
+F2 "" -50 0 118 H I C CNN
+F3 "" -50 0 118 H I C CNN
+DRAW
+A -63 0 63 -1799 -1 0 1 0 N -126 0 -1 0
+A 63 0 63 1 1799 0 1 0 N 126 0 1 0
+P 2 0 1 0 -126 0 -150 0 N
+P 2 0 1 0 127 0 150 0 N
 X ~ 1 -350 0 200 R 50 50 1 1 P
 X ~ 2 350 0 200 L 50 50 1 1 P
 ENDDRAW

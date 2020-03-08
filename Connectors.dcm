@@ -214,8 +214,12 @@ D Mini-USB
 K USB, mini-USB
 $ENDCMP
 #
-$CMP Wire
-K Wire
+$CMP Wire-1
+D Wire connection
+$ENDCMP
+#
+$CMP Wire_two_conn
+D two-wire connection
 $ENDCMP
 #
 $CMP for_ACin

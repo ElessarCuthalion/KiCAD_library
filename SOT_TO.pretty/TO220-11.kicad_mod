@@ -1,4 +1,4 @@
-(module TO220-11 (layer F.Cu) (tedit 5E5E7D7E)
+(module TO220-11 (layer F.Cu) (tedit 5E67AE26)
   (descr "TO220-11, Vertical, RM 1.7mm, staggered type-1")
   (tags TO220-11)
   (fp_text reference " TO220-11 Vertical" (at -5.2 -2) (layer F.SilkS)
@@ -31,9 +31,9 @@
   (pad 9 thru_hole oval (at 5.1 4.62) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at 6.8 -0.46) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 11 thru_hole oval (at 8.5 4.62) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/SOT_TO/TO220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical.step
-    (offset (xyz -8.5 -4.6 0))
+  (model ${KISYS3DMOD}/SOT_TO/TO220-11_Vertical.step
+    (offset (xyz 0 4.8 9.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

@@ -33,3 +33,4 @@ fp-info-cache
 ~$*
 #Ignore files by Eclipse
 language.settings.xml
+Debug/

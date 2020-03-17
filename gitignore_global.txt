@@ -28,6 +28,7 @@ fp-info-cache
 *.aedtresults/
 #Ignore files by TopoR
 *.lock
+*.fsxview
 fp-info-cache
 #Ignore files by SolidWorks
 ~$*

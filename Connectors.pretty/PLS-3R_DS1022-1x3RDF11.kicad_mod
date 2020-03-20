@@ -1,4 +1,4 @@
-(module PLS-3R_DS1022-1x3RDF11 (layer F.Cu) (tedit 5DD6AE7A)
+(module PLS-3R_DS1022-1x3RDF11 (layer F.Cu) (tedit 5E74A2A6)
   (fp_text reference PLS-3R (at -2.4 1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -27,14 +27,14 @@
   (fp_text user ||| (at 0 -7.4 unlocked) (layer F.SilkS)
     (effects (font (size 4 2.67) (thickness 0.4)))
   )
-  (fp_text user 1 (at -4.04 0) (layer F.SilkS) hide
+  (fp_text user 1 (at 4 0) (layer F.SilkS) hide
     (effects (font (size 1.5 1) (thickness 0.15)))
   )
-  (pad 3 thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
+  (pad 3 thru_hole circle (at -2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
   (pad 2 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (pad 1 thru_hole rect (at -2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
+  (pad 1 thru_hole rect (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
   (model "${KISYS3DMOD}/Connectors/PLS-3R DS1022-1x3RDF11.STEP"
     (offset (xyz -2.54 0 0))

@@ -609,18 +609,18 @@ X ~ 2 400 0 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Fuze
+# Fuse
 #
-DEF Fuze FU 0 40 N N 1 F N
+DEF Fuse FU 0 40 N N 1 F N
 F0 "FU" 0 250 60 H V C CNN
-F1 "Fuze" 0 150 60 H V C CNN
+F1 "Fuse" 0 150 60 H V C CNN
 F2 "" 0 -225 60 H I C CNN
 F3 "" -400 0 60 H V C CNN
 F4 "2" -200 250 60 H I C CNN "SolderPoints"
 F5 "2" -200 150 60 H I C CNN "SolderPoints_DIP"
 F6 "x mm" 0 -100 50 H V C TNN "Size"
 $FPLIST
- Fuze*
+ Fuse*
 $ENDFPLIST
 DRAW
 S 196 78 -196 -78 0 1 0 N

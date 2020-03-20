@@ -23,6 +23,7 @@ Thumbs.db
 #Ignore files by KiCad
 *.kicad_pcb-bak
 *.sch-bak
+_autosave-*
 fp-info-cache
 #Ignore files by HFSS
 *.aedtresults/

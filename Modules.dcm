@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP DFPlayer_Mini
-D MP3-модуль
-K DFPlayer Mini
+D MP3-module
+K DFPlayer, Player
 $ENDCMP
 #
 $CMP IRM-03-5
@@ -28,6 +28,11 @@ $ENDCMP
 $CMP KAS0512
 D AC/DC, 85~265 ACin, Out 12V DC 0,42A
 K AC/DC, KAS0512
+$ENDCMP
+#
+$CMP Voltmeter_3dig
+D 0.28 inch 3-digital voltmeter, Vcc 4.5-30V, measured 0-100V
+K PV
 $ENDCMP
 #
 #End Doc Library

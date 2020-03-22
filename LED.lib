@@ -110,6 +110,7 @@ F2 "LED1616_Bi-Color" 0 -350 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "4" -450 500 60 H I C CNN "SolderPoints"
 F5 "0" -450 400 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -350 50 H I C CNN "Comment"
 $FPLIST
  LED1616_Bi-Color
 $ENDFPLIST
@@ -153,6 +154,7 @@ F2 "LED2012_Bi-Color" 0 -350 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "4" -450 500 60 H I C CNN "SolderPoints"
 F5 "0" -450 400 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -350 50 H I C CNN "Comment"
 $FPLIST
  LED2012_Bi-Color*
 $ENDFPLIST
@@ -264,6 +266,7 @@ F2 "LED3528_Bi-Color" 0 -350 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "4" -450 500 60 H I C CNN "SolderPoints"
 F5 "0" -450 400 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -350 50 H I C CNN "Comment"
 $FPLIST
  LED3528_Bi-Color*
 $ENDFPLIST
@@ -307,6 +310,7 @@ F2 "" 0 -350 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "0" -600 500 60 H I C CNN "SolderPoints"
 F5 "3" -600 400 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -350 50 H I C CNN " Comment"
 $FPLIST
  LED_DIP_Bi-Color*
 $ENDFPLIST
@@ -392,6 +396,7 @@ F2 "" 0 -450 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "6" -400 600 60 H I C CNN "SolderPoints"
 F5 "0" -400 500 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -450 50 H I C CNN "Comment"
 $FPLIST
  RGB*
 $ENDFPLIST
@@ -444,6 +449,7 @@ F2 "" 0 -450 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "7" -400 600 60 H I C CNN "SolderPoints"
 F5 "0" -400 500 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 50 -450 50 H I L CNN "Comment"
 $FPLIST
  HRGB*
 $ENDFPLIST
@@ -497,6 +503,7 @@ F2 "" 0 -450 60 H I C CNN
 F3 "" 200 -350 60 H V C CNN
 F4 "4" -450 600 60 H I C CNN "SolderPoints"
 F5 "0" -450 500 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -450 50 H I C CNN "Comment"
 DRAW
 A 0 -200 200 -1799 -1 0 0 0 N -200 -200 200 -200
 A 0 200 200 1 1799 0 0 0 N 200 200 -200 200

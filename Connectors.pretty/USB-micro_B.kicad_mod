@@ -1,4 +1,4 @@
-(module USB-micro_B (layer F.Cu) (tedit 5CB7399E)
+(module USB-micro_B (layer F.Cu) (tedit 5E7651BA)
   (attr smd)
   (fp_text reference "USB-micro B" (at 1.524 -0.254 90) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -11,8 +11,10 @@
   (fp_line (start -2.15 -3.75) (end 2.85 -3.75) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.85 3.75) (end -2.15 3.75) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.15 3.75) (end -2.15 -3.75) (layer F.SilkS) (width 0.15))
-  (pad "" np_thru_hole circle (at 2.15 -1.95) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 2.15 1.95) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.15 -1.95) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask)
+    (clearance 0.2))
+  (pad "" np_thru_hole circle (at 2.15 1.95) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask)
+    (clearance 0.2))
   (pad SHLD smd rect (at 2.35 -3.2) (size 1.4 1.6) (layers F.Cu F.Paste F.Mask)
     (zone_connect 2))
   (pad SHLD smd rect (at 2.35 3.2) (size 1.4 1.6) (layers F.Cu F.Paste F.Mask)

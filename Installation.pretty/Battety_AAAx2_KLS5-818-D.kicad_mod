@@ -1,4 +1,4 @@
-(module Battety_AAAx2_KLS5-818-D (layer F.Cu) (tedit 5E0E3403)
+(module Battety_AAAx2_KLS5-818-D (layer F.Cu) (tedit 5E7652B4)
   (descr "AAAx2 battery holder, hole-mounted")
   (fp_text reference "AAAx2 KLS5-818-D" (at 0 -1.5 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -17,9 +17,9 @@
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (pad "" np_thru_hole circle (at -6.65 0) (size 2.4 2.4) (drill 2.4) (layers *.Cu *.Mask)
-    (zone_connect 1))
+    (clearance 0.2) (zone_connect 1))
   (pad "" np_thru_hole circle (at 6.65 0) (size 2.4 2.4) (drill 2.4) (layers *.Cu *.Mask)
-    (zone_connect 1))
+    (clearance 0.2) (zone_connect 1))
   (pad C thru_hole circle (at 23.205 -5.69) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 1))
   (pad A thru_hole rect (at 23.205 5.69) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask)

@@ -1,6 +1,6 @@
-(module Crystal_5032 (layer F.Cu) (tedit 5C9B6E6D)
+(module Crystal_5032 (layer F.Cu) (tedit 5E7A0665)
   (attr smd)
-  (fp_text reference "Crystal 5032" (at 0 2.2) (layer F.SilkS) hide
+  (fp_text reference "Crystal 5032" (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 -2.4) (layer F.SilkS)

@@ -20,6 +20,16 @@ D Motor no Contacts
 K Motor
 $ENDCMP
 #
+$CMP StepperMotor_Bi
+D Stepper Motor Bipolar
+K Stepping, Stepper, Motor
+$ENDCMP
+#
+$CMP StepperMotor_Bi+Hole
+D Stepper Motor Bipolar
+K Stepping, Stepper, Motor
+$ENDCMP
+#
 $CMP Vibro+PAD
 D Vibration motor, SMD+PAD
 K Motor, Vibro

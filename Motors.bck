@@ -21,7 +21,7 @@ K Motor
 $ENDCMP
 #
 $CMP STSPIN220
-D Stepper motor driver with microstepping Vcc 1.8-10V Iout 1.3A Isd 0.96uA
+D Stepper motor driver with microstepping Vcc 1.8-10V Iout 1.3A Isd <80nA
 $ENDCMP
 #
 $CMP StepperMotor_Bi

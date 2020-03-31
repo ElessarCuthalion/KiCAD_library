@@ -152,7 +152,7 @@ F4 "4" -250 350 60 H I C CNN "SolderPoints"
 F5 "4" -250 250 60 H I C CNN "SolderPoints_DIP"
 F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
- StepperMotor_Bi_*
+ StepMotor_Bi_*
 $ENDFPLIST
 DRAW
 A -300 -100 50 -899 899 0 1 0 N -300 -150 -300 -50
@@ -182,7 +182,7 @@ F4 "4" -250 350 60 H I C CNN "SolderPoints"
 F5 "5" -250 250 60 H I C CNN "SolderPoints_DIP"
 F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
- StepperMotor_Bi+Hole*
+ StepMotor_Bi+Hole*
 $ENDFPLIST
 DRAW
 A -300 -100 50 -899 899 0 1 0 N -300 -150 -300 -50
@@ -215,7 +215,7 @@ F4 "5" -250 400 60 H I C CNN "SolderPoints"
 F5 "5" -250 300 60 H I C CNN "SolderPoints_DIP"
 F6 "Size" 200 -200 60 H V L CNN "Size"
 $FPLIST
- StepperMotor_Uni_*
+ StepMotor_Uni_*
 $ENDFPLIST
 DRAW
 A -350 -150 50 -899 899 0 1 0 N -350 -200 -350 -100

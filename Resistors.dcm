@@ -10,6 +10,11 @@ D Potentiometer / Variable resistor / Rheostat + SHLD
 K RES, Poten
 $ENDCMP
 #
+$CMP R_0402
+D 0,0625W 1A 50V
+K RES, R0603
+$ENDCMP
+#
 $CMP R_0603
 D 0,1W 1A 50V
 K RES, R0603

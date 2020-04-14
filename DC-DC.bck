@@ -16,8 +16,12 @@ K MAX1674
 $ENDCMP
 #
 $CMP MP1497
-D Step-Down Vin 2.5-18V; Vout > 0.8V, ADJ; 3A
+D Step-Down Vin 4.5-16V; Vout > 0.8V, ADJ; 3A
 K MP1497
+$ENDCMP
+#
+$CMP MP8765
+D Step-Down Vin 5-22V; Vout 0.604-5.5V, ADJ; 6A
 $ENDCMP
 #
 $CMP NCP1402SNxx

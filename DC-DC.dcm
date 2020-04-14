@@ -20,6 +20,10 @@ D Step-Down Vin 4.5-16V; Vout > 0.8V, ADJ; 3A
 K MP1497
 $ENDCMP
 #
+$CMP MP8765
+D Step-Down Vin 5-22V; Vout 0.604-5.5V, ADJ; 6A
+$ENDCMP
+#
 $CMP NCP1402SNxx
 D Step-Up Vin 0.8-6V; Vout 5V, 0.2A; Iq 15uA, Isd 1uA
 K NCP1400, NCP1402

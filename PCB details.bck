@@ -26,8 +26,13 @@ K RefPoint
 $ENDCMP
 #
 $CMP TestPoint
-D Контрольная точка
+D Контрольная точка SMD
 K TestPoint, PT
+$ENDCMP
+#
+$CMP TestRing
+D Контрольная точка DIP
+K TestPoint, PT, TR
 $ENDCMP
 #
 #End Doc Library

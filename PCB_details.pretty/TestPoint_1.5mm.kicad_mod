@@ -1,9 +1,10 @@
-(module TestPoint_1.5mm (layer F.Cu) (tedit 5E77601D)
+(module TestPoint_1.5mm (layer F.Cu) (tedit 5EB41304)
   (fp_text reference TestPoint (at 0 1.4) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 -1.4) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask))
+  (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask)
+    (zone_connect 1))
 )

@@ -6,43 +6,48 @@ K BTN, SB
 $ENDCMP
 #
 $CMP DIP_Switch_x8
-D DIP Switch x8
-K SA, DIP
+D DIP Switch x8 (SPST)
+K SA, DIP, SA_DIP
 $ENDCMP
 #
 $CMP ReedSwitch
-D Reed Switch (геркон)
+D Reed Switch (геркон) (SPST)
 K SF, ReedSwitch, Gerkon
 $ENDCMP
 #
 $CMP ReedSwitch_3pin
-D Reed Switch CO (геркон переключающий)
-K SF, ReedSwitch, Gerkon
+D Reed Switch CO (геркон переключающий) (SPDT)
+K SF, ReedSwitch, Gerkon, SPDT
 $ENDCMP
 #
 $CMP Switch
-D Switch 2 pin
-K SA
+D Switch 2 pin (SPST)
+K SA, SPST
 $ENDCMP
 #
 $CMP Switch_2pin&NC+H
-D Switch 3 pin (pin 1 is NC) + SHLD
-K SA
+D Switch 3 pin (pin 1 is NC) + SHLD (SPST)
+K SA, SPST
 $ENDCMP
 #
 $CMP Switch_3pin
-D Switch 3 pin
-K SA
+D Switch 3 pin (SPDT)
+K SA, SPDT
 $ENDCMP
 #
 $CMP Switch_3pin+H
-D Switch 3 pin + SHLD
-K SA
+D Switch 3 pin + SHLD (SPDT)
+K SA, SPDT
 $ENDCMP
 #
 $CMP Switch_3pin_v2
-D Switch 3 pin
-K SA
+D Switch 3 pin (SPDT)
+K SA, SPDT
+$ENDCMP
+#
+$CMP Switch_6pin
+D Switch 6 pin (DPDT)
+K SA, DPDT
 $ENDCMP
 #
 $CMP ThermalProtector

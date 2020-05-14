@@ -1,4 +1,4 @@
-(module "SW_MSK12C01_vert(7pin_SMD)" (layer F.Cu) (tedit 5E989236)
+(module "SW_SPDT+H-MSK12C01_vert(7pin_SMD)" (layer F.Cu) (tedit 5EBD5FFB)
   (descr "2-position switch, vertical saide")
   (attr smd)
   (fp_text reference VAL** (at 0 0.8) (layer F.SilkS)

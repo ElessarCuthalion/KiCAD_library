@@ -1,4 +1,4 @@
-(module TJ-8P8C_DS1128-06 (layer F.Cu) (tedit 5E765253)
+(module TJ-8P8C_DS1128-06 (layer F.Cu) (tedit 5EBEC788)
   (fp_text reference DS1128-06 (at -2 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
@@ -36,4 +36,9 @@
     (zone_connect 1))
   (pad 8 thru_hole circle (at 4.32 -3.56) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Connectors/TJ-8P8C-TRJE101DNL (DS1128-06 or 1-406541-1).STEP"
+    (offset (xyz -5.25 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

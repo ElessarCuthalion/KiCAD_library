@@ -1,4 +1,4 @@
-(module TJ-8P8Cx2 (layer F.Cu) (tedit 5E765233)
+(module TJ-8P8Cx2 (layer F.Cu) (tedit 5EBECBAB)
   (fp_text reference TJ-8P8Cx2 (at -2 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
@@ -55,4 +55,9 @@
     (zone_connect 1))
   (pad 16 thru_hole circle (at 4.32 4.305) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Connectors/TJ-8P8C x2-442480085.STEP"
+    (offset (xyz 2.75 0 6.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

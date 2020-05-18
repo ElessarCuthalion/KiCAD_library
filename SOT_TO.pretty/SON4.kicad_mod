@@ -1,6 +1,6 @@
-(module SON4 (layer F.Cu) (tedit 5E99E1BB)
+(module SON4 (layer F.Cu) (tedit 5EBFAFA7)
   (attr smd)
-  (fp_text reference SON4 (at 0 -1.778) (layer F.SilkS)
+  (fp_text reference SON4 (at 0 0 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 1.8415) (layer F.SilkS)

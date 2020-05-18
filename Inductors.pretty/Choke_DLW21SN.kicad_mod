@@ -1,6 +1,6 @@
-(module Choke_DLW21SN (layer F.Cu) (tedit 5EBD439D)
+(module Choke_DLW21SN (layer F.Cu) (tedit 5EBFB003)
   (attr smd)
-  (fp_text reference DLW21SN (at 0 -1.4 180) (layer F.SilkS)
+  (fp_text reference DLW21SN (at 0.1 0 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0.2 1.4) (layer F.SilkS)

@@ -1,6 +1,6 @@
-(module SOT23-3 (layer F.Cu) (tedit 5DD7A86D)
+(module SOT23-3 (layer F.Cu) (tedit 5EBFAF5C)
   (attr smd)
-  (fp_text reference SOT23-3 (at 0 -2.2) (layer F.SilkS)
+  (fp_text reference SOT23-3 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 2.2) (layer F.SilkS)

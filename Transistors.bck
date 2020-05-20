@@ -84,12 +84,12 @@ K N-Channel
 $ENDCMP
 #
 $CMP IRLML2502
-D N-Channel 20V 4.2A 35mR @ Vgs 4.5V
+D N-Channel 20V 4.2A 35mR @ Vgs 4.5V; Vgs_m 12V
 K N-Channel
 $ENDCMP
 #
 $CMP IRLML6402
-D P-Channel -20V -3.7A 50mR @ Vgs -4.5V
+D P-Channel -20V -3.7A 50mR @ Vgs -4.5V; Vgs_m 12V
 K P-Channel
 $ENDCMP
 #
@@ -109,22 +109,22 @@ K Dual N, N+N
 $ENDCMP
 #
 $CMP Si3588DV
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
+D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_AB
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
+D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var2
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
+D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var3
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR
+D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #

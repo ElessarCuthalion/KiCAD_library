@@ -45,6 +45,11 @@ D Switch 3 pin (SPDT)
 K SA, SPDT
 $ENDCMP
 #
+$CMP Switch_4pin
+D Switch 4 pin (SP3T)
+K SA, SP3T
+$ENDCMP
+#
 $CMP Switch_6pin
 D Switch 6 pin (DPDT)
 K SA, DPDT

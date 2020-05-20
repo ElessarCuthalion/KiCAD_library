@@ -1,4 +1,4 @@
-(module SW_SPDT-SS-1P2T (layer F.Cu) (tedit 5EBD5FBA)
+(module "SW_SPDT-SS-1P2T(DIP)" (layer F.Cu) (tedit 5EC54443)
   (fp_text reference VAL** (at 0 1.3) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

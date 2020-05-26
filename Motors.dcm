@@ -10,6 +10,10 @@ D Dual DC motor driver Vcc 2.5-9V Iout 1A Isd <0.5uA
 K A3906
 $ENDCMP
 #
+$CMP A4988
+D Microstepping motor driver Vcc 8-35V Iout 2A
+$ENDCMP
+#
 $CMP Motor_NC
 D Motor no Contacts
 K Motor

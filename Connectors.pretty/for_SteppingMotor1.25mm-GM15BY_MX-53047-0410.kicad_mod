@@ -1,4 +1,4 @@
-(module for_SteppingMotor-GM15BY_1.25_MX-53047-0410 (layer F.Cu) (tedit 5EA47071)
+(module for_SteppingMotor1.25mm-GM15BY_MX-53047-0410 (layer F.Cu) (tedit 5ECF9007)
   (descr "GM15BY-VSM1527 conn MX-53047-0410")
   (fp_text reference MX-53047-0410 (at -1.8 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

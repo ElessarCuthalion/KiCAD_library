@@ -1,4 +1,4 @@
-(module for_SteppingMotor1.25_small (layer F.Cu) (tedit 5EA47007)
+(module for_SteppingMotor1.25mm_small (layer F.Cu) (tedit 5ECF8C82)
   (fp_text reference SteppingMotor_small (at 0 -1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

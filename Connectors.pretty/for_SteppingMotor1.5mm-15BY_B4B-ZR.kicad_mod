@@ -1,4 +1,4 @@
-(module for_SteppingMotor-15BY_1.5_B4B-ZR (layer F.Cu) (tedit 5EA472ED)
+(module for_SteppingMotor1.5mm-15BY_B4B-ZR (layer F.Cu) (tedit 5ECF900F)
   (descr "15BY conn B4B-ZR")
   (fp_text reference B4B-ZR (at -2.2 -2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

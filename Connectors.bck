@@ -95,32 +95,37 @@ D Single row connectors x8, female
 K Conn8x, XS8x
 $ENDCMP
 #
-$CMP Conn_2x12
+$CMP Conn_2x12m
 D Double row connectors, 2x12, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP Conn_2x2
+$CMP Conn_2x2m
 D Double row connectors, 2x2, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP Conn_2x3
+$CMP Conn_2x3f
+D Double row connectors, 2x3, female
+K PBD
+$ENDCMP
+#
+$CMP Conn_2x3m
 D Double row connectors, 2x3, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP Conn_2x4
+$CMP Conn_2x4m
 D Double row connectors, 2x4, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP Conn_2x5
+$CMP Conn_2x5m
 D Double row connectors, 2x5, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
-$CMP Conn_2x7
+$CMP Conn_2x7m
 D Double row connectors, 2x7, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
@@ -140,14 +145,14 @@ D Double row connectors, 2x3, male
 K IDC, PLD, FDC
 $ENDCMP
 #
+$CMP IDC-6_copy
+D Double row connectors, 2x3, male
+K IDC, PLD, FDC
+$ENDCMP
+#
 $CMP IDC-8
 D Double row connectors, 2x4, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
-$ENDCMP
-#
-$CMP PBD-6
-D Double row connectors, 2x3, female
-K PBD
 $ENDCMP
 #
 $CMP RJ14_6P6C

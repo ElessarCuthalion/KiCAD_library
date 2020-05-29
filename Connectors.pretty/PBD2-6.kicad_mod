@@ -1,4 +1,4 @@
-(module PBD2-6 (layer F.Cu) (tedit 5A0EAE09)
+(module PBD2-6 (layer F.Cu) (tedit 5ED0FE0F)
   (fp_text reference PBD2-6 (at 0 -2.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -49,4 +49,9 @@
     (zone_connect 1))
   (pad 6 thru_hole circle (at 2 -1) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model "${KISYS3DMOD}/Connectors/PBD2-6 PinSocket_2x03_P2.00mm_Vertical.STEP"
+    (offset (xyz -2 1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

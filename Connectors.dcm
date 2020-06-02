@@ -90,6 +90,16 @@ D Single row connectors x6, male
 K Conn6x, XP6x
 $ENDCMP
 #
+$CMP Conn-7f
+D Single row connectors x7, female
+K Conn7x, XS7x
+$ENDCMP
+#
+$CMP Conn-7m
+D Single row connectors x7, male
+K Conn6x, XP7x
+$ENDCMP
+#
 $CMP Conn-8f
 D Single row connectors x8, female
 K Conn8x, XS8x

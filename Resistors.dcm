@@ -57,7 +57,7 @@ $ENDCMP
 #
 $CMP R_TRIM
 D Resistor trimmer
-K RES, TRIM
+K RES, TRIM, Rtrim
 $ENDCMP
 #
 #End Doc Library

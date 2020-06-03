@@ -6,7 +6,7 @@ K buffer
 $ENDCMP
 #
 $CMP FT232R
-D USB to RS232 converter
+D USB to RS232 converter: Vcc 5.25V MAX Iq 15mA
 K FT232
 $ENDCMP
 #
@@ -33,6 +33,11 @@ $ENDCMP
 $CMP MAX487E
 D UATR to RS485 converter: Vcc 5V 256kB/S (slew-rate limited) 122 devices, 15kV ESD-Protected
 K RS485, 485
+$ENDCMP
+#
+$CMP NC7SB3157P6X
+D Analog Switch: Vcc 1.65-5.5V Iq 1uA, 250MHz data
+K AnSw
 $ENDCMP
 #
 $CMP SN74LVC1T45

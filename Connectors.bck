@@ -125,6 +125,11 @@ D Double row connectors, 2x3, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
+$CMP Conn_2x4f
+D Double row connectors, 2x4, female
+K PBD
+$ENDCMP
+#
 $CMP Conn_2x4m
 D Double row connectors, 2x4, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
@@ -156,6 +161,11 @@ K IDC, PLD, FDC
 $ENDCMP
 #
 $CMP IDC-8
+D Double row connectors, 2x4, male
+K IDC, PLD, FDC, Mini-Fit, Micro-Fit
+$ENDCMP
+#
+$CMP IDC-8_copy
 D Double row connectors, 2x4, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP

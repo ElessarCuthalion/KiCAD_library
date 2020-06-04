@@ -225,6 +225,11 @@ D Micro-SD, 9 pin
 K SD, micro-SD
 $ENDCMP
 #
+$CMP USB-B
+D USB-B
+K USB-B
+$ENDCMP
+#
 $CMP USB-mcro&mini
 D Совмещённые mcro / mini-USB с отводом от корпуса
 $ENDCMP

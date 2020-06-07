@@ -1,4 +1,4 @@
-(module HMLP8_3.3x3.3 (layer F.Cu) (tedit 5E10BF18)
+(module HMLP8_3.3x3.3 (layer F.Cu) (tedit 5EDCC893)
   (attr smd)
   (fp_text reference MLP8_3.3x3.3+PAD (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -33,4 +33,11 @@
     (zone_connect 2))
   (pad D thru_hole rect (at 0.125 -0.9) (size 0.98 0.9) (drill 0.4) (layers *.Cu *.Mask F.Paste)
     (zone_connect 2))
+  (pad D smd rect (at -0.735 0) (size 2.7 2.7) (layers F.Cu))
+  (pad S smd rect (at 1.655 0.325) (size 1 1.69) (layers F.Cu))
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/MLP8_3.3x3.3.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

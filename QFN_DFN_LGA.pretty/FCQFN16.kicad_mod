@@ -1,4 +1,4 @@
-(module FCQFN16 (layer F.Cu) (tedit 5EB14FA8)
+(module FCQFN16 (layer F.Cu) (tedit 5EDCBEAA)
   (attr smd)
   (fp_text reference FCQFN16 (at 0 3.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -34,4 +34,5 @@
   (pad 14 smd oval (at -0.8 -1.5 270) (size 0.9 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd oval (at -0.4 -1.5 270) (size 0.9 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd oval (at 0 -1.5 270) (size 0.9 0.2) (layers F.Cu F.Paste F.Mask))
+  (pad 8,9 smd rect (at 0.8 0) (size 2.4 1.6) (layers F.Cu))
 )

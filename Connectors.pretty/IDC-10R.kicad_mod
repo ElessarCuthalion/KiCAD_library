@@ -1,4 +1,4 @@
-(module IDC-10R (layer F.Cu) (tedit 5DE67CC2)
+(module IDC-10R (layer F.Cu) (tedit 5EDCECA7)
   (descr DS1013-10R)
   (fp_text reference "IDC-10MR (DS1013-10R)" (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
@@ -46,4 +46,9 @@
     (zone_connect 1))
   (pad 10 thru_hole circle (at 5.08 -1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/IDC-10R_2x05_P2.54mm_Horizontal.step
+    (offset (xyz -5.08 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

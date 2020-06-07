@@ -1,4 +1,4 @@
-(module IDC-8R (layer F.Cu) (tedit 5DE67D4A)
+(module IDC-8R (layer F.Cu) (tedit 5EDCEC72)
   (descr DS1013-08R)
   (fp_text reference "IDC-8MR (DS1013-08R)" (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
@@ -42,4 +42,9 @@
     (zone_connect 1))
   (pad 8 thru_hole circle (at 3.81 -1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/IDC-8R_2x04_P2.54mm_Horizontal.step
+    (offset (xyz -3.81 -1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

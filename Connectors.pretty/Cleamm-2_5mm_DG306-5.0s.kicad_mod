@@ -1,5 +1,6 @@
-(module Cleamm-2_5mm_306-021-12 (layer F.Cu) (tedit 5A0EAA6D)
-  (fp_text reference MA412-500M02 (at -2.5 -5) (layer F.SilkS)
+(module Cleamm-2_5mm_DG306-5.0s (layer F.Cu) (tedit 5EDDB507)
+  (descr "MA412-500M02 / XY306A-5.0-2P/ 306-021-12")
+  (fp_text reference DG306-5.0-2P (at -2.5 -5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_text value VAL** (at 2.5 -5) (layer F.SilkS)
@@ -23,4 +24,9 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 2.5 0) (size 3 3) (drill 1.4) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KISYS3DMOD}/Connectors/Cleamm-2_5mm_DG306-5.0-2P.STEP
+    (offset (xyz -2.5 0.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

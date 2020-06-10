@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AO3407A
-D P-Channel -30V -4.3A 54mR (Vgs -4,5V)
+D P-Channel -30V -4.3A, 54mR @ Vgs -4,5V
 K P-Channel
 $ENDCMP
 #

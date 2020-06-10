@@ -96,6 +96,11 @@ $CMP GND_Power
 K PGND, GNDpower
 $ENDCMP
 #
+$CMP GND_local
+D Local GND 1
+K LGND, Local GND
+$ENDCMP
+#
 $CMP Jumper
 D Jumper for connection of Analog and Power ground, etc.
 K Jump, J

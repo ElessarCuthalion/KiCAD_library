@@ -92,6 +92,11 @@ $CMP GNDA
 K AGND
 $ENDCMP
 #
+$CMP GNDL
+D Local GND
+K LGND, Local GND
+$ENDCMP
+#
 $CMP GND_Power
 K PGND, GNDpower
 $ENDCMP

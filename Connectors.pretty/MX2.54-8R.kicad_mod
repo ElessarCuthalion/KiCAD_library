@@ -1,4 +1,4 @@
-(module MX2.54-8R (layer F.Cu) (tedit 5ED65953)
+(module MX2.54-8R (layer F.Cu) (tedit 5EE22871)
   (fp_text reference MX2.54-8R (at -2.5 -1.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -8,7 +8,7 @@
   (fp_line (start 11.43 12.95) (end -11.43 12.95) (layer F.SilkS) (width 0.15))
   (fp_line (start -10.16 -0.55) (end 10.16 -0.55) (layer F.SilkS) (width 0.15))
   (fp_line (start -11.43 1.45) (end -11.43 12.95) (layer F.SilkS) (width 0.15))
-  (fp_text user 1 (at -11 0) (layer F.SilkS) hide
+  (fp_text user 1 (at -11 0.25) (layer F.SilkS) hide
     (effects (font (size 1.5 1) (thickness 0.15)))
   )
   (fp_line (start 11.43 1.45) (end 11.43 12.95) (layer F.SilkS) (width 0.15))

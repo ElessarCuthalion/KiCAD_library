@@ -12,6 +12,7 @@ F4 "0" -200 150 60 H I C CNN "SolderPoints"
 F5 "0" -200 50 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
  FuseSolder
+ FuseSolder_BIG
 $ENDFPLIST
 DRAW
 A -15 0 100 901 -901 0 1 0 f -15 100 -15 -100

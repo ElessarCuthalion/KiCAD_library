@@ -268,7 +268,7 @@ K I2C
 $ENDCMP
 #
 $CMP for_PolarOut
-D Polar Output connector
+D Polar Output connector (male)
 K for
 $ENDCMP
 #

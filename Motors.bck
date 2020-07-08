@@ -11,7 +11,7 @@ K A3906
 $ENDCMP
 #
 $CMP A4988
-D Microstepping motor driver Vcc 8-35V Iout 2A Isd 10uA
+D Microstepping motor driver Vcc 8-35V Iout 2A Isd <10uA
 $ENDCMP
 #
 $CMP Motor_NC

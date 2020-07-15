@@ -130,6 +130,11 @@ D TVS diode, 1-line, Vrwm 3.3V, Vesd 9kV, Cd 2.6pF
 K ESD_protect, Uni, TVS
 $ENDCMP
 #
+$CMP PESD5V0U1UB
+D TVS diode, 1-line, Vrwm 5.0V, Vesd 9kV, Cd 2pF
+K ESD_protect, Uni, TVS
+$ENDCMP
+#
 $CMP RClamp0502BA
 D ESD Protection to Safeguard I²C Bus, Vrwm 5V, Ppk 125W, Cj 1.2pF
 K RClamp0502B, RClamp0502BA

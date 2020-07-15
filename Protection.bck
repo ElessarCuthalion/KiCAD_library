@@ -85,7 +85,7 @@ D EMI Suppression L-filter (Ferrite Beads)
 K EMI_filter, L-filter, FerriteBead
 $ENDCMP
 #
-$CMP Fuze
+$CMP Fuse
 D Предохранитель плавкий
 K FU
 $ENDCMP

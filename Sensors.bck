@@ -60,6 +60,11 @@ D Magnetic Switch horizontal 0,2-3mT, Vdd 1,6-3,5V Iq 5-12uA
 K MRMS201A
 $ENDCMP
 #
+$CMP PhotoTransistor
+D Photo Transistor
+K BL, VT
+$ENDCMP
+#
 $CMP SENS
 D Пластина сенсора
 K Sens

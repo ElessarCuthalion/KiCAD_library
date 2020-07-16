@@ -22,7 +22,7 @@ $ENDCMP
 #
 $CMP PhotoDiode
 D Photo Diode
-K PhotoDiode, HL
+K PhotoDiode, VD
 $ENDCMP
 #
 $CMP TLP291-4

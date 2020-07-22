@@ -95,6 +95,10 @@ D ON/OFF Tilt Sensor
 K SQ, TiltSensor, MercurySwitch
 $ENDCMP
 #
+$CMP VL53L1X
+D Distance sensor up to 4m; Vdd 2,6~3,5V Idd 16mA, Ids 5uA
+$ENDCMP
+#
 $CMP VibrationSensor
 D Vibration Sensor
 K Vibration Sensor

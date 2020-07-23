@@ -21,7 +21,7 @@ K CAT4240
 $ENDCMP
 #
 $CMP LED2000PUR
-D LED switching regulator BUCK; PWM; Io 3A, 3~18V
+D LED switching regulator BUCK; PWM; Io 3A, Vin 3~18V
 $ENDCMP
 #
 $CMP MAX7219EWG
@@ -36,6 +36,10 @@ $ENDCMP
 $CMP NSI45030
 D Constant Current Regulator 30mA 460mW; Vac 45V; Vdo 1.8V
 K NSI45030
+$ENDCMP
+#
+$CMP PAM2804
+D LED driver Buck; PWM; Io 1.5A, Vin 2.5~6V; Isd 1uA
 $ENDCMP
 #
 $CMP TLC5940PWP

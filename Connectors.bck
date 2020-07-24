@@ -267,9 +267,14 @@ D for I2C (Pill Connector)
 K I2C
 $ENDCMP
 #
+$CMP for_PolarIn
+D Polar Input connector (female)
+K for, polar
+$ENDCMP
+#
 $CMP for_PolarOut
 D Polar Output connector (male)
-K for
+K for, polar
 $ENDCMP
 #
 $CMP for_SENS

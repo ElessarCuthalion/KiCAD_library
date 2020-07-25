@@ -85,6 +85,11 @@ D Single row connectors x5, male
 K Conn5x, XP5x
 $ENDCMP
 #
+$CMP Conn-6f
+D Single row connectors x6, female
+K Conn6x, XS6x
+$ENDCMP
+#
 $CMP Conn-6m
 D Single row connectors x6, male
 K Conn6x, XP6x
@@ -143,6 +148,16 @@ $ENDCMP
 $CMP Conn_2x7m
 D Double row connectors, 2x7, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
+$ENDCMP
+#
+$CMP FPC-6
+D FPC/FFC connector
+K FPC
+$ENDCMP
+#
+$CMP FPC-6_v2
+D FPC/FFC connector
+K FPC
 $ENDCMP
 #
 $CMP IDC-10

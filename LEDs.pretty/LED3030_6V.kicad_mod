@@ -1,4 +1,4 @@
-(module LED3030_6V (layer F.Cu) (tedit 5BED2EA4)
+(module LED3030_6V (layer F.Cu) (tedit 5F1DE7F2)
   (attr smd)
   (fp_text reference LED3030 (at 0 -2.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -20,4 +20,9 @@
   (pad A smd rect (at -1.11 0) (size 0.58 2.3) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 0.635 0) (size 1.53 2.3) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 1.7 0) (size 0.6 3.15) (layers F.Cu F.Paste F.Mask))
+  (model "${KISYS3DMOD}/LEDs/LED3030 YUJI.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

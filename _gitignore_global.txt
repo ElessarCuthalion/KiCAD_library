@@ -36,3 +36,7 @@ fp-info-cache
 #Ignore files by Eclipse
 language.settings.xml
 Debug/
+#Ignore 3D print files
+*.stl
+*.gcode
+*.g

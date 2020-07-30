@@ -1,4 +1,4 @@
-(module TestPoint_1mm (layer F.Cu) (tedit 5EB412FB)
+(module TestPoint_1mm (layer F.Cu) (tedit 5F22E224)
   (zone_connect 1)
   (attr virtual)
   (fp_text reference TestPoint (at 0 1.27) (layer F.SilkS) hide

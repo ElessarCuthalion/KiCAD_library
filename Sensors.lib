@@ -529,6 +529,7 @@ F6 "text" 0 -200 60 H V C CNN "Comment"
 $FPLIST
  PBS-1Rnd
  PBS2-1Rnd
+ TouchKey*
 $ENDFPLIST
 DRAW
 S -150 -150 150 150 0 1 0 f

@@ -1,5 +1,5 @@
-(module TouchKey_Rnd10mm (layer F.Cu) (tedit 5F22E7BE)
-  (attr virtual)
+(module TouchKey_Rnd10mm (layer F.Cu) (tedit 5F2408BF)
+  (attr smd)
   (fp_text reference TouchKey (at 0 -1.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -9,4 +9,9 @@
   (fp_circle (center 0 0) (end 5 0) (layer F.SilkS) (width 0.2))
   (pad 1 smd circle (at 0 0) (size 10 10) (layers F.Cu)
     (zone_connect 1))
+  (model ${KICAD_SYMBOL_DIR}/3D/Installation/TouchKey10mm_SilkS.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

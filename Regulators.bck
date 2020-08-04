@@ -15,19 +15,23 @@ D Iq 2-14mA; Vdo 0.1-0.4V, Iout 800mA; Vin 4-13V, Vout 3.3V; SVRmin 52dB
 K LD29080S33R
 $ENDCMP
 #
+$CMP LD3985MxxR
+D Iq 170uA; Vdo 100mV, Iout 150mA; Vin 2.5-6V; 255C/W; Low-noise, SVRmin 50dB
+K LP3985
+$ENDCMP
+#
 $CMP LP2985-xx
 D Iq 65uA; Vdo 280mV, Iout 150mA; Vin 2.2-16V; 206C/W; Low-noise, SVRmin 45dB
 K LP2985
 $ENDCMP
 #
-$CMP LP3985MxxR
-D Iq 170uA; Vdo 100mV, Iout 150mA; Vin 2.5-6V; 255C/W; Low-noise, SVRmin 50dB
-K LP3985
-$ENDCMP
-#
 $CMP MCP1700T-xx02E
 D Iq 1.6uA; Vdo 178mV, Iout 250mA; Vin 2.3-6V
 K MCP1700
+$ENDCMP
+#
+$CMP MIC5205-x.x
+D Iq 80uA; Vdo 110mV at 50mA, Iout 150mA; Vin 2.5-16V; 220C/W; Low-noise, SVRmin 75dB
 $ENDCMP
 #
 $CMP NCP511SQxx
@@ -43,6 +47,10 @@ $ENDCMP
 $CMP NCP583XVxx
 D Iq 1uA; Vdo 250mV, Iout 150mA; Vin 1.7-6.5V
 K NCP583
+$ENDCMP
+#
+$CMP SE86xxX
+D Iq 1.8uA; Vdo 70mV at 10mA, Iout 200mA; Vin 2.8-60V
 $ENDCMP
 #
 $CMP TLV1117-xx

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC2G17
+D Dual non-inverting Schmitt-trigger, Vcc 1.65-5.5V Icc 0.1uA, Iout 50mA
+K SN74LVC2T45
+$ENDCMP
+#
 $CMP 74LVT126PW
 D Quad noninverting tri-state buffer:  Vcc 2.7-3.6V, Iout 32mA
 K buffer
@@ -35,6 +40,11 @@ D UATR to RS485 converter: Vcc 5V 256kB/S (slew-rate limited) 122 devices, 15kV 
 K RS485, 485
 $ENDCMP
 #
+$CMP MAX488E
+D UATR to RS422 converter: Vcc 5V 256kB/S (slew-rate limited) 64 devices, 15kV ESD-Protected
+K RS422, 422
+$ENDCMP
+#
 $CMP NC7SB3157P6X
 D Analog Switch: Vcc 1.65-5.5V Iq 1uA, 250MHz data
 K AnSw
@@ -58,6 +68,11 @@ $ENDCMP
 $CMP ST485E
 D UATR to RS485 converter: Vcc 5V 12MB/S 256 devices, 15kV ESD-Protected
 K RS485, 485
+$ENDCMP
+#
+$CMP TUSB211
+D USB 2.0 High Speed Signal Conditioner, Vcc 3-3.6V
+K USB
 $ENDCMP
 #
 $CMP W5500

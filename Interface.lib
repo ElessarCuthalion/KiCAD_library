@@ -129,6 +129,7 @@ F2 "SOT23-5" 0 -350 60 H I C CNN
 F3 "" -25 0 60 H V C CNN
 F4 "5" -400 450 60 H I C CNN "SolderPoints"
 F5 "0" -400 350 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -350 50 H I C CNN "Comment"
 $FPLIST
  SOT23-5
  SOT323-5

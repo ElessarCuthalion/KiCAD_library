@@ -282,6 +282,16 @@ D for I2C (Pill Connector)
 K I2C
 $ENDCMP
 #
+$CMP for_LEDstrip-WS2812
+D WS2813 LED strip connector
+K forWS2813, for_WS2813
+$ENDCMP
+#
+$CMP for_LEDstrip-WS2813
+D WS2813 LED strip connector
+K forWS2813, for_WS2813
+$ENDCMP
+#
 $CMP for_PolarIn
 D Polar Input connector (female)
 K for, polar
@@ -334,12 +344,12 @@ $ENDCMP
 #
 $CMP for_WS2812
 D WS2812B connector
-K for
+K forWS2812, for_WS2812
 $ENDCMP
 #
 $CMP for_WS2813
 D WS2813 connector
-K for
+K forWS2813, for_WS2813
 $ENDCMP
 #
 #End Doc Library

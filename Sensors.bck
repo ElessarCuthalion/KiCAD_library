@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD71056
+D Energy Metering IC; 50 Hz/60 Hz; Vdd 5,0V
+$ENDCMP
+#
 $CMP AS-V20NA-R
 D Magnetic Switch vertical 0,8-4mT, Vdd 2,5-3,5V Iq 5-12uA
 K AS-V20NA-R

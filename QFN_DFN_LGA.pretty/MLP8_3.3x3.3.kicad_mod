@@ -1,4 +1,4 @@
-(module MLP8_3.3x3.3 (layer F.Cu) (tedit 5EDCC881)
+(module MLP8_3.3x3.3 (layer F.Cu) (tedit 5F55D57E)
   (attr smd)
   (fp_text reference MLP8_3.3x3.3/PQFN_3.3x3.3 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -24,7 +24,7 @@
   (pad S smd rect (at 1.54 0.975) (size 0.77 0.39) (layers F.Cu F.Paste F.Mask))
   (pad D smd rect (at -0.735 0) (size 2.7 2.7) (layers F.Cu))
   (pad S smd rect (at 1.655 0.325) (size 1 1.69) (layers F.Cu))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/MLP8_3.3x3.3.STEP
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/MLP8_3.3x3.3mm.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

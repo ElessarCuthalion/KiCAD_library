@@ -1,4 +1,4 @@
-(module DFN8_1.7x1.5 (layer F.Cu) (tedit 5EDEC069)
+(module DFN8_1.7x1.5 (layer F.Cu) (tedit 5F55D5D9)
   (attr smd)
   (fp_text reference DFN8_1.7x1.5 (at 0 -1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -26,7 +26,7 @@
   (pad 6 smd oval (at 0.8 0.2) (size 0.7 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at 0.8 -0.2) (size 0.7 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at 0.8 -0.6) (size 0.7 0.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/DFN8_1.7x1.5-uQFN_1.7x1.5mm.step
+  (model ${KISYS3DMOD}/QFN_DFN_LGA/DFN8_1.7x1.5mm-uQFN.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

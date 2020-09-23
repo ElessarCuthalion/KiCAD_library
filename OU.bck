@@ -15,6 +15,11 @@ D Operational Amplifier, 2 channel; Vcc 1.6~5.5V, Iq 0.32uA, Isc 4.7mA
 K LPV802, OU
 $ENDCMP
 #
+$CMP MCP6142
+D Operational Amplifier, 2 channel; Vcc 1.4~6V, Iq 0.6uA, Isc 20mA at 5.5Vcc
+K OU
+$ENDCMP
+#
 $CMP OPA551
 D Operational Amplifier, 1 channel; Dual Power Vcc +/-4~30V, Iout 200mA
 K OU

@@ -1,4 +1,5 @@
-(module Cleamm-6_5mm_Spring_DF235-5.0s (layer F.Cu) (tedit 5A64B3C9)
+(module Cleamm-6_5mm_Spring_DF235-5.0s (layer F.Cu) (tedit 5F6C54AA)
+  (zone_connect 1)
   (fp_text reference "DG235-5.0-06P / KF235-5.0s" (at -7.5 -6.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

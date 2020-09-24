@@ -1,4 +1,5 @@
-(module PBS-1 (layer F.Cu) (tedit 5DD69973)
+(module PBS-1 (layer F.Cu) (tedit 5F6C57BF)
+  (zone_connect 1)
   (fp_text reference PBS-1 (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

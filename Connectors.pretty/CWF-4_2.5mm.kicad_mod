@@ -1,5 +1,6 @@
-(module CWF-4_2.5mm (layer F.Cu) (tedit 5ECD779D)
+(module CWF-4_2.5mm (layer F.Cu) (tedit 5F6C540D)
   (descr "DS1069-4 (4B-XH-A)")
+  (zone_connect 1)
   (fp_text reference CWF-4 (at -2.25 2 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

@@ -1,5 +1,6 @@
-(module IDC-6 (layer F.Cu) (tedit 5E05DD05)
+(module IDC-6 (layer F.Cu) (tedit 5F6C5654)
   (descr DS1013-06S)
+  (zone_connect 1)
   (fp_text reference "IDC-06MS (DS1013-06S)" (at 0 -5.6) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

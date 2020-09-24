@@ -1,4 +1,5 @@
-(module Jump_1.5mm (layer F.Cu) (tedit 5CAF015E)
+(module Jump_1.5mm (layer F.Cu) (tedit 5F6C5E06)
+  (zone_connect 2)
   (attr virtual)
   (fp_text reference Jump_1.5mm (at 0 0) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))

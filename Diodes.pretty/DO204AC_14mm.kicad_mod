@@ -1,5 +1,6 @@
-(module DO204AC_14mm (layer F.Cu) (tedit 5E5FCB8D)
+(module DO204AC_14mm (layer F.Cu) (tedit 5F6C59E8)
   (descr DO-15)
+  (zone_connect 1)
   (fp_text reference "DO-204AC, DO-15" (at 2.3 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )

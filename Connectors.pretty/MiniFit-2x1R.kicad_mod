@@ -1,4 +1,5 @@
-(module MiniFit-2x1R (layer F.Cu) (tedit 5E208022)
+(module MiniFit-2x1R (layer F.Cu) (tedit 5F6C577C)
+  (zone_connect 1)
   (fp_text reference "MiniFit-2x1R (5557R-2x1P)" (at -0.4 -5.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

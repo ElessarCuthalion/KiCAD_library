@@ -1,4 +1,5 @@
-(module Omron_G2RL-1Es (layer F.Cu) (tedit 59638420)
+(module Omron_G2RL-1Es (layer F.Cu) (tedit 5F6C5F71)
+  (zone_connect 1)
   (fp_text reference "Omron G2RL-1Es" (at -3.5 -3) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )

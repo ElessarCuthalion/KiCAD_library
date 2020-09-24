@@ -1,5 +1,6 @@
-(module TJ-8P8C_DS1134 (layer F.Cu) (tedit 5E451CD2)
+(module TJ-8P8C_DS1134 (layer F.Cu) (tedit 5F6C58ED)
   (descr DS1134-S80AP)
+  (zone_connect 1)
   (fp_text reference DS1134-S80AP (at -2 0 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

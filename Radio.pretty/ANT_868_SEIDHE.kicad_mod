@@ -1,5 +1,6 @@
-(module ANT_868_SEIDHE (layer F.Cu) (tedit 59C4F7D8)
+(module ANT_868_SEIDHE (layer F.Cu) (tedit 5F6C5ED1)
   (descr "Meander 868 for 16x36x1.5mm")
+  (attr virtual)
   (fp_text reference ANT_868_SEIDHE (at 0.87 1.73 90) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

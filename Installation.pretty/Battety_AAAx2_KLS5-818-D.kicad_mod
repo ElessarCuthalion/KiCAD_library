@@ -1,5 +1,6 @@
-(module Battety_AAAx2_KLS5-818-D (layer F.Cu) (tedit 5E7652B4)
+(module Battety_AAAx2_KLS5-818-D (layer F.Cu) (tedit 5F6C5A32)
   (descr "AAAx2 battery holder, hole-mounted")
+  (zone_connect 1)
   (fp_text reference "AAAx2 KLS5-818-D" (at 0 -1.5 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

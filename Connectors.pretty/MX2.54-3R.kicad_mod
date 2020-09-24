@@ -1,4 +1,5 @@
-(module MX2.54-3R (layer F.Cu) (tedit 5EE22866)
+(module MX2.54-3R (layer F.Cu) (tedit 5F6C5711)
+  (zone_connect 1)
   (fp_text reference MX2.54-3R (at -2.5 -1.5) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

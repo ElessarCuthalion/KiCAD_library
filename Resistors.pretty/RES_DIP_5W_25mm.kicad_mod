@@ -1,5 +1,6 @@
-(module RES_DIP_5W_25mm (layer F.Cu) (tedit 5E5E63D0)
+(module RES_DIP_5W_25mm (layer F.Cu) (tedit 5F6C5FAE)
   (descr SQP)
+  (zone_connect 1)
   (fp_text reference "Res DIP 5W" (at 0 -1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

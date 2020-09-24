@@ -1,4 +1,5 @@
-(module CAP_pol_DIP_D8mm (layer F.Cu) (tedit 5DD8146B)
+(module CAP_pol_DIP_D8mm (layer F.Cu) (tedit 5F6C51EC)
+  (zone_connect 1)
   (fp_text reference "CAP DIP 8mm" (at 0 -4.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

@@ -1,4 +1,5 @@
-(module PBS2-1Rnd (layer F.Cu) (tedit 59611966)
+(module PBS2-1Rnd (layer F.Cu) (tedit 5F6C57F0)
+  (zone_connect 1)
   (fp_text reference PBS2-1Rnd (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

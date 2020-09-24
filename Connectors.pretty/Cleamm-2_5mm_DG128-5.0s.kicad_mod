@@ -1,4 +1,5 @@
-(module Cleamm-2_5mm_DG128-5.0s (layer F.Cu) (tedit 5A0EAA54)
+(module Cleamm-2_5mm_DG128-5.0s (layer F.Cu) (tedit 5F6C5461)
+  (zone_connect 1)
   (fp_text reference DG128-5.0-02P (at -2.75 -5.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

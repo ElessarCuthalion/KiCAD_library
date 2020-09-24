@@ -1,5 +1,6 @@
-(module PBD-8 (layer F.Cu) (tedit 5ED91705)
+(module PBD-8 (layer F.Cu) (tedit 5F6C57B3)
   (descr "Double row connectors, 2x4, female; DS1023-2Xxx")
+  (zone_connect 1)
   (fp_text reference PBD-8 (at 0 -3.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

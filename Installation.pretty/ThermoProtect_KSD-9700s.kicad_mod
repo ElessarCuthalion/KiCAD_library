@@ -1,4 +1,5 @@
-(module ThermoProtect_KSD-9700s (layer F.Cu) (tedit 5D88A080)
+(module ThermoProtect_KSD-9700s (layer F.Cu) (tedit 5F6C5B63)
+  (zone_connect 1)
   (fp_text reference "ThermalProtector KSD-9700s" (at 0 -2) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

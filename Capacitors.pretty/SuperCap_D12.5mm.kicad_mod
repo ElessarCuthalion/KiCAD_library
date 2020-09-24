@@ -1,4 +1,5 @@
-(module SuperCap_D12.5mm (layer F.Cu) (tedit 5D8891A2)
+(module SuperCap_D12.5mm (layer F.Cu) (tedit 5F6C5205)
+  (zone_connect 1)
   (fp_text reference "SuperCap D12.5mm" (at 0 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

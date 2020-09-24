@@ -1,5 +1,6 @@
-(module ANT_868_MEANDER_SALEM (layer F.Cu) (tedit 59C4F709)
+(module ANT_868_MEANDER_SALEM (layer F.Cu) (tedit 5F6C5EBF)
   (descr "Meander W32 H18")
+  (attr virtual)
   (fp_text reference Ant_868_MEANDER2 (at 5.8 -2.93) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

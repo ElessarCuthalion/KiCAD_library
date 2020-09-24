@@ -1,5 +1,6 @@
-(module В1В-1В (layer F.Cu) (tedit 5E89AABB)
+(module В1В-1В (layer F.Cu) (tedit 5F6C5F92)
   (descr "USSR vacuum relay")
+  (zone_connect 1)
   (fp_text reference В1В-1В (at 0 -1.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )

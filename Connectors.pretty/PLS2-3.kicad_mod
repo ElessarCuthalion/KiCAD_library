@@ -1,4 +1,5 @@
-(module PLS2-3 (layer F.Cu) (tedit 5A0EB37F)
+(module PLS2-3 (layer F.Cu) (tedit 5F6C5890)
+  (zone_connect 1)
   (fp_text reference PLS2-3 (at -2 -1.6) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

@@ -1,5 +1,6 @@
-(module SuperCap_D35.5mm (layer F.Cu) (tedit 5E60C9FA)
+(module SuperCap_D35.5mm (layer F.Cu) (tedit 5F6C520F)
   (descr "SuperCap СКФ-380-3В0")
+  (zone_connect 1)
   (fp_text reference "SuperCap СКФ-380-3В0" (at 0 -1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

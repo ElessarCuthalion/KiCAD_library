@@ -1,4 +1,5 @@
-(module CAP_DIP_27.5_MKP4_11x31.5mm (layer F.Cu) (tedit 5E5D070E)
+(module CAP_DIP_27.5_MKP4_11x31.5mm (layer F.Cu) (tedit 5F6C3F79)
+  (zone_connect 1)
   (fp_text reference "Cap DIP" (at 0 -1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

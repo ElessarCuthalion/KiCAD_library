@@ -1,4 +1,5 @@
-(module Arrester-3e_10x8_h4.4mm_T83s (layer F.Cu) (tedit 59CF5120)
+(module Arrester-3e_10x8_h4.4mm_T83s (layer F.Cu) (tedit 5F6C5E30)
+  (zone_connect 1)
   (fp_text reference "Arrester T83s" (at 0 -2.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

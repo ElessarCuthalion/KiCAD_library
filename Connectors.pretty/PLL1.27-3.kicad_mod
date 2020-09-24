@@ -1,4 +1,5 @@
-(module PLL1.27-3 (layer F.Cu) (tedit 5ED0FF6C)
+(module PLL1.27-3 (layer F.Cu) (tedit 5F6C582C)
+  (zone_connect 1)
   (fp_text reference PLL-3 (at -1.4 -1.8) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

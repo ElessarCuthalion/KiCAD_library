@@ -1,5 +1,6 @@
-(module "SW_SPDT-SS-6(DIP)" (layer F.Cu) (tedit 5EC54439)
+(module "SW_SPDT-SS-6(DIP)" (layer F.Cu) (tedit 5F6C522C)
   (descr "2-position switch; 11.4x5.8")
+  (zone_connect 1)
   (fp_text reference VAL** (at 0 1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

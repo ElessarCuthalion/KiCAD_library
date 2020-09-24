@@ -1,4 +1,6 @@
-(module ANT_IFA_868_MUSHROOM (layer F.Cu) (tedit 5E2571B8)
+(module ANT_IFA_868_MUSHROOM (layer F.Cu) (tedit 5F6C5F10)
+  (zone_connect 2)
+  (attr virtual)
   (fp_text reference REF** (at 4.78 -3.53) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,6 +20,8 @@
   (fp_line (start 40 -15) (end 40 0) (layer Dwgs.User) (width 0.15))
   (fp_line (start -8 -15) (end 40 -15) (layer Dwgs.User) (width 0.15))
   (fp_line (start -8 0) (end -8 -15) (layer Dwgs.User) (width 0.15))
-  (pad 1 smd rect (at 0.03 -0.5) (size 1 1) (layers F.Cu))
-  (pad 2 smd rect (at -6.84 -0.5) (size 1 1) (layers F.Cu))
+  (pad 1 smd rect (at 0.03 -0.5) (size 1 1) (layers F.Cu)
+    (zone_connect 2))
+  (pad 2 smd rect (at -6.84 -0.5) (size 1 1) (layers F.Cu)
+    (zone_connect 2))
 )

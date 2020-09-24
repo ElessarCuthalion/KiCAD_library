@@ -1,4 +1,5 @@
-(module B4B-ZR_1.5mm (layer F.Cu) (tedit 5ECD7787)
+(module B4B-ZR_1.5mm (layer F.Cu) (tedit 5F6C53EA)
+  (zone_connect 1)
   (fp_text reference B4B-ZR (at -2 -2.75 180) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

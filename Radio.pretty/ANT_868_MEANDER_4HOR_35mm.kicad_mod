@@ -1,4 +1,5 @@
-(module ANT_868_MEANDER_4HOR_35mm (layer F.Cu) (tedit 59C4F72C)
+(module ANT_868_MEANDER_4HOR_35mm (layer F.Cu) (tedit 5F6C5E94)
+  (attr virtual)
   (fp_text reference VAL** (at 0 6.8) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

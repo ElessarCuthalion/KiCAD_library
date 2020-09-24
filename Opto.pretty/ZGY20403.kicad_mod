@@ -1,4 +1,4 @@
-(module ZGY20403 (layer F.Cu) (tedit 5E765343)
+(module ZGY20403 (layer F.Cu) (tedit 5F6C5D49)
   (zone_connect 1)
   (fp_text reference "ZGY20403(ITR)" (at 0 0) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))

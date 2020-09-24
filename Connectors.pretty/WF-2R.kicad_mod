@@ -1,4 +1,5 @@
-(module WF-2R (layer F.Cu) (tedit 5E5E6D3F)
+(module WF-2R (layer F.Cu) (tedit 5F6C599F)
+  (zone_connect 1)
   (fp_text reference WF-2R (at -1.5 -1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

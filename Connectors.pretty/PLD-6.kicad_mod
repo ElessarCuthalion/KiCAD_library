@@ -1,5 +1,6 @@
-(module PLD-6 (layer F.Cu) (tedit 5ED6351E)
+(module PLD-6 (layer F.Cu) (tedit 5F6C581D)
   (descr "Double row connectors, 2x3, male")
+  (zone_connect 1)
   (fp_text reference "PLD-6 (3x2)" (at -2.5 -3.25) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

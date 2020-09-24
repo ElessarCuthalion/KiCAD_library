@@ -1,4 +1,5 @@
-(module Finder_41.52s (layer F.Cu) (tedit 59A9B397)
+(module Finder_41.52s (layer F.Cu) (tedit 5F6C5F64)
+  (zone_connect 1)
   (fp_text reference "Finder 41.52s" (at -3.5 -3) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )

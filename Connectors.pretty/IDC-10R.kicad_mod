@@ -1,5 +1,6 @@
-(module IDC-10R (layer F.Cu) (tedit 5F4FBD30)
+(module IDC-10R (layer F.Cu) (tedit 5F6C56A3)
   (descr DS1013-10R)
+  (zone_connect 1)
   (fp_text reference "IDC-10MR (DS1013-10R)" (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

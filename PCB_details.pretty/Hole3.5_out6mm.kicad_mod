@@ -1,4 +1,5 @@
-(module Hole3.5_out6mm (layer F.Cu) (tedit 5B09A925)
+(module Hole3.5_out6mm (layer F.Cu) (tedit 5F6C5DB0)
+  (zone_connect 2)
   (attr virtual)
   (fp_text reference Hole3,5mm (at 0 3.25) (layer F.SilkS) hide
     (effects (font (size 0.127 0.127) (thickness 0.002)))

@@ -1,5 +1,6 @@
-(module Wire-1_6mm2 (layer F.Cu) (tedit 5E651231)
+(module Wire-1_6mm2 (layer F.Cu) (tedit 5F6C59B3)
   (descr "Wire connection for 6 mm^2 (ex.dia. 6mm)")
+  (zone_connect 1)
   (fp_text reference "Wire 6mm^2" (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

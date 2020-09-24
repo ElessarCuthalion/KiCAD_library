@@ -1,5 +1,6 @@
-(module IDC2-6R (layer F.Cu) (tedit 5F4FBD5B)
+(module IDC2-6R (layer F.Cu) (tedit 5F6C56B8)
   (descr DS1014-06R/BH2-06R)
+  (zone_connect 1)
   (fp_text reference "IDC2-06MR (DS1014-06R / BH2-06R)" (at 0 -5.6) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )

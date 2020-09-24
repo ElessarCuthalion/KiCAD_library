@@ -1,5 +1,6 @@
-(module Battety_AAAx1 (layer F.Cu) (tedit 5E0E30B6)
+(module Battety_AAAx1 (layer F.Cu) (tedit 5F6C5A2B)
   (descr "AAAx1 battery holder, hole-mounted")
+  (zone_connect 1)
   (fp_text reference AAAx1 (at 0 -1.5 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )

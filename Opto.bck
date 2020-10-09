@@ -11,22 +11,27 @@ K ITR9608, opto
 $ENDCMP
 #
 $CMP LVT817S
-D Photocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 35V Vec 6V
+D Optocoupler; In: If 50mA Vr 6V; Out: Ic 50mA Vce 35V Vec 6V
 K LVT817S, PC817, opto
 $ENDCMP
 #
+$CMP MOC306xSM
+D Opto Triac; In: Vf 1.3V @ If 10mA, Ifm 60mA, Vr 6V; Out: Vdrm 600V Itcm 1A
+K opto
+$ENDCMP
+#
 $CMP PC3H7
-D Photocoupler; In: Vf 1.2V @ If 20mA, If 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 6V
+D Optocoupler; In: Vf 1.2V @ If 20mA, Ifm 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 6V
 K opto
 $ENDCMP
 #
 $CMP PhotoDiode
 D Photo Diode
-K PhotoDiode, HL
+K PhotoDiode, VD
 $ENDCMP
 #
 $CMP TLP291-4
-D Photocoupler; In: Vf 1.2V @ If 10mA, If 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
+D Optocoupler; In: Vf 1.2V @ If 10mA, Ifm 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
 K opto
 $ENDCMP
 #

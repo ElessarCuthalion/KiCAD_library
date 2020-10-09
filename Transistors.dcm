@@ -133,4 +133,9 @@ D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
+$CMP Triac
+D Triac
+K VS, Triac
+$ENDCMP
+#
 #End Doc Library

@@ -16,7 +16,7 @@ K LVT817S, PC817, opto
 $ENDCMP
 #
 $CMP MOC306xSM
-D Opto Triac; In: Vf 1.3V @ If 10mA, Ifm 60mA, Vr 6V; Out: Vdrm 600V Itcm 1A
+D Opto Triac with Zero Crossing Circuit; In: Vf 1.3V @ If 10mA, Ifm 60mA, Vr 6V; Out: Vdrm 600V Itcm 1A
 K opto
 $ENDCMP
 #

@@ -84,17 +84,17 @@ K N-Channel
 $ENDCMP
 #
 $CMP IRLML0030TRPbF
-D N-Channel 30V 5.3A 33mR @ Vgs 4.5V; Vgs_m 20V
+D N-Channel 30V 5.3A, 33mR @ Vgs 4.5V; Vgs_m 20V
 K N-Channel
 $ENDCMP
 #
 $CMP IRLML2502
-D N-Channel 20V 4.2A 35mR @ Vgs 4.5V; Vgs_m 12V
+D N-Channel 20V 4.2A, 35mR @ Vgs 4.5V; Vgs_m 12V
 K N-Channel
 $ENDCMP
 #
 $CMP IRLML6402
-D P-Channel -20V -3.7A 50mR @ Vgs -4.5V; Vgs_m 12V
+D P-Channel -20V -3.7A, 50mR @ Vgs -4.5V; Vgs_m 12V
 K P-Channel
 $ENDCMP
 #
@@ -104,32 +104,32 @@ K n-p-n
 $ENDCMP
 #
 $CMP NTJD4152P
-D Dual P-Channel: -20V 0.88A 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate
+D Dual P-Channel: -20V 0.88A, 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate
 K Dual P, P+P
 $ENDCMP
 #
 $CMP NTJD5121N
-D Dual N-Channel: 60V 0.295A 1.2R @ Vgs 4.5V; Vgs_m 20V; ESD Protected Gate
+D Dual N-Channel: 60V 0.295A, 1.2R @ Vgs 4.5V; Vgs_m 20V; ESD Protected Gate
 K Dual N, N+N
 $ENDCMP
 #
 $CMP Si3588DV
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_AB
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var2
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_var3
-D N+P-Channel: 20V 3A 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
 $ENDCMP
 #

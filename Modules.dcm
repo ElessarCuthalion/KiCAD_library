@@ -5,6 +5,11 @@ D MP3-module
 K DFPlayer, Player
 $ENDCMP
 #
+$CMP ESP32-WROOM-32
+D Single 2.4 GHz Wi-Fi and Bluetooth combo modem module
+K WiFi
+$ENDCMP
+#
 $CMP IRM-03-5
 D AC/DC, 85~305 ACin, Out 5V DC 0,6A
 K AC/DC, IRM-03-5

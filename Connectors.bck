@@ -35,6 +35,11 @@ D Terminal Block x6 (клеммник винтовой)
 K XL, Cleamm6x
 $ENDCMP
 #
+$CMP Cleamm-8
+D Terminal Block x8 (клеммник винтовой)
+K XL, Cleamm6x
+$ENDCMP
+#
 $CMP Conn-1f
 D Single connector x1, female
 K Conn1x, XS1x
@@ -283,8 +288,8 @@ K I2C
 $ENDCMP
 #
 $CMP for_LEDstrip-WS2812
-D WS2813 LED strip connector
-K forWS2813, for_WS2813
+D WS2812 LED strip connector
+K forWS2812, for_WS2812
 $ENDCMP
 #
 $CMP for_LEDstrip-WS2813

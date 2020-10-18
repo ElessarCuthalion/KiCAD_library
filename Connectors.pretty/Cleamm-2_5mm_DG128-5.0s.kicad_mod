@@ -1,4 +1,4 @@
-(module Cleamm-2_5mm_DG128-5.0s (layer F.Cu) (tedit 5F6C5461)
+(module Cleamm-2_5mm_DG128-5.0s (layer F.Cu) (tedit 5F8C0121)
   (zone_connect 1)
   (fp_text reference DG128-5.0-02P (at -2.75 -5.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -24,4 +24,9 @@
     (zone_connect 1))
   (pad 2 thru_hole oval (at 2.5 0) (size 3 4.5) (drill 1.5) (layers *.Cu *.Mask)
     (zone_connect 1))
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-2_5mm_DG128-5.0-02.stp
+    (offset (xyz -2.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

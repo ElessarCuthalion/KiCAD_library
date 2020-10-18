@@ -15,6 +15,11 @@ D Audio-Jack Stereo 5pin
 K Jack
 $ENDCMP
 #
+$CMP Cleamm-10
+D Terminal Block x10 (клеммник винтовой)
+K XL, Cleamm6x
+$ENDCMP
+#
 $CMP Cleamm-2
 D Terminal Block x2 (клеммник винтовой)
 K XL, Cleamm2x
@@ -32,6 +37,11 @@ $ENDCMP
 #
 $CMP Cleamm-6
 D Terminal Block x6 (клеммник винтовой)
+K XL, Cleamm6x
+$ENDCMP
+#
+$CMP Cleamm-8
+D Terminal Block x8 (клеммник винтовой)
 K XL, Cleamm6x
 $ENDCMP
 #

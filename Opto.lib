@@ -145,6 +145,7 @@ F2 "opto_SOP4" 0 -300 60 H I C CNN
 F3 "" 180 0 60 H V C CNN
 F4 "4" -250 450 60 H I C CNN "SolderPoints"
 F5 "0" -250 350 60 H I C CNN "SolderPoints_DIP"
+ALIAS TLP291
 $FPLIST
  opto_SOP4
 $ENDFPLIST

@@ -1,5 +1,5 @@
-(module USB-micro_B-1050170001 (layer F.Cu) (tedit 5EEE9B32)
-  (descr "Molex 1050170001")
+(module USB-micro_B-1050170001 (layer F.Cu) (tedit 5F8D7468)
+  (descr "Molex 105017-0001")
   (fp_text reference "USB-micro B" (at 0 -3) (layer F.SilkS) hide
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -31,7 +31,7 @@
     (zone_connect 2))
   (pad SHLD thru_hole circle (at -2.5 -4.15) (size 1.45 1.45) (drill 0.85) (layers *.Cu *.Mask F.Paste)
     (zone_connect 2))
-  (model ${KICAD_SYMBOL_DIR}/3d/Connectors/molex_1050170001.STEP
+  (model "${KICAD_SYMBOL_DIR}/3d/Connectors/USB-micro_B Molex_105017-0001.STEP"
     (offset (xyz 0 1.65 1.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

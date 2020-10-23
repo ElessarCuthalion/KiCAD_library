@@ -24,6 +24,11 @@ D Pyroelectric Infrared Sensor, Vcc 3~15V
 K PIR
 $ENDCMP
 #
+$CMP EG4002
+D PIR Controller, Vcc 3~6V Icc 35uA at 3Vcc, Iout 5mA at 3Vcc
+K PIR
+$ENDCMP
+#
 $CMP Encoder
 D Incremental Type Encoder
 K BR

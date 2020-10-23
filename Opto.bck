@@ -30,6 +30,11 @@ D Photo Diode
 K PhotoDiode, VD
 $ENDCMP
 #
+$CMP TLP291
+D Optocoupler; In: Vf 1.25V @ If 10mA, Ifm 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
+K opto
+$ENDCMP
+#
 $CMP TLP291-4
 D Optocoupler; In: Vf 1.2V @ If 10mA, Ifm 50mA, Vr 6V; Out: Ic 50mA Vce 80V Vec 7V
 K opto

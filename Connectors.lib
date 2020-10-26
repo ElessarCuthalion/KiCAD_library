@@ -375,8 +375,6 @@ F6 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  PBS-2*
  PBS2-2*
- MX2.54-2*
- MicroFit-1x2*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 200 -150 -200 N
@@ -407,6 +405,8 @@ $FPLIST
  PLS2-2*
  FlatConn-2*
  WF-2*
+ MX2.54-2*
+ MicroFit-1x2*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 200 -150 -200 N
@@ -435,8 +435,6 @@ F6 "h 2.54mm" -50 -250 60 H I R TNN "Step"
 $FPLIST
  PBS-3*
  PBS2-3*
- MX2.54-3*
- MicroFit-1x3*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 200 -150 -200 N
@@ -468,7 +466,8 @@ $FPLIST
  PLS2-3*
  PLL1.27-3*
  FlatConn-3*
- WF-3*
+ MX2.54-3*
+ MicroFit-1x3*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 0 -150 -200 N
@@ -503,8 +502,6 @@ F6 "h 2.54mm" -50 -350 60 H I R TNN "Step"
 $FPLIST
  PBS-4*
  PBS2-4*
- MX2.54-4*
- MicroFit-1x4*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 -100 -150 -300 N
@@ -541,6 +538,8 @@ $FPLIST
  PLS2-4*
  FlatConn-4*
  WF-4*
+ MX2.54-4*
+ MicroFit-1x4*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 -100 -150 -300 N
@@ -581,8 +580,6 @@ F6 "h 2.54mm" -50 -450 60 H I R TNN "Step"
 $FPLIST
  PBS-5*
  PBS2-5*
- MX2.54-5*
- MicroFit-1x5*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 -200 -150 -400 N
@@ -622,6 +619,8 @@ F6 "h 2.54mm" -50 -450 60 H I R TNN "Step"
 $FPLIST
  PLS-5*
  PLS2-5*
+ MX2.54-5*
+ MicroFit-1x5*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 -200 -150 -400 N
@@ -668,8 +667,6 @@ F6 "h 2.54mm" -50 -550 60 H I R TNN "Step"
 $FPLIST
  PBS-6*
  PBS2-6*
- MX2.54-6*
- MicroFit-1x6*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 -300 -150 -500 N
@@ -714,6 +711,8 @@ F6 "h 2.54mm" -50 -550 60 H I R TNN "Step"
 $FPLIST
  PLS-6*
  PLS2-6*
+ MX2.54-6*
+ MicroFit-1x6*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 -300 -150 -500 N
@@ -766,8 +765,6 @@ F6 "h 2.54mm" -50 -650 60 H I R TNN "Step"
 $FPLIST
  PBS-7*
  PBS2-7*
- MX2.54-7*
- MicroFit-1x7*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 -400 -150 -600 N
@@ -817,6 +814,8 @@ F6 "h 2.54mm" -50 -650 60 H I R TNN "Step"
 $FPLIST
  PLS-7*
  PLS2-7*
+ MX2.54-7*
+ MicroFit-1x7*
 $ENDFPLIST
 DRAW
 P 2 0 0 0 -150 -400 -150 -600 N
@@ -875,8 +874,6 @@ F6 "h 2.54mm" -50 -750 60 H I R TNN "Step"
 $FPLIST
  PBS-8*
  PBS2-8*
- MX2.54-8*
- MicroFit-1x8*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -150 -500 -150 -700 N

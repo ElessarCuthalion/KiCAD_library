@@ -160,6 +160,11 @@ D Double row connectors, 2x7, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #
+$CMP Conn_2x8m
+D Double row connectors, 2x8, male
+K IDC, PLD, FDC, Mini-Fit, Micro-Fit
+$ENDCMP
+#
 $CMP FPC-6
 D FPC/FFC connector
 K FPC
@@ -177,6 +182,11 @@ $ENDCMP
 #
 $CMP IDC-14
 D Double row connectors, 2x7, male
+K IDC, PLD, FDC
+$ENDCMP
+#
+$CMP IDC-16
+D Double row connectors, 2x8, male
 K IDC, PLD, FDC
 $ENDCMP
 #

@@ -15,6 +15,10 @@ D Двойная перемычка 0603
 K fus, fuse
 $ENDCMP
 #
+$CMP Heatsink
+D Радиатор/теплоотвод
+$ENDCMP
+#
 $CMP HoleMetalled
 D Отверстие с металлизацией
 K hole

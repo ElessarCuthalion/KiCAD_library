@@ -35,6 +35,11 @@ D N-Channel 25V 0.68A, 0.44R @ Vgs2.7V; Vgs_m 8V; ESD Protected Gate
 K N-Channel
 $ENDCMP
 #
+$CMP FDV304P
+D P-Channel -25V -0.46A, 1.22R @ Vgs-2.7V; Vgs_m 8V; ESD Protected Gate
+K P-Channel
+$ENDCMP
+#
 $CMP FMMT617
 D n-p-n, Vce 15V Vcb 15V Veb 5V Ic 3A
 K n-p-n

@@ -35,6 +35,16 @@ D AC/DC, 85~265 ACin, Out 12V DC 0,42A
 K AC/DC, KAS0512
 $ENDCMP
 #
+$CMP SBTN01x-xx
+D DC/DC: Vin 4.5-5.5V, Ic 30mA, Ifl 270mA; Out 5V 0.2A (78% eff)
+K DC/DC
+$ENDCMP
+#
+$CMP SPR01x-xx
+D DC/DC: Vin 4.5-5.5V, Ic 32mA, Ifl 320mA; Out 5V 0.2A (57% eff)
+K DC/DC
+$ENDCMP
+#
 $CMP Voltmeter_3dig
 D 0.28 inch 3-digital voltmeter, Vcc 4.5-30V, measured 0-100V
 K PV

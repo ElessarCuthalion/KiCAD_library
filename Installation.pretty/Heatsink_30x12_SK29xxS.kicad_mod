@@ -1,4 +1,4 @@
-(module Heatsink_30x12_SK29xxS (layer F.Cu) (tedit 5F9997BE)
+(module Heatsink_30x12_SK29xxS (layer F.Cu) (tedit 5F9A9CB1)
   (descr "SK 29 xx S")
   (fp_text reference "SK 29 xx S" (at 0 -1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)))
@@ -31,9 +31,9 @@
   (fp_arc (start 12.7 0) (end 10 0) (angle 90) (layer F.SilkS) (width 0.15))
   (fp_arc (start -12.7 0) (end -12.7 -2.7) (angle 90) (layer F.SilkS) (width 0.15))
   (pad "" thru_hole circle (at 12.7 0) (size 3.5 3.5) (drill 2.7) (layers *.Cu *.Mask)
-    (zone_connect 1))
+    (clearance 1) (zone_connect 1))
   (pad "" thru_hole circle (at -12.7 0) (size 3.5 3.5) (drill 2.7) (layers *.Cu *.Mask)
-    (zone_connect 1))
+    (clearance 1) (zone_connect 1))
   (model "${KICAD_SYMBOL_DIR}/3D/Installation/Heatsink 30x12x38 - SK 29 38 S.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

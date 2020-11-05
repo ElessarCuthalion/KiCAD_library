@@ -42,6 +42,10 @@ $CMP PAM2804
 D LED driver Buck; PWM; Io 1.5A, Vin 2.5~6V; Isd 1uA
 $ENDCMP
 #
+$CMP PT4115
+D LED driver Step-Down; PWM; Io 1.2A, Vin 6~30V; Isd 95uA
+$ENDCMP
+#
 $CMP TLC5940PWP
 D 16ch LED driver; Grayscale PWM control, 12bit; SPI; Io 0~120mA, Vcc 3~5V
 K TLC5940

@@ -307,7 +307,7 @@ F3 "" -50 -200 60 H V C CNN
 F4 "5" -250 450 60 H I C CNN "SolderPoints"
 F5 "0" -250 350 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
- SOT89-5
+ SOT89-5*
 $ENDFPLIST
 DRAW
 T 0 0 205 60 0 0 0 DC Normal 0 C C

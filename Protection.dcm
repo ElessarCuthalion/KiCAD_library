@@ -160,6 +160,10 @@ D Transient Voltage Suppression Diodes, Uni-directional (ливинный дио
 K Suppressor, Uni
 $ENDCMP
 #
+$CMP TPS2041BDBVx
+D Power-Distribution Switch Vcc 2.7-5.5V Iout >=500mA; Isd 1uA
+$ENDCMP
+#
 $CMP USBLC6-2SC6
 D ESD protection to USB, Vrwm 5V, Cj 3.5pF
 K USBLC6, ESD_protect

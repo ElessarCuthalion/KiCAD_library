@@ -16,12 +16,12 @@ K Dual N, N+N
 $ENDCMP
 #
 $CMP AO6801
-D Dual P-Channel: -30V -2.3A, 185mR @ Vgs -4.5V; Vgs_m +/-12V
+D Dual P-Channel: -30V -2.3A, 185mR @ Vgs -4.5V; Vgs_m 12V
 K Dual P, P+P
 $ENDCMP
 #
 $CMP AO6801_AB
-D Dual P-Channel: -30V -2.3A, 185mR @ Vgs -4.5V; Vgs_m +/-12V
+D Dual P-Channel: -30V -2.3A, 185mR @ Vgs -4.5V; Vgs_m 12V
 K Dual P, P+P
 $ENDCMP
 #
@@ -36,7 +36,7 @@ K N-Channel
 $ENDCMP
 #
 $CMP FDV304P
-D P-Channel -25V -0.46A, 1.22R @ Vgs-2.7V; Vgs_m -8V; ESD Protected Gate
+D P-Channel -25V -0.46A, 1.22R @ Vgs-2.7V; Vgs_m 8V; ESD Protected Gate
 K P-Channel
 $ENDCMP
 #
@@ -54,12 +54,12 @@ D n-p-n, Vce 50V Vcb 50V Veb 5V Ic 2A
 $ENDCMP
 #
 $CMP IRF5810
-D Dual P-Channel: -20V -2.9A, 60mR @ Vgs -4.5V; Vgs_m +/-12V
+D Dual P-Channel: -20V -2.9A, 60mR @ Vgs -4.5V; Vgs_m 12V
 K IRF5810
 $ENDCMP
 #
 $CMP IRF5810_AB
-D Dual P-Channel: -20V -2.9A, 60mR @ Vgs -4.5V; Vgs_m +/-12V
+D Dual P-Channel: -20V -2.9A, 60mR @ Vgs -4.5V; Vgs_m 12V
 K IRF5810
 $ENDCMP
 #
@@ -79,7 +79,7 @@ K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP IRFL9014
-D P-Channel -60V -1.8A, 500mR @ Vgs -10V; Vgs_m +/-20V
+D P-Channel -60V -1.8A, 500mR @ Vgs -10V; Vgs_m 20V
 K P-Channel
 $ENDCMP
 #
@@ -99,7 +99,7 @@ K N-Channel
 $ENDCMP
 #
 $CMP IRLML6402
-D P-Channel -20V -3.7A, 50mR @ Vgs -4.5V; Vgs_m +/-12V
+D P-Channel -20V -3.7A, 50mR @ Vgs -4.5V; Vgs_m 12V
 K P-Channel
 $ENDCMP
 #

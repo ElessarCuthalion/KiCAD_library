@@ -88,7 +88,7 @@ D N-Channel 30V 5.5A, 45mR @ Vgs 10V; Vgs_m 16V
 K N-Channel
 $ENDCMP
 #
-$CMP IRLML0030TRPbF
+$CMP IRLML0030
 D N-Channel 30V 5.3A, 33mR @ Vgs 4.5V; Vgs_m 20V
 K N-Channel
 $ENDCMP

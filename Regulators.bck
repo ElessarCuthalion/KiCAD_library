@@ -50,7 +50,7 @@ K NCP583
 $ENDCMP
 #
 $CMP SE86xxX
-D Iq 1.8uA; Vdo 70mV at 10mA, Iout 200mA; Vin 2.8-60V
+D Iq 1.8uA; Vdo 70mV at 10mA, Iout 200mA; Vin 2.8-60V; Short-Circuit Protection
 $ENDCMP
 #
 $CMP TLV1117-xx

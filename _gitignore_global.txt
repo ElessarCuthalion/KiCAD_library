@@ -34,8 +34,9 @@ fp-info-cache
 #Ignore files by SolidWorks
 ~$*
 #Ignore files by Eclipse
-language.settings.xml
+#language.settings.xml
 Debug/
+Release/
 #Ignore 3D print files
 *.stl
 *.gcode

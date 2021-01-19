@@ -908,4 +908,28 @@ X 2 2 400 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# WaterSensor
+#
+DEF WaterSensor E 0 40 N N 1 F N
+F0 "E" 0 300 60 H V C CNN
+F1 "WaterSensor" 0 200 60 H V C CNN
+F2 "" 0 -200 60 H V C CNN
+F3 "" 0 -200 60 H V C CNN
+F4 "0" -150 300 60 H I C CNN "SolderPoints"
+F5 "0" -150 200 60 H I C CNN "SolderPoints_DIP"
+F6 "text" 0 -200 60 H I C CNN "Comment"
+$FPLIST
+ WaterSensor*
+$ENDFPLIST
+DRAW
+S -150 -150 150 150 0 1 0 f
+P 2 0 1 0 -100 0 50 0 N
+P 2 0 1 0 -50 -50 100 -50 N
+P 4 0 1 0 50 -100 -100 -100 -100 100 150 100 N
+P 4 0 1 0 150 -100 100 -100 100 50 -50 50 N
+X 1 1 350 100 200 L 60 60 1 1 P
+X 2 2 350 -100 200 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

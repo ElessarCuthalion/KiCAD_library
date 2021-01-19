@@ -123,4 +123,9 @@ D Vibration Sensor
 K Vibration Sensor
 $ENDCMP
 #
+$CMP WaterSensor
+D Датчик воды
+K Sens
+$ENDCMP
+#
 #End Doc Library

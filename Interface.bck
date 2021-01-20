@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 74LVC2G17
 D Dual non-inverting Schmitt-trigger, Vcc 1.65-5.5V Icc 0.1uA, Iout 50mA
-K SN74LVC2T45
 $ENDCMP
 #
 $CMP 74LVT126PW
@@ -52,12 +51,10 @@ $ENDCMP
 #
 $CMP SN74LVC1T45
 D 1-bit Transceiver 210Mbps typ, Io 24mA tup, VCC 1.65-5.5V, Icc 3uA
-K SN74LVC1T45
 $ENDCMP
 #
 $CMP SN74LVC2T45
 D 2-bit Transceiver 210Mbps typ, Vcc 1.65-5.5V Icc 6uA, Iout 32mA @ Vcc 4.5-5.5V
-K SN74LVC2T45
 $ENDCMP
 #
 $CMP ST3485E

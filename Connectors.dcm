@@ -35,6 +35,11 @@ D Terminal Block x4 (клеммник винтовой)
 K XL, Cleamm4x
 $ENDCMP
 #
+$CMP Cleamm-5
+D Terminal Block x5 (клеммник винтовой)
+K XL, Cleamm5x
+$ENDCMP
+#
 $CMP Cleamm-6
 D Terminal Block x6 (клеммник винтовой)
 K XL, Cleamm6x

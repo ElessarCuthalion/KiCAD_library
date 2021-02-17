@@ -46,6 +46,10 @@ $CMP PAM2804
 D LED driver Buck; PWM; Io 1.5A, Vin 2.5~6V; Isd 1uA
 $ENDCMP
 #
+$CMP PCA9635
+D 16ch LED driver; I2C; Io 0~25mA, Vcc 2.3~5.5V
+$ENDCMP
+#
 $CMP PT4115
 D LED driver Step-Down; PWM; Io 1.2A, Vin 6~30V; Isd 95uA
 $ENDCMP

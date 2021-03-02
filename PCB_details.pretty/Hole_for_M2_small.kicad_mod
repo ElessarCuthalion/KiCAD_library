@@ -1,0 +1,12 @@
+(module Hole_for_M2_small (layer F.Cu) (tedit 603CBBD9)
+  (zone_connect 2)
+  (attr virtual)
+  (fp_text reference Hole_M2 (at 0 2) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.02)))
+  )
+  (fp_text value VAL** (at 0 -2) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.02)))
+  )
+  (pad H thru_hole circle (at 0 0) (size 3.7 3.7) (drill 2.2) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

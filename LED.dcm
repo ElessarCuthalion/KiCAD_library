@@ -77,12 +77,12 @@ $ENDCMP
 #
 $CMP SK6812_SIDE
 D RGB LED, 1-wire (4020 Package, horizontal side)
-K SK6812 SIDE
+K 6812
 $ENDCMP
 #
 $CMP SK6812mini
 D RGB LED, 1-wire (3535 Package)
-K SK6812mini
+K 6812
 $ENDCMP
 #
 $CMP WS2812B

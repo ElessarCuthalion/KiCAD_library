@@ -41,3 +41,4 @@ Release/
 *.stl
 *.gcode
 *.g
+*.gx

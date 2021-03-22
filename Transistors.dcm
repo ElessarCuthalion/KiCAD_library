@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002DW
+D Dual N-Channel: 60V 0.5A, 1.6R @ Vgs 5V; Vgs_m 20V
+K Dual N, N+N
+$ENDCMP
+#
+$CMP 2N7002W
+D N-Channel 60V 0.31A, 1.33R @ Vgs 4.5V; Vgs_m 20V; ESD Protected Gate
+K N-Channel
+$ENDCMP
+#
 $CMP AO3407A
 D P-Channel -30V -4.3A, 54mR @ Vgs -4,5V; Vgs_m 20V
 K P-Channel

@@ -92,13 +92,13 @@ $CMP GNDA
 K AGND
 $ENDCMP
 #
-$CMP GND_Power
-K PGND, GNDpower
+$CMP GNDL
+D Local GND
+K LGND, Local GND
 $ENDCMP
 #
-$CMP GND_local
-D Local GND 1
-K LGND, Local GND
+$CMP GND_Power
+K PGND, GNDpower
 $ENDCMP
 #
 $CMP Jumper

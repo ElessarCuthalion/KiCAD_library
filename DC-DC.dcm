@@ -64,7 +64,7 @@ K ST1S50
 $ENDCMP
 #
 $CMP TPS61221
-D Step-Up Vin 0.7-5.5V; Adg, 0.4A; Iq 5.5uA, Isd 0.5uA
+D Step-Up Vin 0.7-5.5V; Vout 1.8-6V, 0.4A; Iq 5.5uA, Isd 0.5uA
 K TPS61221
 $ENDCMP
 #

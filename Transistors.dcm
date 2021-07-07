@@ -15,6 +15,11 @@ D P-Channel -30V -4.3A, 54mR @ Vgs -4,5V; Vgs_m 20V
 K P-Channel
 $ENDCMP
 #
+$CMP AO4606_AB
+D N+P-Channel: 30V 6.9A, 42mR @ Vgs 4.5V; -20V - 6A 58mR @ Vgs -4.5V; Vgs_m 20V
+K N+P
+$ENDCMP
+#
 $CMP AO6800
 D Dual N-Channel: 30V 3.4A, 70mR @ Vgs 4.5V; Vgs_m 12V
 K Dual N, N+N

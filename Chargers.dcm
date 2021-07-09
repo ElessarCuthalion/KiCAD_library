@@ -1,12 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BQ24640
+D Super Capacitor Charger, 2.1-26V 10A, Vin 5-28V, External MOSFET
+$ENDCMP
+#
 $CMP MCP73831
 D Li-ion/Li-pol Charger, 4.2V 0.5A, Vin 3.75-6V
 K MCP73831
 $ENDCMP
 #
 $CMP MCP73843-xx
-D Li-ion/Li-pol Charger, 4.2V, внешний ключ
+D Li-ion/Li-pol Charger, 4.2V, External MOSFET
 K MCP73843
 $ENDCMP
 #

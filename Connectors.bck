@@ -125,8 +125,8 @@ D Single row connectors x8, female
 K Conn8x, XS8x
 $ENDCMP
 #
-$CMP Conn_2x12m
-D Double row connectors, 2x12, male
+$CMP Conn_2x10m
+D Double row connectors, 2x10, male
 K IDC, PLD, FDC, Mini-Fit, Micro-Fit
 $ENDCMP
 #

@@ -960,13 +960,13 @@ F4 "0" -350 1300 60 H I C CNN "SolderPoints"
 F5 "20" -350 1200 60 H I C CNN "SolderPoints_DIP"
 F6 "Mini-Fit" 0 -1075 60 H V C CNN "Type"
 $FPLIST
- IDC-24*
- IDC2-24*
- PLD-24*
- PLD2-24*
- FDC-24
- MiniFit-2x12*
- MicroFit-2x12*
+ IDC-20*
+ IDC2-20*
+ PLD-20*
+ PLD2-20*
+ FDC-20
+ MiniFit-2x10*
+ MicroFit-2x10*
 $ENDFPLIST
 DRAW
 S 200 1000 -200 -1000 0 0 0 N

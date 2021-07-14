@@ -84,12 +84,12 @@ K N-Channel
 $ENDCMP
 #
 $CMP IRFHM4231TRPbF
-D N-Channel 25V 22A, 4.6mR @ Vgs 4.5V; Vgs 20V Ciss 1270pF
+D N-Channel 25V 22A, 4.6mR @ Vgs 4.5V; Vgs_m 20V Ciss 1270pF
 K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP IRFHM8329PbF
-D N-Channel 30V 16A, 8.8mR @ Vgs 4.5V; Vgs 20V Ciss 1710pF
+D N-Channel 30V 16A, 8.8mR @ Vgs 4.5V; Vgs_m 20V Ciss 1710pF
 K N-Channel, HEXFET
 $ENDCMP
 #
@@ -151,6 +151,11 @@ $ENDCMP
 $CMP Si3588DV_var3
 D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
 K N+P
+$ENDCMP
+#
+$CMP SiS412DN
+D N-Channel 30V 20A, 424mR @ Vgs 4.5V; Vgs_m 20V Ciss 435pF
+K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP Triac

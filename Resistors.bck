@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CurrentSensor_2-wire
+D Current Sense Resistor, 2-wire sensing
+K RES, Current
+$ENDCMP
+#
+$CMP CurrentSensor_4-wire
+D Current Sense Resistor, 4-wire sensing
+K RES, Current
+$ENDCMP
+#
 $CMP Potentiometer
 D Potentiometer / Variable resistor / Rheostat
 K RES, Poten
@@ -36,7 +46,7 @@ K RES, R1206
 $ENDCMP
 #
 $CMP R_1210
-D 0,25W 2A 200V
+D 0,5W 2A 200V
 K RES, R1210
 $ENDCMP
 #

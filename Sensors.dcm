@@ -14,11 +14,6 @@ D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
 K AT42QT1011
 $ENDCMP
 #
-$CMP CurrentSensor
-D Current Sense Resistor
-K RES, Current
-$ENDCMP
-#
 $CMP D203S
 D Pyroelectric Infrared Sensor, Vcc 3~15V
 K PIR

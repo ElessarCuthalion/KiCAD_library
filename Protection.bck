@@ -125,6 +125,11 @@ D TVS diode, 1-line, Vrwm 12.0V, Vesd 30kV, Cd 38pF
 K ESD_protect, Uni, TVS
 $ENDCMP
 #
+$CMP PESD3V3L1BA
+D TVS diode Bi-directional, 1-line, Vrwm 3.3V, Vesd 30kV, Cd 101pF
+K ESD_protect, Bi, TVS-Bi
+$ENDCMP
+#
 $CMP PESD3V3S2UT
 D ESD protection, 2-line, Vrwm 3.3V, Ppk 330W, Cd 207pF
 K ESD_protect

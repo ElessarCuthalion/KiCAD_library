@@ -11,12 +11,12 @@ K N-Channel
 $ENDCMP
 #
 $CMP AO3407A
-D P-Channel -30V -4.3A, 54mR @ Vgs -4,5V; Vgs_m 20V
+D P-Channel -30V -4.3A, 54mR @ Vgs -4.5V; Vgs_m 20V
 K P-Channel
 $ENDCMP
 #
 $CMP AO4606_AB
-D N+P-Channel: 30V 6.9A, 42mR @ Vgs 4.5V; -20V - 6A 58mR @ Vgs -4.5V; Vgs_m 20V
+D N+P-Channel: 30V 6.9A, 42mR @ Vgs 4.5V; -20V -6A, 58mR @ Vgs -4.5V; Vgs_m 20V
 K N+P
 $ENDCMP
 #
@@ -43,6 +43,11 @@ $ENDCMP
 $CMP DMP2035UTS
 D Dual P-Channel: -20V -6A, 35mR @ Vgs -4,5V; Vgs_m 8V
 K Dual P, P+P
+$ENDCMP
+#
+$CMP FDC6420C
+D N+P-Channel: 20V 3A, 70mR @ Vgs 4.5V; -20V -2.2A, 125mR @ Vgs -4.5V; Vgs_m 12V
+K N+P
 $ENDCMP
 #
 $CMP FDV303N
@@ -84,12 +89,12 @@ K N-Channel
 $ENDCMP
 #
 $CMP IRFHM4231TRPbF
-D N-Channel 25V 22A, 4.6mR @ Vgs 4.5V; Vgs 20V Ciss 1270pF
+D N-Channel 25V 22A, 4.6mR @ Vgs 4.5V; Vgs_m 20V Ciss 1270pF
 K N-Channel, HEXFET
 $ENDCMP
 #
 $CMP IRFHM8329PbF
-D N-Channel 30V 16A, 8.8mR @ Vgs 4.5V; Vgs 20V Ciss 1710pF
+D N-Channel 30V 16A, 8.8mR @ Vgs 4.5V; Vgs_m 20V Ciss 1710pF
 K N-Channel, HEXFET
 $ENDCMP
 #
@@ -134,12 +139,12 @@ K Dual N, N+N
 $ENDCMP
 #
 $CMP Si3588DV
-D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR @ Vgs 4.5V; -20V -2.2A, 145mR @ Vgs -4.5V; Vgs_m 8V
 K N+P
 $ENDCMP
 #
 $CMP Si3588DV_AB
-D N+P-Channel: 20V 3A, 80mR; -20V - 2.2A 145mR; Vgs_m 8V
+D N+P-Channel: 20V 3A, 80mR @ Vgs 4.5V; -20V -2.2A, 145mR @ Vgs -4.5V; Vgs_m 8V
 K N+P
 $ENDCMP
 #
@@ -154,7 +159,7 @@ K N+P
 $ENDCMP
 #
 $CMP SiS412DN
-D N-Channel 30V 20A, 424mR @ Vgs 4.5V; Vgs 20V Ciss 435pF
+D N-Channel 30V 20A, 424mR @ Vgs 4.5V; Vgs_m 20V Ciss 435pF
 K N-Channel, HEXFET
 $ENDCMP
 #

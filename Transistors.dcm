@@ -50,6 +50,21 @@ D N+P-Channel: 20V 3A, 70mR @ Vgs 4.5V; -20V -2.2A, 125mR @ Vgs -4.5V; Vgs_m 12V
 K N+P
 $ENDCMP
 #
+$CMP FDS4935A_AB
+D Dual P-Channel: -30V -2.3A, 185mR @ Vgs -4.5V; Vgs_m 12V
+K Dual P, P+P
+$ENDCMP
+#
+$CMP FDS8958A_AB
+D N+P-Channel: 30V 7A, 24mR @ Vgs 4.5V; -30V -5A, 65mR @ Vgs -4.5V; Vgs_m 20V
+K N+P
+$ENDCMP
+#
+$CMP FDS9926A_AB
+D Dual N-Channel: 20V 6.5A, 30mR @ Vgs 4.5V; Vgs_m 10V
+K Dual N, N+N
+$ENDCMP
+#
 $CMP FDV303N
 D N-Channel 25V 0.68A, 0.44R @ Vgs2.7V; Vgs_m 8V; ESD Protected Gate
 K N-Channel

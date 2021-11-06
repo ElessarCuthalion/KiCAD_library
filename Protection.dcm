@@ -95,6 +95,11 @@ D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect
 $ENDCMP
 #
+$CMP LTC4359IMS8
+D Ideal Diode Controller with Reverse Input Protection, Vcc 4-80V, Protection -40~100V
+K WS2818
+$ENDCMP
+#
 $CMP MAX809S
 D Microprocessor Reset Circuit (Supervisor); Vcc 1~5.5V, Ic 24uA; Tres 240uS, Io_max 20mA
 K Supervisor
@@ -138,6 +143,11 @@ $ENDCMP
 $CMP PESD3V3U1UB
 D TVS diode, 1-line, Vrwm 3.3V, Vesd 9kV, Cd 2.6pF
 K ESD_protect, Uni, TVS
+$ENDCMP
+#
+$CMP PESD5V0S1BA
+D TVS diode Bi-directional, 1-line, Vrwm 5.0V, Vesd 30kV, Cd 35pF
+K ESD_protect, Bi, TVS-Bi
 $ENDCMP
 #
 $CMP PESD5V0U1UB

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP3418
+D Step-Down Vin 2.5-5.5V; Vout > 0.6V, ADJ, 1.5A; Iq 62uA, Isd 0.1uA
+$ENDCMP
+#
 $CMP L6920
 D Step-Up Vin 1-5.5V; Vout 5/3.3V, ADJ, 1A; Iq 11uA, Isd 0.1uA
 K L6920

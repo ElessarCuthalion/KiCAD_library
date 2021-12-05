@@ -17,7 +17,17 @@ $ENDCMP
 #
 $CMP Cleamm-10
 D Terminal Block x10 (клеммник винтовой)
-K XL, Cleamm6x
+K XL, Cleamm10x
+$ENDCMP
+#
+$CMP Cleamm-11
+D Terminal Block x11 (клеммник винтовой)
+K XL, Cleamm11x
+$ENDCMP
+#
+$CMP Cleamm-12
+D Terminal Block x12 (клеммник винтовой)
+K XL, Cleamm12x
 $ENDCMP
 #
 $CMP Cleamm-2
@@ -45,9 +55,19 @@ D Terminal Block x6 (клеммник винтовой)
 K XL, Cleamm6x
 $ENDCMP
 #
+$CMP Cleamm-7
+D Terminal Block x7 (клеммник винтовой)
+K XL, Cleamm7x
+$ENDCMP
+#
 $CMP Cleamm-8
 D Terminal Block x8 (клеммник винтовой)
-K XL, Cleamm6x
+K XL, Cleamm8x
+$ENDCMP
+#
+$CMP Cleamm-9
+D Terminal Block x9 (клеммник винтовой)
+K XL, Cleamm9x
 $ENDCMP
 #
 $CMP Conn-1f

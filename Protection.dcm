@@ -170,6 +170,10 @@ D ESD protection, 4-line, Vrwm 3.3V, Ppk 600W, Cj 1.5pF
 K SP4045-04A, ESD_protect
 $ENDCMP
 #
+$CMP STEF05PUR
+D Electronic fuse for 5 V line, Vcc 0-10V Iout >3.9A
+$ENDCMP
+#
 $CMP Suppressor_Bi
 D Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)
 K Suppressor, Bi

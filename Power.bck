@@ -12,6 +12,10 @@ $CMP +2.5V
 K +2,5V
 $ENDCMP
 #
+$CMP +2.8V
+K +2,8V
+$ENDCMP
+#
 $CMP +24V
 K +12V
 $ENDCMP

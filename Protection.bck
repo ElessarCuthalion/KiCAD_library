@@ -96,7 +96,7 @@ K EMI_filter, RC-filter, ESD_protect
 $ENDCMP
 #
 $CMP LTC4359IMS8
-D Ideal Diode Controller with Reverse Input Protection
+D Ideal Diode Controller with Reverse Input Protection, Vcc 4-80V, Protection -40~100V
 K WS2818
 $ENDCMP
 #
@@ -168,6 +168,10 @@ $ENDCMP
 $CMP SP4045-04A
 D ESD protection, 4-line, Vrwm 3.3V, Ppk 600W, Cj 1.5pF
 K SP4045-04A, ESD_protect
+$ENDCMP
+#
+$CMP STEF05PUR
+D Electronic fuse for 5 V line, Vcc 0-10V Iout >3.9A
 $ENDCMP
 #
 $CMP Suppressor_Bi

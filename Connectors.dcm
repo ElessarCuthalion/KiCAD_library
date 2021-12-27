@@ -327,6 +327,10 @@ D for APA102 connector
 K for
 $ENDCMP
 #
+$CMP for_ESP32PROG
+D ESP32 programming & UART debug
+$ENDCMP
+#
 $CMP for_I2C
 D for I2C (Pill Connector)
 K I2C

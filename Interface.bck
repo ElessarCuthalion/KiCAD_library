@@ -9,6 +9,11 @@ D Quad noninverting tri-state buffer:  Vcc 2.7-3.6V, Iout 32mA
 K buffer
 $ENDCMP
 #
+$CMP DS1307Z
+D Real-Time Clock I2C Addr 0x68, Cl 12.5pF, Vcc 4.5~5.5V, Vbat 2~3.5V Ibat 0.8uA, 56bytes SRAM
+K Clock
+$ENDCMP
+#
 $CMP FT232R
 D USB to RS232 converter: Vcc 5.25V MAX Iq 15mA
 K FT232
@@ -47,6 +52,11 @@ $ENDCMP
 $CMP NC7SB3157P6X
 D Analog Switch: Vcc 1.65-5.5V Iq 1uA, 250MHz data
 K AnSw
+$ENDCMP
+#
+$CMP PCA9535PW
+D 16bit GPIO Expander I2C Vcc 2.3~5.5V Addr 0x20, 5V tolerant
+K GPIO Expander
 $ENDCMP
 #
 $CMP SN74LVC1T45

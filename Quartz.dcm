@@ -10,6 +10,11 @@ D Quartz 3225
 K Quartz, ZQ
 $ENDCMP
 #
+$CMP Crystal_DT-series
+D Quartz 3225
+K Quartz, ZQ
+$ENDCMP
+#
 $CMP Quartz
 K Quartz, ZQ
 $ENDCMP

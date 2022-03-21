@@ -55,7 +55,7 @@ K VD, Bridge, Rectifier
 $ENDCMP
 #
 $CMP DFLS130
-D Schottky Ifmax 1A; If 1A -> Vf 0,36V; Vr 30V)
+D Schottky Ifmax 1A; If 1A -> Vf 0,36V; Vr 30V
 K DFLS130
 $ENDCMP
 #

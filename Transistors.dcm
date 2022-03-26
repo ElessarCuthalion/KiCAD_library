@@ -119,7 +119,7 @@ K P-Channel
 $ENDCMP
 #
 $CMP IRLL2703
-D N-Channel 30V 5.5A, 45mR @ Vgs 10V; Vgs_m 16V
+D N-Channel 30V 3.9A, 45mR @ Vgs 10V; Vgs_m 16V
 K N-Channel
 $ENDCMP
 #

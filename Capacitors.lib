@@ -427,7 +427,7 @@ F2 "" 250 -100 60 H I C CNN
 F3 "" 0 300 60 H V C CNN
 F4 "0" -150 250 60 H I C CNN "SolderPoints"
 F5 "2" -150 150 60 H I C CNN "SolderPoints_DIP"
-F6 "size" 100 -100 60 H V L CNN "Size"
+F6 "type" 100 -100 60 H V L CNN "Type"
 $FPLIST
  SuperCap*
 $ENDFPLIST

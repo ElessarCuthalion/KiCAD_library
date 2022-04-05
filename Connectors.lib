@@ -1260,7 +1260,6 @@ F3 "" 0 250 60 H V C CNN
 F4 "0" -350 1400 60 H I C CNN "SolderPoints"
 F5 "22" -350 1300 60 H I C CNN "SolderPoints_DIP"
 F6 "Mini-Fit" 0 -1150 60 H V C CNN "Type"
-ALIAS IDC-22
 $FPLIST
  IDC-22*
  IDC2-22*

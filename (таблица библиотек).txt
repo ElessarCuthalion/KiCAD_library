@@ -1,4 +1,4 @@
-D:\KiCAD_library\Connectors.pretty
+﻿D:\KiCAD_library\Connectors.pretty
 D:\KiCAD_library\Capacitors.pretty
 D:\KiCAD_library\Resistors.pretty
 D:\KiCAD_library\Diodes.pretty

@@ -28,6 +28,10 @@ $CMP QuestartiS
 K Logo
 $ENDCMP
 #
+$CMP Screw_icon
+K Screw, icon
+$ENDCMP
+#
 $CMP Triumph
 K Logo
 $ENDCMP

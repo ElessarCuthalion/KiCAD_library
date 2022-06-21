@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD71056
-D Energy Metering IC; 50 Hz/60 Hz; Vdd 5,0V
+D Energy Metering IC; 50 Hz/60 Hz; Vdd 5.0V
 $ENDCMP
 #
 $CMP AS-V20NA-R
@@ -12,6 +12,10 @@ $ENDCMP
 $CMP AT42QT1011
 D Touch Sensor Vdd 1,8-5,5V; IddLP 16,5uA min
 K AT42QT1011
+$ENDCMP
+#
+$CMP BL0937
+D Energy Metering IC; 50 Hz/60 Hz; Vdd 3.0V
 $ENDCMP
 #
 $CMP D203S

@@ -66,7 +66,7 @@ F4 "2" -600 350 60 H I C CNN "SolderPoints"
 F5 "0" -600 250 60 H I C CNN "SolderPoints_DIP"
 F6 "text" 200 -150 60 H I L CNN "Comment"
 $FPLIST
- LED0603
+ LED0603*
 $ENDFPLIST
 DRAW
 C 0 0 196 0 0 0 N
@@ -99,7 +99,7 @@ F4 "2" -600 350 60 H I C CNN "SolderPoints"
 F5 "0" -600 250 60 H I C CNN "SolderPoints_DIP"
 F6 "text" 200 -150 60 H I L CNN "Comment"
 $FPLIST
- LED0805
+ LED0805*
 $ENDFPLIST
 DRAW
 C 0 0 196 0 0 0 N
@@ -132,8 +132,7 @@ F4 "2" -600 350 60 H I C CNN "SolderPoints"
 F5 "0" -600 250 60 H I C CNN "SolderPoints_DIP"
 F6 "text" 200 -150 60 H I L CNN "Comment"
 $FPLIST
- LED1206
- LED1206_back
+ LED1206*
 $ENDFPLIST
 DRAW
 C 0 0 196 0 0 0 N
@@ -166,7 +165,7 @@ F4 "4" -450 500 60 H I C CNN "SolderPoints"
 F5 "0" -450 400 60 H I C CNN "SolderPoints_DIP"
 F6 "text" 0 -350 50 H I C CNN "Comment"
 $FPLIST
- LED1616_Bi-Color
+ LED1616_Bi-Color*
 $ENDFPLIST
 DRAW
 A 0 -100 200 -1799 -1 0 0 0 N -200 -100 200 -100

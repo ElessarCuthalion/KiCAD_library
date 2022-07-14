@@ -25,7 +25,7 @@ D 16ch LED driver; SPI; Io 65mA max, 3.3-5V; Isd 1uA
 $ENDCMP
 #
 $CMP LED2000PUR
-D LED switching regulator BUCK; PWM; Io 3A, Vin 3~18V
+D LED switching regulator BUCK; PWM; Io 3A, Vin 3~18V, Iq 1.5mA
 $ENDCMP
 #
 $CMP MAX7219EWG

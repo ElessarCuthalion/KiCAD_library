@@ -10,7 +10,7 @@ K MCP73831
 $ENDCMP
 #
 $CMP MCP73843-xx
-D Li-ion/Li-pol Charger, 4.2V, External MOSFET
+D Li-ion/Li-pol Charger, 4.2V, External MOSFET, Vin 4.5-12V
 K MCP73843
 $ENDCMP
 #
@@ -35,7 +35,7 @@ K TP4056
 $ENDCMP
 #
 $CMP TP5100
-D Li-ion/Li-pol Charger, 4.2/8.4V 2A
+D Li-ion/Li-pol Charger, 4.2/8.4V 2A, Vin 4.25-18V
 K TP5100
 $ENDCMP
 #

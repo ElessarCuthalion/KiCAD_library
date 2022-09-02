@@ -68,24 +68,24 @@ $CMP -VCC
 K VCC
 $ENDCMP
 #
-$CMP Battety
-D Battety
-K Battety, BATT
+$CMP Battery
+D Battery
+K Battery, BATT
 $ENDCMP
 #
-$CMP Battety_NC
-D Battety no contacts
-K Battety, BATT
+$CMP Battery_NC
+D Battery no contacts
+K Battery, BATT
 $ENDCMP
 #
-$CMP Battety_PLS
+$CMP Battery_PLS
 D Батарея под разъём
-K Battety, BATT
+K Battery, BATT
 $ENDCMP
 #
-$CMP Battety_x2
+$CMP Battery_x2
 D Многоэлементная батарея
-K Battety, BATT
+K Battery, BATT
 $ENDCMP
 #
 $CMP GND

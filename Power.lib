@@ -252,11 +252,11 @@ X -VCC ~ 0 0 200 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Battety
+# Battery
 #
-DEF Battety GB 0 40 N N 1 F N
+DEF Battery GB 0 40 N N 1 F N
 F0 "GB" 200 50 60 H V L CNN
-F1 "Battety" 200 -50 60 H V L CNN
+F1 "Battery" 200 -50 60 H V L CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
 F4 "2" -100 150 60 H I C CNN "SolderPoints"
@@ -264,7 +264,7 @@ F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
 F6 "1.5V" 200 -150 60 H I L CNN "Voltage"
 F7 "case" 200 -150 50 H I L CNN "Case"
 $FPLIST
- Battety*
+ Battery*
 $ENDFPLIST
 DRAW
 P 3 0 1 20 -100 -50 100 -50 100 -50 N
@@ -276,17 +276,17 @@ X - C 0 -250 200 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Battety_NC
+# Battery_NC
 #
-DEF Battety_NC GB 0 40 N N 1 F N
+DEF Battery_NC GB 0 40 N N 1 F N
 F0 "GB" 200 50 60 H V L CNN
-F1 "Battety_NC" 200 -50 60 H V L CNN
+F1 "Battery_NC" 200 -50 60 H V L CNN
 F2 "" 200 -150 60 H I L CNN
 F3 "" 0 200 60 H V C CNN
 F4 "2" -100 150 60 H I C CNN "SolderPoints"
 F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
 $FPLIST
- Battety_NC*
+ Battery_NC*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 0 -50 0 -250 N
@@ -298,11 +298,11 @@ P 5 0 1 0 -150 0 -150 0 150 0 150 0 150 0 N
 ENDDRAW
 ENDDEF
 #
-# Battety_PLS
+# Battery_PLS
 #
-DEF Battety_PLS GB 0 40 N N 1 F N
+DEF Battery_PLS GB 0 40 N N 1 F N
 F0 "GB" 200 50 60 H V L CNN
-F1 "Battety_PLS" 200 -50 60 H V L CNN
+F1 "Battery_PLS" 200 -50 60 H V L CNN
 F2 "for_PolarOut_PLS-2" 200 -150 60 H I L CNN
 F3 "" 0 200 60 H V C CNN
 F4 "0" -100 150 60 H I C CNN "SolderPoints"
@@ -321,18 +321,18 @@ X - 2 0 -250 200 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Battety_x2
+# Battery_x2
 #
-DEF Battety_x2 GB 0 40 N N 1 F N
+DEF Battery_x2 GB 0 40 N N 1 F N
 F0 "GB" 200 300 60 H V L CNN
-F1 "Battety_x2" 200 200 60 H V L CNN
+F1 "Battery_x2" 200 200 60 H V L CNN
 F2 "" 0 450 60 H V C CNN
 F3 "" 0 450 60 H V C CNN
 F4 "2" -100 150 60 H I C CNN "SolderPoints"
 F5 "2" -100 50 60 H I C CNN "SolderPoints_DIP"
 F6 "3V" 200 100 60 H I L CNN "Voltage"
 $FPLIST
- Battety*
+ Battery*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 0 -250 0 -150 N

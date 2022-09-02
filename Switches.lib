@@ -158,7 +158,7 @@ ENDDEF
 # Switch_2pin&NC+H
 #
 DEF Switch_2pin&NC+H SA 0 40 N N 1 F N
-F0 "SA" 0 450 60 H I C CNN
+F0 "SA" 0 450 60 H V C CNN
 F1 "Switch_2pin&NC+H" 0 350 60 H V C CNN
 F2 "" -450 0 60 H V C CNN
 F3 "" -450 0 60 H V C CNN

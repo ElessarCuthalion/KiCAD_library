@@ -83,11 +83,6 @@ D Photo Transistor (Light Sensor)
 K BL, VT
 $ENDCMP
 #
-$CMP SENS
-D Пластина сенсора
-K Sens
-$ENDCMP
-#
 $CMP SHT2xx
 D Humidity & Temperature Sensor Vcc 2,1-3,6V Isd 0,15uA; RH 0-100%, t -40+120C; Addr 0x40
 K SHT2xx, HUMID
@@ -111,6 +106,11 @@ $ENDCMP
 $CMP TiltSensor
 D ON/OFF Tilt Sensor
 K SQ, TiltSensor, MercurySwitch
+$ENDCMP
+#
+$CMP TouchSensor
+D Touch Sensor Key
+K Sens, Touch
 $ENDCMP
 #
 $CMP VL53L1X

@@ -30,7 +30,7 @@ K STC4054
 $ENDCMP
 #
 $CMP TP4056
-D Li-ion/Li-pol Charger
+D Li-ion/Li-pol Charger, 4.2V 1A, Vin 4-8V
 K TP4056
 $ENDCMP
 #

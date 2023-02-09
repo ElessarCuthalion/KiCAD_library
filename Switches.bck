@@ -1,7 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Button
-D Button
+$CMP Button_NC
+D Button Normally Closed
+K BTN, SB
+$ENDCMP
+#
+$CMP Button_NO
+D Button Normally Open
 K BTN, SB
 $ENDCMP
 #
@@ -21,7 +26,7 @@ K SF, ReedSwitch, Gerkon, SPDT
 $ENDCMP
 #
 $CMP Switch
-D Switch 2 pin (SPST)
+D Switch 2 pin (SPST) Normally Open
 K SA, SPST
 $ENDCMP
 #

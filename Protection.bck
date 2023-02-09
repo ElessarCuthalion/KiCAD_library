@@ -90,6 +90,11 @@ D Предохранитель плавкий
 K FU
 $ENDCMP
 #
+$CMP FuseResettable
+D Resettable Fuse (самовосстанавливающийся предохранитель)
+K FP, Fuse
+$ENDCMP
+#
 $CMP IP4256CZ5-W
 D EMI RC-filter and ESD protection to GPIO, 1-line
 K EMI_filter, RC-filter, ESD_protect

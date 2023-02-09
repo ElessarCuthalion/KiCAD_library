@@ -86,8 +86,13 @@ K EMI_filter, L-filter, FerriteBead
 $ENDCMP
 #
 $CMP Fuse
-D Предохранитель плавкий
+D Fuse (предохранитель плавкий)
 K FU
+$ENDCMP
+#
+$CMP FuseResettable
+D Resettable Fuse (самовосстанавливающийся предохранитель)
+K FP, Fuse
 $ENDCMP
 #
 $CMP IP4256CZ5-W

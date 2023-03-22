@@ -20,7 +20,7 @@
   (pad A smd rect (at -1.11 0) (size 0.58 2.3) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 1.7 0) (size 0.6 3.15) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 0.635 0) (size 1.53 2.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LEDs/LED3030.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/LED3030.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

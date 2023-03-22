@@ -60,7 +60,7 @@
     (zone_connect 1))
   (pad 1 thru_hole rect (at -3.175 0) (size 1 1.5) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Connectors/PLL1.27-6 PinHeader_1x06_P1.27mm_Vertical.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/PLL1.27-6 PinHeader_1x06_P1.27mm_Vertical.step"
     (offset (xyz 3.175 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

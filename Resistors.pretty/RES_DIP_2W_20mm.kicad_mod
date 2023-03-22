@@ -1,4 +1,4 @@
-(module RES_DIP_2W_20mm (layer F.Cu) (tedit 5F6C5FA7)
+﻿(module RES_DIP_2W_20mm (layer F.Cu) (tedit 5F6C5FA7)
   (descr "MF-200 (CF/С2-23, С1-4 series)")
   (zone_connect 1)
   (fp_text reference "Res DIP 2W" (at 0 -1) (layer F.SilkS)
@@ -17,7 +17,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 10 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Resistors/RES DIP 2W MF-200 - 20mm_h2mm.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Resistors/RES DIP 2W MF-200 - 20mm_h2mm.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

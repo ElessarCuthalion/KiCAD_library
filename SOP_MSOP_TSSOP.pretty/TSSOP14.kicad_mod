@@ -28,7 +28,7 @@
   (pad 12 smd oval (at 2.875 -0.65) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd oval (at 2.875 -1.3) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd oval (at 2.875 -1.95) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/TSSOP14_4.4x5mm_P0.65mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/SOP_MSOP_TSSOP/TSSOP14_4.4x5mm_P0.65mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

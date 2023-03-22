@@ -43,7 +43,7 @@
     (clearance 0.25) (zone_connect 2))
   (pad PAD thru_hole rect (at -0.3625 0.5) (size 0.725 1) (drill 0.4) (layers *.Cu *.Mask F.Paste)
     (clearance 0.25) (zone_connect 2))
-  (model ${KISYS3DMOD}/LEDs/Epistar3535_RGB.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/Epistar3535_RGB.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

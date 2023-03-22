@@ -27,7 +27,7 @@
   (pad 2 smd oval (at -0.95 0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd oval (at 0.95 0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at 0.95 -0.65) (size 0.9 0.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOT_TO/SON4.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/SOT_TO/SON4.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -78,7 +78,7 @@
   (pad 62 smd oval (at -2.75 -5.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 63 smd oval (at -3.25 -5.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd oval (at -3.75 -5.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LQFP_TQFP/LQFP64_10x10mm_P0.5mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/LQFP_TQFP/LQFP64_10x10mm_P0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

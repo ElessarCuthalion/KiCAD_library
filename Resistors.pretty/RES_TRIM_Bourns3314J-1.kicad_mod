@@ -16,7 +16,7 @@
     (zone_connect 1))
   (pad 3 smd roundrect (at 1.15 2) (size 1.3 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Resistors/RES_TRIM Bourns-3314J-1-502E.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Resistors/RES_TRIM Bourns-3314J-1-502E.STEP"
     (offset (xyz -2.25 -2.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

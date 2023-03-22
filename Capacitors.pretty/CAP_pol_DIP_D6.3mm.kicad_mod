@@ -18,12 +18,12 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 1.25 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Capacitors/CAP_pol_DIP_D6.3x5.2mm.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D6.3x5.2mm.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model ${KISYS3DMOD}/Capacitors/CAP_pol_DIP_D6.3x9mm.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D6.3x9mm.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

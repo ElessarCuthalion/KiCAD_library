@@ -9,7 +9,7 @@
   (fp_line (start -7 -6.5) (end -7 6.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 7 -6.5) (end -7 -6.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 7 6.5) (end 7 -6.5) (layer F.SilkS) (width 0.15))
-  (model "${KISYS3DMOD}/Installation/Heatsink 14x13(18)x6.2.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Installation/Heatsink 14x13(18)x6.2.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

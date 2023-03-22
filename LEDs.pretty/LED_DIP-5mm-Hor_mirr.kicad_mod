@@ -22,7 +22,7 @@
     (zone_connect 1))
   (pad C thru_hole circle (at -1.27 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/LEDs/LED DIP 5mm Green Hor_mirr.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Green Hor_mirr.STEP"
     (offset (xyz 0 1.5 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

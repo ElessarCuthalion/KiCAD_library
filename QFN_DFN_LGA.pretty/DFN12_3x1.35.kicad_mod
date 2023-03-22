@@ -30,7 +30,7 @@
   (pad 11 smd oval (at 0.75 -0.75) (size 0.65 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd oval (at 0.75 -0.25) (size 0.65 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd oval (at 0.75 0.25) (size 0.65 0.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/DFN12_3x1.35-QFN-12L.step
+  (model ${KICAD_SYMBOL_DIR}/3D/QFN_DFN_LGA/DFN12_3x1.35-QFN-12L.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

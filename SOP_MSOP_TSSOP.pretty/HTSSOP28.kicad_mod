@@ -130,7 +130,7 @@
     (zone_connect 2))
   (pad PAD thru_hole rect (at -1.2 4) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
     (zone_connect 2))
-  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/HTSSOP28_4.4x9.7mm_P0.65mm_EP3.4x9.5mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/SOP_MSOP_TSSOP/HTSSOP28_4.4x9.7mm_P0.65mm_EP3.4x9.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

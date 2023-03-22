@@ -24,12 +24,12 @@
   (pad 1 smd oval (at -2.5 -1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd oval (at -2.5 1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd oval (at 2.5 -1.6) (size 1.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LEDs/WS2812B.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/WS2812B.STEP
     (offset (xyz 0 0 0.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "${KISYS3DMOD}/LEDs/WS2812B black.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/WS2812B black.STEP"
     (offset (xyz 0 0 0.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

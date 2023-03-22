@@ -25,7 +25,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 2.5 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/Cleamm-2_5mm_DG306-5.0-2P.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-2_5mm_DG306-5.0-2P.STEP
     (offset (xyz -2.5 0.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

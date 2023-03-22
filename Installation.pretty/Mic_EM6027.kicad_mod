@@ -13,7 +13,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 0.95 1) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Installation/Microphone EM6027P.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Installation/Microphone EM6027P.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -38,7 +38,7 @@
   (pad 21 smd oval (at 2.875 -1.625) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 23 smd oval (at 2.875 -2.895) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd oval (at 2.875 -3.545) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/TSSOP24_4.4x7.8mm_P0.65mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/SOP_MSOP_TSSOP/TSSOP24_4.4x7.8mm_P0.65mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

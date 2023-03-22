@@ -40,7 +40,7 @@
     (zone_connect 1))
   (pad 9 thru_hole circle (at 6 -1.5) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/MicroFit-2x5R.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/MicroFit-2x5R.STEP
     (offset (xyz 2 13.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

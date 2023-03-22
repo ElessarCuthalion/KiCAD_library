@@ -20,7 +20,7 @@
   (pad 3 smd oval (at -0.725 0.5) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd oval (at -0.725 0) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.725 -0.5) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/SOT_TO/SOT553_SOT665.step
+  (model ${KICAD_SYMBOL_DIR}/3D/SOT_TO/SOT553_SOT665.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

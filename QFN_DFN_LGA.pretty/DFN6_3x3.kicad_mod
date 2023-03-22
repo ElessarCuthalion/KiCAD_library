@@ -25,7 +25,7 @@
     (zone_connect 2))
   (pad PAD thru_hole rect (at 0 0.625) (size 1.5 1.25) (drill 0.4) (layers *.Cu *.Mask F.Paste)
     (zone_connect 2))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/DFN6_3x3mm_P0.95mm_EP.step
+  (model ${KICAD_SYMBOL_DIR}/3D/QFN_DFN_LGA/DFN6_3x3mm_P0.95mm_EP.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

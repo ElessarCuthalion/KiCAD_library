@@ -29,7 +29,7 @@
     (clearance 0.25))
   (pad GC smd rect (at 1.61 -1.25) (size 1 0.75) (layers F.Cu F.Paste F.Mask)
     (clearance 0.25))
-  (model ${KISYS3DMOD}/LEDs/Epistar3535_RGB.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/Epistar3535_RGB.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

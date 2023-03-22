@@ -1,4 +1,4 @@
-(module PBS-3 (layer F.Cu) (tedit 6328C0AD)
+﻿(module PBS-3 (layer F.Cu) (tedit 6328C0AD)
   (descr DS1023-1x3)
   (zone_connect 1)
   (fp_text reference PВS-3 (at -2.4 -1.8) (layer F.SilkS)
@@ -26,7 +26,7 @@
     (zone_connect 1))
   (pad 3 thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/PBS-3.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/PBS-3.STEP
     (offset (xyz -2.54 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -158,7 +158,7 @@
   (pad 143 smd oval (at -8.25 -10.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 144 smd oval (at -8.75 -10.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
   (pad 122 smd oval (at 2.25 -10.75 90) (size 1.2 0.28) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LQFP_TQFP/LQFP144_20x20mm_P0.5mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/LQFP_TQFP/LQFP144_20x20mm_P0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

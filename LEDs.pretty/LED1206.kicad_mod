@@ -18,7 +18,7 @@
   (fp_line (start 2.5 1.2) (end -2.5 1.2) (layer F.SilkS) (width 0.15))
   (pad A smd rect (at -1.65 0) (size 1.1 1.8) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at 1.65 0) (size 1.1 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LEDs/LED1206_Castellated.step
+  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/LED1206_Castellated.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

@@ -19,7 +19,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at -3.25 2.25) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Buttons_Switches/Button 6x6x5 DIP.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 6x6x5 DIP.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

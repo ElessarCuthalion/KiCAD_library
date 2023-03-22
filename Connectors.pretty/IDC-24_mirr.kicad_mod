@@ -65,7 +65,7 @@
     (zone_connect 1))
   (pad 23 thru_hole circle (at 13.97 1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Connectors/IDC-24MS (DS1013-24).STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/IDC-24MS (DS1013-24).STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

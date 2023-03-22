@@ -13,7 +13,7 @@
   (fp_line (start 2.9 -2.9) (end 2.9 2.9) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.7 0) (size 1.9 5.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.7 0) (size 1.9 5.3) (layers F.Cu F.Paste F.Mask))
-  (model "${KISYS3DMOD}/Inductors/CDRH4D28 h3.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/CDRH4D28 h3.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

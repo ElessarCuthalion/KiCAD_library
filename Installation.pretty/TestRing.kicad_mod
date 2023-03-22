@@ -9,7 +9,7 @@
   (fp_circle (center 0 0) (end 1.5 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Installation/TestRing_Loop_D3.50mm_Drill0.9mm_Beaded.step
+  (model ${KICAD_SYMBOL_DIR}/3D/Installation/TestRing_Loop_D3.50mm_Drill0.9mm_Beaded.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

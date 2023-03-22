@@ -44,7 +44,7 @@
     (zone_connect 1))
   (pad 4 thru_hole circle (at 3.81 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/PLS-4.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/PLS-4.STEP
     (offset (xyz -3.81 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

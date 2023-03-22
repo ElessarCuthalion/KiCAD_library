@@ -46,7 +46,7 @@
     (zone_connect 2))
   (pad PAD thru_hole rect (at -1 -1.5) (size 1 1) (drill 0.4) (layers *.Cu *.Mask F.Paste)
     (zone_connect 2))
-  (model ${KISYS3DMOD}/SOP_MSOP_TSSOP/HSOP8_150mil.step
+  (model ${KICAD_SYMBOL_DIR}/3D/SOP_MSOP_TSSOP/HSOP8_150mil.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

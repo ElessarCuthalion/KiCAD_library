@@ -36,7 +36,7 @@
     (zone_connect 1))
   (pad 3 thru_hole oval (at 1.27 0) (size 1 1.5) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Connectors/PLL1.27-3 PinHeader_1x03_P1.27mm_Vertical.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/PLL1.27-3 PinHeader_1x03_P1.27mm_Vertical.step"
     (offset (xyz 1.27 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

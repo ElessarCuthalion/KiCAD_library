@@ -50,7 +50,7 @@
     (zone_connect 1))
   (pad 8 smd oval (at 3.81 0) (size 1.5 3.5) (layers B.Cu B.Paste B.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/IDC-8_2x04_P2.54mm_Vertical.step
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/IDC-8_2x04_P2.54mm_Vertical.step
     (offset (xyz -3.81 2.1 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -90 0))

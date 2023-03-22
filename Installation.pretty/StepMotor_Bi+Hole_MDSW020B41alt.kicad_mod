@@ -38,7 +38,7 @@
   (pad B2 smd roundrect (at -4.83 -0.63 330) (size 1.2 0.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25))
   (pad H smd oval (at -8.1 0) (size 3 4) (layers F.Cu F.Paste F.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Installation/StepMotor_MDSW020B41alternat.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Installation/StepMotor_MDSW020B41alternat.STEP
     (offset (xyz 0 0 -4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

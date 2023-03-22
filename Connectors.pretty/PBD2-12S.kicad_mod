@@ -46,7 +46,7 @@
     (zone_connect 1))
   (pad "" np_thru_hole circle (at -4 0) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask)
     (clearance 0.2) (zone_connect 1))
-  (model "${KISYS3DMOD}/Connectors/PBD2-12S PinSocket_2x06_P2.00mm_Vertical_SMD.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/PBD2-12S PinSocket_2x06_P2.00mm_Vertical_SMD.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

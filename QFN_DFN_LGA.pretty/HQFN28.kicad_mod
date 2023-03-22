@@ -62,7 +62,7 @@
   (pad 2 smd oval (at -2.4 -1) (size 1.15 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd oval (at 0 2.4 90) (size 1.15 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 21 smd oval (at 2.5 -1.5) (size 1.15 0.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/QFN_DFN_LGA/HQFN28_5x5mm_P0.5mm_EP3.35x3.35mm.step
+  (model ${KICAD_SYMBOL_DIR}/3D/QFN_DFN_LGA/HQFN28_5x5mm_P0.5mm_EP3.35x3.35mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

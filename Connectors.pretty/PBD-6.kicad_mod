@@ -40,7 +40,7 @@
     (zone_connect 1))
   (pad 6 thru_hole circle (at 2.54 1.27) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KISYS3DMOD}/Connectors/PBD-6.STEP
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/PBD-6.STEP
     (offset (xyz -2.54 -1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

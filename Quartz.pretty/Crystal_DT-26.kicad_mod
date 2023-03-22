@@ -17,7 +17,7 @@
     (zone_connect 1))
   (pad H thru_hole circle (at 4 -1.75) (size 1.1 1.1) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Quartz/DT-26 2x6-1.4mm.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Quartz/DT-26 2x6-1.4mm.step"
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

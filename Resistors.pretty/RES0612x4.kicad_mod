@@ -22,7 +22,7 @@
   (pad 7 smd rect (at -0.9 1.2) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -0.9 0.4) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -0.9 -0.4) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
-  (model "${KISYS3DMOD}/Resistors/RES0612x4 Convex_4x0603.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Resistors/RES0612x4 Convex_4x0603.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

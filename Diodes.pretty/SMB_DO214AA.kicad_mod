@@ -20,7 +20,7 @@
   (fp_line (start -2.30124 -1.80086) (end 0 -1.80086) (layer F.SilkS) (width 0.14986))
   (pad C smd rect (at -2.35 0) (size 2 2.3) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 2.35 0) (size 2 2.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Diodes/SMB_DO214AA.wrl
+  (model ${KICAD_SYMBOL_DIR}/3D/Diodes/SMB_DO214AA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

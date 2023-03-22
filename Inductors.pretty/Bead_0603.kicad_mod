@@ -13,7 +13,7 @@
   (fp_line (start -1.5 0.8) (end -1.5 0) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -0.75 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.75 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
-  (model "${KISYS3DMOD}/Inductors/Ferrite Bead 0603.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/Ferrite Bead 0603.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

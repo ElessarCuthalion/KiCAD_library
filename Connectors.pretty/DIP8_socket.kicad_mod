@@ -33,7 +33,7 @@
     (zone_connect 1))
   (pad 4 thru_hole oval (at 3.81 3.63) (size 1.3 2) (drill 0.8) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model "${KISYS3DMOD}/Connectors/DIP8_socket (DS1001-01-8N).STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/DIP8_socket (DS1001-01-8N).STEP"
     (offset (xyz -5.08 0 4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

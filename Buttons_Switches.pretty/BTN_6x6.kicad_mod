@@ -19,7 +19,7 @@
     (zone_connect 1))
   (pad 2 smd rect (at -3.86 2.25) (size 1.6 1.2) (layers F.Cu F.Paste F.Mask)
     (zone_connect 1))
-  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 6x6x5.stp"
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 6x6x5.step"
     (offset (xyz 0 0 3.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

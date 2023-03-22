@@ -34,7 +34,7 @@
     (zone_connect 1))
   (pad 4 thru_hole oval (at 7.5 0) (size 3 4.5) (drill 1.5) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-4_5mm_DG128-5.0-04.stp
+  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-4_5mm_DG128-5.0-04.step
     (offset (xyz -7.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

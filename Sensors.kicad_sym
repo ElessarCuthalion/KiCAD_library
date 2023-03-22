@@ -145,7 +145,7 @@
     (property "Reference" "BB" (at 0 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "AS-V20NA-R" (at 0 8.89 0)
+    (property "Value" "AS-V20NA-R0" (at 0 8.89 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "SON4" (at 0 -8.89 0)

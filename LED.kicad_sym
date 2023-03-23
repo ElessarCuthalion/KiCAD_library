@@ -2362,7 +2362,7 @@
     (property "ki_description" "Single IR LED" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LED_IR*" (at 0 0 0)
+    (property "ki_fp_filters" "LED_IR* LED_DIP*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LED_IR_0_0"

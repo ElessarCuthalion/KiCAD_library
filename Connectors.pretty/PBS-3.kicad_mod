@@ -1,4 +1,4 @@
-﻿(module PBS-3 (layer F.Cu) (tedit 6328C0AD)
+(module PBS-3 (layer F.Cu) (tedit 6328C0B4)
   (descr DS1023-1x3)
   (zone_connect 1)
   (fp_text reference PВS-3 (at -2.4 -1.8) (layer F.SilkS)

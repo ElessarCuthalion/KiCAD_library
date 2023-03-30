@@ -1498,7 +1498,7 @@
       )
       (polyline
         (pts
-          (xy 3.81 -5.08)
+          (xy -3.81 -5.08)
           (xy 0 -5.08)
           (xy 0 -3.81)
         )
@@ -1567,7 +1567,7 @@
         (name "B1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -13.97 -5.08 0) (length 5.08)
+      (pin power_in line (at 13.97 -5.08 180) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1583,7 +1583,7 @@
         (name "Vcc" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 13.97 -5.08 180) (length 5.08)
+      (pin passive line (at -13.97 -5.08 0) (length 5.08)
         (name "Sel" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )

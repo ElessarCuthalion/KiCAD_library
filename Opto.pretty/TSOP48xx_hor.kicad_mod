@@ -1,5 +1,6 @@
 (footprint "TSOP48xx_hor" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "SIP-3_2.54mm")
   (zone_connect 1)
   (attr through_hole)
   (fp_text reference "TSOP48xx_hor" (at 0 0) (layer "F.SilkS")

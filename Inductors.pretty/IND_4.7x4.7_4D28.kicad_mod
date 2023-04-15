@@ -23,6 +23,11 @@
   (model "${KICAD_SYMBOL_DIR}/3D/Inductors/CDRH4D28 h3.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/CDRH4D18 h1.9.STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

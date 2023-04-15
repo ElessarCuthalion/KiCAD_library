@@ -41,6 +41,21 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x2 AJ-037(TS52xxA).STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x3 AJ-037(TS52xxA).STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x4 AJ-037(TS52xxA).STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
   (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x5 AJ-037(TS52xxA).STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
@@ -51,7 +66,17 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x7 AJ-037(TS52xxA).STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
   (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x8 AJ-037(TS52xxA).STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/Buttons_Switches/Button 5x5x9 AJ-037(TS52xxA).STEP" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

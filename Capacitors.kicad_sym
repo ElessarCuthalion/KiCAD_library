@@ -1226,7 +1226,7 @@
     (property "SolderPoints_DIP" "2" (at -2.54 2.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Size" "DIP" (at 1.27 -2.54 0)
+    (property "Size" "size" (at 1.27 -2.54 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "ki_keywords" "CDIP, CAP_DIP" (at 0 0 0)

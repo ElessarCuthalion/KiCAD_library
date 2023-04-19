@@ -490,6 +490,12 @@
         (fill (type none))
       )
     )
+    (symbol "RefPoint_1_1"
+      (pin no_connect line (at 0 0 0) (length 2.54) hide
+        (name "REF" (effects (font (size 1.27 1.27))))
+        (number "REF" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "TestPoint" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "TP" (at 10.16 0 0)

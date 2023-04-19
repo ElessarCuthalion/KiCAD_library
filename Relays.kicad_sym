@@ -6,7 +6,7 @@
     (property "Value" "KAQY212S" (at 0 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "opto_SMDIP2" (at 0 -7.62 0)
+    (property "Footprint" "opto_SOP4-2.54" (at 0 -7.62 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 3.175 0 0)
@@ -21,7 +21,7 @@
     (property "ki_description" "Solid state relay; In 50mA max, Vf 1.2V at 10mA; Out 60V AC or DC, 0.5A" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "opto_SMDIP2" (at 0 0 0)
+    (property "ki_fp_filters" "opto_SOP4-2.54" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KAQY212S_0_1"

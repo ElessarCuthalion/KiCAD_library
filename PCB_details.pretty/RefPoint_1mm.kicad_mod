@@ -1,11 +1,14 @@
-(module RefPoint_1mm (layer F.Cu) (tedit 5F22E230)
-  (attr virtual)
-  (fp_text reference RefPoint_1mm (at 0 1.8) (layer F.SilkS) hide
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
+(footprint "RefPoint_1mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "RefPoint_1mm" (at 0 1.8) (layer "F.SilkS") hide
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    (tstamp 54b9f42f-02c8-44fa-b05f-7a4cbebb19c0)
   )
-  (fp_text value VAL** (at 0 -1.8) (layer F.SilkS) hide
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  (fp_text value "VAL**" (at 0 -1.8) (layer "F.SilkS") hide
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    (tstamp ddbce7b2-27d4-4fa6-a824-4e708e2d7f05)
   )
-  (pad REF smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-    (solder_mask_margin 1) (clearance 1.15) (zone_connect 0))
+  (pad "REF" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 1) (clearance 1.15) (zone_connect 0) (tstamp d37a308c-aef6-45bd-898d-15a6297b5dfe))
 )

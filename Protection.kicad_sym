@@ -1777,7 +1777,7 @@
     (property "Value" "DLW21SN900" (at 0 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Choke_DLW21SN" (at 0 -5.08 0)
+    (property "Footprint" "Choke_0805" (at 0 -5.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 0 7.62 0)
@@ -1798,7 +1798,7 @@
     (property "ki_description" "EMI Common Mode Choke Filter (to USB), Ir 330mA Rdc 0.35r, 90r at 100MHz" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Choke_DLW21SN" (at 0 0 0)
+    (property "ki_fp_filters" "Choke_0805" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "DLW21SN900_0_1"
@@ -1933,7 +1933,7 @@
     (property "Value" "DLW21SN121" (at 0 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Choke_DLW21SN" (at 0 -5.08 0)
+    (property "Footprint" "Choke_0805" (at 0 -5.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 0 7.62 0)
@@ -1945,7 +1945,7 @@
     (property "ki_description" "EMI Common Mode Choke Filter (to RS-485), Ir 370mA Rdc 0.35r, 120r at 100MHz" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Choke_DLW21SN" (at 0 0 0)
+    (property "ki_fp_filters" "Choke_0805" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5190,6 +5190,9 @@
     (property "ki_description" "Transient Voltage Suppression Diodes, Bi-directional (ливинный диод, двунаправленный)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "SOD* DO* SM*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Suppressor_Bi_0_1"
       (polyline
         (pts
@@ -5289,6 +5292,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Transient Voltage Suppression Diodes, Uni-directional (ливинный диод, однонаправленный)" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOD* DO* SM*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Suppressor_Uni_0_1"

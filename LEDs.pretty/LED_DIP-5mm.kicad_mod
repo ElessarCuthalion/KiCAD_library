@@ -20,12 +20,32 @@
     (zone_connect 1) (tstamp d4499c61-9833-4ca2-b8d4-6b3676ff2a01))
   (pad "C" thru_hole circle (at 1.27 0) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 88048577-f927-4c6a-bfc6-14fcf23592d2))
-  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vertical.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Blue Vertical.STEP" hide
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert Blue.STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert Red.STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert Green.STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert White.STEP" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Vert Yellow.STEP" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

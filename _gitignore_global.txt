@@ -22,6 +22,7 @@ Thumbs.db
 *.bak
 #Ignore files by KiCad
 *.kicad_pcb-bak
+*.kicad_sch-bak
 *.sch-bak
 _autosave-*
 *auto_saved_files*

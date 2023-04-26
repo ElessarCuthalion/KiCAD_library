@@ -47,7 +47,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
   )
-  (model "${KICAD_SYMBOL_DIR}3D/Connectors/USB-micro_B U-D-M5DD-W-1 (vertical).STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-micro_B U-D-M5DD-W-1 (vertical).STEP"
     (offset (xyz 0 0 1.55))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

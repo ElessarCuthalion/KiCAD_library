@@ -30,7 +30,7 @@
     (zone_connect 1) (tstamp 3589808f-8582-4b06-baf5-87ca627e2796))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp d6eab149-5eb4-49ed-afe5-008ec2588f29))
-  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D10x20mm.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D10x20mm.STEP" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
@@ -40,7 +40,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D10x13mm.STEP" hide
+  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D10x13mm.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

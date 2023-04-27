@@ -1,7 +1,7 @@
-(footprint "CAP1812" (version 20221018) (generator pcbnew)
+(footprint "Bead_1812" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "C1812" (at -0.5 0 90) (layer "F.SilkS")
+  (fp_text reference "IND1812" (at -0.5 0 90) (layer "F.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp d9666fe0-1324-4bc8-a7e6-ddff85cb3673)
   )
@@ -19,9 +19,9 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 888a4179-c753-4321-ac73-4539aa24706d))
   (pad "1" smd rect (at -2 0) (size 1.6 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 37dd6952-1941-490c-a4cf-8750b0c9e470))
   (pad "2" smd rect (at 2 0) (size 1.6 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2950e775-8f72-4936-a34d-04c8ae33a472))
-  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP1812.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/Ferrite Bead 1812 h3.2 - FBMH4532s.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

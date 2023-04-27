@@ -119,4 +119,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/PLS-6.STEP" hide
+    (offset (xyz -6.35 0 -1.7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 0))
+  )
 )

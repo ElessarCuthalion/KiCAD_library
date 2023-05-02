@@ -26,9 +26,9 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 1bd30134-a230-4f92-8311-a82548a57df4))
   (fp_circle (center 0 0) (end 4 0)
     (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp 2c6a34da-d064-4a11-8730-59fcdf8b72e4))
-  (pad "1" thru_hole rect (at -1.75 0) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
+  (pad "1" thru_hole rect (at -1.75 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 3589808f-8582-4b06-baf5-87ca627e2796))
-  (pad "2" thru_hole circle (at 1.75 0) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
+  (pad "2" thru_hole circle (at 1.75 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp d6eab149-5eb4-49ed-afe5-008ec2588f29))
   (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP_pol_DIP_D8x11.5mm.STEP"
     (offset (xyz 0 0 0))

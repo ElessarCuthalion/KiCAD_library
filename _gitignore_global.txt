@@ -26,13 +26,14 @@ Thumbs.db
 *.sch-bak
 _autosave-*
 *auto_saved_files*
+*.dsn
 fp-info-cache
 #Ignore files by HFSS
 *.aedtresults/
 #Ignore files by TopoR
 *.lock
 *.fsxview
-fp-info-cache
+*.ses
 #Ignore files by SolidWorks
 ~$*
 #Ignore files by Eclipse

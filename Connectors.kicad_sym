@@ -3002,7 +3002,7 @@
     (property "ki_description" "Single row connectors x4, male" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLS-4* PLS2-4* FlatConn-4* WF-4* MX2.54-4* MicroFit-1x4*" (at 0 0 0)
+    (property "ki_fp_filters" "PLS-4* PLS2-4* FlatConn-4* WF-4* MX2.54-4* MicroFit-1x4* CWF-4*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn-4m_0_0"
@@ -3393,7 +3393,7 @@
     (property "ki_description" "Single row connectors x5, male" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLS-5* PLS2-5* MX2.54-5* MicroFit-1x5*" (at 0 0 0)
+    (property "ki_fp_filters" "PLS-5* PLS2-5* MX2.54-5* MicroFit-1x5* CWF-5*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn-5m_0_0"

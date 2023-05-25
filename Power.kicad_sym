@@ -180,7 +180,7 @@
     )
   )
   (symbol "+24V" (power) (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "" (at 2.54 -1.27 0)
+    (property "Reference" "+24V" (at 2.54 -1.27 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+24V" (at 11.43 0 0) (do_not_autoplace)
@@ -194,9 +194,6 @@
     )
     (property "Current" "A" (at 8.89 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "ki_keywords" "+12V" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "+24V_0_1"
       (polyline
@@ -218,6 +215,48 @@
       )
     )
     (symbol "+24V_1_1"
+      (pin power_in line (at 0 0 0) (length 5.08) hide
+        (name "+24V" (effects (font (size 1.27 1.27))))
+        (number "~" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "+24Vin" (power) (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "+24Vin" (at 2.54 -1.27 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Value" "+24Vin" (at 12.7 0 0) (do_not_autoplace)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Current" "A" (at 8.89 -2.54 0) (do_not_autoplace)
+      (effects (font (size 1.524 1.524)) (justify left) hide)
+    )
+    (symbol "+24Vin_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 7.62 0)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 1.27)
+          (xy 7.62 0)
+          (xy 5.08 -1.27)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+    )
+    (symbol "+24Vin_1_1"
       (pin power_in line (at 0 0 0) (length 5.08) hide
         (name "+24V" (effects (font (size 1.27 1.27))))
         (number "~" (effects (font (size 1.27 1.27))))

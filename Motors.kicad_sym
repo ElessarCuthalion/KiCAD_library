@@ -351,11 +351,11 @@
       )
     )
   )
-  (symbol "L6388E" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
+  (symbol "L6388ED" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
     (property "Reference" "DA" (at 0 13.97 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "L6388E" (at 0 11.43 0)
+    (property "Value" "L6388ED" (at 0 11.43 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "SOP8" (at 0 -11.43 0)
@@ -376,7 +376,7 @@
     (property "ki_fp_filters" "SOP8" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "L6388E_0_1"
+    (symbol "L6388ED_0_1"
       (rectangle (start -8.89 10.16) (end 8.89 -10.16)
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -398,7 +398,7 @@
         (fill (type none))
       )
     )
-    (symbol "L6388E_1_0"
+    (symbol "L6388ED_1_0"
       (polyline
         (pts
           (xy -8.89 0)
@@ -411,7 +411,7 @@
         (effects (font (size 1.27 1.27)))
       )
     )
-    (symbol "L6388E_1_1"
+    (symbol "L6388ED_1_1"
       (pin input line (at -13.97 5.08 0) (length 5.08)
         (name "LIN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

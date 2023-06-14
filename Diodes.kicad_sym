@@ -2034,7 +2034,7 @@
     (property "Value" "MBRA340" (at 0 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SMA" (at 0 -3.81 0)
+    (property "Footprint" "SMA_DO214AC" (at 0 -3.81 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at -7.62 0 0)
@@ -2049,7 +2049,7 @@
     (property "ki_description" "Schottky Ifmax 3A; If 3A -> Vf 0,45V; Vr 40V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SMA" (at 0 0 0)
+    (property "ki_fp_filters" "SMA*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MBRA340_0_1"

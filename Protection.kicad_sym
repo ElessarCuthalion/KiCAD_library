@@ -2742,6 +2742,9 @@
     (property "ki_description" "Resettable Fuse (самовосстанавливающийся предохранитель)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "ResettableFuse*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "FuseResettable_0_1"
       (rectangle (start -4.9784 1.9812) (end 4.9784 -1.9812)
         (stroke (width 0) (type solid))

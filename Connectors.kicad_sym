@@ -2466,7 +2466,7 @@
     (property "ki_description" "Single row connectors x2, male" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MPW-2* PWL2* PLS-2* PLS2-2* FlatConn-2* WF-2* MX2.54-2* MicroFit-1x2*" (at 0 0 0)
+    (property "ki_fp_filters" "MPW-2* PWL2* PLS-2* PLS2-2* FlatConn-2* WF-2* MX2.54-2* MicroFit-1x2* MiniFit-2x1 MiniFit-2x1R" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Conn-2m_0_0"

@@ -28,12 +28,13 @@ _autosave-*
 *auto_saved_files*
 *.dsn
 fp-info-cache
-#Ignore files by HFSS
-*.aedtresults/
+rescue-backup/
 #Ignore files by TopoR
 *.lock
 *.fsxview
 *.ses
+#Ignore files by HFSS
+*.aedtresults/
 #Ignore files by SolidWorks
 ~$*
 #Ignore files by Eclipse

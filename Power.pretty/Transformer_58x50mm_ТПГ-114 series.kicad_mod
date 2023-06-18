@@ -44,7 +44,7 @@
     (zone_connect 1) (tstamp fd2385bc-562b-417c-b36a-e422e4e28d2d))
   (pad "4" thru_hole circle (at 10 16.5) (size 3 3) (drill 1.7) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 1d1aafae-8aee-44b3-a3ca-bbb15185f0f4))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/Transformer 58x50x44mm - ТПГ-114 series.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Power/Transformer 58x50x44mm - ТПГ-114 series.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

@@ -258,7 +258,7 @@
     )
     (symbol "+24Vin_1_1"
       (pin power_in line (at 0 0 0) (length 5.08) hide
-        (name "+24V" (effects (font (size 1.27 1.27))))
+        (name "+24Vin" (effects (font (size 1.27 1.27))))
         (number "~" (effects (font (size 1.27 1.27))))
       )
     )

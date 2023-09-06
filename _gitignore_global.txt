@@ -1,6 +1,7 @@
 ﻿
 #ignore thumbnails created by windows
 Thumbs.db
+
 #Ignore files build by Visual Studio
 *.obj
 *.pdb
@@ -20,6 +21,7 @@ Thumbs.db
 *.dll
 *.sbr
 *.bak
+
 #Ignore files by KiCad
 *.kicad_pcb-bak
 *.kicad_sch-bak
@@ -28,19 +30,26 @@ _autosave-*
 *auto_saved_files*
 *.dsn
 fp-info-cache
+*.kicad_sch.lck
 rescue-backup/
+*-backups/
+
 #Ignore files by TopoR
 *.lock
 *.fsxview
 *.ses
+
 #Ignore files by HFSS
 *.aedtresults/
+
 #Ignore files by SolidWorks
 ~$*
+
 #Ignore files by Eclipse
 .settings/
 Debug/
 Release/
+
 #Ignore 3D print files
 *.stl
 *.3mf

@@ -31,6 +31,7 @@ _autosave-*
 *.dsn
 fp-info-cache
 *.kicad_sch.lck
+*.kicad_pcb.lck
 rescue-backup/
 *-backups/
 
@@ -49,6 +50,7 @@ rescue-backup/
 .settings/
 Debug/
 Release/
+*.launch
 
 #Ignore 3D print files
 *.stl

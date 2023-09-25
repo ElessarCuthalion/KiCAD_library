@@ -978,7 +978,7 @@
     (property "ki_keywords" "TP5100" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Li-ion/Li-pol Charger, 4.2/8.4V 2A, Vin 4.25-18V" (at 0 0 0)
+    (property "ki_description" "Li-ion/Li-pol Charger, 4.2/8.4V 2A, Vin 4.5-18V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "HQFN16" (at 0 0 0)

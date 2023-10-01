@@ -2031,7 +2031,7 @@
     (property "ki_description" "Magnetometer 3axis +/-4/8/12/16gauss; Vdd 1,9~3,6V Idd 240uA, Isd 1uA; Addr 0x38(SA1=0)/0x3C(SA1=1)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "VFLGA12_2x2" (at 0 0 0)
+    (property "ki_fp_filters" "LGA12_2x2" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LIS3MDL_0_0"

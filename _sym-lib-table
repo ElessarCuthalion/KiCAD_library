@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
+  (lib (name "ADC")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/ADC.kicad_sym")(options "")(descr ""))
   (lib (name "Audio")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Audio.kicad_sym")(options "")(descr ""))
   (lib (name "Capacitors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Capacitors.kicad_sym")(options "")(descr ""))
   (lib (name "Chargers")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Chargers.kicad_sym")(options "")(descr ""))

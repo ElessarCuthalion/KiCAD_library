@@ -262,7 +262,7 @@
       )
     )
   )
-  (symbol "MC74HC02; Vcc 2~6V" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "MC74HC02" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "DD" (at 0 29.21 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -284,13 +284,13 @@
     (property "ki_keywords" "AND-NOT" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "4x 2AND-NOT" (at 0 0 0)
+    (property "ki_description" "4x 2AND-NOT; Vcc 2~6V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "SOP14 TSSOP14" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MC74HC02; Vcc 2~6V_0_0"
+    (symbol "MC74HC02_0_0"
       (text "&" (at -1.27 -7.62 0)
         (effects (font (size 2.0066 2.0066)))
       )
@@ -304,7 +304,7 @@
         (effects (font (size 2.0066 2.0066)))
       )
     )
-    (symbol "MC74HC02; Vcc 2~6V_0_1"
+    (symbol "MC74HC02_0_1"
       (rectangle (start -3.81 25.4) (end 3.81 -25.4)
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -342,7 +342,7 @@
         (fill (type none))
       )
     )
-    (symbol "MC74HC02; Vcc 2~6V_1_1"
+    (symbol "MC74HC02_1_1"
       (pin input line (at -8.89 22.86 0) (length 5.08)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

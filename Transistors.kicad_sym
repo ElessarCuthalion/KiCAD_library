@@ -2296,7 +2296,7 @@
     (property "Value" "BC857BS" (at 13.97 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SOT323-6" (at 13.97 2.54 0)
+    (property "Footprint" "SOT363" (at 13.97 2.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 6.35 -3.81 0)
@@ -2317,7 +2317,7 @@
     (property "ki_description" "Dual p-n-p: Vce -45V Vcb -50V Veb -5V Ic 0.1A; h_fe 200-450 (at Ic -2mA, Vce -5V)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT323-6" (at 0 0 0)
+    (property "ki_fp_filters" "SOT363" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BC857BS_0_1"

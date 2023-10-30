@@ -75,7 +75,7 @@
           (xy -1.143 9.525)
           (xy -0.508 8.636)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.16) (type default))
         (fill (type none))
       )
       (text "/#" (at 0.762 8.89 0)

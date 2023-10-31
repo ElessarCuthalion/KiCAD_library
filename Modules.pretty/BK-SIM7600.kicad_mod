@@ -65,7 +65,7 @@
     (zone_connect 1) (tstamp 7bac66b7-fc14-4ce8-ae26-0c71afb2f016))
   (pad "7" thru_hole circle (at -17.8 7.62) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp cb7a6de5-6661-4504-b432-dc1a75a4f467))
-  (model "${KICAD7_SYMBOL_DIR}/3D/Modules/BK-SIM7600.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Modules/BK-SIM7600.step"
     (offset (xyz -20 0 5.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

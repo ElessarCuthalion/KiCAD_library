@@ -37,7 +37,7 @@
     (zone_connect 1) (tstamp fffd45fe-683e-4996-9223-5466b93d4daa))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 5eaea3f3-4442-40cc-bd5e-fc63b6c76ae9))
-  (model "${KICAD7_SYMBOL_DIR}/3D/Capacitors/SuperCap_D21 C-type 5.5V 1.5F.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/SuperCap_D22 C-type 5.5V 1.5F.step"
     (offset (xyz 0 0 3.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

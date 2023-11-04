@@ -26,7 +26,7 @@
     (zone_connect 1) (tstamp f4c2057d-d1eb-45ec-b399-64a265536ffa))
   (pad "2" thru_hole circle (at 1.25 0) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 97870102-5d8b-45b3-bc90-2cae78cf55cc))
-  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-2_2.5mm_15EDGRC-2.5-02P-14-00AH.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/Cleamm-2_2.5mm - 15EDGRC-2.5-02P-14-00AH.STEP"
     (offset (xyz 3.45 1.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

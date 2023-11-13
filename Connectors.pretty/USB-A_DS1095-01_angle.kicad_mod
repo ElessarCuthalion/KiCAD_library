@@ -1,4 +1,4 @@
-(footprint "USB-A_DS1095-01_angl" (version 20221018) (generator pcbnew)
+(footprint "USB-A_DS1095-01_angle" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "DS1095-01 / USBA-1R")
   (attr through_hole)
@@ -31,7 +31,7 @@
     (zone_connect 1) (tstamp 3d3cfb13-2d19-43b2-acdf-f137d00bf963))
   (pad "SHLD" thru_hole circle (at 3.5 2.9) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 6603106d-b6be-42f4-af5f-b1d3521dbead))
-  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-A 111 or DS1095-01 (vertical, angl).step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-A 111 or DS1095-01 (vertical, angle).step"
     (offset (xyz 1.5 3.5 7.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

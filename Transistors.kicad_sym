@@ -1506,8 +1506,8 @@
     (symbol "AO6800_AB_0_1"
       (polyline
         (pts
-          (xy -1.27 -3.81)
-          (xy -1.27 3.81)
+          (xy -0.635 -2.032)
+          (xy -0.635 -3.81)
         )
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -1530,6 +1530,14 @@
       )
       (polyline
         (pts
+          (xy -0.635 3.81)
+          (xy -0.635 2.032)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 1.016 0)
           (xy -0.635 0)
         )
@@ -1546,27 +1554,18 @@
       )
       (polyline
         (pts
+          (xy -1.27 3.81)
+          (xy -1.27 -3.81)
+          (xy -3.81 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -0.635 -2.921)
           (xy 2.54 -2.921)
           (xy 2.54 -2.921)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 -2.032)
-          (xy -0.635 -3.175)
-          (xy -0.635 -3.81)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 3.81)
-          (xy -0.635 2.413)
-          (xy -0.635 2.032)
         )
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -1611,14 +1610,6 @@
     (symbol "AO6800_AB_1_1"
       (polyline
         (pts
-          (xy -1.27 -3.81)
-          (xy -3.81 -3.81)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 1.016 0)
           (xy 1.016 -2.921)
         )
@@ -1648,14 +1639,6 @@
       )
     )
     (symbol "AO6800_AB_2_1"
-      (polyline
-        (pts
-          (xy -1.27 -3.81)
-          (xy -3.81 -3.81)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 1.016 0)
@@ -2129,8 +2112,8 @@
       )
       (polyline
         (pts
-          (xy -3.81 -1.27)
-          (xy -3.81 -3.81)
+          (xy -3.81 -0.635)
+          (xy -2.032 -0.635)
         )
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -2169,18 +2152,8 @@
       )
       (polyline
         (pts
-          (xy -3.81 -1.27)
-          (xy 3.81 -1.27)
-          (xy 3.81 -1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 -0.635)
-          (xy -2.413 -0.635)
-          (xy -2.032 -0.635)
+          (xy 2.032 -0.635)
+          (xy 3.81 -0.635)
         )
         (stroke (width 0) (type solid))
         (fill (type none))
@@ -2196,20 +2169,20 @@
       )
       (polyline
         (pts
-          (xy 2.032 -0.635)
-          (xy 3.175 -0.635)
-          (xy 3.81 -0.635)
+          (xy 2.921 -0.635)
+          (xy 2.921 2.54)
+          (xy 2.921 2.54)
         )
         (stroke (width 0) (type solid))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 2.921 -0.635)
-          (xy 2.921 2.54)
-          (xy 2.921 2.54)
+          (xy 3.81 -1.27)
+          (xy -3.81 -1.27)
+          (xy -3.81 -3.81)
         )
-        (stroke (width 0) (type solid))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
@@ -6315,6 +6288,241 @@
       (pin passive line (at -11.43 2.54 0) (length 5.08)
         (name "G1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "NTJD4152P_AB" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "VT" (at 0 10.16 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "NTJD4152P" (at 0 7.62 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SOT363" (at 2.54 -8.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at -3.81 -8.89 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "SolderPoints" "6" (at -7.62 10.16 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "SolderPoints_DIP" "0" (at -7.62 7.62 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "ki_locked" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_keywords" "Dual P, P+P" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Dual P-Channel: -20V 0.88A, 0.345R @ Vgs -2.5V; Vgs_m 12V; ESD Protected Gate" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT363" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "NTJD4152P_AB_0_1"
+      (circle (center -3.81 -3.81) (radius 0.254)
+        (stroke (width 0) (type solid))
+        (fill (type outline))
+      )
+      (circle (center -3.81 2.54) (radius 0.254)
+        (stroke (width 0) (type solid))
+        (fill (type outline))
+      )
+      (circle (center -1.651 1.016) (radius 0.254)
+        (stroke (width 0) (type solid))
+        (fill (type outline))
+      )
+      (circle (center -1.651 2.54) (radius 0.254)
+        (stroke (width 0) (type solid))
+        (fill (type outline))
+      )
+      (circle (center 0 -0.762) (radius 5.842)
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 2.54)
+          (xy 6.096 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -3.81)
+          (xy -2.54 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 2.54)
+          (xy -3.81 -3.81)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.635)
+          (xy -0.762 -0.635)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.651 -0.635)
+          (xy -1.651 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.127 -0.635)
+          (xy 1.905 -0.635)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 -0.635)
+          (xy 1.016 1.016)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 1.016)
+          (xy -1.651 1.016)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 -0.635)
+          (xy 4.572 -0.635)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -0.127)
+          (xy 1.016 1.016)
+          (xy 0.635 -0.127)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.683 -0.635)
+          (xy 3.683 2.54)
+          (xy 3.683 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.572 -1.27)
+          (xy -2.54 -1.27)
+          (xy -2.54 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.445 -0.254)
+          (xy -4.445 -0.635)
+          (xy -3.175 -0.635)
+          (xy -3.175 -1.016)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -0.635)
+          (xy -4.445 -1.905)
+          (xy -3.175 -1.905)
+          (xy -3.81 -0.635)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -0.635)
+          (xy -3.175 0.635)
+          (xy -4.445 0.635)
+          (xy -3.81 -0.635)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.905)
+          (xy 0.381 1.905)
+          (xy 0.381 3.175)
+          (xy 0.762 3.175)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.381 2.54)
+          (xy 1.651 1.905)
+          (xy 1.651 3.175)
+          (xy 0.381 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (circle (center 3.683 2.54) (radius 0.254)
+        (stroke (width 0) (type solid))
+        (fill (type outline))
+      )
+    )
+    (symbol "NTJD4152P_AB_1_1"
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "S1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -3.81 -8.89 90) (length 5.08)
+        (name "G1" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 10.16 2.54 180) (length 5.08)
+        (name "D1" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "NTJD4152P_AB_2_1"
+      (pin passive line (at 10.16 2.54 180) (length 5.08)
+        (name "D2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "S2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -3.81 -8.89 90) (length 5.08)
+        (name "G2" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
       )
     )
   )

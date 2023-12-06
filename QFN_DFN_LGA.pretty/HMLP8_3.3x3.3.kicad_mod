@@ -1,5 +1,6 @@
 (footprint "HMLP8_3.3x3.3" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "PDFN_3.3x3.3")
   (attr smd)
   (fp_text reference "MLP8_3.3x3.3+PAD" (at 0 -2.2) (layer "F.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.15)))

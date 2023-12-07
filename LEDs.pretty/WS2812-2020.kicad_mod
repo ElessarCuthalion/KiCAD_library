@@ -10,7 +10,7 @@
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 2ab8b4a1-6f15-427a-9e85-df598bb600fe)
   )
-  (fp_text user "." (at 0.9 1.5 90 unlocked) (layer "F.SilkS")
+  (fp_text user "." (at 0.9 1.5 90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 2 2) (thickness 0.5)))
     (tstamp 0b9ac7a2-bce1-41fc-8c59-354bf1272c5c)
   )
@@ -35,7 +35,7 @@
   (pad "3" smd rect (at -0.9825 -0.55) (size 0.835 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 36e80ebc-e8d4-46e1-97d1-76a2c94e3ebe))
   (pad "4" smd rect (at -0.9825 0.55) (size 0.835 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e891bd42-4294-4a5c-b06d-44212a303024))
   (model "${KICAD_SYMBOL_DIR}/3D/LEDs/WS2812-2020.STEP"
-    (offset (xyz 0 0 0.25))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

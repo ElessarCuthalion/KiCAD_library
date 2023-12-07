@@ -44,9 +44,9 @@
   (pad "C" smd rect (at 1.575 0) (size 1.05 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9cd31ba3-4852-4a3d-a2ba-2a2ba5a76ab3))
   (pad "PAD" smd rect (at 0 0) (size 1.5 3.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (clearance 0.25) (zone_connect 2) (tstamp 97de3e0d-7ea0-4981-96a8-6804e0752dca))
-  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/Cree XLamp XP-E2 XP-G2.STEP"
-    (offset (xyz 0 0 0.5))
+  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/Cree XP-L Hi (XLamp XHP35.2 HI).STEP"
+    (offset (xyz 0 0 1.01))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )

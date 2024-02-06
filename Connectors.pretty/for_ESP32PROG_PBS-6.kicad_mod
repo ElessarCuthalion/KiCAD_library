@@ -33,7 +33,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 70df3604-6155-4468-8967-1914727cae9c)
   )
-  (fp_text user "1" (at -8.382 0) (layer "B.SilkS")
+  (fp_text user "1" (at -8.382 0) (layer "B.SilkS") hide
       (effects (font (size 1.5 1) (thickness 0.15)) (justify mirror))
     (tstamp 758ddfdf-6637-466a-be03-13cc8f8719da)
   )
@@ -45,7 +45,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     (tstamp 597aca13-f8dc-4098-af14-aafabe81aab4)
   )
-  (fp_text user "1" (at -8.382 0) (layer "F.SilkS")
+  (fp_text user "1" (at -8.382 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1) (thickness 0.15)))
     (tstamp 5ed5614a-0c9c-40e0-bada-f43bbe548e9c)
   )

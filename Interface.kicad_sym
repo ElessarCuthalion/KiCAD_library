@@ -381,7 +381,7 @@
       )
     )
     (symbol "CH224K_1_1"
-      (pin power_in line (at -12.7 -7.62 0) (length 5.08)
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )

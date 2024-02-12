@@ -42,7 +42,7 @@
     (zone_connect 2) (tstamp 64677103-2ae5-40b6-a8a4-6a22b80245a2))
   (pad "SHLD" thru_hole rect (at 2.35 3.2) (size 1.4 1.6) (drill 0.8) (layers "*.Cu" "*.Mask" "F.Paste")
     (zone_connect 2) (tstamp 7198b1e9-dc16-447e-b25c-77a78597fe2d))
-  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-micro_B Molex_47346-0001.step"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-micro_B - Molex 47346-0001.step"
     (offset (xyz 1.25 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

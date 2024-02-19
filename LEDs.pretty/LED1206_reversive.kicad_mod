@@ -54,7 +54,7 @@
     (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp e141ba5c-5d73-4344-a1d4-63603a0cc3f8))
   (fp_line (start 0.7 0.7) (end 0.7 -0.7)
     (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 97f6ac4e-20bd-4da9-9cdc-eb3fcc021887))
-  (pad "" np_thru_hole oval (at 0 0) (size 2 2.5) (drill oval 2 2.5) (layers "*.Cu" "*.Mask") (tstamp 17bdbea6-22b4-4ea3-9b31-f71cfd16e2ea))
+  (pad "" np_thru_hole oval (at 0 0) (size 2.4 2.9) (drill oval 2 2.5) (layers "*.Mask") (tstamp 17bdbea6-22b4-4ea3-9b31-f71cfd16e2ea))
   (pad "A" smd rect (at -1.75 0) (size 0.9 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fa28637e-fdc9-47a3-aaed-00ca73ec3e8a))
   (pad "C" smd rect (at 1.75 0) (size 0.9 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af08d3e5-1d6a-496b-b4b0-2149bf2b4d0a))
   (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED1206_Castellated.step"

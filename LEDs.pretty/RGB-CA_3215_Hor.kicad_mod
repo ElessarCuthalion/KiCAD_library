@@ -30,10 +30,10 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp e8277869-b449-422a-93f8-12c1afdb8edf))
   (fp_arc (start -1 -0.25) (mid 0 -1.25) (end 1 -0.25)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 2919a66e-36a4-438b-97c2-12bee8f9e8dc))
-  (pad "BC" smd oval (at 0.42 0.4) (size 0.51 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 582091c1-bf08-4cba-a308-e3d011254a0f))
+  (pad "BC" smd roundrect (at 0.42 0.35) (size 0.51 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 582091c1-bf08-4cba-a308-e3d011254a0f))
   (pad "CA" smd rect (at 1.475 0) (size 0.95 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b9fa5e1a-cf1f-42ac-bb30-e23b49c5a029))
-  (pad "GC" smd oval (at -0.42 0.4) (size 0.51 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c04ecc44-7882-4751-8350-265966091b69))
-  (pad "RC" smd oval (at -1.475 0) (size 0.95 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8369ec85-a889-4f28-84fb-2c1d7ec8245c))
+  (pad "GC" smd roundrect (at -0.42 0.35) (size 0.51 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c04ecc44-7882-4751-8350-265966091b69))
+  (pad "RC" smd roundrect (at -1.475 0) (size 0.95 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8369ec85-a889-4f28-84fb-2c1d7ec8245c))
   (model "${KICAD_SYMBOL_DIR}/3D/LEDs/E6C1204RGBC3UDA.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

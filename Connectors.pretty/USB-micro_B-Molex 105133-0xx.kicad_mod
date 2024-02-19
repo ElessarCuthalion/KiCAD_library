@@ -1,6 +1,6 @@
-(footprint "USB-micro_B-Molex SD-105133-0xx" (version 20221018) (generator pcbnew)
+(footprint "USB-micro_B-Molex 105133-0xx" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Molex SD-105133-0xx")
+  (descr "Molex 105133-0xx")
   (attr through_hole)
   (fp_text reference "USB-micro B" (at 0 -1.5) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -35,7 +35,7 @@
     (zone_connect 2) (tstamp 730f8980-00c3-40f4-9ae8-8ce84ff93be1))
   (pad "SHLD" thru_hole oval (at 2.8 -0.415) (size 1.8 1.1) (drill oval 1.2 0.5) (layers "*.Cu" "*.Mask" "F.Paste")
     (zone_connect 2) (tstamp dfe0948a-4c0c-4f12-86bd-e6f942314980))
-  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-micro_B - Molex SD-105133-011.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-micro_B - Molex 105133-011.STEP"
     (offset (xyz 0 -0.66 2.63))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

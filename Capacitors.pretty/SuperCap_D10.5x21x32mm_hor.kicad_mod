@@ -47,9 +47,9 @@
     (zone_connect 1) (tstamp 97538df6-e864-4bf8-8cdc-825048be21ec))
   (pad "2" thru_hole circle (at 2.75 0) (size 1.7 1.7) (drill 1.1) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp fbb0f816-da16-4e3a-a893-0064faa49b0d))
-  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/SuperCap_D10.5x21x32 WEC6R0505QG I.STEP-"
-    (offset (xyz 0 0 0))
+  (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/SuperCap_D10.5x21x32 WEC6R0505QG I_hor.STEP"
+    (offset (xyz 0 -2.5 5.25))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

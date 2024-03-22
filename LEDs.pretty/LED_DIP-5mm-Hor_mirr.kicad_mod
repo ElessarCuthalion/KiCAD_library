@@ -33,9 +33,9 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp c869a098-346b-426c-913a-c79e5ac7f36a))
   (fp_arc (start 0.015 -10.219) (mid 1.782767 -9.486767) (end 2.515 -7.719)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp ed014e4f-cded-4e98-a64a-ab7de0e9a49c))
-  (pad "A" thru_hole rect (at 1.27 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+  (pad "A" thru_hole rect (at 1.27 0) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 3f810378-c745-4774-8f96-6bb251eaa9a9))
-  (pad "C" thru_hole circle (at -1.27 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
+  (pad "C" thru_hole circle (at -1.27 0) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp b2751348-bc39-4741-a715-23e8a91079aa))
   (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED DIP 5mm Hor_mirr Green.STEP"
     (offset (xyz 0 1.5 3))

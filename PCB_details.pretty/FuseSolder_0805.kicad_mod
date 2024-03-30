@@ -1,7 +1,7 @@
 (footprint "FuseSolder_0805" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (zone_connect 1)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "SolderFuse" (at 0.254 0) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 9c241651-3e63-438a-9dd1-5d772e257ecf)

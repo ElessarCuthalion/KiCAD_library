@@ -9,6 +9,10 @@
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 0195ded9-9b5b-4a47-b2a0-cfbb932f21af)
   )
+  (fp_text user "1" (at 5.25 -3.5 90) (layer "F.SilkS") hide
+      (effects (font (size 0.8 0.6) (thickness 0.15)))
+    (tstamp d741cd54-4a5c-417d-9878-340c1d5d0b8d)
+  )
   (fp_line (start -5.1 -2.65) (end 5.1 -2.65)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 1352045f-2cf0-47bc-a569-f2b8ff9fac84))
   (fp_line (start -5.1 2.65) (end -5.1 -2.65)

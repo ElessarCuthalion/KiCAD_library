@@ -1,6 +1,6 @@
 (footprint "ProSoft_33x7" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     (tstamp 5939a962-7c2f-4d31-824a-7e25d8aa07ad)

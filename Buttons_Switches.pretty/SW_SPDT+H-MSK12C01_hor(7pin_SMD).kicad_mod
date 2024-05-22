@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "2-position switch, horizontal saide")
   (attr smd)
-  (fp_text reference "VAL**" (at 0 0.762) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 0.762) (layer "F.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 2cae54a7-fadf-4cc2-a47a-435d6b3976b6)
   )

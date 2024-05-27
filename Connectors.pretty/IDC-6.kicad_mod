@@ -3,7 +3,7 @@
   (descr "DS1013-06S")
   (zone_connect 1)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -3) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     (tstamp cf0dad70-c784-4332-a0cf-c09fd4837dac)
   )

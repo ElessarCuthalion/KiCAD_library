@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (zone_connect 1)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -1.75) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -3.5 0 90) (layer "F.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp caf1b8d9-d2d3-42fe-83cb-8bd11c14a3af)
   )

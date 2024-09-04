@@ -63,4 +63,9 @@
     (zone_connect 1) (tstamp b997d21b-c043-493b-9a51-7f77f86cc268))
   (pad "10" thru_hole circle (at 5.08 -1.27) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 176c5516-10e6-4b1d-9f52-da515223da6a))
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/FDC-10 ( DS1018-10 ).STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

@@ -331,7 +331,7 @@
     (property "ki_description" "USB Power Delivery Conditioner, Vcc 3-3.6V; Supported 5V, 9V, 12V, 15V, 20V" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "HESOP10" (at 0 0 0)
+    (property "ki_fp_filters" "HESOP10 H2ESOP10" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CH224K_0_1"

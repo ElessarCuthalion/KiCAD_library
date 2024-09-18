@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "B-5FS")
   (zone_connect 1)
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "USB-micro B vert" (at 0 0 180) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp 99d35379-d57c-4d8c-9d1f-6c9860fd04cf)

@@ -62,7 +62,6 @@
     (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 85dfccc7-6f8a-45db-82df-06edb7aa034f))
   (pad "D" smd rect (at 0 0.7925 90) (size 2.585 2.7) (layers "F.Cu") (tstamp fb0c45db-190e-48c2-85fe-6872811b6475))
   (pad "G" smd rect (at -0.975 -1.5 90) (size 0.8 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 621427f8-6a0f-40ae-b514-5886c27e6adf))
-  (pad "S" smd rect (at -0.325 -1.5 90) (size 0.8 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c3fbe1c-df71-48f7-a9bd-c66fd7677f2c))
   (pad "S" smd rect (at 0.325 -1.6275 90) (size 1.055 1.65) (layers "F.Cu") (tstamp d48f0a3d-d4ab-41c0-a53e-284ae3e42125))
   (model "${KICAD_SYMBOL_DIR}/3D/QFN_DFN_LGA/MLP8_3.3x3.3mm.STEP"
     (offset (xyz 0 0 0))

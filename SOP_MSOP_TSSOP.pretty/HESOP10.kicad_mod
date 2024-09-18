@@ -24,7 +24,7 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 532f341f-3ea1-4df0-9145-7910173df390))
   (fp_line (start 2.45 1.95) (end 2.45 -1.95)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp af2e19a7-e7e9-4e9c-9e7f-204a0cd4df26))
-  (pad "1" smd rect (at 2 -2.75 270) (size 1.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c90e65e3-a1a7-433e-8341-dd3e17779552))
+  (pad "1" smd rect (at 2 -2.8 270) (size 1.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c90e65e3-a1a7-433e-8341-dd3e17779552))
   (pad "2" smd oval (at 1 -2.8 270) (size 1.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 327430c5-d148-46af-9299-c23f91b9f9ff))
   (pad "3" smd oval (at 0 -2.8 270) (size 1.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fb6fcdf0-d1bf-40b4-adec-e194a6acb2ba))
   (pad "4" smd oval (at -1 -2.8 270) (size 1.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2c92e25-4277-404c-b4c5-b6877c8df5e5))

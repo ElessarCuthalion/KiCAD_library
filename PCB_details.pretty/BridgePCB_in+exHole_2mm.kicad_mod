@@ -1,4 +1,4 @@
-(footprint "BridgePCB_in+exHole" (version 20221018) (generator pcbnew)
+(footprint "BridgePCB_in+exHole_2mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "Bridge_PCB" (at 0 1.7) (layer "F.SilkS") hide

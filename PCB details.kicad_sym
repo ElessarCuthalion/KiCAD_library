@@ -312,7 +312,7 @@
       )
     )
   )
-  (symbol "Heatsink" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Heatsink" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board yes)
     (property "Reference" "Heat" (at 0 10.16 0)
       (effects (font (size 1.524 1.524)) hide)
     )

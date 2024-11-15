@@ -43,7 +43,7 @@
     (zone_connect 1) (tstamp 2424deab-8ed9-40c7-b0f9-cf3545d3c214))
   (pad "SHLD" thru_hole circle (at 6.02 0) (size 3.5 3.5) (drill 2.3) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 3d6e7911-76bb-4322-922a-12f255a10078))
-  (model "${KICAD7_SYMBOL_DIR}/3D/Connectors/USB-B vetrical IGS-61400413321.STEP"
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-B vetrical IGS-61400413321.STEP"
     (offset (xyz 0 0.6 8.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))

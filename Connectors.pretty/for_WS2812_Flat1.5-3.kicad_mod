@@ -36,7 +36,7 @@
   (fp_line (start 2.25 1.25) (end 2.25 -1.25)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a62e1105-161a-4c4b-9df2-0df3a496c1c1))
   (pad "1" smd rect (at -1.5 0) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 30e39e3b-cd49-45f3-a1bc-9500cd63b650))
-  (pad "2" smd oval (at 0.05 0) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "2" smd oval (at 0 0) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 1) (tstamp 57d7f507-2f22-4b81-a78c-ea7abb0c18f4))
   (pad "3" smd oval (at 1.5 0) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc702d0a-96a7-4da5-8517-ae156dd657a5))
 )

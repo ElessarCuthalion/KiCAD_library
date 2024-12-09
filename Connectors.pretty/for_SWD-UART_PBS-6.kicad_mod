@@ -1,4 +1,4 @@
-(footprint "for_SWD&UART_PBS-6" (version 20221018) (generator pcbnew)
+(footprint "for_SWD-UART_PBS-6" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "SWD&UART" (at -6.2 2) (layer "F.SilkS")

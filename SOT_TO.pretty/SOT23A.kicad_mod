@@ -28,6 +28,6 @@
   (model "${KICAD_SYMBOL_DIR}/3D/SOT_TO/SOT23W.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )

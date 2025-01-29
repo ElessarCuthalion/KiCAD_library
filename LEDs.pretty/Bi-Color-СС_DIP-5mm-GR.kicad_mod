@@ -1,4 +1,4 @@
-(footprint "Bi-Color-СС_DIP-5mm" (version 20221018) (generator pcbnew)
+(footprint "Bi-Color-СС_DIP-5mm-GR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (zone_connect 1)
   (attr through_hole)

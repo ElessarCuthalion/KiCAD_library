@@ -1,4 +1,4 @@
-(footprint "for_PolarOut_2.54-1.4" (version 20221018) (generator pcbnew)
+(footprint "for_PolarOut_h2.54-1.4" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "PolarOut" (at -1.4 -1.8) (layer "F.SilkS")

@@ -2934,7 +2934,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 13.97 -7.62 180) (length 5.08)
+      (pin output line (at 13.97 -7.62 180) (length 5.08)
         (name "DO" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -2942,7 +2942,7 @@
         (name "Din" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -13.97 2.54 0) (length 5.08) hide
+      (pin no_connect line (at -13.97 2.54 0) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -3025,7 +3025,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 13.97 -7.62 180) (length 5.08)
+      (pin output line (at 13.97 -7.62 180) (length 5.08)
         (name "DO" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )

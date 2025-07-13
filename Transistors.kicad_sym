@@ -6734,7 +6734,7 @@
     (property "Reference" "VT" (at 0 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "NTJD4152P" (at 0 7.62 0)
+    (property "Value" "DMG1023UV" (at 0 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "SOT563" (at 2.54 -8.89 0)

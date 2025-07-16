@@ -17,8 +17,8 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp bc45b122-1fb9-4fbe-a489-410c55bf32b8))
   (fp_line (start 1.04 0.54) (end -1.04 0.54)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 8d81ab28-8a0e-4e9b-9c22-60c7afc17a6e))
-  (pad "1" smd rect (at -0.5 0) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0a27eb54-8763-4c31-bada-5c5d66ccba85))
-  (pad "2" smd rect (at 0.5 0) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db943556-0417-4742-ac56-bdf689844bfd))
+  (pad "1" smd rect (at -0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0a27eb54-8763-4c31-bada-5c5d66ccba85))
+  (pad "2" smd rect (at 0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db943556-0417-4742-ac56-bdf689844bfd))
   (model "${KICAD_SYMBOL_DIR}/3D/Capacitors/CAP0402.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

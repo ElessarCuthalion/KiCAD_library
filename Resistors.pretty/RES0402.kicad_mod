@@ -17,8 +17,8 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp d1c86894-4e25-453e-accb-2f722759f1bc))
   (fp_line (start 1.04 0.54) (end -1.04 0.54)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp d6d4c7ed-8f77-41f5-bc8a-94013973e30c))
-  (pad "1" smd rect (at -0.5 0) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7e3c1282-358d-4896-ab7c-303033023d25))
-  (pad "2" smd rect (at 0.5 0) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff517211-f8f0-456d-914e-37568b7e7b81))
+  (pad "1" smd rect (at -0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7e3c1282-358d-4896-ab7c-303033023d25))
+  (pad "2" smd rect (at 0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff517211-f8f0-456d-914e-37568b7e7b81))
   (model "${KICAD_SYMBOL_DIR}/3D/Resistors/RES0402.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

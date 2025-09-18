@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tags "RGB 3535 Epistar")
   (attr through_hole)
-  (fp_text reference "Epistar RGB+PAD" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "Epistar+PAD" (at 0 0) (layer "F.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp a89f172d-597f-4901-9a0e-9ea26639b75a)
   )

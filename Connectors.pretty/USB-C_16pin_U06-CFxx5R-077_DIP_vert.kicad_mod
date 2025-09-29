@@ -54,4 +54,9 @@
     (zone_connect 1) (tstamp 576b9fd3-0e5d-4001-90f8-eb2cf8f3bf66))
   (pad "SHLD" thru_hole oval (at 2.5 2.15) (size 1.7 1) (drill oval 1.3 0.6) (layers "*.Cu" "*.Mask")
     (zone_connect 1) (tstamp 36e95de3-e6d3-403e-879a-ec702224da25))
+  (model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-C_U06-CFxx5R-077.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

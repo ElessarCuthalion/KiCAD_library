@@ -60,7 +60,7 @@
     (rotate (xyz -90 0 0))
   )
   (model "${KICAD_SYMBOL_DIR}/3D/Connectors/FPC-6_0.5mm 1734839-6.STEP" hide
-    (offset (xyz 0 -3.15 1))
+    (offset (xyz 0 -2.55 1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

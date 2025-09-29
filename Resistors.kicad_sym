@@ -551,7 +551,7 @@
     (property "Case" "0402" (at 0 0 0) (do_not_autoplace)
       (effects (font (size 1.524 1.524)))
     )
-    (property "ki_keywords" "RES, R0603" (at 0 0 0)
+    (property "ki_keywords" "RES, R0402" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "0.0625W 1A 50V" (at 0 0 0)

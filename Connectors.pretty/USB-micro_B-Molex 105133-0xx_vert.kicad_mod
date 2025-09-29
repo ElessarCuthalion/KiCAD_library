@@ -1,4 +1,4 @@
-(footprint "USB-micro_B-Molex 105133-0xx" (version 20221018) (generator pcbnew)
+(footprint "USB-micro_B-Molex 105133-0xx_vert" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Molex 105133-0xx")
   (attr smd)

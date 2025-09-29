@@ -1,5 +1,6 @@
 (footprint "Wire-1_h2.0-1.2" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (zone_connect 1)
   (attr through_hole)
   (fp_text reference "Wire-1 h2.0-1.2" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
@@ -41,6 +42,5 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp b2c407ec-9ea6-4e07-a2d1-311f46c73edf))
   (fp_line (start 1 0.6) (end 0.6 1)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 61d1c1b3-9943-45bd-a42e-ffcf52cc65e8))
-  (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
-    (zone_connect 1) (tstamp 3e6318c5-54e2-4e9d-96da-f7ba8189ebea))
+  (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 3e6318c5-54e2-4e9d-96da-f7ba8189ebea))
 )

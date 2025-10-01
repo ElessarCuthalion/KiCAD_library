@@ -1,6 +1,6 @@
 (footprint "IDC2-10R" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "DS1014-10R / BH2-10R")
+  (descr "DS1014-10R / BH2-10R / L-KLS1-202B-10-R")
   (zone_connect 1)
   (attr through_hole)
   (fp_text reference "REF**" (at 6.5 0 90) (layer "F.SilkS")

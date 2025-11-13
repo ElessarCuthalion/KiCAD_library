@@ -1,5 +1,5 @@
 /*
- * LPF.h
+ * HPF.h
  *
  *  Created on: Okt 3, 2025
  *      Author: Elessar

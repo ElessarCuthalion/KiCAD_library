@@ -10,7 +10,7 @@
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     (tstamp d1fab4a2-9e8c-4741-9e8c-82c9352f44de)
   )
-  (fp_text user "." (at -2.4 -3.2) (layer "F.SilkS")
+  (fp_text user "." (at -2.4 -3.2 unlocked) (layer "F.SilkS")
       (effects (font (size 2 2) (thickness 0.5)))
     (tstamp d7a93f62-73ff-4d20-9641-5778bab911cb)
   )

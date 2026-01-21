@@ -34,7 +34,7 @@ public:
     float TargetValue = 0;
     float Calculate(float NewValue, float dt = 1) {
         float Err = TargetValue - NewValue;
-#if MAX_ERR_VALUE
+#if defined MAX_ERR_VALUE
         Limit2Bounds(Err, -MAX_ERR_VALUE, MAX_ERR_VALUE);
 #endif
         float Rslt = 0;
@@ -59,10 +59,10 @@ public:
 //        PrintfI("Err=%.1f\t OldErr=%.1f\t dt=%.1f\t dif=%.1f\r\n", Err, OldErr, dt, dif);
         OldErr = Err;   // Save current Err
         // Output limitation
-#if MAX_REG_VALUE
+#if defined MAX_REG_VALUE
         LimitMaxValue(Rslt, MAX_REG_VALUE);
 #endif
-#if MIN_REG_VALUE
+#if defined MIN_REG_VALUE
         LimitMinValue(Rslt, MIN_REG_VALUE);
 #endif
 #ifdef DEBUG_PID

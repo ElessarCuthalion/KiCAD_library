@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "16PF-015")
 	(property "Reference" "USB-C 16PF-015"
-		(at 0 1.75 0)
+		(at 0 -2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c984a92-8789-40c9-821d-f6598e900258")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "VAL**"
-		(at 0 3 0)
+		(at 0 -1.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c039cbc-f175-4b42-a5b6-8c2ff51b0f62")
@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4.47 -0.76)
-		(end 4.47 -0.76)
+		(start -4.47 -4.91)
+		(end 4.47 -4.91)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "77328523-35ca-41a7-83d1-87f93e0f6be3")
 	)
 	(fp_line
-		(start -4.47 6.79)
-		(end -4.47 -0.76)
+		(start -4.47 2.64)
+		(end -4.47 -4.91)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "af34b45f-3260-4ed9-bde5-6ebf0ca1ebd5")
 	)
 	(fp_line
-		(start 4.47 6.79)
-		(end -4.47 6.79)
+		(start 4.47 2.64)
+		(end -4.47 2.64)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "76542e86-c7be-4ed8-984c-1dae23ddaa6f")
 	)
 	(fp_line
-		(start 4.47 6.79)
-		(end 4.47 -0.76)
+		(start 4.47 2.64)
+		(end 4.47 -4.91)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -94,7 +94,7 @@
 		(uuid "9192ac70-5b79-47cf-b5e9-749785f83539")
 	)
 	(pad "" np_thru_hole circle
-		(at -2.89 0.5)
+		(at -2.89 -3.65)
 		(size 1.1 1.1)
 		(drill 0.7)
 		(layers "*.Mask")
@@ -102,7 +102,7 @@
 		(uuid "2e625bc7-c692-41fc-918a-ed85880879b2")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.89 0.5)
+		(at 2.89 -3.65)
 		(size 1.1 1.1)
 		(drill 0.7)
 		(layers "*.Mask")
@@ -110,81 +110,81 @@
 		(uuid "3e7ce6ca-c48b-4572-b3eb-7fb6f021fed0")
 	)
 	(pad "A1B12" smd rect
-		(at -3.2 -0.7)
+		(at -3.2 -4.85)
 		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 1)
 		(uuid "925c118c-a44e-4ac9-b041-c22636d6670b")
 	)
 	(pad "A4B9" smd rect
-		(at -2.4 -0.7)
+		(at -2.4 -4.85)
 		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba9e62fc-2482-45be-ba47-4d1e8b8a41f0")
 	)
 	(pad "A5" smd rect
-		(at -1.25 -0.7)
+		(at -1.25 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3463d22-bf56-467b-9f07-66f0692506cd")
 	)
 	(pad "A6" smd rect
-		(at -0.25 -0.7)
+		(at -0.25 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3403756c-b2c8-4717-bc36-7d2c691dedb5")
 	)
 	(pad "A7" smd rect
-		(at 0.25 -0.7)
+		(at 0.25 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5db87c4e-79bd-4d9b-b283-958d8a723925")
 	)
 	(pad "A8" smd rect
-		(at 1.25 -0.7)
+		(at 1.25 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b718aa71-d109-404b-985e-1adfbe1040ec")
 	)
 	(pad "B1A12" smd rect
-		(at 3.2 -0.7)
+		(at 3.2 -4.85)
 		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 1)
 		(uuid "d0885943-c5e3-46ce-8822-bd20fd3612f7")
 	)
 	(pad "B4A9" smd rect
-		(at 2.4 -0.7)
+		(at 2.4 -4.85)
 		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "615d78cb-d854-40ee-966c-5089287751e1")
 	)
 	(pad "B5" smd rect
-		(at 1.75 -0.7)
+		(at 1.75 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6b464ad1-2914-40b6-a382-0d5f05e12721")
 	)
 	(pad "B6" smd rect
-		(at 0.75 -0.7)
+		(at 0.75 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "41f9f876-a860-4e12-a745-b26195179a28")
 	)
 	(pad "B7" smd rect
-		(at -0.75 -0.7)
+		(at -0.75 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "30d6516d-07f2-49a8-bfc7-10acaf502884")
 	)
 	(pad "B8" smd rect
-		(at -1.75 -0.7)
+		(at -1.75 -4.85)
 		(size 0.3 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2346a984-96c3-4e49-bdc5-8341f48f25ee")
 	)
 	(pad "SHLD" thru_hole oval
-		(at -4.32 0)
+		(at -4.32 -4.15)
 		(size 1.2 2.3)
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask" "F.Paste")
@@ -193,7 +193,7 @@
 		(uuid "d6014207-2f25-46ba-ad01-2639911f86fb")
 	)
 	(pad "SHLD" thru_hole oval
-		(at -4.32 4.15)
+		(at -4.32 0)
 		(size 1.2 2)
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask" "F.Paste")
@@ -202,7 +202,7 @@
 		(uuid "504b53cd-ea1f-486b-9cbf-9d3e37a3d68f")
 	)
 	(pad "SHLD" thru_hole oval
-		(at 4.32 0)
+		(at 4.32 -4.15)
 		(size 1.2 2.3)
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask" "F.Paste")
@@ -211,7 +211,7 @@
 		(uuid "576b9fd3-0e5d-4001-90f8-eb2cf8f3bf66")
 	)
 	(pad "SHLD" thru_hole oval
-		(at 4.32 4.15)
+		(at 4.32 0)
 		(size 1.2 2)
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask" "F.Paste")
@@ -221,9 +221,8 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-C_16pin - 16PF-015.STEP"
-		(hide yes)
 		(offset
-			(xyz 0 0.5 1.61)
+			(xyz 0 4.65 1.61)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -233,8 +232,9 @@
 		)
 	)
 	(model "${KICAD_SYMBOL_DIR}/3D/Connectors/USB-C_16pin - Molex 217179-0001.STEP"
+		(hide yes)
 		(offset
-			(xyz 0 -2.9 1.59)
+			(xyz 0 1.25 1.59)
 		)
 		(scale
 			(xyz 1 1 1)

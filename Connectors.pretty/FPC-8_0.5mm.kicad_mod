@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "FPC0.5-08-02 or TE x-1734592-8 - contacts on bottom / FPC0.5-08-01 or TE x-1734838-8 - contacts on top")
+	(descr "FPC0.5-08-02 or TE 0-1734592-8 - contacts on bottom / FPC0.5-08-01 or TE 0-1734838-8 - contacts on top")
 	(property "Reference" "REF**"
 		(at 0 -0.6 0)
 		(layer "F.SilkS")

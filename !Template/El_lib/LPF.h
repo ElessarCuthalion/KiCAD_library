@@ -37,6 +37,10 @@ public:
 		Summ = 0;
 		Out = 0;
 	}
+    void Set(float AValue) {
+        Summ = AValue/k;
+        Out = AValue;
+    }
 	float Update(float NewValue) {
 		Summ += NewValue - Out;
 	    Out = Summ*k;

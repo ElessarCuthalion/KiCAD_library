@@ -46,14 +46,14 @@ public:
         }
         // Integral
         if(Ki != 0) {
-            Summ += ((Err+OldErr)/2)*dt;
+            Summ += (Err+OldErr)/2*dt;
             Limit2Bounds(Summ, FLT_MIN/2, FLT_MAX/2);
             integ = Ki*Summ;
             Rslt += integ;
         }
         // Differential
         if(Kd != 0) {
-            dif = (Kd*(Err-OldErr))/dt;
+            dif = Kd*(Err-OldErr)/dt;
             Rslt += dif;
         }
 //        PrintfI("Err=%.1f\t OldErr=%.1f\t dt=%.1f\t dif=%.1f\r\n", Err, OldErr, dt, dif);

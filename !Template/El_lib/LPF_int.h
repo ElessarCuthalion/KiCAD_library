@@ -21,6 +21,10 @@ public:
 		Summ = 0;
 		Out = 0;
 	}
+	void Set(int32_t AValue) {
+		Summ = AValue*k;
+		Out = AValue;
+	}
 	int32_t Update(int32_t NewValue) {
 		Summ += NewValue - Out;
 	    Out = Summ/k;

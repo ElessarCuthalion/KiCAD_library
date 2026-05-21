@@ -87,7 +87,8 @@ void InitHWDMA() {
     PDma = dmaStreamAlloc(CRC_DMA, IRQ_PRIO_LOW, nullptr, nullptr);
 }
 
-uint16_t CalculateCRC16HWDMA(uint8_t *Buf, uint32_t Len) {
+uint16_t CalculateCRC16HWDMA(uint8_t *Buf, uint32_t Len, const uint32_t Init) {
+    CRC->INIT = Init;
     CRC->CR |= CRC_CR_RESET;
     dmaStreamSetPeripheral(PDma, Buf);
     dmaStreamSetMemory0(PDma, &CRC->DR);

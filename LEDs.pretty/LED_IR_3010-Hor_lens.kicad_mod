@@ -1,29 +1,199 @@
-(module LED_IR_3010-Hor_lens (layer F.Cu) (tedit 6340782B)
-  (descr "VSMY14940, SFH 4045N")
-  (attr smd)
-  (fp_text reference "IR LED 3010" (at 0 2.25 180) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 1.25 180) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 1.5 0.55) (end -1.5 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.5 -0.55) (end 1.5 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.5 -0.55) (end 1.5 -0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.5 -0.55) (end -1.5 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.7 -1.26) (end -0.8 -0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.7 -1.26) (end 0.8 -0.55) (layer F.SilkS) (width 0.15))
-  (fp_arc (start 0 -1.26) (end -0.7 -1.26) (angle 180) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.7 -0.55) (end 0.7 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.6 -0.55) (end 0.6 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.5 -0.55) (end 0.5 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.4 -0.55) (end 0.4 0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.3 -0.55) (end 0.3 0.55) (layer F.SilkS) (width 0.15))
-  (pad A smd rect (at -1.35 0) (size 0.9 1.4) (layers F.Cu F.Paste F.Mask))
-  (pad C smd rect (at 1.35 0) (size 0.9 1.4) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED IR 3010 Hor - SFH 4045N.STEP"
-    (offset (xyz 0 0.55 0.6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 90))
-  )
+(footprint "LED_IR_3010-Hor_lens"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VSMY14940 / SFH 4045N")
+	(property "Reference" "IR LED 3010"
+		(at 0 2.25 180)
+		(layer "F.SilkS")
+		(uuid "3e9a72c4-4c1d-442f-869a-51447533a773")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 1.25 180)
+		(layer "F.SilkS")
+		(uuid "a5ec5b58-9d50-422c-98bf-b57493d25f88")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b922e095-bfa7-4f6a-b18c-833ed23ac797")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "390982ba-723c-4021-889f-ce3d4a0a4a44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.55)
+		(end -1.5 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6081192f-a121-4551-8a1b-365a6ed4a28a")
+	)
+	(fp_line
+		(start -1.5 -0.55)
+		(end 1.5 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d7037e5-4085-47cc-880b-712a3b410b0b")
+	)
+	(fp_line
+		(start -0.7 -1.26)
+		(end -0.8 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99f12487-6d14-44fe-be0c-7c34e758a752")
+	)
+	(fp_line
+		(start 0.3 -0.55)
+		(end 0.3 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3fcb503-0014-4477-8912-469703aa0cb3")
+	)
+	(fp_line
+		(start 0.4 -0.55)
+		(end 0.4 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5cab174-793b-42f3-a366-7f6505fe5c06")
+	)
+	(fp_line
+		(start 0.5 -0.55)
+		(end 0.5 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2712126-d422-4018-9508-d394ba22e2f1")
+	)
+	(fp_line
+		(start 0.6 -0.55)
+		(end 0.6 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee9b77f1-521d-4836-9736-52c780bd8987")
+	)
+	(fp_line
+		(start 0.7 -1.26)
+		(end 0.8 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7a25fbd-a6fd-4e7c-b7cb-496ed9cad640")
+	)
+	(fp_line
+		(start 0.7 -0.55)
+		(end 0.7 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76ad16ca-84e4-42b0-b5d4-5881c7c4a5e6")
+	)
+	(fp_line
+		(start 1.5 -0.55)
+		(end 1.5 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2713240f-98d7-4c01-a2a2-67eaad1ca58f")
+	)
+	(fp_line
+		(start 1.5 0.55)
+		(end -1.5 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f033718f-9afe-4584-b6c6-f72a332c5789")
+	)
+	(fp_arc
+		(start -0.7 -1.26)
+		(mid 0 -1.96)
+		(end 0.7 -1.26)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c652a02-cb1b-48ca-adc6-63cd5d9580c9")
+	)
+	(pad "A" smd rect
+		(at -1.35 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d0ab9e5-220b-43fa-b282-5a193433765c")
+	)
+	(pad "C" smd rect
+		(at 1.35 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43e524ee-a53e-4666-9c35-a586ea4e1206")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED IR 3010 Hor - SFH 4045N.STEP"
+		(offset
+			(xyz 0 0.55 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 90)
+		)
+	)
 )

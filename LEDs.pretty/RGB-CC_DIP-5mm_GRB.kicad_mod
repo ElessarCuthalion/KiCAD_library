@@ -1,0 +1,136 @@
+(footprint "RGB-CC_DIP-5mm_GRB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BL-L515 series (in Russia the pinout is different)")
+	(property "Reference" "LED-5mm"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "a337ccef-6dce-4af7-8c07-49103f046875")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 3.75 0)
+		(layer "F.SilkS")
+		(uuid "eb2ab9e5-fe39-46ec-a3f7-4c1373e76d34")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c8c0951-3f32-4707-a839-7fb238b3b112")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcb36c7e-7dfe-4f6c-97a8-47eddc698252")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole)
+	(fp_line
+		(start 2.5 -1.55)
+		(end 2.5 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e203846-39d1-4013-adb5-3c31cc7b7916")
+	)
+	(fp_arc
+		(start 2.5 1.55)
+		(mid -2.941495 0.010324)
+		(end 2.489059 -1.56751)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "541cfbbf-87b9-4a1d-91fa-daf0f91243c5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "704abe96-8265-4eea-a69c-5a4b7bab155d")
+	)
+	(pad "BA" thru_hole circle
+		(at -2.1 1)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "3b3ef4e3-36cc-41ec-8b03-0fefde2c119c")
+	)
+	(pad "CC" thru_hole roundrect
+		(at -0.7 -1)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 1)
+		(uuid "d4499c61-9833-4ca2-b8d4-6b3676ff2a01")
+	)
+	(pad "GA" thru_hole circle
+		(at 2.1 -1)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "439467f1-6847-487d-90d8-45bd8cd9e22b")
+	)
+	(pad "RA" thru_hole circle
+		(at 0.7 1)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "88048577-f927-4c6a-bfc6-14fcf23592d2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/LEDs/RGB-CC DIP-5mm-1.3.STEP"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,10 +1,10 @@
-(footprint "for_SENS_Flat1.5-3"
+(footprint "for_Sens_Flat1.5-3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "SENS Flat-3x1.5"
-		(at -3.2 0 90)
+	(property "Reference" "REF**"
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(uuid "85f3257f-1439-40cc-a6cd-f598ca9d33ae")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 3 0 90)
+	(property "Value" "Flat1.5-3"
+		(at -3.2 0 90)
 		(layer "F.SilkS")
 		(uuid "33f05aa1-bc18-4d5f-9e9d-b8794021eb5d")
 		(effects

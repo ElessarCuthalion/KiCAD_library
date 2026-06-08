@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "DS1026-01-1х3")
 	(property "Reference" "PBS2-3"
-		(at -2 -1.8 0)
+		(at 0 1.75 0)
 		(layer "F.SilkS")
 		(uuid "ba3b06d7-ef34-4124-b34d-2f0aadff7e97")
 		(effects
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 2 -1.8 0)
+	(property "Value" "REF**"
+		(at -2 0 0)
 		(layer "F.SilkS")
 		(uuid "762f42d3-1d5b-406a-9d79-45a691543b12")
 		(effects

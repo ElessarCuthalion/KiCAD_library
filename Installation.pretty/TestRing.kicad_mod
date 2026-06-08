@@ -1,22 +1,88 @@
-(footprint "TestRing" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (zone_connect 1)
-  (attr through_hole)
-  (fp_text reference "TestRing" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp d6e2bb30-8abd-4d99-9d34-0c3d3777dae6)
-  )
-  (fp_text value "VAL**" (at 0 -2.25) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.2)))
-    (tstamp 2c720016-f49c-4fc6-a752-ebbd0d219a7c)
-  )
-  (fp_circle (center 0 0) (end 1.5 0)
-    (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp db403b0c-0d3e-472c-baba-0fcce86d67ed))
-  (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask")
-    (zone_connect 1) (thermal_gap 0.75) (tstamp 9aca108a-8f71-43d4-bfff-600e6567960e))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/TestRing_Loop_D3.50mm_Drill0.9mm_Beaded.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TestRing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6e2bb30-8abd-4d99-9d34-0c3d3777dae6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestRing"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "2c720016-f49c-4fc6-a752-ebbd0d219a7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e2dfb10-177f-49f0-8a8c-317fdae70153")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f37bb2-461a-4ea9-a14c-aa26544275dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "db403b0c-0d3e-472c-baba-0fcce86d67ed")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(thermal_gap 0.75)
+		(uuid "9aca108a-8f71-43d4-bfff-600e6567960e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/TestRing_Loop_D3.50mm_Drill0.9mm_Beaded.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

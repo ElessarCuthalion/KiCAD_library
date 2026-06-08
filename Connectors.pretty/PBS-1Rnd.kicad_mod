@@ -1,25 +1,156 @@
-(module PBS-1Rnd (layer F.Cu) (tedit 6328C09D)
-  (descr DS1023-1x1)
-  (zone_connect 1)
-  (fp_text reference PBS-1 (at 0 -1.8) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 1.8) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start -1.52 1.27) (end -1.52 -1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.52 -1.27) (end 1.52 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.52 -1.27) (end 1.52 -1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.52 1.27) (end -1.52 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.52 1.27) (end -1.52 -1.27) (layer B.SilkS) (width 0.15))
-  (fp_line (start 1.52 1.27) (end -1.52 1.27) (layer B.SilkS) (width 0.15))
-  (fp_line (start 1.52 -1.27) (end 1.52 1.27) (layer B.SilkS) (width 0.15))
-  (fp_line (start -1.52 -1.27) (end 1.52 -1.27) (layer B.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
-    (zone_connect 1))
-  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/PBS-1.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "PBS-1Rnd"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DS1023-1x1")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "44d90218-869e-4f47-a083-36f81e3288fd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PBS-1"
+		(at 0 1.8 0)
+		(layer "F.SilkS")
+		(uuid "f7906c81-5cb7-44a5-beb1-d3eee79ea548")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d80cdca6-32eb-470c-8040-9c457b0230ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13766f37-4185-4005-9a69-448c740ff003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -1.27)
+		(end 1.52 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58eb39d6-c994-4bb1-b5dc-e7901e0eec78")
+	)
+	(fp_line
+		(start -1.52 1.27)
+		(end -1.52 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "101091de-78ac-4bc0-b2cc-519ef79ae8fb")
+	)
+	(fp_line
+		(start 1.52 -1.27)
+		(end 1.52 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62962014-131b-417d-8112-98246df2effa")
+	)
+	(fp_line
+		(start 1.52 1.27)
+		(end -1.52 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecf2fe72-73fb-49b9-b2f7-5a72b2b311c5")
+	)
+	(fp_line
+		(start -1.52 -1.27)
+		(end 1.52 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6879489a-ac4f-4dad-ae26-1402eb46ebc2")
+	)
+	(fp_line
+		(start -1.52 1.27)
+		(end -1.52 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4567ac8f-fc6c-41f6-bcf7-57e9d5fad3e5")
+	)
+	(fp_line
+		(start 1.52 -1.27)
+		(end 1.52 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f9bb358c-6de1-455c-8e6b-1fadbc61c09f")
+	)
+	(fp_line
+		(start 1.52 1.27)
+		(end -1.52 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f022803d-232b-4f40-99cc-4e65da1dc22d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "135efac5-5354-449d-a911-f9f39f537ea5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Connectors/PBS-1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

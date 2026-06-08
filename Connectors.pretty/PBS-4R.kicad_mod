@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DS1024-1x4R")
-	(property "Reference" "PBS-4R"
+	(property "Reference" "REF**"
 		(at 0 3.25 0)
 		(layer "F.SilkS")
 		(uuid "a9e8c426-8d3f-41cf-b4d3-8791af458998")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
+	(property "Value" "PBS-4R"
 		(at 0 4.75 0)
 		(layer "F.SilkS")
 		(uuid "8bfc27c8-1313-427c-9ddb-75c7d0d84b11")

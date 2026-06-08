@@ -1,28 +1,171 @@
-(module LED3030_3V (layer F.Cu) (tedit 5F1DED0C)
-  (attr smd)
-  (fp_text reference LED3030 (at 0 -2.25) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 2.1) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text user . (at 1.25 -2.2 90 unlocked) (layer F.SilkS)
-    (effects (font (size 2 2) (thickness 0.5)))
-  )
-  (fp_line (start 0.9 -1.5) (end 1.5 -0.9) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.1 -1.5) (end 1.5 -1.1) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.3 -1.5) (end 1.5 -1.3) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.5 -1.5) (end -1.5 1.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.5 -1.5) (end 1.5 -1.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.5 -1.5) (end 1.5 1.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.5 1.5) (end -1.5 1.5) (layer F.SilkS) (width 0.15))
-  (pad A smd rect (at -1.7 0) (size 0.6 3.15) (layers F.Cu F.Paste F.Mask))
-  (pad A smd rect (at -1.11 0) (size 0.58 2.3) (layers F.Cu F.Paste F.Mask))
-  (pad C smd rect (at 1.7 0) (size 0.6 3.15) (layers F.Cu F.Paste F.Mask))
-  (pad C smd rect (at 0.635 0) (size 1.53 2.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/LED3030.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "LED3030_3V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d896d91d-47e6-46a0-bdf5-90d7e9bb7847")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED3030"
+		(at 0 2.1 0)
+		(layer "F.SilkS")
+		(uuid "4bf76d72-fb38-443e-bc8c-7dee8a418d10")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62905bcc-ac7f-4502-a9fb-c6b52912d43d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dcbcb2d-70b5-4426-a9dd-7e6d7a5fd447")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f126a673-ef33-44cd-ba47-a65c897ba846")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2797d955-3c8d-4117-bc34-270b45a9e958")
+	)
+	(fp_line
+		(start 0.9 -1.5)
+		(end 1.5 -0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "314fda43-6b23-4722-a700-f2f17f43189b")
+	)
+	(fp_line
+		(start 1.1 -1.5)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f97fc08d-7bad-4342-8597-15d529be76f1")
+	)
+	(fp_line
+		(start 1.3 -1.5)
+		(end 1.5 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3021a49-3378-4e5c-a0ca-a4bac8df879e")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "764dc879-1c41-43dc-bce2-f9420a1539e1")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e33e6946-5c99-4784-8d36-29eb6324743f")
+	)
+	(fp_text user "."
+		(at 1.25 -2.2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8accf781-9913-48de-a6a3-29919e052f31")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -1.7 0)
+		(size 0.6 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c02eec02-3a97-443e-916a-b62ab2507779")
+	)
+	(pad "A" smd rect
+		(at -1.11 0)
+		(size 0.58 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5cd1fa10-ccd9-48d7-ae60-d85b2ab4f9af")
+	)
+	(pad "C" smd rect
+		(at 0.635 0)
+		(size 1.53 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2b860f4-120b-4ff7-a033-4c81d64ae70e")
+	)
+	(pad "C" smd rect
+		(at 1.7 0)
+		(size 0.6 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02f624f2-b8fc-4ce4-9211-12964a881630")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED3030.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

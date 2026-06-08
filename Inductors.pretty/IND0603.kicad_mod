@@ -1,27 +1,117 @@
-(footprint "IND0603" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "IND0603" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp 7e3af325-80a1-434c-b4a5-cc0d688ba259)
-  )
-  (fp_text value "VAL**" (at 0 1.4) (layer "F.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp 336c5164-10e7-4c0e-9b9c-71bdcb7cbbcd)
-  )
-  (fp_line (start -1.45 -0.75) (end 1.45 -0.75)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 8b891232-8156-4428-a7c5-f275593935fd))
-  (fp_line (start -1.45 0.75) (end -1.45 -0.75)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 2064d752-dd7b-4bb0-b7da-3de8caf0cce0))
-  (fp_line (start 1.45 -0.75) (end 1.45 0.75)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 0c9d8224-1e6e-4126-aa7b-0c2595ec40e1))
-  (fp_line (start 1.45 0.75) (end -1.45 0.75)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 121484da-cb74-40c8-a3ae-d05169ccd312))
-  (pad "1" smd rect (at -0.75 0) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 088974a4-494a-40de-8a8e-2ad856f5c00a))
-  (pad "2" smd rect (at 0.75 0) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8b88d9ba-2f8f-4292-ab87-6170b49d64af))
-  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/IND0603.STEP"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "IND0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7e3af325-80a1-434c-b4a5-cc0d688ba259")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND0603"
+		(at 0 1.4 0)
+		(layer "F.SilkS")
+		(uuid "336c5164-10e7-4c0e-9b9c-71bdcb7cbbcd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57aa3d4f-8fa4-4456-8696-99ad3a17d278")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be699249-5e26-4e60-8dfb-6a4bfc633773")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -0.75)
+		(end 1.45 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b891232-8156-4428-a7c5-f275593935fd")
+	)
+	(fp_line
+		(start -1.45 0.75)
+		(end -1.45 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2064d752-dd7b-4bb0-b7da-3de8caf0cce0")
+	)
+	(fp_line
+		(start 1.45 -0.75)
+		(end 1.45 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c9d8224-1e6e-4126-aa7b-0c2595ec40e1")
+	)
+	(fp_line
+		(start 1.45 0.75)
+		(end -1.45 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "121484da-cb74-40c8-a3ae-d05169ccd312")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "088974a4-494a-40de-8a8e-2ad856f5c00a")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b88d9ba-2f8f-4292-ab87-6170b49d64af")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Inductors/IND0603.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -1,26 +1,132 @@
-(module Mic_EM6027P_hor_mirr (layer F.Cu) (tedit 5F6C5AB4)
-  (zone_connect 1)
-  (attr smd)
-  (fp_text reference Mic_EM6027P_hor_mirr (at 1.8 -3.6) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 1.8 -2.4) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 0 -3) (end 0 3) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.7 3) (end 0 3) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.7 -3) (end -2.7 3) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0 -3) (end -2.7 -3) (layer F.SilkS) (width 0.15))
-  (fp_text user + (at 0.8 2.4 unlocked) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at 1.8 0.95) (size 2.9 1.3) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 1))
-  (pad 2 smd oval (at 1.8 -0.95) (size 2.9 1.3) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 1))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/Microphone EM6027P.STEP"
-    (offset (xyz 0 0 -0.775))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 180 90))
-  )
+(footprint "Mic_EM6027P_hor_mirr"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.8 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "f649f62e-502e-4102-b1dd-b6f9188727e1")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mic_EM6027P_hor_mirr"
+		(at 4 0 90)
+		(layer "F.SilkS")
+		(uuid "b83aae76-b3e9-4d66-952b-cd64083e06ae")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc41c1c5-20e3-4b5b-8685-18b0726e5f02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80c150b1-842d-43c7-873b-e94efafa78fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr smd)
+	(fp_line
+		(start -2.7 -3)
+		(end -2.7 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27c7dc87-2f08-4c48-89d2-41d52b44af1b")
+	)
+	(fp_line
+		(start -2.7 3)
+		(end 0 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60c2c4ef-96f5-444c-94ec-e1f6be2c51c2")
+	)
+	(fp_line
+		(start 0 -3)
+		(end -2.7 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f876c9-6bd4-456e-a978-8ce24939e4a4")
+	)
+	(fp_line
+		(start 0 -3)
+		(end 0 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7e2423b-53e4-4710-8eb4-d10edef7826b")
+	)
+	(fp_text user "+"
+		(at 0.8 2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c68563dc-e384-4bb9-84a2-5fa094a320d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.8 0.95)
+		(size 2.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 1)
+		(uuid "2c1a9289-9d6e-43ad-9b6b-c77a7a00c75f")
+	)
+	(pad "2" smd oval
+		(at 1.8 -0.95)
+		(size 2.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 1)
+		(uuid "cacb0249-e8ce-4e5f-b6d1-e15f68ec718b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/Microphone EM6027P.STEP"
+		(offset
+			(xyz 0 0 -0.775)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 90)
+		)
+	)
 )

@@ -4,8 +4,8 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB-C 24PF-009")
-	(property "Reference" "USB-C 24PF-009"
-		(at 0 -2.5 180)
+	(property "Reference" "REF**"
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(uuid "24412594-3a12-41ac-ba0c-e4acd5bba124")
 		(effects
@@ -15,9 +15,9 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 0 0 0)
-		(layer "F.Fab")
+	(property "Value" "USB-C 24PF-009"
+		(at 0 3.25 0)
+		(layer "F.SilkS")
 		(uuid "54522a8e-8c10-490d-9b7c-828ea58d9e84")
 		(effects
 			(font

@@ -1,21 +1,118 @@
-(module IND_3.0x3.0_2D18 (layer F.Cu) (tedit 5DDED767)
-  (descr SDR0302/SMNR30xx)
-  (attr smd)
-  (fp_text reference 2D18/SDR0302/SMNR30xx (at 0 -2.4) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 0 90) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 2.1 1.8) (end 2.1 -1.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.1 -1.8) (end -2.1 -1.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.1 -1.8) (end -2.1 1.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.1 1.8) (end 2.1 1.8) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -1.1 0) (size 1.4 3) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.1 0) (size 1.4 3) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/CDRH2D18 h1.9.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "IND_3.0x3.0_2D18"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SDR0302 / SMNR30xx")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "2ee17ff7-60f2-4c07-8fec-16c52d1cb2e5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2D18"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "71cbf209-0c78-4777-84ba-56fafe26ae09")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea089689-36de-4a5b-8aca-e1f333d68d8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a21197-d0b3-4dc9-bdf5-51a830bd1250")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.8)
+		(end -2.1 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccd7ad02-825a-468a-8ba7-66d41777d576")
+	)
+	(fp_line
+		(start -2.1 1.8)
+		(end 2.1 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54052d0d-c0d4-44ab-9b3e-4cf9a53bf095")
+	)
+	(fp_line
+		(start 2.1 -1.8)
+		(end -2.1 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da83d1a7-c19f-4b8f-a4d0-b3fb2f2c3132")
+	)
+	(fp_line
+		(start 2.1 1.8)
+		(end 2.1 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e4c770c-c55b-4f0f-9f48-dcdcf5cbdeb3")
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2c903ea-e0aa-43c5-b191-a5237de3573e")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c363037d-ed72-446c-b1f8-fc7e539d1d6e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Inductors/CDRH2D18 h1.9.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

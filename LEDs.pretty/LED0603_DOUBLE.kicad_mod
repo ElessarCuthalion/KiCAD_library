@@ -1,22 +1,129 @@
-(module LED0603_DOUBLE (layer F.Cu) (tedit 5E4CF5D4)
-  (attr smd)
-  (fp_text reference VAL** (at 0 1.4) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value LED0603_DOUBLE (at 0 -1.4) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start -1.2 -0.8) (end 1.2 -0.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.2 -0.8) (end 1.2 0.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.2 0.8) (end -1.2 0.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.2 0.8) (end -1.2 -0.8) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -0.65 -0.35 180) (size 0.7 0.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.65 0.35 180) (size 0.7 0.4) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.65 -0.35 180) (size 0.7 0.4) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 0.65 0.35 180) (size 0.7 0.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_SYMBOL_DIR}/3D/LEDs/LED0606.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED0603_double"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2ba6cae9-6960-4ac5-b170-c11c0b3d2363")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED0603_double"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "e1b15a27-e3e7-482a-a5c6-715e41f20c51")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b6ff44e-8083-4fbd-b16f-4b5fabef3f25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1742b9a0-fb67-4b97-a3b3-472604106233")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.8)
+		(end 1.2 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfdcfb47-8f8e-4abf-a7bd-14de5f442ec4")
+	)
+	(fp_line
+		(start -1.2 0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ab6225e-153b-4333-87f8-97b858a36bc5")
+	)
+	(fp_line
+		(start 1.2 -0.8)
+		(end 1.2 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2bce276-752f-4f3e-93d7-a6346d3403df")
+	)
+	(fp_line
+		(start 1.2 0.8)
+		(end -1.2 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56015ccc-6af3-4efb-a8f5-c29478a7b5db")
+	)
+	(pad "1" smd rect
+		(at -0.65 -0.35 180)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6842e7f9-9cd2-4d24-93ae-3d777be03e0b")
+	)
+	(pad "2" smd rect
+		(at -0.65 0.35 180)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "376f3345-a594-4d3b-8441-0c8bac09fd09")
+	)
+	(pad "3" smd rect
+		(at 0.65 -0.35 180)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18a1cb8b-36d3-45b2-be2a-f3831121fa6f")
+	)
+	(pad "4" smd rect
+		(at 0.65 0.35 180)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fefb40cf-a24c-499f-b194-2d11c5e9be42")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/LEDs/LED0606.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

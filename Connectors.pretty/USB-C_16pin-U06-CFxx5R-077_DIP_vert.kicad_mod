@@ -4,8 +4,8 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "06-CFxx5R-077")
-	(property "Reference" "U06-CFxx5R-077"
-		(at 0 -3.25 0)
+	(property "Reference" "REF**"
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c984a92-8789-40c9-821d-f6598e900258")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 0 0 0)
+	(property "Value" "U06-CFxx5R-077"
+		(at 0 3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c039cbc-f175-4b42-a5b6-8c2ff51b0f62")

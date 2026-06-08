@@ -1,0 +1,134 @@
+(footprint "PIR_TO5-3_D203S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c5a14da1-5509-4d40-a5d8-aaf5bca03d3e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D203S"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "aa6ac0ca-d4c8-43f7-aa3a-29e213a03c98")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "842e6812-a240-41e0-8405-f6678ab030b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b7ef87e-8a5a-41d9-956e-7ed65e130bdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole)
+	(fp_line
+		(start -3.982697 -3.417011)
+		(end -3.487722 -2.922036)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0195319-6b13-4142-a3b8-74be9d35ca54")
+	)
+	(fp_line
+		(start -3.417011 -3.982697)
+		(end -3.982697 -3.417011)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76b366f7-ca95-4068-8641-2d33b16b30e9")
+	)
+	(fp_line
+		(start -2.922036 -3.487722)
+		(end -3.417011 -3.982697)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df716f83-b5a2-4bd1-b212-48890b76b2e4")
+	)
+	(fp_arc
+		(start -2.922036 -3.487722)
+		(mid 3.220506 3.214162)
+		(end -3.493477 -2.915153)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a281c876-25fa-4c5a-92f2-3dfa6de73b0d")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "ade8871f-25bb-4f3d-9678-d8ff76d0ad67")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "61d555ce-6570-4af2-9e32-ac8d69ac97a5")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "265c1cb1-29d7-4cdf-b589-87f3bf9d96df")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/PIR_D203S_TO5-3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

@@ -4,11 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16PF-076")
-	(property "Reference" "USB-C 16PF-076"
-		(at 0 -2.5 0)
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "9c984a92-8789-40c9-821d-f6598e900258")
 		(effects
 			(font
@@ -17,11 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Val**"
-		(at 0 -3.5 0)
+	(property "Value" "USB-C 16PF-076"
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "4c039cbc-f175-4b42-a5b6-8c2ff51b0f62")
 		(effects
 			(font

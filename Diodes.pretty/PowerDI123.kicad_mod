@@ -1,29 +1,207 @@
-(module PowerDI123 (layer F.Cu) (tedit 62431C41)
-  (attr smd)
-  (fp_text reference PowerDI123 (at 0 -1.5 180) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 1.5 180) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 1.4 0.89) (end -1.4 0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.4 0.89) (end -1.4 -0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.4 -0.89) (end 1.4 -0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.4 -0.89) (end 1.4 0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.4 -0.4) (end 0.4 0.4) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.4 0.4) (end 0.34 0) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.4 0) (end -0.4 -0.4) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.4 -0.4) (end -0.4 0.4) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.3 0.89) (end 1.3 -0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.2 -0.89) (end 1.2 0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.1 0.89) (end 1.1 -0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1 -0.89) (end 1 0.89) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.9 0.89) (end 0.9 -0.89) (layer F.SilkS) (width 0.15))
-  (pad A smd rect (at -1.65 0) (size 0.95 1.4) (layers F.Cu F.Paste F.Mask))
-  (pad C smd rect (at 0.95 0) (size 2.25 1.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_SYMBOL_DIR}/3D/Diodes/PowerDI123.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "PowerDI123"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 180)
+		(layer "F.SilkS")
+		(uuid "1f2ad49b-aeb8-40a6-891f-51661fc090cc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PowerDI123"
+		(at 0 1.5 180)
+		(layer "F.SilkS")
+		(uuid "905b4693-c3c2-4f39-813b-04d44ebce072")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61616939-bed1-46a9-a1b3-c91a0b106534")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55eab770-b22c-465f-a8a3-9effde49514d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.89)
+		(end 1.4 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f065b2-cf83-4db3-bf62-11a6d2c3c2f9")
+	)
+	(fp_line
+		(start -1.4 0.89)
+		(end -1.4 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3cd1203-ce7f-489b-9397-f79498470520")
+	)
+	(fp_line
+		(start -0.4 -0.4)
+		(end -0.4 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3531794a-3c4f-4c44-a97b-c3346cd5fa76")
+	)
+	(fp_line
+		(start -0.4 0.4)
+		(end 0.34 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0dff35d-45b2-4ea0-996a-faa51515b747")
+	)
+	(fp_line
+		(start 0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29f3ed62-aae7-41f2-9f58-d5eac4b9f0e9")
+	)
+	(fp_line
+		(start 0.4 0)
+		(end -0.4 -0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6446f342-d405-45fd-b258-bc9603f3d3f1")
+	)
+	(fp_line
+		(start 0.9 0.89)
+		(end 0.9 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a8ae886-70d2-480c-bc7a-53b640bb55c3")
+	)
+	(fp_line
+		(start 1 -0.89)
+		(end 1 0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64533ac3-bb25-4972-83c6-7709e9430814")
+	)
+	(fp_line
+		(start 1.1 0.89)
+		(end 1.1 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0817df8-91b1-4f86-a469-8d1ed93f770d")
+	)
+	(fp_line
+		(start 1.2 -0.89)
+		(end 1.2 0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7fd2d9d-5ea3-4643-b1ce-53c3904383c1")
+	)
+	(fp_line
+		(start 1.3 0.89)
+		(end 1.3 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c8eb8f8-2025-4a76-a416-514316c43c03")
+	)
+	(fp_line
+		(start 1.4 -0.89)
+		(end 1.4 0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9828b02-3211-4bb9-95a2-3c4bd11c4c67")
+	)
+	(fp_line
+		(start 1.4 0.89)
+		(end -1.4 0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "291ed6d7-c990-4413-acaa-c4b66b9adc13")
+	)
+	(pad "A" smd rect
+		(at -1.65 0)
+		(size 0.95 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8870374d-d94a-443a-9d24-00eda631e6ef")
+	)
+	(pad "C" smd rect
+		(at 0.95 0)
+		(size 2.25 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41fd46f1-436b-4a2c-b537-cce9c95c00c2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Diodes/PowerDI123.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

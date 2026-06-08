@@ -1,14 +1,66 @@
-(footprint "BoardName_2mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-  (fp_text reference "BoardName" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp 50b75c0e-243d-428e-8f30-5fa3be4f6464)
-  )
-  (fp_text value "VAL**" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 2 2) (thickness 0.3) italic))
-    (tstamp 475218e8-3d8e-4bfb-9d22-18c84fddcf5a)
-  )
-  (fp_line (start -0.25 0) (end 0.25 0)
-    (stroke (width 3) (type solid)) (layer "Dwgs.User") (tstamp ea966b7b-48c2-4a27-b0f0-e410dabdeda0))
+(footprint "BoardName_2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "50b75c0e-243d-428e-8f30-5fa3be4f6464")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BoardName"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "475218e8-3d8e-4bfb-9d22-18c84fddcf5a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(italic yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "670fbcf5-a3d9-489c-9a2a-91e45aec6b25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ca32a2-0f70-4240-b61a-98f214a6fb2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -0.25 0)
+		(end 0.25 0)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ea966b7b-48c2-4a27-b0f0-e410dabdeda0")
+	)
+	(embedded_fonts no)
 )

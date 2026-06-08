@@ -1,12 +1,95 @@
-(module Vibro_Flat_NC (layer F.Cu) (tedit 5A329DA6)
-  (fp_text reference VAL** (at 0 0.75) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value Motor_no_Contacts (at 0 -0.75) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 5.67 -2) (end 10 -2) (layer F.SilkS) (width 0.15))
-  (fp_line (start 10 -2) (end 10 2) (layer F.SilkS) (width 0.15))
-  (fp_line (start 10 2) (end 5.67 2) (layer F.SilkS) (width 0.15))
-  (fp_circle (center 0 0) (end 6 0) (layer F.SilkS) (width 0.15))
+(footprint "Vibro_Flat_NC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(layer "F.SilkS")
+		(uuid "e989018a-d852-4dbc-9766-702110d8a153")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Motor no contacts"
+		(at 0 0.75 0)
+		(layer "F.SilkS")
+		(uuid "2e81775d-22fb-4968-9157-d53c06e6347d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9db0f363-7fcb-45e9-be59-95e6c9f03a2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5c90ecf-1d67-41f0-b8c5-af6fb8fdb255")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 5.67 -2)
+		(end 10 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ec2dab9-78f4-44e6-928e-e9eac6526dbe")
+	)
+	(fp_line
+		(start 10 -2)
+		(end 10 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a13894e-da1a-4917-99f4-2f2f846ff9a8")
+	)
+	(fp_line
+		(start 10 2)
+		(end 5.67 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7801656-370a-422d-b42b-6dd687ab840d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "77c8ba05-ca45-45dd-84ec-7b26cb9edefa")
+	)
+	(embedded_fonts no)
 )

@@ -1,27 +1,191 @@
-(module Battery_CR2032_CH7410 (layer F.Cu) (tedit 63112C97)
-  (attr smd)
-  (fp_text reference CH7410 (at 0 -1.2) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.2)))
-  )
-  (fp_text value VAL** (at 0 1) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.2)))
-  )
-  (fp_line (start 9.1 -6.5) (end 7.9 -7.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start 9.1 6.5) (end 7.9 7.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -6.2 7.85) (end 7.9 7.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -6.2 -7.85) (end 7.9 -7.85) (layer F.SilkS) (width 0.15))
-  (fp_circle (center 0 0) (end -10 0) (layer F.SilkS) (width 0.15))
-  (fp_line (start 12.95 -6.5) (end 9.1 -6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 12.95 6.5) (end 9.1 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 12.95 -6.5) (end 12.95 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7.9 -7.85) (end -6.2 -7.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7.9 7.85) (end -6.2 7.85) (layer F.SilkS) (width 0.15))
-  (fp_arc (start -0.05 0) (end -7.9 7.85) (angle 90) (layer F.SilkS) (width 0.15))
-  (pad C smd roundrect (at -8.35 0) (size 4.5 2.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (pad A smd rect (at 12.825 0) (size 3.05 3.4) (layers F.Cu F.Paste F.Mask))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/BatteryHolder CH7410.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Battery_CR2032_CH7410"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CH7410")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d372b9c5-ba8c-45de-99b9-78ad8f25aa5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "CH7410"
+		(at 0 1.75 0)
+		(layer "F.SilkS")
+		(uuid "fb63d6c2-def6-4284-bee6-cfd9f39c00cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de6da04c-7425-43d2-b5a6-7c7457fdac34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71561e9e-e455-4637-916f-a73eca3dec29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.9 -7.85)
+		(end -6.2 -7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f0ef0a7-b5b8-4eb4-8844-04c5e61afaa9")
+	)
+	(fp_line
+		(start -7.9 7.85)
+		(end -6.2 7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87308570-3fa9-40d5-ba9f-e6b0a532bd7f")
+	)
+	(fp_line
+		(start -6.2 -7.85)
+		(end 7.9 -7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef428ee5-0728-47d4-a31c-f98e4714617d")
+	)
+	(fp_line
+		(start -6.2 7.85)
+		(end 7.9 7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b89d1570-4b65-4614-9f1c-10d0209d331c")
+	)
+	(fp_line
+		(start 9.1 -6.5)
+		(end 7.9 -7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93c4b31d-da34-4fe3-b369-91a1bc2b231e")
+	)
+	(fp_line
+		(start 9.1 6.5)
+		(end 7.9 7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b8011d0-041c-49cc-982b-feebea4d927a")
+	)
+	(fp_line
+		(start 12.95 -6.5)
+		(end 9.1 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3dc35dc-2ead-425a-8fd7-d35f5024849e")
+	)
+	(fp_line
+		(start 12.95 -6.5)
+		(end 12.95 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a0189c3-d290-4eb1-827a-c86166a3b47e")
+	)
+	(fp_line
+		(start 12.95 6.5)
+		(end 9.1 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d8924df-bbae-49dc-a116-63190f2133ef")
+	)
+	(fp_arc
+		(start -7.9 7.85)
+		(mid -11.151576 0)
+		(end -7.9 -7.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d2743c9-3637-48b7-8bcf-48bab67778fb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -10 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dce0d811-59dc-446a-a95c-feda98fc89f0")
+	)
+	(pad "A" smd rect
+		(at 12.825 0)
+		(size 3.05 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e961d70f-0784-435a-ba60-2f9c01e32ecb")
+	)
+	(pad "C" smd roundrect
+		(at -8.35 0)
+		(size 4.5 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c40db24b-a0b4-4d2c-bf45-3b7efe64cd72")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/BatteryHolder CH7410.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

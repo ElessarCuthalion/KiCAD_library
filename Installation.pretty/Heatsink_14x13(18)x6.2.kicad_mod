@@ -1,17 +1,106 @@
-(module "Heatsink_14x13(18)x6.2" (layer F.Cu) (tedit 5EAFAE77)
-  (fp_text reference "Heatsink 14x13(18)x6.2" (at 0 -2) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.2)))
-  )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.2)))
-  )
-  (fp_line (start -7 6.5) (end 7 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7 -6.5) (end -7 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 7 -6.5) (end -7 -6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 7 6.5) (end 7 -6.5) (layer F.SilkS) (width 0.15))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/Heatsink 14x13(18)x6.2.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Heatsink_14x13(18)x6.2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93d82a64-81ed-4924-818b-dffec2bd5c08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Heatsink 14x13(18)x6.2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "0d261ef3-af59-4cf9-8f67-2ce301c7058f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7832f57-bf69-4b49-ba10-8f8bad6cf684")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d69043cd-829c-4674-8396-fdd68f6ea6b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 -6.5)
+		(end -7 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d85a7a81-406f-46ae-8481-cab98b884807")
+	)
+	(fp_line
+		(start -7 6.5)
+		(end 7 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b48315fb-0e41-4c2d-88e0-08b2e15be5bf")
+	)
+	(fp_line
+		(start 7 -6.5)
+		(end -7 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09f992ea-8d66-4f1e-9189-c8accc3b79fd")
+	)
+	(fp_line
+		(start 7 6.5)
+		(end 7 -6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "098e8240-80f9-4844-a849-1edb30e0135a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/Heatsink 14x13(18)x6.2.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

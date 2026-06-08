@@ -1,37 +1,201 @@
-(module for_PolarOut_MX2.54-2R (layer F.Cu) (tedit 5FAA86A0)
-  (zone_connect 1)
-  (fp_text reference MX2.54-2R (at 0 -2.5) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 -1.5) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_line (start 3.81 12.95) (end -3.81 12.95) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.54 -0.55) (end 2.54 -0.55) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.81 1.45) (end -3.81 12.95) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.81 1.45) (end 3.81 12.95) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.81 1.45) (end 3.81 1.45) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.54 -0.55) (end -2.54 1.45) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.54 1.45) (end 2.54 -0.55) (layer F.SilkS) (width 0.15))
-  (fp_text user + (at -3.75 0) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (fp_text user - (at 3.75 0) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (fp_text user + (at -1.25 -1.75) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (fp_text user - (at 1.25 -1.75) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (pad 2 thru_hole circle (at 1.27 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
-    (zone_connect 1))
-  (pad 1 thru_hole rect (at -1.27 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
-    (zone_connect 1))
-  (model ${KICAD_SYMBOL_DIR}/3D/Connectors/MX2.54-2R.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "for_PolarOut_MX2.54-2R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MX2.54-2R")
+	(property "Reference" "REF**"
+		(at 0 0.4 0)
+		(layer "F.SilkS")
+		(uuid "b03fbc37-9075-4583-9f1e-97239e08b283")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MX2.54-2R"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "50638b73-319c-4991-8440-ee17d5168ae0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "745a818b-db0b-4438-ae1c-344ca8f38e4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd49f30e-167b-47b7-b123-532237ca7e44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole)
+	(fp_line
+		(start -3.81 1.45)
+		(end -3.81 12.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b569be37-8d9d-4264-98bd-e7ccc621ba99")
+	)
+	(fp_line
+		(start -3.81 1.45)
+		(end 3.81 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e2d331-bb4c-481f-b9e2-5ada2634ffb6")
+	)
+	(fp_line
+		(start -2.54 -0.55)
+		(end -2.54 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "711002bf-778d-4a0d-810a-c13c71875e06")
+	)
+	(fp_line
+		(start -2.54 -0.55)
+		(end 2.54 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16e6443d-b579-4644-a5d2-4ad723f6cb92")
+	)
+	(fp_line
+		(start 2.54 1.45)
+		(end 2.54 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73caa78e-5a17-42fb-b0ef-d12a485d47b8")
+	)
+	(fp_line
+		(start 3.81 1.45)
+		(end 3.81 12.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "540bd767-e95f-41a2-a877-98dd88613c34")
+	)
+	(fp_line
+		(start 3.81 12.95)
+		(end -3.81 12.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f28f4bc-b824-4d78-90dd-ad2d50bb11db")
+	)
+	(fp_text user "+"
+		(at -3.75 0 0)
+		(layer "F.SilkS")
+		(uuid "c4b67cb7-8208-4dc2-bb02-fb0da70a11dc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 3.75 0 0)
+		(layer "F.SilkS")
+		(uuid "d3a14e1a-845f-4433-bde3-2f464dbac695")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 1.25 -1.75 0)
+		(layer "B.SilkS")
+		(uuid "05bcdafa-a1b1-4ddc-90f8-c44399d06f7d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "+"
+		(at -1.25 -1.75 0)
+		(layer "B.SilkS")
+		(uuid "a3d8398f-b987-4af7-8661-9a999de633bf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "677cadb6-1cde-45f0-bcd5-a4ef55557ed8")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 1)
+		(uuid "851e656e-02e5-4e2d-908e-7f76e59fcc6c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Connectors/MX2.54-2R.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

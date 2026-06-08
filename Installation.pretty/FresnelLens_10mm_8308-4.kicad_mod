@@ -1,15 +1,88 @@
-(module FresnelLens_10mm_8308-4 (layer F.Cu) (tedit 5F9022FC)
-  (fp_text reference VAL** (at 0 0.75) (layer F.SilkS)
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_text value "FresnelLens 8308-4" (at 0 -0.75) (layer F.SilkS) hide
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 4.1 0) (layer F.SilkS) (width 0.15))
-  (fp_circle (center 0 0) (end 5.9 0) (layer F.SilkS) (width 0.15))
-  (model "${KICAD_SYMBOL_DIR}/3D/Installation/FresnelLens 10mm 8308-4.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "FresnelLens_10mm_8308-4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Lens 8308-4 10mm")
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(layer "F.SilkS")
+		(uuid "ab75cfa1-b8da-4443-aff0-70498d858f9b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FresnelLens 8308-4"
+		(at 0 0.75 0)
+		(layer "F.SilkS")
+		(uuid "911e5eb4-834c-49c7-891e-c490877be979")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c15aa1a-afc5-498c-927a-b9fa78fcbfa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f7b8091-4e88-4c7f-8bbc-2c4049f2b7ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "846ae519-0ffd-46e2-964e-e2c6a8aaf38e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1f6afbe6-ab32-4a5b-b9b9-d3bdfb23787c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Installation/FresnelLens 10mm 8308-4.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

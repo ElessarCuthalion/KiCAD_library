@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "PLS-3R"
-		(at -2.4 1.6 0)
+	(descr "DS1022-1x3RDF11")
+	(property "Reference" "REF**"
+		(at 4 0 90)
 		(layer "F.SilkS")
 		(uuid "9f6e014a-28ba-4eac-a400-cf0544fdefc2")
 		(effects
@@ -14,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 2.4 1.6 0)
+	(property "Value" "PLS-3R"
+		(at 0 1.5 0)
 		(layer "F.SilkS")
 		(uuid "661ffe32-4841-488a-8638-f47df53f13b0")
 		(effects

@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "Flat"
-		(at -2 -2 0)
+	(property "Reference" "REF**"
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "17e90a4d-b55a-4143-9d71-c9708507b91e")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 2 -2 0)
+	(property "Value" "Flat1.27-4"
+		(at -3.5 0 90)
 		(layer "F.SilkS")
 		(uuid "d47cdaec-c7c0-4aaf-8580-4612eabef7df")
 		(effects

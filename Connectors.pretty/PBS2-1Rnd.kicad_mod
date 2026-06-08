@@ -4,8 +4,8 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DS1026-01-1х1")
-	(property "Reference" "PBS2-1Rnd"
-		(at 0 -1.8 0)
+	(property "Reference" "REF**"
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "d29e45cc-1509-4f7b-8a1d-a1ef49066032")
 		(effects
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
+	(property "Value" "PBS2-1Rnd"
 		(at 0 1.8 0)
 		(layer "F.SilkS")
 		(uuid "6325ec31-bd3e-4a41-8f66-95ddb02197ea")

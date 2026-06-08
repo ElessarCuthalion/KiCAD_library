@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "PLS2-5R"
-		(at -4 1.4 0)
+	(descr "DS1025-02-1x5P8BR-1")
+	(property "Reference" "REF**"
+		(at 5.75 0 90)
 		(layer "F.SilkS")
 		(uuid "16e0d485-318d-4fc5-8503-8445de6c4951")
 		(effects
@@ -14,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 4 1.4 0)
+	(property "Value" "PLS2-5R"
+		(at 0 1.4 0)
 		(layer "F.SilkS")
 		(uuid "2dc55a5f-73fb-4b07-90ed-ac362fd23dd9")
 		(effects

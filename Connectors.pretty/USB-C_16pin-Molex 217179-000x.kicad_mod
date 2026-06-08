@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex 217179-0001 / Molex 217179-0003")
-	(property "Reference" "Molex 217179-0001"
+	(property "Reference" "REF**"
 		(at 0 -2.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
+	(property "Value" "Molex 217179-0001"
 		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")

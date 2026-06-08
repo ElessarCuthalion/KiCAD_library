@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "WS2812 Flat-3x1.5"
-		(at -3.2 0 90)
+	(descr "Flat-3x1.5")
+	(property "Reference" "REF**"
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(uuid "60bc5b3e-da3c-410f-9f74-c50982205687")
 		(effects
@@ -14,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 3 0 90)
+	(property "Value" "Flat-3x1.5"
+		(at -3.25 0 90)
 		(layer "F.SilkS")
 		(uuid "28217f5b-3e56-4ea7-b595-816562fa5bf4")
 		(effects

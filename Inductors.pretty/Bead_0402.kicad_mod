@@ -1,27 +1,117 @@
-(footprint "Bead_0402" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "IND0402" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp ac6b2edf-305b-43f7-994e-fb81ce7ccfc2)
-  )
-  (fp_text value "VAL**" (at 0 1.2) (layer "F.SilkS")
-      (effects (font (size 0.6 0.6) (thickness 0.15)))
-    (tstamp d26d7690-9bd9-425d-b131-6a64f181a003)
-  )
-  (fp_line (start -1.04 -0.54) (end 1.04 -0.54)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp ea647dd2-6751-4491-b95a-9322f08250c2))
-  (fp_line (start -1.04 0.54) (end -1.04 -0.54)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp c8df8305-dfaa-4483-a396-93fcdb48e469))
-  (fp_line (start 1.04 -0.54) (end 1.04 0.54)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 1b53645b-faf2-4087-8532-22f83955715e))
-  (fp_line (start 1.04 0.54) (end -1.04 0.54)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 7c2982b1-daa9-4162-8a18-14a8da67541f))
-  (pad "1" smd rect (at -0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6e8da76a-9cb2-4d25-b74e-6c345cad5afa))
-  (pad "2" smd rect (at 0.525 0) (size 0.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d65ed55-9eac-4d05-8536-07913d395d96))
-  (model "${KICAD_SYMBOL_DIR}/3D/Inductors/Ferrite Bead 0603.STEP"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Bead_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ac6b2edf-305b-43f7-994e-fb81ce7ccfc2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND0402"
+		(at 0 1.2 0)
+		(layer "F.SilkS")
+		(uuid "d26d7690-9bd9-425d-b131-6a64f181a003")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d6218e2-77b9-4072-b0f4-87fcc6ad6139")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1948c6c9-f881-432c-8817-9d47a90e449b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.04 -0.54)
+		(end 1.04 -0.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea647dd2-6751-4491-b95a-9322f08250c2")
+	)
+	(fp_line
+		(start -1.04 0.54)
+		(end -1.04 -0.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8df8305-dfaa-4483-a396-93fcdb48e469")
+	)
+	(fp_line
+		(start 1.04 -0.54)
+		(end 1.04 0.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b53645b-faf2-4087-8532-22f83955715e")
+	)
+	(fp_line
+		(start 1.04 0.54)
+		(end -1.04 0.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c2982b1-daa9-4162-8a18-14a8da67541f")
+	)
+	(pad "1" smd rect
+		(at -0.525 0)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e8da76a-9cb2-4d25-b74e-6c345cad5afa")
+	)
+	(pad "2" smd rect
+		(at 0.525 0)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d65ed55-9eac-4d05-8536-07913d395d96")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_SYMBOL_DIR}/3D/Inductors/Ferrite Bead 0603.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
